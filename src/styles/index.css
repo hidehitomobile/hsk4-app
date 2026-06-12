@@ -291,6 +291,16 @@ body {
   color: var(--text);
   margin-bottom: 16px;
   font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: opacity 0.2s;
+}
+
+.meaning-display:hover {
+  opacity: 0.8;
 }
 
 /* Hanzi breakdown */

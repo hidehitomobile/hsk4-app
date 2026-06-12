@@ -37,6 +37,17 @@ export function Settings() {
         <label>
           <input
             type="checkbox"
+            checked={settings.autoPlayMeaning}
+            onChange={e => updateSettings({ autoPlayMeaning: e.target.checked })}
+          />
+          日本語訳も自動再生
+        </label>
+      </div>
+
+      <div className="setting-group">
+        <label>
+          <input
+            type="checkbox"
             checked={settings.showPinyin}
             onChange={e => updateSettings({ showPinyin: e.target.checked })}
           />

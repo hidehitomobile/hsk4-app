@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useWords } from '../context/WordContext'
-import { speakWord, speakExample } from '../utils/speech'
+import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
 
 export function WordCard() {
@@ -10,10 +10,19 @@ export function WordCard() {
 
   // 単語が切り替わるたびに自動で音声を再生（設定でON/OFF切替可能）
   useEffect(() => {
-    if (currentWord && settings.autoPlay) {
-      speakWord(currentWord.hanzi, settings.speechRate)
-    }
-  }, [currentWord, settings.speechRate, settings.autoPlay])
+    if (!currentWord || !settings.autoPlay) return
+
+    let cancelled = false
+    window.speechSynthesis.cancel()
+
+    speakAsync(currentWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
+      if (!cancelled && settings.autoPlayMeaning) {
+        speakAsync(currentWord.meaning, settings.speechRate, 'ja-JP')
+      }
+    })
+
+    return () => { cancelled = true }
+  }, [currentWord, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning])
 
   if (!currentWord) {
     return (
@@ -66,8 +75,9 @@ export function WordCard() {
       )}
 
       {settings.showMeaning && (
-        <div className="meaning-display">
+        <div className="meaning-display" onClick={() => speakJapanese(currentWord.meaning, settings.speechRate)}>
           {currentWord.meaning}
+          <button className="speak-btn-sm" title="日本語訳を聞く">🔊</button>
         </div>
       )}
 

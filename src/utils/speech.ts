@@ -1,27 +1,26 @@
-export function speak(text: string, rate: number = 1.0): void {
-  window.speechSynthesis.cancel()
-
+function createUtterance(text: string, lang: string, rate: number): SpeechSynthesisUtterance {
   const utterance = new SpeechSynthesisUtterance(text)
-  utterance.lang = 'zh-CN'
+  utterance.lang = lang
   utterance.rate = rate
   utterance.pitch = 1.0
   utterance.volume = 1.0
 
-  // 利用可能な中国語音声を優先的に選択
   const voices = window.speechSynthesis.getVoices()
-  if (voices.length > 0) {
-    const zhVoice = voices.find(v => v.lang.startsWith('zh-CN') || v.lang.startsWith('zh-TW') || v.lang.startsWith('zh'))
-    if (zhVoice) {
-      utterance.voice = zhVoice
-    }
-  }
+  const langVoice = voices.find(v => v.lang.startsWith(lang))
+  if (langVoice) utterance.voice = langVoice
 
-  // 音声リストが非同期読み込みの場合に対応
-  if (voices.length === 0) {
+  return utterance
+}
+
+export function speak(text: string, rate: number = 1.0, lang: string = 'zh-CN'): void {
+  window.speechSynthesis.cancel()
+  const utterance = createUtterance(text, lang, rate)
+
+  if (window.speechSynthesis.getVoices().length === 0) {
     window.speechSynthesis.onvoiceschanged = () => {
       const updatedVoices = window.speechSynthesis.getVoices()
-      const zhV = updatedVoices.find(v => v.lang.startsWith('zh-CN') || v.lang.startsWith('zh-TW') || v.lang.startsWith('zh'))
-      if (zhV) utterance.voice = zhV
+      const v = updatedVoices.find(vo => vo.lang.startsWith(lang))
+      if (v) utterance.voice = v
       window.speechSynthesis.speak(utterance)
     }
     return
@@ -31,9 +30,43 @@ export function speak(text: string, rate: number = 1.0): void {
 }
 
 export function speakWord(hanzi: string, rate: number = 0.8): void {
-  speak(hanzi, rate)
+  speak(hanzi, rate, 'zh-CN')
 }
 
 export function speakExample(text: string, rate: number = 0.85): void {
-  speak(text, rate)
+  speak(text, rate, 'zh-CN')
+}
+
+export function speakJapanese(text: string, rate: number = 0.9): void {
+  speak(text, rate, 'ja-JP')
+}
+
+// 逐次再生用：Promise で完了を待てる音声再生
+export function speakAsync(text: string, rate: number, lang: string): Promise<void> {
+  return new Promise((resolve) => {
+    const utterance = createUtterance(text, lang, rate)
+
+    let resolved = false
+    const done = () => { if (!resolved) { resolved = true; resolve() } }
+
+    utterance.onend = done
+    utterance.onerror = done
+
+    // フォールバック：発音されない場合でも一定時間後に次へ進む
+    const charMs = lang === 'zh-CN' ? 350 : 200
+    const estimatedMs = Math.max(text.length * charMs / rate + 800, 1500)
+    setTimeout(done, estimatedMs)
+
+    if (window.speechSynthesis.getVoices().length === 0) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        const updatedVoices = window.speechSynthesis.getVoices()
+        const v = updatedVoices.find(vo => vo.lang.startsWith(lang))
+        if (v) utterance.voice = v
+        window.speechSynthesis.speak(utterance)
+      }
+      return
+    }
+
+    window.speechSynthesis.speak(utterance)
+  })
 }
