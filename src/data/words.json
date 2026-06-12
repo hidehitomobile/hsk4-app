@@ -1,0 +1,4484 @@
+[
+  {
+    "id": 1,
+    "hanzi": "爱情",
+    "pinyin": "àiqíng",
+    "meaning": "愛情",
+    "example": "他们的爱情故事很感人。",
+    "exampleMeaning": "彼らの愛情物語はとても感動的です。",
+    "category": "noun"
+  },
+  {
+    "id": 2,
+    "hanzi": "安排",
+    "pinyin": "ānpái",
+    "meaning": "手配する、段取りする",
+    "example": "我已经安排好了明天的会议。",
+    "exampleMeaning": "私はすでに明日の会議を手配しました。",
+    "category": "verb"
+  },
+  {
+    "id": 3,
+    "hanzi": "安全",
+    "pinyin": "ānquán",
+    "meaning": "安全な",
+    "example": "这里很安全，你放心。",
+    "exampleMeaning": "ここはとても安全です、安心してください。",
+    "category": "adjective"
+  },
+  {
+    "id": 4,
+    "hanzi": "按时",
+    "pinyin": "ànshí",
+    "meaning": "時間通りに",
+    "example": "请大家按时到达教室。",
+    "exampleMeaning": "みなさん時間通りに教室に到着してください。",
+    "category": "adverb"
+  },
+  {
+    "id": 5,
+    "hanzi": "按照",
+    "pinyin": "ànzhào",
+    "meaning": "〜に従って、〜の通りに",
+    "example": "请按照说明书使用这个产品。",
+    "exampleMeaning": "説明書に従ってこの製品を使用してください。",
+    "category": "preposition"
+  },
+  {
+    "id": 6,
+    "hanzi": "百分之",
+    "pinyin": "bǎifēnzhī",
+    "meaning": "〜パーセント",
+    "example": "百分之八十的学生通过了考试。",
+    "exampleMeaning": "80%の学生が試験に合格しました。",
+    "category": "other"
+  },
+  {
+    "id": 7,
+    "hanzi": "棒",
+    "pinyin": "bàng",
+    "meaning": "すばらしい、棒",
+    "example": "你做得真棒！",
+    "exampleMeaning": "あなたは本当にすばらしい！",
+    "category": "adjective"
+  },
+  {
+    "id": 8,
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "meaning": "包子（中華まん）",
+    "example": "我每天早上吃两个包子。",
+    "exampleMeaning": "私は毎朝包子を二つ食べます。",
+    "category": "noun"
+  },
+  {
+    "id": 9,
+    "hanzi": "保护",
+    "pinyin": "bǎohù",
+    "meaning": "保護する",
+    "example": "我们应该保护环境。",
+    "exampleMeaning": "私たちは環境を保護すべきです。",
+    "category": "verb"
+  },
+  {
+    "id": 10,
+    "hanzi": "保证",
+    "pinyin": "bǎozhèng",
+    "meaning": "保証する",
+    "example": "我保证明天一定完成工作。",
+    "exampleMeaning": "明日必ず仕事を終わらせることを保証します。",
+    "category": "verb"
+  },
+  {
+    "id": 11,
+    "hanzi": "抱",
+    "pinyin": "bào",
+    "meaning": "抱く、抱える",
+    "example": "她抱着一个小孩。",
+    "exampleMeaning": "彼女は小さな子供を抱いています。",
+    "category": "verb"
+  },
+  {
+    "id": 12,
+    "hanzi": "抱歉",
+    "pinyin": "bàoqiàn",
+    "meaning": "申し訳ない、すまない",
+    "example": "很抱歉，我来晚了。",
+    "exampleMeaning": "申し訳ありません、遅れました。",
+    "category": "adjective"
+  },
+  {
+    "id": 13,
+    "hanzi": "报道",
+    "pinyin": "bàodào",
+    "meaning": "報道する、報告する",
+    "example": "记者报道了这次会议的情况。",
+    "exampleMeaning": "記者は今回の会議の状況を報道しました。",
+    "category": "verb"
+  },
+  {
+    "id": 14,
+    "hanzi": "报名",
+    "pinyin": "bàomíng",
+    "meaning": "申し込む、登録する",
+    "example": "我已经报名参加汉语水平考试了。",
+    "exampleMeaning": "私はすでにHSK試験に申し込みました。",
+    "category": "verb"
+  },
+  {
+    "id": 15,
+    "hanzi": "倍",
+    "pinyin": "bèi",
+    "meaning": "〜倍",
+    "example": "这个城市的人口是那个城市的三倍。",
+    "exampleMeaning": "この都市の人口はあの都市の3倍です。",
+    "category": "measure"
+  },
+  {
+    "id": 16,
+    "hanzi": "本来",
+    "pinyin": "běnlái",
+    "meaning": "本来、もともと",
+    "example": "我本来想去旅行，但是太忙了。",
+    "exampleMeaning": "私は本来旅行に行きたかったが、忙しすぎました。",
+    "category": "adverb"
+  },
+  {
+    "id": 17,
+    "hanzi": "笨",
+    "pinyin": "bèn",
+    "meaning": "愚かな、不器用な",
+    "example": "我不觉得你笨，你只是需要多练习。",
+    "exampleMeaning": "私はあなたが愚かだとは思わない、ただもっと練習が必要なだけです。",
+    "category": "adjective"
+  },
+  {
+    "id": 18,
+    "hanzi": "笔记本",
+    "pinyin": "bǐjìběn",
+    "meaning": "ノートパソコン、手帳",
+    "example": "我买了一台新笔记本。",
+    "exampleMeaning": "私は新しいノートパソコンを買いました。",
+    "category": "noun"
+  },
+  {
+    "id": 19,
+    "hanzi": "比如",
+    "pinyin": "bǐrú",
+    "meaning": "例えば",
+    "example": "我喜欢很多运动，比如跑步和游泳。",
+    "exampleMeaning": "私は多くのスポーツが好きです、例えばランニングと水泳です。",
+    "category": "conjunction"
+  },
+  {
+    "id": 20,
+    "hanzi": "毕业",
+    "pinyin": "bìyè",
+    "meaning": "卒業する",
+    "example": "我明年大学毕业。",
+    "exampleMeaning": "私は来年大学を卒業します。",
+    "category": "verb"
+  },
+  {
+    "id": 21,
+    "hanzi": "标准",
+    "pinyin": "biāozhǔn",
+    "meaning": "標準、基準",
+    "example": "这个产品不符合安全标准。",
+    "exampleMeaning": "この製品は安全基準に適合していません。",
+    "category": "noun"
+  },
+  {
+    "id": 22,
+    "hanzi": "表格",
+    "pinyin": "biǎogé",
+    "meaning": "表、フォーム",
+    "example": "请填写这张表格。",
+    "exampleMeaning": "このフォームにご記入ください。",
+    "category": "noun"
+  },
+  {
+    "id": 23,
+    "hanzi": "表示",
+    "pinyin": "biǎoshì",
+    "meaning": "示す、表明する",
+    "example": "他表示对这个计划很感兴趣。",
+    "exampleMeaning": "彼はこの計画にとても興味があることを示しました。",
+    "category": "verb"
+  },
+  {
+    "id": 24,
+    "hanzi": "表演",
+    "pinyin": "biǎoyǎn",
+    "meaning": "上演する、演技する",
+    "example": "她在舞台上表演了一个舞蹈。",
+    "exampleMeaning": "彼女はステージでダンスを上演しました。",
+    "category": "verb"
+  },
+  {
+    "id": 25,
+    "hanzi": "表扬",
+    "pinyin": "biǎoyáng",
+    "meaning": "褒める、表彰する",
+    "example": "老师表扬了他的进步。",
+    "exampleMeaning": "先生は彼の進歩を褒めました。",
+    "category": "verb"
+  },
+  {
+    "id": 26,
+    "hanzi": "饼干",
+    "pinyin": "bǐnggān",
+    "meaning": "ビスケット、クッキー",
+    "example": "我喜欢吃巧克力饼干。",
+    "exampleMeaning": "私はチョコレートビスケットを食べるのが好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 27,
+    "hanzi": "并且",
+    "pinyin": "bìngqiě",
+    "meaning": "その上、かつ",
+    "example": "他不但会说日语，并且会说韩语。",
+    "exampleMeaning": "彼は日本語が話せるだけでなく、その上韓国語も話せます。",
+    "category": "conjunction"
+  },
+  {
+    "id": 28,
+    "hanzi": "博士",
+    "pinyin": "bóshì",
+    "meaning": "博士",
+    "example": "他是计算机科学的博士。",
+    "exampleMeaning": "彼はコンピューターサイエンスの博士です。",
+    "category": "noun"
+  },
+  {
+    "id": 29,
+    "hanzi": "不过",
+    "pinyin": "búguò",
+    "meaning": "しかし、ただし",
+    "example": "这件衣服很漂亮，不过太贵了。",
+    "exampleMeaning": "この服はとてもきれいですが、高すぎます。",
+    "category": "conjunction"
+  },
+  {
+    "id": 30,
+    "hanzi": "不得不",
+    "pinyin": "bùdébù",
+    "meaning": "〜せざるを得ない",
+    "example": "下雨了，我们不得不取消郊游。",
+    "exampleMeaning": "雨が降ったので、私たちは遠足をキャンセルせざるを得ませんでした。",
+    "category": "adverb"
+  },
+  {
+    "id": 31,
+    "hanzi": "不管",
+    "pinyin": "bùguǎn",
+    "meaning": "〜にかかわらず",
+    "example": "不管多忙，我每天都学中文。",
+    "exampleMeaning": "どんなに忙しくても、私は毎日中国語を勉強します。",
+    "category": "conjunction"
+  },
+  {
+    "id": 32,
+    "hanzi": "不仅",
+    "pinyin": "bùjǐn",
+    "meaning": "〜だけでなく",
+    "example": "她不仅漂亮，而且聪明。",
+    "exampleMeaning": "彼女は美しいだけでなく、賢いです。",
+    "category": "conjunction"
+  },
+  {
+    "id": 33,
+    "hanzi": "部分",
+    "pinyin": "bùfen",
+    "meaning": "部分",
+    "example": "大部分学生都通过了考试。",
+    "exampleMeaning": "大部分の学生が試験に合格しました。",
+    "category": "noun"
+  },
+  {
+    "id": 34,
+    "hanzi": "擦",
+    "pinyin": "cā",
+    "meaning": "拭く、磨く",
+    "example": "请把桌子擦干净。",
+    "exampleMeaning": "テーブルをきれいに拭いてください。",
+    "category": "verb"
+  },
+  {
+    "id": 35,
+    "hanzi": "猜",
+    "pinyin": "cāi",
+    "meaning": "推測する、当てる",
+    "example": "你猜我今年多大了？",
+    "exampleMeaning": "私が今年何歳か当ててみて？",
+    "category": "verb"
+  },
+  {
+    "id": 36,
+    "hanzi": "材料",
+    "pinyin": "cáiliào",
+    "meaning": "材料、資料",
+    "example": "我们需要准备一些学习材料。",
+    "exampleMeaning": "私たちはいくつかの学習資料を準備する必要があります。",
+    "category": "noun"
+  },
+  {
+    "id": 37,
+    "hanzi": "参观",
+    "pinyin": "cānguān",
+    "meaning": "見学する、参観する",
+    "example": "明天我们去参观博物馆。",
+    "exampleMeaning": "明日私たちは博物館を見学に行きます。",
+    "category": "verb"
+  },
+  {
+    "id": 38,
+    "hanzi": "餐厅",
+    "pinyin": "cāntīng",
+    "meaning": "食堂、レストラン",
+    "example": "公司的餐厅很大。",
+    "exampleMeaning": "会社の食堂はとても大きいです。",
+    "category": "noun"
+  },
+  {
+    "id": 39,
+    "hanzi": "厕所",
+    "pinyin": "cèsuǒ",
+    "meaning": "トイレ",
+    "example": "请问厕所在哪里？",
+    "exampleMeaning": "トイレはどこですか？",
+    "category": "noun"
+  },
+  {
+    "id": 40,
+    "hanzi": "差不多",
+    "pinyin": "chàbuduō",
+    "meaning": "だいたい、ほとんど同じ",
+    "example": "这两件衣服的颜色差不多。",
+    "exampleMeaning": "この二つの服の色はだいたい同じです。",
+    "category": "adverb"
+  },
+  {
+    "id": 41,
+    "hanzi": "尝",
+    "pinyin": "cháng",
+    "meaning": "味見する、試食する",
+    "example": "你尝尝这个菜，很好吃。",
+    "exampleMeaning": "この料理を味見してみて、とても美味しいです。",
+    "category": "verb"
+  },
+  {
+    "id": 42,
+    "hanzi": "长城",
+    "pinyin": "Chángchéng",
+    "meaning": "万里の長城",
+    "example": "长城是中国的象征之一。",
+    "exampleMeaning": "万里の長城は中国のシンボルの一つです。",
+    "category": "noun"
+  },
+  {
+    "id": 43,
+    "hanzi": "场",
+    "pinyin": "chǎng",
+    "meaning": "〜場（量詞）",
+    "example": "我看了一场电影。",
+    "exampleMeaning": "私は映画を一本見ました。",
+    "category": "measure"
+  },
+  {
+    "id": 44,
+    "hanzi": "超过",
+    "pinyin": "chāoguò",
+    "meaning": "超える、上回る",
+    "example": "今天的温度超过了35度。",
+    "exampleMeaning": "今日の気温は35度を超えました。",
+    "category": "verb"
+  },
+  {
+    "id": 45,
+    "hanzi": "成功",
+    "pinyin": "chénggōng",
+    "meaning": "成功する",
+    "example": "这次试验非常成功。",
+    "exampleMeaning": "今回の実験は非常に成功しました。",
+    "category": "verb"
+  },
+  {
+    "id": 46,
+    "hanzi": "诚实",
+    "pinyin": "chéngshí",
+    "meaning": "誠実な、正直な",
+    "example": "他是一个诚实的孩子。",
+    "exampleMeaning": "彼は誠実な子供です。",
+    "category": "adjective"
+  },
+  {
+    "id": 47,
+    "hanzi": "城市",
+    "pinyin": "chéngshì",
+    "meaning": "都市、都会",
+    "example": "北京是一个大城市。",
+    "exampleMeaning": "北京は大きな都市です。",
+    "category": "noun"
+  },
+  {
+    "id": 48,
+    "hanzi": "乘坐",
+    "pinyin": "chéngzuò",
+    "meaning": "乗る（乗り物に）",
+    "example": "我们乘坐地铁去上班。",
+    "exampleMeaning": "私たちは地下鉄に乗って出勤します。",
+    "category": "verb"
+  },
+  {
+    "id": 49,
+    "hanzi": "重新",
+    "pinyin": "chóngxīn",
+    "meaning": "改めて、もう一度",
+    "example": "请重新写一遍。",
+    "exampleMeaning": "もう一度書き直してください。",
+    "category": "adverb"
+  },
+  {
+    "id": 50,
+    "hanzi": "抽烟",
+    "pinyin": "chōuyān",
+    "meaning": "タバコを吸う、喫煙する",
+    "example": "这里不能抽烟。",
+    "exampleMeaning": "ここではタバコを吸えません。",
+    "category": "verb"
+  },
+  {
+    "id": 51,
+    "hanzi": "出差",
+    "pinyin": "chūchāi",
+    "meaning": "出張する",
+    "example": "爸爸下个星期去上海出差。",
+    "exampleMeaning": "父は来週上海に出張に行きます。",
+    "category": "verb"
+  },
+  {
+    "id": 52,
+    "hanzi": "出发",
+    "pinyin": "chūfā",
+    "meaning": "出発する",
+    "example": "我们明天早上六点出发。",
+    "exampleMeaning": "私たちは明日の朝6時に出発します。",
+    "category": "verb"
+  },
+  {
+    "id": 53,
+    "hanzi": "出生",
+    "pinyin": "chūshēng",
+    "meaning": "生まれる",
+    "example": "我出生在东京。",
+    "exampleMeaning": "私は東京で生まれました。",
+    "category": "verb"
+  },
+  {
+    "id": 54,
+    "hanzi": "窗户",
+    "pinyin": "chuānghu",
+    "meaning": "窓",
+    "example": "请打开窗户，房间里太热了。",
+    "exampleMeaning": "窓を開けてください、部屋が暑すぎます。",
+    "category": "noun"
+  },
+  {
+    "id": 55,
+    "hanzi": "传真",
+    "pinyin": "chuánzhēn",
+    "meaning": "ファックス",
+    "example": "请把文件用传真发给我。",
+    "exampleMeaning": "書類をファックスで送ってください。",
+    "category": "noun"
+  },
+  {
+    "id": 56,
+    "hanzi": "词典",
+    "pinyin": "cídiǎn",
+    "meaning": "辞書",
+    "example": "我买了一本汉日词典。",
+    "exampleMeaning": "私は中日辞書を一冊買いました。",
+    "category": "noun"
+  },
+  {
+    "id": 58,
+    "hanzi": "从来",
+    "pinyin": "cónglái",
+    "meaning": "これまで、今まで",
+    "example": "我从来没去过中国。",
+    "exampleMeaning": "私はこれまで一度も中国に行ったことがありません。",
+    "category": "adverb"
+  },
+  {
+    "id": 59,
+    "hanzi": "粗心",
+    "pinyin": "cūxīn",
+    "meaning": "そそっかしい、不注意な",
+    "example": "他太粗心了，考试时忘了写名字。",
+    "exampleMeaning": "彼は不注意すぎて、試験の時に名前を書き忘れました。",
+    "category": "adjective"
+  },
+  {
+    "id": 60,
+    "hanzi": "存",
+    "pinyin": "cún",
+    "meaning": "預ける、貯金する",
+    "example": "我把钱存在银行里。",
+    "exampleMeaning": "私はお金を銀行に預けています。",
+    "category": "verb"
+  },
+  {
+    "id": 61,
+    "hanzi": "答案",
+    "pinyin": "dá'àn",
+    "meaning": "答え、解答",
+    "example": "你知道这道题的答案吗？",
+    "exampleMeaning": "この問題の答えを知っていますか？",
+    "category": "noun"
+  },
+  {
+    "id": 62,
+    "hanzi": "打扮",
+    "pinyin": "dǎban",
+    "meaning": "おしゃれをする、身なりを整える",
+    "example": "她喜欢打扮自己。",
+    "exampleMeaning": "彼女はおしゃれをするのが好きです。",
+    "category": "verb"
+  },
+  {
+    "id": 63,
+    "hanzi": "打扰",
+    "pinyin": "dǎrǎo",
+    "meaning": "邪魔する",
+    "example": "对不起，打扰您了。",
+    "exampleMeaning": "すみません、お邪魔しました。",
+    "category": "verb"
+  },
+  {
+    "id": 64,
+    "hanzi": "打印",
+    "pinyin": "dǎyìn",
+    "meaning": "印刷する、プリントする",
+    "example": "请帮我打印这份文件。",
+    "exampleMeaning": "この書類を印刷するのを手伝ってください。",
+    "category": "verb"
+  },
+  {
+    "id": 65,
+    "hanzi": "大概",
+    "pinyin": "dàgài",
+    "meaning": "おおよそ、たぶん",
+    "example": "大概需要多长时间？",
+    "exampleMeaning": "おおよそどのくらい時間がかかりますか？",
+    "category": "adverb"
+  },
+  {
+    "id": 66,
+    "hanzi": "大使馆",
+    "pinyin": "dàshǐguǎn",
+    "meaning": "大使館",
+    "example": "我去日本大使馆办签证。",
+    "exampleMeaning": "私は日本大使館にビザの手続きに行きます。",
+    "category": "noun"
+  },
+  {
+    "id": 67,
+    "hanzi": "代表",
+    "pinyin": "dàibiǎo",
+    "meaning": "代表する",
+    "example": "他代表公司参加了会议。",
+    "exampleMeaning": "彼は会社を代表して会議に参加しました。",
+    "category": "verb"
+  },
+  {
+    "id": 68,
+    "hanzi": "担心",
+    "pinyin": "dānxīn",
+    "meaning": "心配する",
+    "example": "妈妈总是担心我的身体。",
+    "exampleMeaning": "母はいつも私の体を心配しています。",
+    "category": "verb"
+  },
+  {
+    "id": 69,
+    "hanzi": "当",
+    "pinyin": "dāng",
+    "meaning": "〜の時に、〜になる",
+    "example": "当老师不容易。",
+    "exampleMeaning": "先生になるのは簡単ではありません。",
+    "category": "preposition"
+  },
+  {
+    "id": 70,
+    "hanzi": "当地",
+    "pinyin": "dāngdì",
+    "meaning": "現地の、地元の",
+    "example": "我对当地的文化很感兴趣。",
+    "exampleMeaning": "私は現地の文化にとても興味があります。",
+    "category": "adjective"
+  },
+  {
+    "id": 71,
+    "hanzi": "刀",
+    "pinyin": "dāo",
+    "meaning": "ナイフ、刀",
+    "example": "请给我一把刀。",
+    "exampleMeaning": "ナイフを一つください。",
+    "category": "noun"
+  },
+  {
+    "id": 72,
+    "hanzi": "到处",
+    "pinyin": "dàochù",
+    "meaning": "至る所、どこでも",
+    "example": "春天到了，到处都开满了花。",
+    "exampleMeaning": "春が来て、至る所に花が咲いています。",
+    "category": "adverb"
+  },
+  {
+    "id": 73,
+    "hanzi": "到底",
+    "pinyin": "dàodǐ",
+    "meaning": "一体、結局",
+    "example": "你到底想说什么？",
+    "exampleMeaning": "一体何を言いたいのですか？",
+    "category": "adverb"
+  },
+  {
+    "id": 74,
+    "hanzi": "道歉",
+    "pinyin": "dàoqiàn",
+    "meaning": "謝罪する、謝る",
+    "example": "你应该向他道歉。",
+    "exampleMeaning": "あなたは彼に謝るべきです。",
+    "category": "verb"
+  },
+  {
+    "id": 75,
+    "hanzi": "得",
+    "pinyin": "děi",
+    "meaning": "〜しなければならない",
+    "example": "我们得快点儿，要迟到了。",
+    "exampleMeaning": "急がなければなりません、遅刻しそうです。",
+    "category": "verb"
+  },
+  {
+    "id": 76,
+    "hanzi": "等",
+    "pinyin": "děng",
+    "meaning": "〜など、等等",
+    "example": "我喜欢吃水果，比如苹果、香蕉等。",
+    "exampleMeaning": "私は果物を食べるのが好きです、例えばりんご、バナナなど。",
+    "category": "particle"
+  },
+  {
+    "id": 77,
+    "hanzi": "低",
+    "pinyin": "dī",
+    "meaning": "低い",
+    "example": "今天气温很低。",
+    "exampleMeaning": "今日の気温はとても低いです。",
+    "category": "adjective"
+  },
+  {
+    "id": 78,
+    "hanzi": "地球",
+    "pinyin": "dìqiú",
+    "meaning": "地球",
+    "example": "地球是我们的家。",
+    "exampleMeaning": "地球は私たちの家です。",
+    "category": "noun"
+  },
+  {
+    "id": 79,
+    "hanzi": "地址",
+    "pinyin": "dìzhǐ",
+    "meaning": "住所",
+    "example": "请告诉我你的地址。",
+    "exampleMeaning": "あなたの住所を教えてください。",
+    "category": "noun"
+  },
+  {
+    "id": 80,
+    "hanzi": "调查",
+    "pinyin": "diàochá",
+    "meaning": "調査する",
+    "example": "警察正在调查这件事。",
+    "exampleMeaning": "警察はこの事件を調査しています。",
+    "category": "verb"
+  },
+  {
+    "id": 81,
+    "hanzi": "丢",
+    "pinyin": "diū",
+    "meaning": "失くす、なくす",
+    "example": "我的钱包丢了。",
+    "exampleMeaning": "私の財布をなくしました。",
+    "category": "verb"
+  },
+  {
+    "id": 82,
+    "hanzi": "动作",
+    "pinyin": "dòngzuò",
+    "meaning": "動作",
+    "example": "这个舞蹈的动作很优美。",
+    "exampleMeaning": "このダンスの動作はとても優雅です。",
+    "category": "noun"
+  },
+  {
+    "id": 83,
+    "hanzi": "堵车",
+    "pinyin": "dǔchē",
+    "meaning": "渋滞する",
+    "example": "早上上班时间经常堵车。",
+    "exampleMeaning": "朝の出勤時間はよく渋滞します。",
+    "category": "verb"
+  },
+  {
+    "id": 84,
+    "hanzi": "肚子",
+    "pinyin": "dùzi",
+    "meaning": "お腹",
+    "example": "我肚子饿了。",
+    "exampleMeaning": "お腹が空きました。",
+    "category": "noun"
+  },
+  {
+    "id": 85,
+    "hanzi": "短信",
+    "pinyin": "duǎnxìn",
+    "meaning": "ショートメッセージ",
+    "example": "我给你发了一条短信。",
+    "exampleMeaning": "あなたにショートメッセージを送りました。",
+    "category": "noun"
+  },
+  {
+    "id": 86,
+    "hanzi": "对话",
+    "pinyin": "duìhuà",
+    "meaning": "対話、会話",
+    "example": "请跟你的同伴进行对话练习。",
+    "exampleMeaning": "パートナーと会話の練習をしてください。",
+    "category": "noun"
+  },
+  {
+    "id": 87,
+    "hanzi": "对于",
+    "pinyin": "duìyú",
+    "meaning": "〜に対して、〜について",
+    "example": "对于这个问题，我有不同的看法。",
+    "exampleMeaning": "この問題について、私は異なる見解を持っています。",
+    "category": "preposition"
+  },
+  {
+    "id": 88,
+    "hanzi": "儿童",
+    "pinyin": "értóng",
+    "meaning": "児童、子供",
+    "example": "这本书适合儿童阅读。",
+    "exampleMeaning": "この本は児童の読書に適しています。",
+    "category": "noun"
+  },
+  {
+    "id": 89,
+    "hanzi": "法律",
+    "pinyin": "fǎlǜ",
+    "meaning": "法律",
+    "example": "每个人都应该遵守法律。",
+    "exampleMeaning": "誰もが法律を守るべきです。",
+    "category": "noun"
+  },
+  {
+    "id": 90,
+    "hanzi": "翻译",
+    "pinyin": "fānyì",
+    "meaning": "翻訳する、通訳する",
+    "example": "请帮我把这句话翻译成中文。",
+    "exampleMeaning": "この文を中国語に翻訳してください。",
+    "category": "verb"
+  },
+  {
+    "id": 91,
+    "hanzi": "烦恼",
+    "pinyin": "fánnǎo",
+    "meaning": "悩み、心配事",
+    "example": "你不要为这点小事烦恼。",
+    "exampleMeaning": "こんな小さなことで悩まないでください。",
+    "category": "noun"
+  },
+  {
+    "id": 92,
+    "hanzi": "反对",
+    "pinyin": "fǎnduì",
+    "meaning": "反対する",
+    "example": "很多人反对这个计划。",
+    "exampleMeaning": "多くの人がこの計画に反対しています。",
+    "category": "verb"
+  },
+  {
+    "id": 93,
+    "hanzi": "方法",
+    "pinyin": "fāngfǎ",
+    "meaning": "方法",
+    "example": "你有什么好方法吗？",
+    "exampleMeaning": "何かいい方法がありますか？",
+    "category": "noun"
+  },
+  {
+    "id": 94,
+    "hanzi": "方面",
+    "pinyin": "fāngmiàn",
+    "meaning": "方面、分野",
+    "example": "他在很多方面都做得很好。",
+    "exampleMeaning": "彼は多くの面でよくやっています。",
+    "category": "noun"
+  },
+  {
+    "id": 95,
+    "hanzi": "方向",
+    "pinyin": "fāngxiàng",
+    "meaning": "方向",
+    "example": "你朝这个方向走就能到。",
+    "exampleMeaning": "この方向に歩けば着きます。",
+    "category": "noun"
+  },
+  {
+    "id": 96,
+    "hanzi": "放弃",
+    "pinyin": "fàngqì",
+    "meaning": "諦める、放棄する",
+    "example": "无论多难，我都不会放弃。",
+    "exampleMeaning": "どんなに難しくても、私は諦めません。",
+    "category": "verb"
+  },
+  {
+    "id": 97,
+    "hanzi": "份",
+    "pinyin": "fèn",
+    "meaning": "〜部、〜セット（量詞）",
+    "example": "我买了一份报纸。",
+    "exampleMeaning": "私は新聞を一部買いました。",
+    "category": "measure"
+  },
+  {
+    "id": 98,
+    "hanzi": "丰富",
+    "pinyin": "fēngfù",
+    "meaning": "豊かな",
+    "example": "这个超市的商品很丰富。",
+    "exampleMeaning": "このスーパーの商品はとても豊富です。",
+    "category": "adjective"
+  },
+  {
+    "id": 99,
+    "hanzi": "否则",
+    "pinyin": "fǒuzé",
+    "meaning": "さもなければ、そうでなければ",
+    "example": "你必须努力学习，否则考不上大学。",
+    "exampleMeaning": "しっかり勉強しなければなりません、さもなければ大学に受かりません。",
+    "category": "conjunction"
+  },
+  {
+    "id": 100,
+    "hanzi": "符合",
+    "pinyin": "fúhé",
+    "meaning": "合致する、一致する",
+    "example": "这些条件不符合我们的要求。",
+    "exampleMeaning": "これらの条件は私たちの要求に合致しません。",
+    "category": "verb"
+  },
+  {
+    "id": 101,
+    "hanzi": "父亲",
+    "pinyin": "fùqīn",
+    "meaning": "父親",
+    "example": "我的父亲是一名医生。",
+    "exampleMeaning": "私の父は医者です。",
+    "category": "noun"
+  },
+  {
+    "id": 102,
+    "hanzi": "复印",
+    "pinyin": "fùyìn",
+    "meaning": "コピーする",
+    "example": "请帮我把这份文件复印一下。",
+    "exampleMeaning": "この書類をコピーしてください。",
+    "category": "verb"
+  },
+  {
+    "id": 103,
+    "hanzi": "复杂",
+    "pinyin": "fùzá",
+    "meaning": "複雑な",
+    "example": "这个问题很复杂。",
+    "exampleMeaning": "この問題はとても複雑です。",
+    "category": "adjective"
+  },
+  {
+    "id": 104,
+    "hanzi": "富",
+    "pinyin": "fù",
+    "meaning": "裕福な、富む",
+    "example": "这个地区资源丰富。",
+    "exampleMeaning": "この地域は資源が豊かです。",
+    "category": "adjective"
+  },
+  {
+    "id": 105,
+    "hanzi": "感动",
+    "pinyin": "gǎndòng",
+    "meaning": "感動する",
+    "example": "这个故事让我很感动。",
+    "exampleMeaning": "この話は私をとても感動させました。",
+    "category": "verb"
+  },
+  {
+    "id": 106,
+    "hanzi": "感觉",
+    "pinyin": "gǎnjué",
+    "meaning": "感じる、感覚",
+    "example": "我感觉今天比昨天冷。",
+    "exampleMeaning": "今日は昨日より寒く感じます。",
+    "category": "verb"
+  },
+  {
+    "id": 107,
+    "hanzi": "感情",
+    "pinyin": "gǎnqíng",
+    "meaning": "感情",
+    "example": "他们之间的感情很好。",
+    "exampleMeaning": "彼らの間の感情はとても良いです。",
+    "category": "noun"
+  },
+  {
+    "id": 108,
+    "hanzi": "感谢",
+    "pinyin": "gǎnxiè",
+    "meaning": "感謝する",
+    "example": "非常感谢你的帮助。",
+    "exampleMeaning": "あなたの助けにとても感謝しています。",
+    "category": "verb"
+  },
+  {
+    "id": 109,
+    "hanzi": "敢",
+    "pinyin": "gǎn",
+    "meaning": "思い切って〜する、大胆に〜する",
+    "example": "我不敢一个人走夜路。",
+    "exampleMeaning": "私は一人で夜道を歩く勇気がありません。",
+    "category": "verb"
+  },
+  {
+    "id": 110,
+    "hanzi": "干",
+    "pinyin": "gàn",
+    "meaning": "する、やる",
+    "example": "你在干什么？",
+    "exampleMeaning": "何をしているの？",
+    "category": "verb"
+  },
+  {
+    "id": 111,
+    "hanzi": "刚",
+    "pinyin": "gāng",
+    "meaning": "〜したばかり",
+    "example": "我刚吃完饭。",
+    "exampleMeaning": "私はご飯を食べたばかりです。",
+    "category": "adverb"
+  },
+  {
+    "id": 112,
+    "hanzi": "高速公路",
+    "pinyin": "gāosùgōnglù",
+    "meaning": "高速道路",
+    "example": "我们走高速公路去机场。",
+    "exampleMeaning": "高速道路で空港に行きます。",
+    "category": "noun"
+  },
+  {
+    "id": 113,
+    "hanzi": "各",
+    "pinyin": "gè",
+    "meaning": "各、それぞれの",
+    "example": "各位老师、各位同学，大家好！",
+    "exampleMeaning": "先生方、学生の皆さん、こんにちは！",
+    "category": "pronoun"
+  },
+  {
+    "id": 114,
+    "hanzi": "共同",
+    "pinyin": "gòngtóng",
+    "meaning": "共同の、共に",
+    "example": "这是我们共同的目标。",
+    "exampleMeaning": "これは私たちの共同の目標です。",
+    "category": "adjective"
+  },
+  {
+    "id": 115,
+    "hanzi": "购物",
+    "pinyin": "gòuwù",
+    "meaning": "ショッピングする",
+    "example": "周末我经常去超市购物。",
+    "exampleMeaning": "週末はよくスーパーに買い物に行きます。",
+    "category": "verb"
+  },
+  {
+    "id": 116,
+    "hanzi": "够",
+    "pinyin": "gòu",
+    "meaning": "十分である、足りる",
+    "example": "这些钱够不够？",
+    "exampleMeaning": "このお金で足りますか？",
+    "category": "adjective"
+  },
+  {
+    "id": 118,
+    "hanzi": "估计",
+    "pinyin": "gūjì",
+    "meaning": "推定する、見積もる",
+    "example": "我估计他今天不会来了。",
+    "exampleMeaning": "私は彼が今日は来ないだろうと推定しています。",
+    "category": "verb"
+  },
+  {
+    "id": 119,
+    "hanzi": "鼓励",
+    "pinyin": "gǔlì",
+    "meaning": "励ます、奨励する",
+    "example": "老师经常鼓励我们多读书。",
+    "exampleMeaning": "先生はよく私たちにもっと本を読むよう励まします。",
+    "category": "verb"
+  },
+  {
+    "id": 120,
+    "hanzi": "故意",
+    "pinyin": "gùyì",
+    "meaning": "わざと、故意に",
+    "example": "他不是故意迟到的。",
+    "exampleMeaning": "彼はわざと遅刻したわけではありません。",
+    "category": "adverb"
+  },
+  {
+    "id": 121,
+    "hanzi": "挂",
+    "pinyin": "guà",
+    "meaning": "掛ける、電話を切る",
+    "example": "我把衣服挂在衣柜里。",
+    "exampleMeaning": "服をクローゼットに掛けます。",
+    "category": "verb"
+  },
+  {
+    "id": 122,
+    "hanzi": "关键",
+    "pinyin": "guānjiàn",
+    "meaning": "肝心な点、鍵",
+    "example": "成功的关键是坚持。",
+    "exampleMeaning": "成功の鍵は継続することです。",
+    "category": "noun"
+  },
+  {
+    "id": 123,
+    "hanzi": "观众",
+    "pinyin": "guānzhòng",
+    "meaning": "観客、視聴者",
+    "example": "观众们热烈鼓掌。",
+    "exampleMeaning": "観客たちは熱烈に拍手しました。",
+    "category": "noun"
+  },
+  {
+    "id": 124,
+    "hanzi": "管理",
+    "pinyin": "guǎnlǐ",
+    "meaning": "管理する",
+    "example": "他负责管理这个部门。",
+    "exampleMeaning": "彼はこの部門の管理を担当しています。",
+    "category": "verb"
+  },
+  {
+    "id": 125,
+    "hanzi": "光",
+    "pinyin": "guāng",
+    "meaning": "〜だけ、ただ〜のみ",
+    "example": "光说不做没有用。",
+    "exampleMeaning": "言うだけでやらないのは役に立ちません。",
+    "category": "adverb"
+  },
+  {
+    "id": 126,
+    "hanzi": "广告",
+    "pinyin": "guǎnggào",
+    "meaning": "広告",
+    "example": "我在网上看到了这个广告。",
+    "exampleMeaning": "ネットでこの広告を見ました。",
+    "category": "noun"
+  },
+  {
+    "id": 127,
+    "hanzi": "国籍",
+    "pinyin": "guójí",
+    "meaning": "国籍",
+    "example": "请问你的国籍是什么？",
+    "exampleMeaning": "あなたの国籍は何ですか？",
+    "category": "noun"
+  },
+  {
+    "id": 128,
+    "hanzi": "果汁",
+    "pinyin": "guǒzhī",
+    "meaning": "ジュース",
+    "example": "我要一杯果汁。",
+    "exampleMeaning": "ジュースを一杯ください。",
+    "category": "noun"
+  },
+  {
+    "id": 129,
+    "hanzi": "过程",
+    "pinyin": "guòchéng",
+    "meaning": "過程、プロセス",
+    "example": "学习的过程很重要。",
+    "exampleMeaning": "学習の過程はとても重要です。",
+    "category": "noun"
+  },
+  {
+    "id": 130,
+    "hanzi": "害羞",
+    "pinyin": "hàixiū",
+    "meaning": "恥ずかしがる",
+    "example": "她很害羞，不喜欢在很多人面前说话。",
+    "exampleMeaning": "彼女はとても恥ずかしがり屋で、多くの人の前で話すのが好きではありません。",
+    "category": "adjective"
+  },
+  {
+    "id": 131,
+    "hanzi": "寒假",
+    "pinyin": "hánjià",
+    "meaning": "冬休み",
+    "example": "寒假我们打算去滑雪。",
+    "exampleMeaning": "冬休みに私たちはスキーに行く予定です。",
+    "category": "noun"
+  },
+  {
+    "id": 132,
+    "hanzi": "汗",
+    "pinyin": "hàn",
+    "meaning": "汗",
+    "example": "天太热了，我出了很多汗。",
+    "exampleMeaning": "天気が暑すぎて、たくさん汗をかきました。",
+    "category": "noun"
+  },
+  {
+    "id": 133,
+    "hanzi": "航班",
+    "pinyin": "hángbān",
+    "meaning": "フライト、航空便",
+    "example": "我的航班延误了。",
+    "exampleMeaning": "私のフライトが遅延しました。",
+    "category": "noun"
+  },
+  {
+    "id": 134,
+    "hanzi": "好处",
+    "pinyin": "hǎochu",
+    "meaning": "利点、メリット",
+    "example": "运动对身体有很多好处。",
+    "exampleMeaning": "運動は体に多くのメリットがあります。",
+    "category": "noun"
+  },
+  {
+    "id": 135,
+    "hanzi": "好像",
+    "pinyin": "hǎoxiàng",
+    "meaning": "〜のようだ",
+    "example": "他好像不太高兴。",
+    "exampleMeaning": "彼はあまり嬉しくなさそうです。",
+    "category": "adverb"
+  },
+  {
+    "id": 136,
+    "hanzi": "号码",
+    "pinyin": "hàomǎ",
+    "meaning": "番号",
+    "example": "请告诉我你的电话号码。",
+    "exampleMeaning": "あなたの電話番号を教えてください。",
+    "category": "noun"
+  },
+  {
+    "id": 137,
+    "hanzi": "合格",
+    "pinyin": "hégé",
+    "meaning": "合格する",
+    "example": "他终于合格了。",
+    "exampleMeaning": "彼はついに合格しました。",
+    "category": "verb"
+  },
+  {
+    "id": 138,
+    "hanzi": "合适",
+    "pinyin": "héshì",
+    "meaning": "適切な、ちょうどいい",
+    "example": "这件衣服很合适。",
+    "exampleMeaning": "この服はとてもちょうどいいです。",
+    "category": "adjective"
+  },
+  {
+    "id": 139,
+    "hanzi": "盒子",
+    "pinyin": "hézi",
+    "meaning": "箱、ボックス",
+    "example": "这个盒子里面是什么？",
+    "exampleMeaning": "この箱の中は何ですか？",
+    "category": "noun"
+  },
+  {
+    "id": 140,
+    "hanzi": "后悔",
+    "pinyin": "hòuhuǐ",
+    "meaning": "後悔する",
+    "example": "我后悔没有好好学中文。",
+    "exampleMeaning": "中国語をちゃんと勉強しなかったことを後悔しています。",
+    "category": "verb"
+  },
+  {
+    "id": 141,
+    "hanzi": "厚",
+    "pinyin": "hòu",
+    "meaning": "厚い",
+    "example": "这本词典很厚。",
+    "exampleMeaning": "この辞書はとても厚いです。",
+    "category": "adjective"
+  },
+  {
+    "id": 142,
+    "hanzi": "互联网",
+    "pinyin": "hùliánwǎng",
+    "meaning": "インターネット",
+    "example": "互联网改变了我们的生活。",
+    "exampleMeaning": "インターネットは私たちの生活を変えました。",
+    "category": "noun"
+  },
+  {
+    "id": 143,
+    "hanzi": "互相",
+    "pinyin": "hùxiāng",
+    "meaning": "お互いに",
+    "example": "同学之间应该互相帮助。",
+    "exampleMeaning": "学生同士はお互いに助け合うべきです。",
+    "category": "adverb"
+  },
+  {
+    "id": 144,
+    "hanzi": "护士",
+    "pinyin": "hùshi",
+    "meaning": "看護師",
+    "example": "她是医院的护士。",
+    "exampleMeaning": "彼女は病院の看護師です。",
+    "category": "noun"
+  },
+  {
+    "id": 145,
+    "hanzi": "怀疑",
+    "pinyin": "huáiyí",
+    "meaning": "疑う、懐疑する",
+    "example": "我怀疑这件事是真的。",
+    "exampleMeaning": "この件が本当かどうか疑っています。",
+    "category": "verb"
+  },
+  {
+    "id": 146,
+    "hanzi": "回忆",
+    "pinyin": "huíyì",
+    "meaning": "思い出、回想する",
+    "example": "这些照片让我想起了很多回忆。",
+    "exampleMeaning": "これらの写真は多くの思い出を思い起こさせます。",
+    "category": "noun"
+  },
+  {
+    "id": 147,
+    "hanzi": "活泼",
+    "pinyin": "huópo",
+    "meaning": "活発な",
+    "example": "她是一个活泼的女孩。",
+    "exampleMeaning": "彼女は活発な女の子です。",
+    "category": "adjective"
+  },
+  {
+    "id": 148,
+    "hanzi": "火",
+    "pinyin": "huǒ",
+    "meaning": "火",
+    "example": "小心，有火！",
+    "exampleMeaning": "気をつけて、火があります！",
+    "category": "noun"
+  },
+  {
+    "id": 149,
+    "hanzi": "获得",
+    "pinyin": "huòdé",
+    "meaning": "獲得する、得る",
+    "example": "他获得了这次比赛的第一名。",
+    "exampleMeaning": "彼は今回のコンテストで一等を獲得しました。",
+    "category": "verb"
+  },
+  {
+    "id": 150,
+    "hanzi": "积极",
+    "pinyin": "jījí",
+    "meaning": "積極的な",
+    "example": "他在工作中很积极。",
+    "exampleMeaning": "彼は仕事でとても積極的です。",
+    "category": "adjective"
+  },
+  {
+    "id": 151,
+    "hanzi": "积累",
+    "pinyin": "jīlěi",
+    "meaning": "蓄積する、積み重ねる",
+    "example": "学习需要不断积累。",
+    "exampleMeaning": "学習は絶えず積み重ねる必要があります。",
+    "category": "verb"
+  },
+  {
+    "id": 152,
+    "hanzi": "基础",
+    "pinyin": "jīchǔ",
+    "meaning": "基礎、基本",
+    "example": "打好基础很重要。",
+    "exampleMeaning": "基礎をしっかり固めることがとても重要です。",
+    "category": "noun"
+  },
+  {
+    "id": 153,
+    "hanzi": "激动",
+    "pinyin": "jīdòng",
+    "meaning": "興奮する、感激する",
+    "example": "听到这个消息，他很激动。",
+    "exampleMeaning": "この知らせを聞いて、彼はとても興奮しました。",
+    "category": "adjective"
+  },
+  {
+    "id": 154,
+    "hanzi": "及时",
+    "pinyin": "jíshí",
+    "meaning": "適切な時に、すぐに",
+    "example": "你来得真及时！",
+    "exampleMeaning": "ちょうどいい時に来てくれました！",
+    "category": "adjective"
+  },
+  {
+    "id": 155,
+    "hanzi": "即使",
+    "pinyin": "jíshǐ",
+    "meaning": "たとえ〜でも",
+    "example": "即使下雨，我们也要去。",
+    "exampleMeaning": "たとえ雨が降っても、私たちは行きます。",
+    "category": "conjunction"
+  },
+  {
+    "id": 156,
+    "hanzi": "计划",
+    "pinyin": "jìhuà",
+    "meaning": "計画する、計画",
+    "example": "你有什么计划？",
+    "exampleMeaning": "何か計画がありますか？",
+    "category": "noun"
+  },
+  {
+    "id": 157,
+    "hanzi": "记",
+    "pinyin": "jì",
+    "meaning": "覚える、書き留める",
+    "example": "请记住这个号码。",
+    "exampleMeaning": "この番号を覚えてください。",
+    "category": "verb"
+  },
+  {
+    "id": 158,
+    "hanzi": "记者",
+    "pinyin": "jìzhě",
+    "meaning": "記者",
+    "example": "他是一名新闻记者。",
+    "exampleMeaning": "彼は新聞記者です。",
+    "category": "noun"
+  },
+  {
+    "id": 159,
+    "hanzi": "技术",
+    "pinyin": "jìshù",
+    "meaning": "技術",
+    "example": "信息技术发展很快。",
+    "exampleMeaning": "情報技術の発展はとても速いです。",
+    "category": "noun"
+  },
+  {
+    "id": 160,
+    "hanzi": "既然",
+    "pinyin": "jìrán",
+    "meaning": "〜である以上",
+    "example": "既然来了，就多玩一会儿吧。",
+    "exampleMeaning": "来た以上、もう少し遊んでいきましょう。",
+    "category": "conjunction"
+  },
+  {
+    "id": 161,
+    "hanzi": "继续",
+    "pinyin": "jìxù",
+    "meaning": "継続する",
+    "example": "请继续你的工作。",
+    "exampleMeaning": "仕事を続けてください。",
+    "category": "verb"
+  },
+  {
+    "id": 162,
+    "hanzi": "家具",
+    "pinyin": "jiājù",
+    "meaning": "家具",
+    "example": "新房子需要买一些家具。",
+    "exampleMeaning": "新しい家には家具を買う必要があります。",
+    "category": "noun"
+  },
+  {
+    "id": 163,
+    "hanzi": "假",
+    "pinyin": "jiǎ",
+    "meaning": "偽の、休暇",
+    "example": "这个包是假的。",
+    "exampleMeaning": "このバッグは偽物です。",
+    "category": "adjective"
+  },
+  {
+    "id": 164,
+    "hanzi": "价格",
+    "pinyin": "jiàgé",
+    "meaning": "価格、値段",
+    "example": "这家店的商品价格很便宜。",
+    "exampleMeaning": "この店の商品の価格はとても安いです。",
+    "category": "noun"
+  },
+  {
+    "id": 165,
+    "hanzi": "坚持",
+    "pinyin": "jiānchí",
+    "meaning": "堅持する、やり抜く",
+    "example": "他每天都坚持跑步。",
+    "exampleMeaning": "彼は毎日ランニングを続けています。",
+    "category": "verb"
+  },
+  {
+    "id": 166,
+    "hanzi": "减肥",
+    "pinyin": "jiǎnféi",
+    "meaning": "ダイエットする",
+    "example": "她正在减肥。",
+    "exampleMeaning": "彼女はダイエット中です。",
+    "category": "verb"
+  },
+  {
+    "id": 167,
+    "hanzi": "减少",
+    "pinyin": "jiǎnshǎo",
+    "meaning": "減らす、減少する",
+    "example": "我们应该减少浪费。",
+    "exampleMeaning": "私たちは無駄を減らすべきです。",
+    "category": "verb"
+  },
+  {
+    "id": 168,
+    "hanzi": "建议",
+    "pinyin": "jiànyì",
+    "meaning": "提案する、アドバイス",
+    "example": "我建议你多休息。",
+    "exampleMeaning": "もっと休むことをお勧めします。",
+    "category": "verb"
+  },
+  {
+    "id": 169,
+    "hanzi": "将来",
+    "pinyin": "jiānglái",
+    "meaning": "将来",
+    "example": "你将来的计划是什么？",
+    "exampleMeaning": "将来の計画は何ですか？",
+    "category": "noun"
+  },
+  {
+    "id": 170,
+    "hanzi": "奖金",
+    "pinyin": "jiǎngjīn",
+    "meaning": "ボーナス、賞金",
+    "example": "今年我们公司发了奖金。",
+    "exampleMeaning": "今年、私たちの会社はボーナスを支給しました。",
+    "category": "noun"
+  },
+  {
+    "id": 171,
+    "hanzi": "降低",
+    "pinyin": "jiàngdī",
+    "meaning": "低下させる、下げる",
+    "example": "价格降低了很多。",
+    "exampleMeaning": "価格がとても下がりました。",
+    "category": "verb"
+  },
+  {
+    "id": 172,
+    "hanzi": "交通",
+    "pinyin": "jiāotōng",
+    "meaning": "交通",
+    "example": "北京的交通很堵。",
+    "exampleMeaning": "北京の交通はとても渋滞しています。",
+    "category": "noun"
+  },
+  {
+    "id": 173,
+    "hanzi": "骄傲",
+    "pinyin": "jiāo'ào",
+    "meaning": "誇り高い、傲慢な",
+    "example": "我为你感到骄傲。",
+    "exampleMeaning": "私はあなたを誇りに思います。",
+    "category": "adjective"
+  },
+  {
+    "id": 174,
+    "hanzi": "教",
+    "pinyin": "jiāo",
+    "meaning": "教える",
+    "example": "妈妈教我做饭。",
+    "exampleMeaning": "母は私に料理を教えます。",
+    "category": "verb"
+  },
+  {
+    "id": 175,
+    "hanzi": "郊区",
+    "pinyin": "jiāoqū",
+    "meaning": "郊外",
+    "example": "我住在北京的郊区。",
+    "exampleMeaning": "私は北京の郊外に住んでいます。",
+    "category": "noun"
+  },
+  {
+    "id": 176,
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "meaning": "餃子",
+    "example": "我最喜欢吃饺子。",
+    "exampleMeaning": "私は餃子が一番好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 177,
+    "hanzi": "教授",
+    "pinyin": "jiàoshòu",
+    "meaning": "教授",
+    "example": "王教授是我们的中文老师。",
+    "exampleMeaning": "王教授は私たちの中国語の先生です。",
+    "category": "noun"
+  },
+  {
+    "id": 178,
+    "hanzi": "教育",
+    "pinyin": "jiàoyù",
+    "meaning": "教育",
+    "example": "教育是国家发展的基础。",
+    "exampleMeaning": "教育は国家発展の基礎です。",
+    "category": "noun"
+  },
+  {
+    "id": 179,
+    "hanzi": "接受",
+    "pinyin": "jiēshòu",
+    "meaning": "受け入れる、承諾する",
+    "example": "我接受你的邀请。",
+    "exampleMeaning": "あなたの招待を受け入れます。",
+    "category": "verb"
+  },
+  {
+    "id": 180,
+    "hanzi": "结果",
+    "pinyin": "jiéguǒ",
+    "meaning": "結果",
+    "example": "考试结果什么时候出来？",
+    "exampleMeaning": "試験結果はいつ出ますか？",
+    "category": "noun"
+  },
+  {
+    "id": 181,
+    "hanzi": "节省",
+    "pinyin": "jiéshěng",
+    "meaning": "節約する",
+    "example": "我们要节省用水。",
+    "exampleMeaning": "水を節約しましょう。",
+    "category": "verb"
+  },
+  {
+    "id": 182,
+    "hanzi": "解释",
+    "pinyin": "jiěshì",
+    "meaning": "説明する",
+    "example": "请解释一下这个词的意思。",
+    "exampleMeaning": "この単語の意味を説明してください。",
+    "category": "verb"
+  },
+  {
+    "id": 183,
+    "hanzi": "紧张",
+    "pinyin": "jǐnzhāng",
+    "meaning": "緊張している",
+    "example": "考试前我很紧张。",
+    "exampleMeaning": "試験前はとても緊張します。",
+    "category": "adjective"
+  },
+  {
+    "id": 184,
+    "hanzi": "尽管",
+    "pinyin": "jǐnguǎn",
+    "meaning": "〜にもかかわらず",
+    "example": "尽管很累，他还是继续工作。",
+    "exampleMeaning": "とても疲れているにもかかわらず、彼は仕事を続けました。",
+    "category": "conjunction"
+  },
+  {
+    "id": 185,
+    "hanzi": "进行",
+    "pinyin": "jìnxíng",
+    "meaning": "進める、行う",
+    "example": "会议正在进行中。",
+    "exampleMeaning": "会議は進行中です。",
+    "category": "verb"
+  },
+  {
+    "id": 186,
+    "hanzi": "禁止",
+    "pinyin": "jìnzhǐ",
+    "meaning": "禁止する",
+    "example": "这里禁止吸烟。",
+    "exampleMeaning": "ここは喫煙禁止です。",
+    "category": "verb"
+  },
+  {
+    "id": 187,
+    "hanzi": "经济",
+    "pinyin": "jīngjì",
+    "meaning": "経済",
+    "example": "中国的经济增长很快。",
+    "exampleMeaning": "中国の経済成長はとても速いです。",
+    "category": "noun"
+  },
+  {
+    "id": 188,
+    "hanzi": "经历",
+    "pinyin": "jīnglì",
+    "meaning": "経験する、体験",
+    "example": "这次旅行是一次难忘的经历。",
+    "exampleMeaning": "今回の旅行は忘れられない経験でした。",
+    "category": "verb"
+  },
+  {
+    "id": 189,
+    "hanzi": "竟然",
+    "pinyin": "jìngrán",
+    "meaning": "意外にも、なんと",
+    "example": "他竟然忘了我的生日。",
+    "exampleMeaning": "彼はなんと私の誕生日を忘れていました。",
+    "category": "adverb"
+  },
+  {
+    "id": 190,
+    "hanzi": "镜子",
+    "pinyin": "jìngzi",
+    "meaning": "鏡",
+    "example": "她每天都要照镜子。",
+    "exampleMeaning": "彼女は毎日鏡を見ます。",
+    "category": "noun"
+  },
+  {
+    "id": 191,
+    "hanzi": "究竟",
+    "pinyin": "jiūjìng",
+    "meaning": "結局、一体",
+    "example": "你究竟想说什么？",
+    "exampleMeaning": "一体何を言いたいのですか？",
+    "category": "adverb"
+  },
+  {
+    "id": 192,
+    "hanzi": "聚会",
+    "pinyin": "jùhuì",
+    "meaning": "集まり、パーティー",
+    "example": "周末我们有个同学聚会。",
+    "exampleMeaning": "週末に同窓会があります。",
+    "category": "noun"
+  },
+  {
+    "id": 193,
+    "hanzi": "拒绝",
+    "pinyin": "jùjué",
+    "meaning": "拒否する、断る",
+    "example": "他拒绝了我的请求。",
+    "exampleMeaning": "彼は私の依頼を断りました。",
+    "category": "verb"
+  },
+  {
+    "id": 194,
+    "hanzi": "距离",
+    "pinyin": "jùlí",
+    "meaning": "距離",
+    "example": "从家到公司距离很远。",
+    "exampleMeaning": "家から会社まで距離がとても遠いです。",
+    "category": "noun"
+  },
+  {
+    "id": 195,
+    "hanzi": "开心",
+    "pinyin": "kāixīn",
+    "meaning": "嬉しい、楽しい",
+    "example": "今天我特别开心。",
+    "exampleMeaning": "今日は特に嬉しいです。",
+    "category": "adjective"
+  },
+  {
+    "id": 196,
+    "hanzi": "看法",
+    "pinyin": "kànfǎ",
+    "meaning": "見方、考え方",
+    "example": "你对这件事有什么看法？",
+    "exampleMeaning": "この件についてどう思いますか？",
+    "category": "noun"
+  },
+  {
+    "id": 197,
+    "hanzi": "考虑",
+    "pinyin": "kǎolǜ",
+    "meaning": "考慮する、検討する",
+    "example": "我还在考虑这个问题。",
+    "exampleMeaning": "まだこの問題を検討しています。",
+    "category": "verb"
+  },
+  {
+    "id": 198,
+    "hanzi": "烤鸭",
+    "pinyin": "kǎoyā",
+    "meaning": "北京ダック",
+    "example": "北京烤鸭很有名。",
+    "exampleMeaning": "北京ダックはとても有名です。",
+    "category": "noun"
+  },
+  {
+    "id": 199,
+    "hanzi": "可怜",
+    "pinyin": "kělián",
+    "meaning": "かわいそうな",
+    "example": "那只小猫真可怜。",
+    "exampleMeaning": "あの子猫は本当にかわいそうです。",
+    "category": "adjective"
+  },
+  {
+    "id": 200,
+    "hanzi": "可是",
+    "pinyin": "kěshì",
+    "meaning": "しかし、でも",
+    "example": "我想去，可是太远了。",
+    "exampleMeaning": "行きたいですが、遠すぎます。",
+    "category": "conjunction"
+  },
+  {
+    "id": 201,
+    "hanzi": "可惜",
+    "pinyin": "kěxī",
+    "meaning": "残念な",
+    "example": "真可惜，你没来参加。",
+    "exampleMeaning": "本当に残念です、あなたは参加しませんでした。",
+    "category": "adjective"
+  },
+  {
+    "id": 202,
+    "hanzi": "肯定",
+    "pinyin": "kěndìng",
+    "meaning": "確かに、きっと",
+    "example": "他肯定会来的。",
+    "exampleMeaning": "彼はきっと来ます。",
+    "category": "adverb"
+  },
+  {
+    "id": 203,
+    "hanzi": "空",
+    "pinyin": "kōng",
+    "meaning": "空の、からっぽの",
+    "example": "房间里一个人也没有，是空的。",
+    "exampleMeaning": "部屋には誰もいなくて、空っぽです。",
+    "category": "adjective"
+  },
+  {
+    "id": 204,
+    "hanzi": "空气",
+    "pinyin": "kōngqì",
+    "meaning": "空気",
+    "example": "这里的空气很新鲜。",
+    "exampleMeaning": "ここの空気はとても新鮮です。",
+    "category": "noun"
+  },
+  {
+    "id": 205,
+    "hanzi": "恐怕",
+    "pinyin": "kǒngpà",
+    "meaning": "おそらく〜だろう（心配）、〜ではないかと思う",
+    "example": "恐怕今天要下雨。",
+    "exampleMeaning": "今日はおそらく雨が降るでしょう。",
+    "category": "adverb"
+  },
+  {
+    "id": 206,
+    "hanzi": "苦",
+    "pinyin": "kǔ",
+    "meaning": "苦い、辛い",
+    "example": "这个药很苦。",
+    "exampleMeaning": "この薬はとても苦いです。",
+    "category": "adjective"
+  },
+  {
+    "id": 207,
+    "hanzi": "矿泉水",
+    "pinyin": "kuàngquánshuǐ",
+    "meaning": "ミネラルウォーター",
+    "example": "我要一瓶矿泉水。",
+    "exampleMeaning": "ミネラルウォーターを一本ください。",
+    "category": "noun"
+  },
+  {
+    "id": 208,
+    "hanzi": "困",
+    "pinyin": "kùn",
+    "meaning": "眠い",
+    "example": "我困了，想睡觉。",
+    "exampleMeaning": "眠くなりました、寝たいです。",
+    "category": "adjective"
+  },
+  {
+    "id": 209,
+    "hanzi": "困难",
+    "pinyin": "kùnnan",
+    "meaning": "困難な",
+    "example": "学习汉语并不困难。",
+    "exampleMeaning": "中国語を学ぶことはそれほど困難ではありません。",
+    "category": "adjective"
+  },
+  {
+    "id": 210,
+    "hanzi": "垃圾桶",
+    "pinyin": "lājītǒng",
+    "meaning": "ゴミ箱",
+    "example": "请把废纸扔进垃圾桶。",
+    "exampleMeaning": "紙くずをゴミ箱に捨ててください。",
+    "category": "noun"
+  },
+  {
+    "id": 211,
+    "hanzi": "来自",
+    "pinyin": "láizì",
+    "meaning": "〜から来る",
+    "example": "我来自日本。",
+    "exampleMeaning": "私は日本から来ました。",
+    "category": "preposition"
+  },
+  {
+    "id": 212,
+    "hanzi": "懒",
+    "pinyin": "lǎn",
+    "meaning": "怠惰な、面倒くさがる",
+    "example": "他太懒了，什么都不想做。",
+    "exampleMeaning": "彼はあまりに怠惰で、何もやりたがりません。",
+    "category": "adjective"
+  },
+  {
+    "id": 213,
+    "hanzi": "浪漫",
+    "pinyin": "làngmàn",
+    "meaning": "ロマンチックな",
+    "example": "这个餐厅很浪漫。",
+    "exampleMeaning": "このレストランはとてもロマンチックです。",
+    "category": "adjective"
+  },
+  {
+    "id": 214,
+    "hanzi": "老虎",
+    "pinyin": "lǎohǔ",
+    "meaning": "虎",
+    "example": "动物园里有两只老虎。",
+    "exampleMeaning": "動物園に虎が二匹います。",
+    "category": "noun"
+  },
+  {
+    "id": 215,
+    "hanzi": "冷静",
+    "pinyin": "lěngjìng",
+    "meaning": "冷静な",
+    "example": "遇到问题时要保持冷静。",
+    "exampleMeaning": "問題に直面した時は冷静さを保ちましょう。",
+    "category": "adjective"
+  },
+  {
+    "id": 216,
+    "hanzi": "厉害",
+    "pinyin": "lìhai",
+    "meaning": "すごい、激しい",
+    "example": "你中文说得真厉害！",
+    "exampleMeaning": "あなたの中国語は本当にすごい！",
+    "category": "adjective"
+  },
+  {
+    "id": 217,
+    "hanzi": "力气",
+    "pinyin": "lìqi",
+    "meaning": "力、体力",
+    "example": "他力气很大。",
+    "exampleMeaning": "彼は力がとても強いです。",
+    "category": "noun"
+  },
+  {
+    "id": 218,
+    "hanzi": "例如",
+    "pinyin": "lìrú",
+    "meaning": "例えば",
+    "example": "很多国家都有地铁，例如日本和中国。",
+    "exampleMeaning": "多くの国に地下鉄があります、例えば日本と中国です。",
+    "category": "conjunction"
+  },
+  {
+    "id": 219,
+    "hanzi": "连",
+    "pinyin": "lián",
+    "meaning": "〜さえも",
+    "example": "他连早饭都没吃就去上班了。",
+    "exampleMeaning": "彼は朝ごはんさえ食べずに出勤しました。",
+    "category": "preposition"
+  },
+  {
+    "id": 220,
+    "hanzi": "联系",
+    "pinyin": "liánxì",
+    "meaning": "連絡する",
+    "example": "我们以后多联系。",
+    "exampleMeaning": "これからもっと連絡を取りましょう。",
+    "category": "verb"
+  },
+  {
+    "id": 221,
+    "hanzi": "脸",
+    "pinyin": "liǎn",
+    "meaning": "顔",
+    "example": "你的脸很红。",
+    "exampleMeaning": "顔がとても赤いです。",
+    "category": "noun"
+  },
+  {
+    "id": 222,
+    "hanzi": "俩",
+    "pinyin": "liǎ",
+    "meaning": "二人、二つ",
+    "example": "我们俩是好朋友。",
+    "exampleMeaning": "私たち二人は良い友達です。",
+    "category": "numeral"
+  },
+  {
+    "id": 223,
+    "hanzi": "零钱",
+    "pinyin": "língqián",
+    "meaning": "小銭",
+    "example": "我没有零钱。",
+    "exampleMeaning": "小銭を持っていません。",
+    "category": "noun"
+  },
+  {
+    "id": 224,
+    "hanzi": "另外",
+    "pinyin": "lìngwài",
+    "meaning": "別の、そのほか",
+    "example": "我另外还有一个问题。",
+    "exampleMeaning": "別にもう一つ質問があります。",
+    "category": "adverb"
+  },
+  {
+    "id": 225,
+    "hanzi": "留",
+    "pinyin": "liú",
+    "meaning": "残す、留まる",
+    "example": "请留在这里等我。",
+    "exampleMeaning": "ここに残って私を待っていてください。",
+    "category": "verb"
+  },
+  {
+    "id": 226,
+    "hanzi": "流利",
+    "pinyin": "liúlì",
+    "meaning": "流暢な",
+    "example": "她中文说得很流利。",
+    "exampleMeaning": "彼女は中国語をとても流暢に話します。",
+    "category": "adjective"
+  },
+  {
+    "id": 227,
+    "hanzi": "律师",
+    "pinyin": "lǜshī",
+    "meaning": "弁護士",
+    "example": "他想成为一名律师。",
+    "exampleMeaning": "彼は弁護士になりたいと思っています。",
+    "category": "noun"
+  },
+  {
+    "id": 228,
+    "hanzi": "乱",
+    "pinyin": "luàn",
+    "meaning": "乱れている、めちゃくちゃな",
+    "example": "房间太乱了，快收拾一下。",
+    "exampleMeaning": "部屋が散らかりすぎています、早く片付けてください。",
+    "category": "adjective"
+  },
+  {
+    "id": 229,
+    "hanzi": "满意",
+    "pinyin": "mǎnyì",
+    "meaning": "満足する",
+    "example": "我对这次旅行很满意。",
+    "exampleMeaning": "今回の旅行にとても満足しています。",
+    "category": "adjective"
+  },
+  {
+    "id": 230,
+    "hanzi": "毛",
+    "pinyin": "máo",
+    "meaning": "毛、1角（貨幣単位）",
+    "example": "这只猫的毛很软。",
+    "exampleMeaning": "この猫の毛はとても柔らかいです。",
+    "category": "noun"
+  },
+  {
+    "id": 231,
+    "hanzi": "毛巾",
+    "pinyin": "máojīn",
+    "meaning": "タオル",
+    "example": "请给我一条毛巾。",
+    "exampleMeaning": "タオルを一枚ください。",
+    "category": "noun"
+  },
+  {
+    "id": 232,
+    "hanzi": "美丽",
+    "pinyin": "měilì",
+    "meaning": "美しい",
+    "example": "这里的风景真美丽。",
+    "exampleMeaning": "ここの風景は本当に美しいです。",
+    "category": "adjective"
+  },
+  {
+    "id": 233,
+    "hanzi": "梦",
+    "pinyin": "mèng",
+    "meaning": "夢",
+    "example": "我昨天做了一个好梦。",
+    "exampleMeaning": "昨日いい夢を見ました。",
+    "category": "noun"
+  },
+  {
+    "id": 234,
+    "hanzi": "迷路",
+    "pinyin": "mílù",
+    "meaning": "道に迷う",
+    "example": "我在这个城市迷路了。",
+    "exampleMeaning": "この街で道に迷いました。",
+    "category": "verb"
+  },
+  {
+    "id": 235,
+    "hanzi": "密码",
+    "pinyin": "mìmǎ",
+    "meaning": "パスワード",
+    "example": "我忘记了这个网站的密码。",
+    "exampleMeaning": "このサイトのパスワードを忘れました。",
+    "category": "noun"
+  },
+  {
+    "id": 236,
+    "hanzi": "免费",
+    "pinyin": "miǎnfèi",
+    "meaning": "無料の",
+    "example": "这个博物馆是免费的。",
+    "exampleMeaning": "この博物館は無料です。",
+    "category": "adjective"
+  },
+  {
+    "id": 237,
+    "hanzi": "民族",
+    "pinyin": "mínzú",
+    "meaning": "民族",
+    "example": "中国有56个民族。",
+    "exampleMeaning": "中国には56の民族があります。",
+    "category": "noun"
+  },
+  {
+    "id": 238,
+    "hanzi": "母亲",
+    "pinyin": "mǔqīn",
+    "meaning": "母親",
+    "example": "我的母亲是老师。",
+    "exampleMeaning": "私の母は先生です。",
+    "category": "noun"
+  },
+  {
+    "id": 239,
+    "hanzi": "目的",
+    "pinyin": "mùdì",
+    "meaning": "目的",
+    "example": "学习的目的是提高自己。",
+    "exampleMeaning": "学習の目的は自分を向上させることです。",
+    "category": "noun"
+  },
+  {
+    "id": 240,
+    "hanzi": "耐心",
+    "pinyin": "nàixīn",
+    "meaning": "忍耐強い",
+    "example": "做老师需要有耐心。",
+    "exampleMeaning": "先生になるには忍耐が必要です。",
+    "category": "adjective"
+  },
+  {
+    "id": 241,
+    "hanzi": "难道",
+    "pinyin": "nándào",
+    "meaning": "まさか〜ではあるまい（反語文）",
+    "example": "难道你不知道吗？",
+    "exampleMeaning": "まさか知らないのですか？",
+    "category": "adverb"
+  },
+  {
+    "id": 242,
+    "hanzi": "难受",
+    "pinyin": "nánshòu",
+    "meaning": "辛い、気分が悪い",
+    "example": "我今天有点儿难受。",
+    "exampleMeaning": "今日は少し気分が悪いです。",
+    "category": "adjective"
+  },
+  {
+    "id": 243,
+    "hanzi": "内",
+    "pinyin": "nèi",
+    "meaning": "〜以内、内側",
+    "example": "一个星期内完成工作。",
+    "exampleMeaning": "一週間以内に仕事を終えます。",
+    "category": "noun"
+  },
+  {
+    "id": 244,
+    "hanzi": "能力",
+    "pinyin": "nénglì",
+    "meaning": "能力",
+    "example": "他有很强的学习能力。",
+    "exampleMeaning": "彼はとても強い学習能力を持っています。",
+    "category": "noun"
+  },
+  {
+    "id": 245,
+    "hanzi": "年龄",
+    "pinyin": "niánlíng",
+    "meaning": "年齢",
+    "example": "你的年龄是多少？",
+    "exampleMeaning": "あなたの年齢はいくつですか？",
+    "category": "noun"
+  },
+  {
+    "id": 246,
+    "hanzi": "弄",
+    "pinyin": "nòng",
+    "meaning": "する、やる、扱う",
+    "example": "你怎么弄坏了我的电脑？",
+    "exampleMeaning": "どうやって私のパソコンを壊したの？",
+    "category": "verb"
+  },
+  {
+    "id": 247,
+    "hanzi": "努力",
+    "pinyin": "nǔlì",
+    "meaning": "努力する",
+    "example": "只要你努力，一定会成功。",
+    "exampleMeaning": "努力しさえすれば、必ず成功します。",
+    "category": "verb"
+  },
+  {
+    "id": 248,
+    "hanzi": "暖和",
+    "pinyin": "nuǎnhuo",
+    "meaning": "暖かい",
+    "example": "今天的天气很暖和。",
+    "exampleMeaning": "今日の天気はとても暖かいです。",
+    "category": "adjective"
+  },
+  {
+    "id": 249,
+    "hanzi": "偶尔",
+    "pinyin": "ǒu'ěr",
+    "meaning": "たまに、時々",
+    "example": "我偶尔会去看电影。",
+    "exampleMeaning": "たまに映画を見に行きます。",
+    "category": "adverb"
+  },
+  {
+    "id": 250,
+    "hanzi": "排队",
+    "pinyin": "páiduì",
+    "meaning": "列に並ぶ",
+    "example": "请排队买票。",
+    "exampleMeaning": "列に並んでチケットを買ってください。",
+    "category": "verb"
+  },
+  {
+    "id": 251,
+    "hanzi": "排列",
+    "pinyin": "páiliè",
+    "meaning": "並べる、配列する",
+    "example": "请把这些书按大小排列。",
+    "exampleMeaning": "これらの本を大きさ順に並べてください。",
+    "category": "verb"
+  },
+  {
+    "id": 252,
+    "hanzi": "判断",
+    "pinyin": "pànduàn",
+    "meaning": "判断する",
+    "example": "这件事很难判断对错。",
+    "exampleMeaning": "この件は正誤の判断がとても難しいです。",
+    "category": "verb"
+  },
+  {
+    "id": 253,
+    "hanzi": "陪",
+    "pinyin": "péi",
+    "meaning": "付き添う、同伴する",
+    "example": "我陪你去医院。",
+    "exampleMeaning": "病院に付き添います。",
+    "category": "verb"
+  },
+  {
+    "id": 254,
+    "hanzi": "批评",
+    "pinyin": "pīpíng",
+    "meaning": "批判する",
+    "example": "爸爸批评了我。",
+    "exampleMeaning": "父に叱られました。",
+    "category": "verb"
+  },
+  {
+    "id": 255,
+    "hanzi": "皮肤",
+    "pinyin": "pífū",
+    "meaning": "皮膚",
+    "example": "她的皮肤很好。",
+    "exampleMeaning": "彼女の肌はとてもきれいです。",
+    "category": "noun"
+  },
+  {
+    "id": 256,
+    "hanzi": "篇",
+    "pinyin": "piān",
+    "meaning": "〜編、〜篇（量詞）",
+    "example": "我写了一篇作文。",
+    "exampleMeaning": "作文を一篇書きました。",
+    "category": "measure"
+  },
+  {
+    "id": 257,
+    "hanzi": "骗",
+    "pinyin": "piàn",
+    "meaning": "騙す",
+    "example": "不要骗我。",
+    "exampleMeaning": "私を騙さないでください。",
+    "category": "verb"
+  },
+  {
+    "id": 258,
+    "hanzi": "乒乓球",
+    "pinyin": "pīngpāngqiú",
+    "meaning": "卓球",
+    "example": "中国人很喜欢打乒乓球。",
+    "exampleMeaning": "中国人は卓球をするのがとても好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 259,
+    "hanzi": "平时",
+    "pinyin": "píngshí",
+    "meaning": "普段、平素",
+    "example": "我平时六点起床。",
+    "exampleMeaning": "普段は6時に起きます。",
+    "category": "adverb"
+  },
+  {
+    "id": 260,
+    "hanzi": "破",
+    "pinyin": "pò",
+    "meaning": "破れる、壊れる",
+    "example": "我的鞋子破了。",
+    "exampleMeaning": "私の靴が破れました。",
+    "category": "adjective"
+  },
+  {
+    "id": 261,
+    "hanzi": "葡萄",
+    "pinyin": "pútao",
+    "meaning": "ブドウ",
+    "example": "我喜欢吃葡萄。",
+    "exampleMeaning": "私はブドウを食べるのが好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 262,
+    "hanzi": "普遍",
+    "pinyin": "pǔbiàn",
+    "meaning": "普遍的な、一般的な",
+    "example": "这种现象很普遍。",
+    "exampleMeaning": "この現象はとても普遍的です。",
+    "category": "adjective"
+  },
+  {
+    "id": 263,
+    "hanzi": "其次",
+    "pinyin": "qícì",
+    "meaning": "次に、第二に",
+    "example": "首先要注意安全，其次才是速度。",
+    "exampleMeaning": "まず安全に注意し、その次が速度です。",
+    "category": "conjunction"
+  },
+  {
+    "id": 264,
+    "hanzi": "其中",
+    "pinyin": "qízhōng",
+    "meaning": "その中で",
+    "example": "我们班有30个学生，其中10个是男生。",
+    "exampleMeaning": "クラスには30人の学生がいて、そのうち10人が男子です。",
+    "category": "pronoun"
+  },
+  {
+    "id": 265,
+    "hanzi": "气候",
+    "pinyin": "qìhòu",
+    "meaning": "気候",
+    "example": "日本的气候很温和。",
+    "exampleMeaning": "日本の気候はとても温暖です。",
+    "category": "noun"
+  },
+  {
+    "id": 266,
+    "hanzi": "千万",
+    "pinyin": "qiānwàn",
+    "meaning": "必ず、絶対に",
+    "example": "你千万别忘了。",
+    "exampleMeaning": "絶対に忘れないでください。",
+    "category": "adverb"
+  },
+  {
+    "id": 267,
+    "hanzi": "签证",
+    "pinyin": "qiānzhèng",
+    "meaning": "ビザ",
+    "example": "我要申请中国的签证。",
+    "exampleMeaning": "中国のビザを申請します。",
+    "category": "noun"
+  },
+  {
+    "id": 268,
+    "hanzi": "敲",
+    "pinyin": "qiāo",
+    "meaning": "ノックする、叩く",
+    "example": "请敲门。",
+    "exampleMeaning": "ドアをノックしてください。",
+    "category": "verb"
+  },
+  {
+    "id": 269,
+    "hanzi": "桥",
+    "pinyin": "qiáo",
+    "meaning": "橋",
+    "example": "这座桥很长。",
+    "exampleMeaning": "この橋はとても長いです。",
+    "category": "noun"
+  },
+  {
+    "id": 270,
+    "hanzi": "巧克力",
+    "pinyin": "qiǎokèlì",
+    "meaning": "チョコレート",
+    "example": "女孩子都喜欢吃巧克力。",
+    "exampleMeaning": "女の子はみんなチョコレートを食べるのが好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 271,
+    "hanzi": "亲戚",
+    "pinyin": "qīnqī",
+    "meaning": "親戚",
+    "example": "春节我们去拜访亲戚。",
+    "exampleMeaning": "春節には親戚を訪問します。",
+    "category": "noun"
+  },
+  {
+    "id": 272,
+    "hanzi": "轻",
+    "pinyin": "qīng",
+    "meaning": "軽い",
+    "example": "这个箱子很轻。",
+    "exampleMeaning": "このスーツケースはとても軽いです。",
+    "category": "adjective"
+  },
+  {
+    "id": 273,
+    "hanzi": "轻松",
+    "pinyin": "qīngsōng",
+    "meaning": "気楽な、リラックスした",
+    "example": "考试结束后我感到很轻松。",
+    "exampleMeaning": "試験が終わってとても気楽になりました。",
+    "category": "adjective"
+  },
+  {
+    "id": 274,
+    "hanzi": "情况",
+    "pinyin": "qíngkuàng",
+    "meaning": "状況",
+    "example": "请告诉我现在的情况。",
+    "exampleMeaning": "今の状況を教えてください。",
+    "category": "noun"
+  },
+  {
+    "id": 275,
+    "hanzi": "区别",
+    "pinyin": "qūbié",
+    "meaning": "区別、違い",
+    "example": "这两个词有什么区别？",
+    "exampleMeaning": "この二つの単語はどう違いますか？",
+    "category": "noun"
+  },
+  {
+    "id": 276,
+    "hanzi": "取",
+    "pinyin": "qǔ",
+    "meaning": "取る、受け取る",
+    "example": "我去银行取钱。",
+    "exampleMeaning": "銀行にお金を引き出しに行きます。",
+    "category": "verb"
+  },
+  {
+    "id": 277,
+    "hanzi": "全部",
+    "pinyin": "quánbù",
+    "meaning": "全部、すべて",
+    "example": "全部学生都按时到了。",
+    "exampleMeaning": "全ての学生が時間通りに着きました。",
+    "category": "pronoun"
+  },
+  {
+    "id": 278,
+    "hanzi": "缺点",
+    "pinyin": "quēdiǎn",
+    "meaning": "欠点",
+    "example": "每个人都有自己的缺点。",
+    "exampleMeaning": "誰にでも自分の欠点があります。",
+    "category": "noun"
+  },
+  {
+    "id": 279,
+    "hanzi": "缺少",
+    "pinyin": "quēshǎo",
+    "meaning": "不足する、欠ける",
+    "example": "这个地方缺少水。",
+    "exampleMeaning": "この場所は水が不足しています。",
+    "category": "verb"
+  },
+  {
+    "id": 280,
+    "hanzi": "却",
+    "pinyin": "què",
+    "meaning": "しかし、ところが",
+    "example": "我想去，却去不了。",
+    "exampleMeaning": "行きたいのに、行けません。",
+    "category": "adverb"
+  },
+  {
+    "id": 281,
+    "hanzi": "然而",
+    "pinyin": "rán'ér",
+    "meaning": "しかしながら、だが",
+    "example": "他工作很努力，然而效果并不好。",
+    "exampleMeaning": "彼は仕事にとても努力したが、効果はあまり良くなかった。",
+    "category": "conjunction"
+  },
+  {
+    "id": 282,
+    "hanzi": "热闹",
+    "pinyin": "rènao",
+    "meaning": "賑やかな",
+    "example": "春节的时候这里很热闹。",
+    "exampleMeaning": "春節の時はここはとても賑やかです。",
+    "category": "adjective"
+  },
+  {
+    "id": 283,
+    "hanzi": "任何",
+    "pinyin": "rènhé",
+    "meaning": "いかなる、どんな",
+    "example": "任何时候都可以来找我。",
+    "exampleMeaning": "いつでも私のところに来てください。",
+    "category": "pronoun"
+  },
+  {
+    "id": 284,
+    "hanzi": "扔",
+    "pinyin": "rēng",
+    "meaning": "投げる、捨てる",
+    "example": "请不要乱扔垃圾。",
+    "exampleMeaning": "ゴミをむやみに捨てないでください。",
+    "category": "verb"
+  },
+  {
+    "id": 285,
+    "hanzi": "仍然",
+    "pinyin": "réngrán",
+    "meaning": "依然として、相変わらず",
+    "example": "他仍然没有回答我的问题。",
+    "exampleMeaning": "彼は依然として私の質問に答えていません。",
+    "category": "adverb"
+  },
+  {
+    "id": 286,
+    "hanzi": "日记",
+    "pinyin": "rìjì",
+    "meaning": "日記",
+    "example": "我每天都写日记。",
+    "exampleMeaning": "私は毎日日記を書きます。",
+    "category": "noun"
+  },
+  {
+    "id": 287,
+    "hanzi": "入口",
+    "pinyin": "rùkǒu",
+    "meaning": "入口",
+    "example": "入口在那边。",
+    "exampleMeaning": "入口はあちらです。",
+    "category": "noun"
+  },
+  {
+    "id": 288,
+    "hanzi": "散步",
+    "pinyin": "sànbù",
+    "meaning": "散歩する",
+    "example": "晚饭后我们去散步吧。",
+    "exampleMeaning": "夕食後に散歩に行きましょう。",
+    "category": "verb"
+  },
+  {
+    "id": 289,
+    "hanzi": "森林",
+    "pinyin": "sēnlín",
+    "meaning": "森林",
+    "example": "这片森林很美。",
+    "exampleMeaning": "この森林はとても美しいです。",
+    "category": "noun"
+  },
+  {
+    "id": 290,
+    "hanzi": "沙发",
+    "pinyin": "shāfā",
+    "meaning": "ソファー",
+    "example": "我坐在沙发上看电视。",
+    "exampleMeaning": "ソファーに座ってテレビを見ます。",
+    "category": "noun"
+  },
+  {
+    "id": 291,
+    "hanzi": "伤心",
+    "pinyin": "shāngxīn",
+    "meaning": "悲しい、心が痛む",
+    "example": "听到这个消息我很伤心。",
+    "exampleMeaning": "この知らせを聞いてとても悲しくなりました。",
+    "category": "adjective"
+  },
+  {
+    "id": 292,
+    "hanzi": "社会",
+    "pinyin": "shèhuì",
+    "meaning": "社会",
+    "example": "每个人都生活在社会中。",
+    "exampleMeaning": "誰もが社会の中で生きています。",
+    "category": "noun"
+  },
+  {
+    "id": 293,
+    "hanzi": "申请",
+    "pinyin": "shēnqǐng",
+    "meaning": "申請する",
+    "example": "我要申请这份工作。",
+    "exampleMeaning": "この仕事に応募します。",
+    "category": "verb"
+  },
+  {
+    "id": 294,
+    "hanzi": "甚至",
+    "pinyin": "shènzhì",
+    "meaning": "〜でさえも",
+    "example": "他甚至不会写自己的名字。",
+    "exampleMeaning": "彼は自分の名前さえも書けません。",
+    "category": "adverb"
+  },
+  {
+    "id": 295,
+    "hanzi": "生活",
+    "pinyin": "shēnghuó",
+    "meaning": "生活、暮らす",
+    "example": "我很喜欢这里的生活。",
+    "exampleMeaning": "ここの生活がとても好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 296,
+    "hanzi": "性别",
+    "pinyin": "xìngbié",
+    "meaning": "性別",
+    "example": "请在表格上填写你的性别。",
+    "exampleMeaning": "用紙に性別を記入してください。",
+    "category": "noun"
+  },
+  {
+    "id": 297,
+    "hanzi": "性格",
+    "pinyin": "xìnggé",
+    "meaning": "性格",
+    "example": "她的性格很开朗。",
+    "exampleMeaning": "彼女の性格はとても明るいです。",
+    "category": "noun"
+  },
+  {
+    "id": 298,
+    "hanzi": "幸福",
+    "pinyin": "xìngfú",
+    "meaning": "幸せな",
+    "example": "祝你们幸福！",
+    "exampleMeaning": "お幸せに！",
+    "category": "adjective"
+  },
+  {
+    "id": 299,
+    "hanzi": "修理",
+    "pinyin": "xiūlǐ",
+    "meaning": "修理する",
+    "example": "请帮我修理一下电脑。",
+    "exampleMeaning": "パソコンを修理してください。",
+    "category": "verb"
+  },
+  {
+    "id": 300,
+    "hanzi": "许多",
+    "pinyin": "xǔduō",
+    "meaning": "多くの",
+    "example": "这里有许多人。",
+    "exampleMeaning": "ここには多くの人がいます。",
+    "category": "adjective"
+  },
+  {
+    "id": 301,
+    "hanzi": "学期",
+    "pinyin": "xuéqī",
+    "meaning": "学期",
+    "example": "这个学期我学中文。",
+    "exampleMeaning": "今学期は中国語を勉強します。",
+    "category": "noun"
+  },
+  {
+    "id": 302,
+    "hanzi": "压力",
+    "pinyin": "yālì",
+    "meaning": "プレッシャー、圧力",
+    "example": "工作压力太大了。",
+    "exampleMeaning": "仕事のプレッシャーが大きすぎます。",
+    "category": "noun"
+  },
+  {
+    "id": 303,
+    "hanzi": "牙膏",
+    "pinyin": "yágāo",
+    "meaning": "歯磨き粉",
+    "example": "我买了一支牙膏。",
+    "exampleMeaning": "歯磨き粉を一本買いました。",
+    "category": "noun"
+  },
+  {
+    "id": 304,
+    "hanzi": "严格",
+    "pinyin": "yángé",
+    "meaning": "厳格な",
+    "example": "我们的老师很严格。",
+    "exampleMeaning": "私たちの先生はとても厳格です。",
+    "category": "adjective"
+  },
+  {
+    "id": 305,
+    "hanzi": "严重",
+    "pinyin": "yánzhòng",
+    "meaning": "深刻な、重大な",
+    "example": "这个问题很严重。",
+    "exampleMeaning": "この問題はとても深刻です。",
+    "category": "adjective"
+  },
+  {
+    "id": 306,
+    "hanzi": "演出",
+    "pinyin": "yǎnchū",
+    "meaning": "上演する、公演",
+    "example": "今晚有京剧演出。",
+    "exampleMeaning": "今晩は京劇の公演があります。",
+    "category": "noun"
+  },
+  {
+    "id": 307,
+    "hanzi": "眼镜",
+    "pinyin": "yǎnjìng",
+    "meaning": "眼鏡",
+    "example": "我戴眼镜。",
+    "exampleMeaning": "私は眼鏡をかけています。",
+    "category": "noun"
+  },
+  {
+    "id": 308,
+    "hanzi": "要求",
+    "pinyin": "yāoqiú",
+    "meaning": "要求する",
+    "example": "老师要求我们每天读课文。",
+    "exampleMeaning": "先生は毎日教科書を読むよう要求しました。",
+    "category": "verb"
+  },
+  {
+    "id": 309,
+    "hanzi": "钥匙",
+    "pinyin": "yàoshi",
+    "meaning": "鍵",
+    "example": "我把钥匙忘在家里了。",
+    "exampleMeaning": "鍵を家に忘れました。",
+    "category": "noun"
+  },
+  {
+    "id": 310,
+    "hanzi": "页",
+    "pinyin": "yè",
+    "meaning": "ページ",
+    "example": "请翻到第十页。",
+    "exampleMeaning": "10ページを開いてください。",
+    "category": "measure"
+  },
+  {
+    "id": 311,
+    "hanzi": "一切",
+    "pinyin": "yīqiè",
+    "meaning": "すべて、一切",
+    "example": "一切都会好起来的。",
+    "exampleMeaning": "すべてうまくいきます。",
+    "category": "pronoun"
+  },
+  {
+    "id": 312,
+    "hanzi": "以为",
+    "pinyin": "yǐwéi",
+    "meaning": "〜と思う、〜と考える",
+    "example": "我以为他是中国人。",
+    "exampleMeaning": "彼は中国人だと思いました。",
+    "category": "verb"
+  },
+  {
+    "id": 313,
+    "hanzi": "艺术",
+    "pinyin": "yìshù",
+    "meaning": "芸術",
+    "example": "我对艺术很感兴趣。",
+    "exampleMeaning": "私は芸術にとても興味があります。",
+    "category": "noun"
+  },
+  {
+    "id": 314,
+    "hanzi": "因此",
+    "pinyin": "yīncǐ",
+    "meaning": "そのため、従って",
+    "example": "他学习很努力，因此进步很快。",
+    "exampleMeaning": "彼はとても努力したので、従って進歩も速いです。",
+    "category": "conjunction"
+  },
+  {
+    "id": 315,
+    "hanzi": "印象",
+    "pinyin": "yìnxiàng",
+    "meaning": "印象",
+    "example": "北京给我留下了很深的印象。",
+    "exampleMeaning": "北京は私に深い印象を残しました。",
+    "category": "noun"
+  },
+  {
+    "id": 316,
+    "hanzi": "赢",
+    "pinyin": "yíng",
+    "meaning": "勝つ",
+    "example": "我们队赢了这场比赛。",
+    "exampleMeaning": "私たちのチームはこの試合に勝ちました。",
+    "category": "verb"
+  },
+  {
+    "id": 317,
+    "hanzi": "勇敢",
+    "pinyin": "yǒnggǎn",
+    "meaning": "勇敢な",
+    "example": "他是一个勇敢的男孩。",
+    "exampleMeaning": "彼は勇敢な男の子です。",
+    "category": "adjective"
+  },
+  {
+    "id": 318,
+    "hanzi": "永远",
+    "pinyin": "yǒngyuǎn",
+    "meaning": "永遠に",
+    "example": "我会永远记得你。",
+    "exampleMeaning": "私はあなたを永遠に覚えています。",
+    "category": "adverb"
+  },
+  {
+    "id": 319,
+    "hanzi": "优点",
+    "pinyin": "yōudiǎn",
+    "meaning": "長所、利点",
+    "example": "这个计划有很多优点。",
+    "exampleMeaning": "この計画には多くの利点があります。",
+    "category": "noun"
+  },
+  {
+    "id": 320,
+    "hanzi": "优秀",
+    "pinyin": "yōuxiù",
+    "meaning": "優秀な",
+    "example": "她是一名优秀的学生。",
+    "exampleMeaning": "彼女は優秀な学生です。",
+    "category": "adjective"
+  },
+  {
+    "id": 321,
+    "hanzi": "幽默",
+    "pinyin": "yōumò",
+    "meaning": "ユーモアのある",
+    "example": "他说话很幽默。",
+    "exampleMeaning": "彼の話し方はとてもユーモアがあります。",
+    "category": "adjective"
+  },
+  {
+    "id": 322,
+    "hanzi": "友好",
+    "pinyin": "yǒuhǎo",
+    "meaning": "友好的な",
+    "example": "这里的人很友好。",
+    "exampleMeaning": "ここの人々はとても友好的です。",
+    "category": "adjective"
+  },
+  {
+    "id": 323,
+    "hanzi": "友谊",
+    "pinyin": "yǒuyì",
+    "meaning": "友情",
+    "example": "我们的友谊永远不会变。",
+    "exampleMeaning": "私たちの友情は永遠に変わりません。",
+    "category": "noun"
+  },
+  {
+    "id": 324,
+    "hanzi": "于是",
+    "pinyin": "yúshì",
+    "meaning": "そこで、それで",
+    "example": "天黑了，于是我们回家了。",
+    "exampleMeaning": "暗くなったので、そこで家に帰りました。",
+    "category": "conjunction"
+  },
+  {
+    "id": 325,
+    "hanzi": "愉快",
+    "pinyin": "yúkuài",
+    "meaning": "愉快な、楽しい",
+    "example": "祝你周末愉快！",
+    "exampleMeaning": "楽しい週末を！",
+    "category": "adjective"
+  },
+  {
+    "id": 326,
+    "hanzi": "羽毛球",
+    "pinyin": "yǔmáoqiú",
+    "meaning": "バドミントン",
+    "example": "周末我们一起去打羽毛球吧。",
+    "exampleMeaning": "週末に一緒にバドミントンをしましょう。",
+    "category": "noun"
+  },
+  {
+    "id": 327,
+    "hanzi": "语法",
+    "pinyin": "yǔfǎ",
+    "meaning": "文法",
+    "example": "中文语法不太难。",
+    "exampleMeaning": "中国語の文法はあまり難しくありません。",
+    "category": "noun"
+  },
+  {
+    "id": 328,
+    "hanzi": "语言",
+    "pinyin": "yǔyán",
+    "meaning": "言語",
+    "example": "学习一种新语言很有趣。",
+    "exampleMeaning": "新しい言語を学ぶのはとても面白いです。",
+    "category": "noun"
+  },
+  {
+    "id": 329,
+    "hanzi": "预习",
+    "pinyin": "yùxí",
+    "meaning": "予習する",
+    "example": "请预习下一课的内容。",
+    "exampleMeaning": "次の授業の内容を予習してください。",
+    "category": "verb"
+  },
+  {
+    "id": 330,
+    "hanzi": "原来",
+    "pinyin": "yuánlái",
+    "meaning": "もともと、なんと〜だったのか",
+    "example": "原来你是老师啊！",
+    "exampleMeaning": "なんとあなたは先生だったのですね！",
+    "category": "adverb"
+  },
+  {
+    "id": 331,
+    "hanzi": "原因",
+    "pinyin": "yuányīn",
+    "meaning": "原因",
+    "example": "你知道这件事的原因吗？",
+    "exampleMeaning": "この件の原因を知っていますか？",
+    "category": "noun"
+  },
+  {
+    "id": 332,
+    "hanzi": "约会",
+    "pinyin": "yuēhuì",
+    "meaning": "デートする、約束する",
+    "example": "今天晚上我有约会。",
+    "exampleMeaning": "今晩デートがあります。",
+    "category": "verb"
+  },
+  {
+    "id": 333,
+    "hanzi": "阅读",
+    "pinyin": "yuèdú",
+    "meaning": "読書する、読む",
+    "example": "我喜欢阅读中文小说。",
+    "exampleMeaning": "私は中国語の小説を読むのが好きです。",
+    "category": "verb"
+  },
+  {
+    "id": 334,
+    "hanzi": "云",
+    "pinyin": "yún",
+    "meaning": "雲",
+    "example": "天上有很多云。",
+    "exampleMeaning": "空に雲がたくさんあります。",
+    "category": "noun"
+  },
+  {
+    "id": 335,
+    "hanzi": "允许",
+    "pinyin": "yǔnxǔ",
+    "meaning": "許可する",
+    "example": "这里不允许拍照。",
+    "exampleMeaning": "ここでは写真撮影が許可されていません。",
+    "category": "verb"
+  },
+  {
+    "id": 336,
+    "hanzi": "杂志",
+    "pinyin": "zázhì",
+    "meaning": "雑誌",
+    "example": "我每个月都买这本杂志。",
+    "exampleMeaning": "私は毎月この雑誌を買います。",
+    "category": "noun"
+  },
+  {
+    "id": 337,
+    "hanzi": "缺少",
+    "pinyin": "quēshǎo",
+    "meaning": "不足する、欠ける",
+    "example": "这个地区缺少医生。",
+    "exampleMeaning": "この地域は医者が不足しています。",
+    "category": "verb"
+  },
+  {
+    "id": 338,
+    "hanzi": "暂时",
+    "pinyin": "zànshí",
+    "meaning": "しばらくの間、一時的な",
+    "example": "这个商店暂时关门了。",
+    "exampleMeaning": "この店は一時的に閉まっています。",
+    "category": "adverb"
+  },
+  {
+    "id": 339,
+    "hanzi": "责任",
+    "pinyin": "zérèn",
+    "meaning": "責任",
+    "example": "每个人都应该承担自己的责任。",
+    "exampleMeaning": "誰もが自分の責任を負うべきです。",
+    "category": "noun"
+  },
+  {
+    "id": 340,
+    "hanzi": "增加",
+    "pinyin": "zēngjiā",
+    "meaning": "増加する、増やす",
+    "example": "公司决定增加员工工资。",
+    "exampleMeaning": "会社は従業員の給料を増やすことを決定しました。",
+    "category": "verb"
+  },
+  {
+    "id": 341,
+    "hanzi": "展覽",
+    "pinyin": "zhǎnlǎn",
+    "meaning": "展覧会",
+    "example": "这个画展展览很有意思。",
+    "exampleMeaning": "この絵画展覧会はとても面白いです。",
+    "category": "noun"
+  },
+  {
+    "id": 342,
+    "hanzi": "照顾",
+    "pinyin": "zhàogu",
+    "meaning": "世話をする",
+    "example": "请照顾一下我的猫。",
+    "exampleMeaning": "私の猫の世話をしてください。",
+    "category": "verb"
+  },
+  {
+    "id": 343,
+    "hanzi": "整理",
+    "pinyin": "zhěnglǐ",
+    "meaning": "整理する",
+    "example": "请整理一下你的房间。",
+    "exampleMeaning": "部屋を整理してください。",
+    "category": "verb"
+  },
+  {
+    "id": 344,
+    "hanzi": "正常",
+    "pinyin": "zhèngcháng",
+    "meaning": "正常な",
+    "example": "一切都很正常。",
+    "exampleMeaning": "すべて正常です。",
+    "category": "adjective"
+  },
+  {
+    "id": 345,
+    "hanzi": "正式",
+    "pinyin": "zhèngshì",
+    "meaning": "正式な",
+    "example": "这个合同需要正式签字。",
+    "exampleMeaning": "この契約は正式な署名が必要です。",
+    "category": "adjective"
+  },
+  {
+    "id": 346,
+    "hanzi": "正好",
+    "pinyin": "zhènghǎo",
+    "meaning": "ちょうど良い",
+    "example": "这件衣服正好合适。",
+    "exampleMeaning": "この服はちょうどぴったりです。",
+    "category": "adjective"
+  },
+  {
+    "id": 347,
+    "hanzi": "支持",
+    "pinyin": "zhīchí",
+    "meaning": "支持する",
+    "example": "感谢你的支持！",
+    "exampleMeaning": "あなたの支持に感謝します！",
+    "category": "verb"
+  },
+  {
+    "id": 348,
+    "hanzi": "值得",
+    "pinyin": "zhídé",
+    "meaning": "〜する価値がある",
+    "example": "这本书值得一读。",
+    "exampleMeaning": "この本は読む価値があります。",
+    "category": "verb"
+  },
+  {
+    "id": 349,
+    "hanzi": "质量",
+    "pinyin": "zhìliàng",
+    "meaning": "品質",
+    "example": "这个产品的质量很好。",
+    "exampleMeaning": "この製品の品質はとても良いです。",
+    "category": "noun"
+  },
+  {
+    "id": 350,
+    "hanzi": "重",
+    "pinyin": "zhòng",
+    "meaning": "重い",
+    "example": "这个箱子太重了。",
+    "exampleMeaning": "このスーツケースは重すぎます。",
+    "category": "adjective"
+  },
+  {
+    "id": 351,
+    "hanzi": "重点",
+    "pinyin": "zhòngdiǎn",
+    "meaning": "重点、ポイント",
+    "example": "考试的重点是什么？",
+    "exampleMeaning": "試験の重点は何ですか？",
+    "category": "noun"
+  },
+  {
+    "id": 352,
+    "hanzi": "重视",
+    "pinyin": "zhòngshì",
+    "meaning": "重視する",
+    "example": "公司非常重视员工的意见。",
+    "exampleMeaning": "会社は従業員の意見を非常に重視しています。",
+    "category": "verb"
+  },
+  {
+    "id": 353,
+    "hanzi": "周围",
+    "pinyin": "zhōuwéi",
+    "meaning": "周り、周囲",
+    "example": "学校周围有很多商店。",
+    "exampleMeaning": "学校の周りにはたくさんのお店があります。",
+    "category": "noun"
+  },
+  {
+    "id": 354,
+    "hanzi": "逐渐",
+    "pinyin": "zhújiàn",
+    "meaning": "次第に、だんだんと",
+    "example": "天气逐渐变冷了。",
+    "exampleMeaning": "天気がだんだん寒くなってきました。",
+    "category": "adverb"
+  },
+  {
+    "id": 355,
+    "hanzi": "主动",
+    "pinyin": "zhǔdòng",
+    "meaning": "自発的な、主動の",
+    "example": "他主动帮助我。",
+    "exampleMeaning": "彼は自発的に私を助けてくれました。",
+    "category": "adjective"
+  },
+  {
+    "id": 356,
+    "hanzi": "主意",
+    "pinyin": "zhǔyi",
+    "meaning": "アイデア、考え",
+    "example": "你有什么好主意？",
+    "exampleMeaning": "何かいいアイデアはありますか？",
+    "category": "noun"
+  },
+  {
+    "id": 357,
+    "hanzi": "祝贺",
+    "pinyin": "zhùhè",
+    "meaning": "祝う、お祝いする",
+    "example": "祝贺你通过考试！",
+    "exampleMeaning": "試験合格おめでとう！",
+    "category": "verb"
+  },
+  {
+    "id": 358,
+    "hanzi": "著名",
+    "pinyin": "zhùmíng",
+    "meaning": "著名な、有名な",
+    "example": "他是一位著名的作家。",
+    "exampleMeaning": "彼は著名な作家です。",
+    "category": "adjective"
+  },
+  {
+    "id": 359,
+    "hanzi": "专业",
+    "pinyin": "zhuānyè",
+    "meaning": "専門、専攻",
+    "example": "我的专业是经济学。",
+    "exampleMeaning": "私の専攻は経済学です。",
+    "category": "noun"
+  },
+  {
+    "id": 360,
+    "hanzi": "转",
+    "pinyin": "zhuǎn",
+    "meaning": "回す、変える",
+    "example": "请向左转。",
+    "exampleMeaning": "左に曲がってください。",
+    "category": "verb"
+  },
+  {
+    "id": 361,
+    "hanzi": "准确",
+    "pinyin": "zhǔnquè",
+    "meaning": "正確な",
+    "example": "这个数字很准确。",
+    "exampleMeaning": "この数字はとても正確です。",
+    "category": "adjective"
+  },
+  {
+    "id": 362,
+    "hanzi": "仔细",
+    "pinyin": "zǐxì",
+    "meaning": "注意深く、念入りに",
+    "example": "请仔细检查一遍。",
+    "exampleMeaning": "注意深くもう一度チェックしてください。",
+    "category": "adverb"
+  },
+  {
+    "id": 363,
+    "hanzi": "总结",
+    "pinyin": "zǒngjié",
+    "meaning": "まとめる、総括する",
+    "example": "请总结一下今天的内容。",
+    "exampleMeaning": "今日の内容をまとめてください。",
+    "category": "verb"
+  },
+  {
+    "id": 364,
+    "hanzi": "最好",
+    "pinyin": "zuìhǎo",
+    "meaning": "一番良い、最も良い",
+    "example": "你最好早点回家。",
+    "exampleMeaning": "早く家に帰ったほうがいいですよ。",
+    "category": "adverb"
+  },
+  {
+    "id": 365,
+    "hanzi": "尊重",
+    "pinyin": "zūnzhòng",
+    "meaning": "尊重する",
+    "example": "我们应该尊重老人。",
+    "exampleMeaning": "私たちはお年寄りを尊重すべきです。",
+    "category": "verb"
+  },
+  {
+    "id": 366,
+    "hanzi": "座位",
+    "pinyin": "zuòwèi",
+    "meaning": "席、座席",
+    "example": "请找自己的座位坐下。",
+    "exampleMeaning": "自分の席を見つけて座ってください。",
+    "category": "noun"
+  },
+  {
+    "id": 367,
+    "hanzi": "作家",
+    "pinyin": "zuòjiā",
+    "meaning": "作家",
+    "example": "他是一位著名的作家。",
+    "exampleMeaning": "彼は有名な作家です。",
+    "category": "noun"
+  },
+  {
+    "id": 368,
+    "hanzi": "作者",
+    "pinyin": "zuòzhě",
+    "meaning": "作者、著者",
+    "example": "这本书的作者是谁？",
+    "exampleMeaning": "この本の著者は誰ですか？",
+    "category": "noun"
+  },
+  {
+    "id": 369,
+    "hanzi": "座",
+    "pinyin": "zuò",
+    "meaning": "〜座、〜棟（量詞）",
+    "example": "前面有一座山。",
+    "exampleMeaning": "前に山が一つあります。",
+    "category": "measure"
+  },
+  {
+    "id": 370,
+    "hanzi": "密码",
+    "pinyin": "mìmǎ",
+    "meaning": "暗証番号",
+    "example": "请输入密码。",
+    "exampleMeaning": "パスワードを入力してください。",
+    "category": "noun"
+  },
+  {
+    "id": 371,
+    "hanzi": "收入",
+    "pinyin": "shōurù",
+    "meaning": "収入",
+    "example": "他的收入比以前增加了。",
+    "exampleMeaning": "彼の収入は以前より増えました。",
+    "category": "noun"
+  },
+  {
+    "id": 372,
+    "hanzi": "收拾",
+    "pinyin": "shōushi",
+    "meaning": "片付ける",
+    "example": "请收拾一下桌子。",
+    "exampleMeaning": "机を片付けてください。",
+    "category": "verb"
+  },
+  {
+    "id": 373,
+    "hanzi": "受不了",
+    "pinyin": "shòubuliǎo",
+    "meaning": "耐えられない",
+    "example": "我受不了这么热的天气。",
+    "exampleMeaning": "こんなに暑い天気には耐えられません。",
+    "category": "verb"
+  },
+  {
+    "id": 374,
+    "hanzi": "受到",
+    "pinyin": "shòudào",
+    "meaning": "受ける、受け取る",
+    "example": "他受到了大家的欢迎。",
+    "exampleMeaning": "彼はみんなの歓迎を受けました。",
+    "category": "verb"
+  },
+  {
+    "id": 375,
+    "hanzi": "售货员",
+    "pinyin": "shòuhuòyuán",
+    "meaning": "販売員、店員",
+    "example": "售货员很热情。",
+    "exampleMeaning": "販売員はとても親切です。",
+    "category": "noun"
+  },
+  {
+    "id": 376,
+    "hanzi": "熟悉",
+    "pinyin": "shúxī",
+    "meaning": "よく知っている、慣れている",
+    "example": "我对这个地方很熟悉。",
+    "exampleMeaning": "私はこの場所をよく知っています。",
+    "category": "adjective"
+  },
+  {
+    "id": 377,
+    "hanzi": "数字",
+    "pinyin": "shùzì",
+    "meaning": "数字",
+    "example": "请把这些数字加起来。",
+    "exampleMeaning": "これらの数字を足してください。",
+    "category": "noun"
+  },
+  {
+    "id": 378,
+    "hanzi": "硕士",
+    "pinyin": "shuòshì",
+    "meaning": "修士",
+    "example": "他正在读硕士。",
+    "exampleMeaning": "彼は修士課程に在学中です。",
+    "category": "noun"
+  },
+  {
+    "id": 379,
+    "hanzi": "死",
+    "pinyin": "sǐ",
+    "meaning": "死ぬ",
+    "example": "我的手机没电死机了。",
+    "exampleMeaning": "携帯の電池が切れて動かなくなりました。",
+    "category": "verb"
+  },
+  {
+    "id": 380,
+    "hanzi": "速度",
+    "pinyin": "sùdù",
+    "meaning": "速度、スピード",
+    "example": "汽车的速度太快了。",
+    "exampleMeaning": "車の速度が速すぎます。",
+    "category": "noun"
+  },
+  {
+    "id": 381,
+    "hanzi": "塑料袋",
+    "pinyin": "sùliàodài",
+    "meaning": "ビニール袋",
+    "example": "请给我一个塑料袋。",
+    "exampleMeaning": "ビニール袋を一枚ください。",
+    "category": "noun"
+  },
+  {
+    "id": 382,
+    "hanzi": "酸",
+    "pinyin": "suān",
+    "meaning": "酸っぱい",
+    "example": "这个橘子太酸了。",
+    "exampleMeaning": "このみかんは酸っぱすぎます。",
+    "category": "adjective"
+  },
+  {
+    "id": 383,
+    "hanzi": "讨厌",
+    "pinyin": "tǎoyàn",
+    "meaning": "嫌い、嫌う",
+    "example": "我讨厌下雨天。",
+    "exampleMeaning": "雨の日が嫌いです。",
+    "category": "verb"
+  },
+  {
+    "id": 384,
+    "hanzi": "特点",
+    "pinyin": "tèdiǎn",
+    "meaning": "特徴",
+    "example": "北京烤鸭有什么特点？",
+    "exampleMeaning": "北京ダックにはどんな特徴がありますか？",
+    "category": "noun"
+  },
+  {
+    "id": 385,
+    "hanzi": "提前",
+    "pinyin": "tíqián",
+    "meaning": "予定より早く",
+    "example": "请提前十分钟到。",
+    "exampleMeaning": "10分前に到着してください。",
+    "category": "adverb"
+  },
+  {
+    "id": 386,
+    "hanzi": "提醒",
+    "pinyin": "tíxǐng",
+    "meaning": "注意を促す、知らせる",
+    "example": "谢谢你提醒我。",
+    "exampleMeaning": "注意してくれてありがとう。",
+    "category": "verb"
+  },
+  {
+    "id": 387,
+    "hanzi": "填空",
+    "pinyin": "tiánkòng",
+    "meaning": "空欄を埋める",
+    "example": "请填空完成句子。",
+    "exampleMeaning": "空欄を埋めて文を完成させてください。",
+    "category": "verb"
+  },
+  {
+    "id": 388,
+    "hanzi": "条件",
+    "pinyin": "tiáojiàn",
+    "meaning": "条件",
+    "example": "这个工作条件很好。",
+    "exampleMeaning": "この仕事の条件はとても良いです。",
+    "category": "noun"
+  },
+  {
+    "id": 389,
+    "hanzi": "停",
+    "pinyin": "tíng",
+    "meaning": "止まる、止める",
+    "example": "公共汽车在这里停吗？",
+    "exampleMeaning": "バスはここに停まりますか？",
+    "category": "verb"
+  },
+  {
+    "id": 390,
+    "hanzi": "通知",
+    "pinyin": "tōngzhī",
+    "meaning": "通知する",
+    "example": "请提前通知我。",
+    "exampleMeaning": "事前に知らせてください。",
+    "category": "verb"
+  },
+  {
+    "id": 391,
+    "hanzi": "推",
+    "pinyin": "tuī",
+    "meaning": "押す",
+    "example": "请推门进去。",
+    "exampleMeaning": "ドアを押して入ってください。",
+    "category": "verb"
+  },
+  {
+    "id": 392,
+    "hanzi": "推迟",
+    "pinyin": "tuīchí",
+    "meaning": "延期する",
+    "example": "会议推迟到明天了。",
+    "exampleMeaning": "会議は明日に延期されました。",
+    "category": "verb"
+  },
+  {
+    "id": 393,
+    "hanzi": "脱",
+    "pinyin": "tuō",
+    "meaning": "脱ぐ",
+    "example": "请脱鞋。",
+    "exampleMeaning": "靴を脱いでください。",
+    "category": "verb"
+  },
+  {
+    "id": 394,
+    "hanzi": "完全",
+    "pinyin": "wánquán",
+    "meaning": "完全に",
+    "example": "我完全同意你的看法。",
+    "exampleMeaning": "私はあなたの意見に完全に同意します。",
+    "category": "adverb"
+  },
+  {
+    "id": 395,
+    "hanzi": "网站",
+    "pinyin": "wǎngzhàn",
+    "meaning": "ウェブサイト",
+    "example": "你有自己的网站吗？",
+    "exampleMeaning": "自分のウェブサイトを持っていますか？",
+    "category": "noun"
+  },
+  {
+    "id": 396,
+    "hanzi": "危险",
+    "pinyin": "wēixiǎn",
+    "meaning": "危険な",
+    "example": "这里很危险，快离开。",
+    "exampleMeaning": "ここはとても危険です、早く離れてください。",
+    "category": "adjective"
+  },
+  {
+    "id": 397,
+    "hanzi": "味道",
+    "pinyin": "wèidào",
+    "meaning": "味、風味",
+    "example": "这个菜的味道真好。",
+    "exampleMeaning": "この料理の味は本当に美味しいです。",
+    "category": "noun"
+  },
+  {
+    "id": 398,
+    "hanzi": "温度",
+    "pinyin": "wēndù",
+    "meaning": "温度",
+    "example": "今天温度很高。",
+    "exampleMeaning": "今日は温度がとても高いです。",
+    "category": "noun"
+  },
+  {
+    "id": 399,
+    "hanzi": "文章",
+    "pinyin": "wénzhāng",
+    "meaning": "文章",
+    "example": "请写一篇文章。",
+    "exampleMeaning": "文章を一つ書いてください。",
+    "category": "noun"
+  },
+  {
+    "id": 400,
+    "hanzi": "污染",
+    "pinyin": "wūrǎn",
+    "meaning": "汚染する、汚染",
+    "example": "空气污染很严重。",
+    "exampleMeaning": "大気汚染はとても深刻です。",
+    "category": "verb"
+  },
+  {
+    "id": 401,
+    "hanzi": "无",
+    "pinyin": "wú",
+    "meaning": "〜がない、無",
+    "example": "这里无信号。",
+    "exampleMeaning": "ここには信号がありません。",
+    "category": "verb"
+  },
+  {
+    "id": 402,
+    "hanzi": "无聊",
+    "pinyin": "wúliáo",
+    "meaning": "退屈な",
+    "example": "我一个人在家很无聊。",
+    "exampleMeaning": "一人で家にいるととても退屈です。",
+    "category": "adjective"
+  },
+  {
+    "id": 403,
+    "hanzi": "无论",
+    "pinyin": "wúlùn",
+    "meaning": "〜にかかわらず",
+    "example": "无论多忙，我每天都锻炼。",
+    "exampleMeaning": "どんなに忙しくても、毎日運動します。",
+    "category": "conjunction"
+  },
+  {
+    "id": 404,
+    "hanzi": "误会",
+    "pinyin": "wùhuì",
+    "meaning": "誤解する",
+    "example": "你误会我了。",
+    "exampleMeaning": "誤解していますよ。",
+    "category": "verb"
+  },
+  {
+    "id": 405,
+    "hanzi": "西红柿",
+    "pinyin": "xīhóngshì",
+    "meaning": "トマト",
+    "example": "我喜欢吃西红柿炒鸡蛋。",
+    "exampleMeaning": "トマトと卵の炒め物が好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 406,
+    "hanzi": "吸引",
+    "pinyin": "xīyǐn",
+    "meaning": "引きつける、魅了する",
+    "example": "这个故事很吸引人。",
+    "exampleMeaning": "この話はとても人を引きつけます。",
+    "category": "verb"
+  },
+  {
+    "id": 407,
+    "hanzi": "咸",
+    "pinyin": "xián",
+    "meaning": "塩辛い",
+    "example": "这个菜太咸了。",
+    "exampleMeaning": "この料理は塩辛すぎます。",
+    "category": "adjective"
+  },
+  {
+    "id": 408,
+    "hanzi": "现金",
+    "pinyin": "xiànjīn",
+    "meaning": "現金",
+    "example": "你带现金了吗？",
+    "exampleMeaning": "現金を持っていますか？",
+    "category": "noun"
+  },
+  {
+    "id": 409,
+    "hanzi": "限制",
+    "pinyin": "xiànzhì",
+    "meaning": "制限する",
+    "example": "这里限制车速。",
+    "exampleMeaning": "ここは速度制限があります。",
+    "category": "verb"
+  },
+  {
+    "id": 410,
+    "hanzi": "相同",
+    "pinyin": "xiāngtóng",
+    "meaning": "同じ、同一の",
+    "example": "我们的想法相同。",
+    "exampleMeaning": "私たちの考えは同じです。",
+    "category": "adjective"
+  },
+  {
+    "id": 411,
+    "hanzi": "香",
+    "pinyin": "xiāng",
+    "meaning": "香りがいい、美味しい",
+    "example": "这个菜真香！",
+    "exampleMeaning": "この料理は本当にいい匂い！",
+    "category": "adjective"
+  },
+  {
+    "id": 412,
+    "hanzi": "详细",
+    "pinyin": "xiángxì",
+    "meaning": "詳細な",
+    "example": "请详细说明一下。",
+    "exampleMeaning": "詳細に説明してください。",
+    "category": "adjective"
+  },
+  {
+    "id": 413,
+    "hanzi": "橡皮",
+    "pinyin": "xiàngpí",
+    "meaning": "消しゴム",
+    "example": "请借我一下橡皮。",
+    "exampleMeaning": "消しゴムを貸してください。",
+    "category": "noun"
+  },
+  {
+    "id": 414,
+    "hanzi": "消息",
+    "pinyin": "xiāoxi",
+    "meaning": "ニュース、知らせ",
+    "example": "有好消息要告诉你。",
+    "exampleMeaning": "いい知らせがあります。",
+    "category": "noun"
+  },
+  {
+    "id": 415,
+    "hanzi": "小说",
+    "pinyin": "xiǎoshuō",
+    "meaning": "小説",
+    "example": "我正在看一本中文小说。",
+    "exampleMeaning": "中国語の小説を読んでいます。",
+    "category": "noun"
+  },
+  {
+    "id": 416,
+    "hanzi": "笑话",
+    "pinyin": "xiàohua",
+    "meaning": "ジョーク、笑い話",
+    "example": "他讲了一个笑话。",
+    "exampleMeaning": "彼はジョークを一つ言いました。",
+    "category": "noun"
+  },
+  {
+    "id": 417,
+    "hanzi": "效果",
+    "pinyin": "xiàoguǒ",
+    "meaning": "効果",
+    "example": "这种药效果很好。",
+    "exampleMeaning": "この薬は効果がとても良いです。",
+    "category": "noun"
+  },
+  {
+    "id": 418,
+    "hanzi": "心情",
+    "pinyin": "xīnqíng",
+    "meaning": "気分、気持ち",
+    "example": "今天心情很好。",
+    "exampleMeaning": "今日は気分がとても良いです。",
+    "category": "noun"
+  },
+  {
+    "id": 419,
+    "hanzi": "信心",
+    "pinyin": "xìnxīn",
+    "meaning": "自信、信念",
+    "example": "我对你有信心。",
+    "exampleMeaning": "私はあなたに自信があります。",
+    "category": "noun"
+  },
+  {
+    "id": 420,
+    "hanzi": "醒",
+    "pinyin": "xǐng",
+    "meaning": "目が覚める",
+    "example": "我今天早上六点就醒了。",
+    "exampleMeaning": "今朝6時に目が覚めました。",
+    "category": "verb"
+  },
+  {
+    "id": 421,
+    "hanzi": "兴奋",
+    "pinyin": "xīngfèn",
+    "meaning": "興奮する、ワクワクする",
+    "example": "孩子们都很兴奋。",
+    "exampleMeaning": "子供たちはみんなワクワクしています。",
+    "category": "adjective"
+  },
+  {
+    "id": 422,
+    "hanzi": "行",
+    "pinyin": "xíng",
+    "meaning": "大丈夫、よろしい",
+    "example": "你这样做也行。",
+    "exampleMeaning": "そうやっても大丈夫です。",
+    "category": "adjective"
+  },
+  {
+    "id": 423,
+    "hanzi": "信封",
+    "pinyin": "xìnfēng",
+    "meaning": "封筒",
+    "example": "请把信放进信封里。",
+    "exampleMeaning": "手紙を封筒に入れてください。",
+    "category": "noun"
+  },
+  {
+    "id": 424,
+    "hanzi": "信息",
+    "pinyin": "xìnxī",
+    "meaning": "情報",
+    "example": "我需要更多的信息。",
+    "exampleMeaning": "もっと情報が必要です。",
+    "category": "noun"
+  },
+  {
+    "id": 425,
+    "hanzi": "需要",
+    "pinyin": "xūyào",
+    "meaning": "必要とする",
+    "example": "我需要你的帮助。",
+    "exampleMeaning": "あなたの助けが必要です。",
+    "category": "verb"
+  },
+  {
+    "id": 426,
+    "hanzi": "选择",
+    "pinyin": "xuǎnzé",
+    "meaning": "選択する",
+    "example": "请选择一个答案。",
+    "exampleMeaning": "答えを一つ選んでください。",
+    "category": "verb"
+  },
+  {
+    "id": 427,
+    "hanzi": "养成",
+    "pinyin": "yǎngchéng",
+    "meaning": "習慣づける、育てる",
+    "example": "要养成早起的习惯。",
+    "exampleMeaning": "早起きの習慣を身につけましょう。",
+    "category": "verb"
+  },
+  {
+    "id": 428,
+    "hanzi": "样子",
+    "pinyin": "yàngzi",
+    "meaning": "様子、格好",
+    "example": "看她高兴的样子。",
+    "exampleMeaning": "彼女の嬉しそうな様子を見てください。",
+    "category": "noun"
+  },
+  {
+    "id": 429,
+    "hanzi": "邀请",
+    "pinyin": "yāoqǐng",
+    "meaning": "招待する",
+    "example": "我邀请你参加我的生日派对。",
+    "exampleMeaning": "私の誕生日パーティーに招待します。",
+    "category": "verb"
+  },
+  {
+    "id": 430,
+    "hanzi": "要是",
+    "pinyin": "yàoshi",
+    "meaning": "もし〜ならば",
+    "example": "要是下雨，我们就别出去了。",
+    "exampleMeaning": "もし雨が降ったら、出かけないようにしましょう。",
+    "category": "conjunction"
+  },
+  {
+    "id": 431,
+    "hanzi": "叶子",
+    "pinyin": "yèzi",
+    "meaning": "葉っぱ",
+    "example": "树上的叶子变黄了。",
+    "exampleMeaning": "木の葉っぱが黄色くなりました。",
+    "category": "noun"
+  },
+  {
+    "id": 432,
+    "hanzi": "一定",
+    "pinyin": "yídìng",
+    "meaning": "必ず、絶対に",
+    "example": "我一定会努力的。",
+    "exampleMeaning": "必ず努力します。",
+    "category": "adverb"
+  },
+  {
+    "id": 433,
+    "hanzi": "一共",
+    "pinyin": "yígòng",
+    "meaning": "全部で、合計",
+    "example": "一共多少钱？",
+    "exampleMeaning": "全部でいくらですか？",
+    "category": "adverb"
+  },
+  {
+    "id": 434,
+    "hanzi": "引起",
+    "pinyin": "yǐnqǐ",
+    "meaning": "引き起こす",
+    "example": "这个问题引起了大家的注意。",
+    "exampleMeaning": "この問題はみんなの注意を引き起こしました。",
+    "category": "verb"
+  },
+  {
+    "id": 435,
+    "hanzi": "迎接",
+    "pinyin": "yíngjiē",
+    "meaning": "迎える",
+    "example": "我们去机场迎接客人。",
+    "exampleMeaning": "空港に客を迎えに行きます。",
+    "category": "verb"
+  },
+  {
+    "id": 436,
+    "hanzi": "尤其",
+    "pinyin": "yóuqí",
+    "meaning": "特に",
+    "example": "我喜欢运动，尤其是游泳。",
+    "exampleMeaning": "私はスポーツが好きです、特に水泳です。",
+    "category": "adverb"
+  },
+  {
+    "id": 437,
+    "hanzi": "由",
+    "pinyin": "yóu",
+    "meaning": "〜によって",
+    "example": "这件事由你决定。",
+    "exampleMeaning": "この件はあなたが決めてください。",
+    "category": "preposition"
+  },
+  {
+    "id": 438,
+    "hanzi": "由于",
+    "pinyin": "yóuyú",
+    "meaning": "〜のために、〜によって",
+    "example": "由于天气不好，飞机晚点了。",
+    "exampleMeaning": "天気が悪かったため、飛行機が遅れました。",
+    "category": "preposition"
+  },
+  {
+    "id": 439,
+    "hanzi": "有趣",
+    "pinyin": "yǒuqù",
+    "meaning": "面白い",
+    "example": "这个故事很有趣。",
+    "exampleMeaning": "この話はとても面白いです。",
+    "category": "adjective"
+  },
+  {
+    "id": 440,
+    "hanzi": "与",
+    "pinyin": "yǔ",
+    "meaning": "〜と（and）",
+    "example": "中国与日本是邻国。",
+    "exampleMeaning": "中国と日本は隣国です。",
+    "category": "conjunction"
+  },
+  {
+    "id": 441,
+    "hanzi": "圆",
+    "pinyin": "yuán",
+    "meaning": "丸い",
+    "example": "月亮是圆的。",
+    "exampleMeaning": "月は丸いです。",
+    "category": "adjective"
+  },
+  {
+    "id": 442,
+    "hanzi": "月份",
+    "pinyin": "yuèfèn",
+    "meaning": "月、月分",
+    "example": "现在是几月份？",
+    "exampleMeaning": "今は何月ですか？",
+    "category": "noun"
+  },
+  {
+    "id": 443,
+    "hanzi": "越来越",
+    "pinyin": "yuèláiyuè",
+    "meaning": "ますます、だんだん",
+    "example": "天气越来越热了。",
+    "exampleMeaning": "天気がますます暑くなってきました。",
+    "category": "adverb"
+  },
+  {
+    "id": 444,
+    "hanzi": "在",
+    "pinyin": "zài",
+    "meaning": "〜している（進行中）",
+    "example": "他在看书。",
+    "exampleMeaning": "彼は本を読んでいます。",
+    "category": "adverb"
+  },
+  {
+    "id": 445,
+    "hanzi": "咱们",
+    "pinyin": "zánmen",
+    "meaning": "私たち（話し手と聞き手）",
+    "example": "咱们一起去吧。",
+    "exampleMeaning": "一緒に行きましょう。",
+    "category": "pronoun"
+  },
+  {
+    "id": 446,
+    "hanzi": "脏",
+    "pinyin": "zāng",
+    "meaning": "汚い",
+    "example": "这件衣服脏了。",
+    "exampleMeaning": "この服は汚れています。",
+    "category": "adjective"
+  },
+  {
+    "id": 447,
+    "hanzi": "窄",
+    "pinyin": "zhǎi",
+    "meaning": "狭い",
+    "example": "这条路很窄。",
+    "exampleMeaning": "この道はとても狭いです。",
+    "category": "adjective"
+  },
+  {
+    "id": 448,
+    "hanzi": "招聘",
+    "pinyin": "zhāopìn",
+    "meaning": "募集する、求人する",
+    "example": "公司正在招聘新员工。",
+    "exampleMeaning": "会社は新入社員を募集しています。",
+    "category": "verb"
+  },
+  {
+    "id": 449,
+    "hanzi": "照",
+    "pinyin": "zhào",
+    "meaning": "写す、照らす",
+    "example": "请帮我照一张相。",
+    "exampleMeaning": "写真を一枚撮ってください。",
+    "category": "verb"
+  },
+  {
+    "id": 450,
+    "hanzi": "真正",
+    "pinyin": "zhēnzhèng",
+    "meaning": "真の、本当の",
+    "example": "他是我真正的朋友。",
+    "exampleMeaning": "彼は私の本当の友達です。",
+    "category": "adjective"
+  },
+  {
+    "id": 451,
+    "hanzi": "证明",
+    "pinyin": "zhèngmíng",
+    "meaning": "証明する",
+    "example": "请证明你是对的。",
+    "exampleMeaning": "あなたが正しいことを証明してください。",
+    "category": "verb"
+  },
+  {
+    "id": 452,
+    "hanzi": "知识",
+    "pinyin": "zhīshi",
+    "meaning": "知識",
+    "example": "知识就是力量。",
+    "exampleMeaning": "知識は力です。",
+    "category": "noun"
+  },
+  {
+    "id": 453,
+    "hanzi": "只要",
+    "pinyin": "zhǐyào",
+    "meaning": "〜しさえすれば",
+    "example": "只要努力，就能成功。",
+    "exampleMeaning": "努力しさえすれば、成功できます。",
+    "category": "conjunction"
+  },
+  {
+    "id": 454,
+    "hanzi": "制造",
+    "pinyin": "zhìzào",
+    "meaning": "製造する",
+    "example": "这个产品是中国制造的。",
+    "exampleMeaning": "この製品は中国製です。",
+    "category": "verb"
+  },
+  {
+    "id": 455,
+    "hanzi": "治疗",
+    "pinyin": "zhìliáo",
+    "meaning": "治療する",
+    "example": "医生正在治疗病人。",
+    "exampleMeaning": "医者は患者を治療しています。",
+    "category": "verb"
+  },
+  {
+    "id": 456,
+    "hanzi": "终点",
+    "pinyin": "zhōngdiǎn",
+    "meaning": "終点、ゴール",
+    "example": "下一站是终点站。",
+    "exampleMeaning": "次の駅は終点です。",
+    "category": "noun"
+  },
+  {
+    "id": 457,
+    "hanzi": "种",
+    "pinyin": "zhǒng",
+    "meaning": "種類、種",
+    "example": "超市里有各种水果。",
+    "exampleMeaning": "スーパーには各種の果物があります。",
+    "category": "measure"
+  },
+  {
+    "id": 458,
+    "hanzi": "主持",
+    "pinyin": "zhǔchí",
+    "meaning": "司会する、主宰する",
+    "example": "他来主持这个会议。",
+    "exampleMeaning": "彼がこの会議を司会します。",
+    "category": "verb"
+  },
+  {
+    "id": 459,
+    "hanzi": "专门",
+    "pinyin": "zhuānmén",
+    "meaning": "専門に、特に",
+    "example": "我专门为了你来的。",
+    "exampleMeaning": "私は特にあなたのために来ました。",
+    "category": "adverb"
+  },
+  {
+    "id": 460,
+    "hanzi": "赚",
+    "pinyin": "zhuàn",
+    "meaning": "稼ぐ、儲ける",
+    "example": "他一个月能赚很多钱。",
+    "exampleMeaning": "彼は一ヶ月にたくさんのお金を稼げます。",
+    "category": "verb"
+  },
+  {
+    "id": 461,
+    "hanzi": "装",
+    "pinyin": "zhuāng",
+    "meaning": "装う、詰める",
+    "example": "请把书装进书包。",
+    "exampleMeaning": "本をカバンに詰めてください。",
+    "category": "verb"
+  },
+  {
+    "id": 462,
+    "hanzi": "状况",
+    "pinyin": "zhuàngkuàng",
+    "meaning": "状況、状態",
+    "example": "经济状况不太好。",
+    "exampleMeaning": "経済状況はあまり良くありません。",
+    "category": "noun"
+  },
+  {
+    "id": 463,
+    "hanzi": "自然",
+    "pinyin": "zìrán",
+    "meaning": "自然な、自然",
+    "example": "她说中文说得很自然。",
+    "exampleMeaning": "彼女は中国語をとても自然に話します。",
+    "category": "adjective"
+  },
+  {
+    "id": 464,
+    "hanzi": "自在",
+    "pinyin": "zìzài",
+    "meaning": "自由自在な、気ままな",
+    "example": "一个人旅行很自在。",
+    "exampleMeaning": "一人旅はとても自由自在です。",
+    "category": "adjective"
+  },
+  {
+    "id": 465,
+    "hanzi": "组成",
+    "pinyin": "zǔchéng",
+    "meaning": "構成する、組み立てる",
+    "example": "这个班由二十个学生组成。",
+    "exampleMeaning": "このクラスは20人の学生で構成されています。",
+    "category": "verb"
+  },
+  {
+    "id": 466,
+    "hanzi": "作用",
+    "pinyin": "zuòyòng",
+    "meaning": "作用、働き",
+    "example": "这种药的作用很好。",
+    "exampleMeaning": "この薬の効き目はとても良いです。",
+    "category": "noun"
+  },
+  {
+    "id": 467,
+    "hanzi": "左右",
+    "pinyin": "zuǒyòu",
+    "meaning": "〜くらい、前後",
+    "example": "他大概三十岁左右。",
+    "exampleMeaning": "彼はだいたい30歳くらいです。",
+    "category": "noun"
+  },
+  {
+    "id": 468,
+    "hanzi": "准时",
+    "pinyin": "zhǔnshí",
+    "meaning": "時間通りに",
+    "example": "请准时参加。",
+    "exampleMeaning": "時間通りに参加してください。",
+    "category": "adverb"
+  },
+  {
+    "id": 469,
+    "hanzi": "竹子",
+    "pinyin": "zhúzi",
+    "meaning": "竹",
+    "example": "熊猫喜欢吃竹子。",
+    "exampleMeaning": "パンダは竹を食べるのが好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 470,
+    "hanzi": "主人",
+    "pinyin": "zhǔrén",
+    "meaning": "主人、オーナー",
+    "example": "这家店的主人很友好。",
+    "exampleMeaning": "この店の主人はとても親切です。",
+    "category": "noun"
+  },
+  {
+    "id": 471,
+    "hanzi": "祝贺",
+    "pinyin": "zhùhè",
+    "meaning": "祝う",
+    "example": "祝贺你取得好成绩！",
+    "exampleMeaning": "良い成績おめでとう！",
+    "category": "verb"
+  },
+  {
+    "id": 472,
+    "hanzi": "著名",
+    "pinyin": "zhùmíng",
+    "meaning": "有名な",
+    "example": "他是著名的科学家。",
+    "exampleMeaning": "彼は有名な科学者です。",
+    "category": "adjective"
+  },
+  {
+    "id": 473,
+    "hanzi": "专业",
+    "pinyin": "zhuānyè",
+    "meaning": "専門",
+    "example": "大学你选什么专业？",
+    "exampleMeaning": "大学ではどの専攻を選びますか？",
+    "category": "noun"
+  },
+  {
+    "id": 474,
+    "hanzi": "准确",
+    "pinyin": "zhǔnquè",
+    "meaning": "正確な",
+    "example": "这个答案很准确。",
+    "exampleMeaning": "この答えはとても正確です。",
+    "category": "adjective"
+  },
+  {
+    "id": 475,
+    "hanzi": "仔细",
+    "pinyin": "zǐxì",
+    "meaning": "注意深く",
+    "example": "仔细想想再回答。",
+    "exampleMeaning": "注意深く考えてから答えてください。",
+    "category": "adverb"
+  },
+  {
+    "id": 476,
+    "hanzi": "总结",
+    "pinyin": "zǒngjié",
+    "meaning": "まとめる",
+    "example": "请把今天的内容总结一下。",
+    "exampleMeaning": "今日の内容をまとめてください。",
+    "category": "verb"
+  },
+  {
+    "id": 477,
+    "hanzi": "祖先",
+    "pinyin": "zǔxiān",
+    "meaning": "祖先",
+    "example": "我们要尊重祖先。",
+    "exampleMeaning": "祖先を尊重しましょう。",
+    "category": "noun"
+  },
+  {
+    "id": 478,
+    "hanzi": "醉",
+    "pinyin": "zuì",
+    "meaning": "酔う",
+    "example": "他喝醉了。",
+    "exampleMeaning": "彼は酔っ払いました。",
+    "category": "adjective"
+  },
+  {
+    "id": 479,
+    "hanzi": "最好",
+    "pinyin": "zuìhǎo",
+    "meaning": "最も良い、〜した方がいい",
+    "example": "你最好多休息。",
+    "exampleMeaning": "もっと休んだ方がいいですよ。",
+    "category": "adverb"
+  },
+  {
+    "id": 480,
+    "hanzi": "作品",
+    "pinyin": "zuòpǐn",
+    "meaning": "作品",
+    "example": "这是他的最新作品。",
+    "exampleMeaning": "これは彼の最新作品です。",
+    "category": "noun"
+  },
+  {
+    "id": 481,
+    "hanzi": "作为",
+    "pinyin": "zuòwéi",
+    "meaning": "〜として",
+    "example": "作为一名学生，应该努力学习。",
+    "exampleMeaning": "学生として、しっかり勉強すべきです。",
+    "category": "preposition"
+  },
+  {
+    "id": 482,
+    "hanzi": "做梦",
+    "pinyin": "zuòmèng",
+    "meaning": "夢を見る",
+    "example": "我昨晚做了一个奇怪的梦。",
+    "exampleMeaning": "昨晩変な夢を見ました。",
+    "category": "verb"
+  },
+  {
+    "id": 483,
+    "hanzi": "重视",
+    "pinyin": "zhòngshì",
+    "meaning": "重視する",
+    "example": "政府重视环境保护。",
+    "exampleMeaning": "政府は環境保護を重視しています。",
+    "category": "verb"
+  },
+  {
+    "id": 484,
+    "hanzi": "竹子",
+    "pinyin": "zhúzi",
+    "meaning": "竹",
+    "example": "大熊猫喜欢吃竹子。",
+    "exampleMeaning": "パンダは竹を食べるのが好きです。",
+    "category": "noun"
+  },
+  {
+    "id": 485,
+    "hanzi": "转告",
+    "pinyin": "zhuǎngào",
+    "meaning": "伝言する",
+    "example": "请转告他我明天来。",
+    "exampleMeaning": "明日来ると彼に伝えてください。",
+    "category": "verb"
+  },
+  {
+    "id": 486,
+    "hanzi": "准确",
+    "pinyin": "zhǔnquè",
+    "meaning": "正確",
+    "example": "这个数据很准确。",
+    "exampleMeaning": "このデータはとても正確です。",
+    "category": "adjective"
+  },
+  {
+    "id": 487,
+    "hanzi": "资格",
+    "pinyin": "zīgé",
+    "meaning": "資格",
+    "example": "你有资格参加这个比赛。",
+    "exampleMeaning": "このコンテストに参加する資格があります。",
+    "category": "noun"
+  },
+  {
+    "id": 488,
+    "hanzi": "资金",
+    "pinyin": "zījīn",
+    "meaning": "資金",
+    "example": "这个项目需要大量资金。",
+    "exampleMeaning": "このプロジェクトには多額の資金が必要です。",
+    "category": "noun"
+  },
+  {
+    "id": 489,
+    "hanzi": "自动",
+    "pinyin": "zìdòng",
+    "meaning": "自動の",
+    "example": "这个门是自动的。",
+    "exampleMeaning": "このドアは自動です。",
+    "category": "adjective"
+  },
+  {
+    "id": 490,
+    "hanzi": "自豪",
+    "pinyin": "zìháo",
+    "meaning": "誇りに思う",
+    "example": "我为我的女儿感到自豪。",
+    "exampleMeaning": "娘を誇りに思います。",
+    "category": "adjective"
+  },
+  {
+    "id": 491,
+    "hanzi": "自己",
+    "pinyin": "zìjǐ",
+    "meaning": "自分",
+    "example": "你自己决定吧。",
+    "exampleMeaning": "自分で決めてください。",
+    "category": "pronoun"
+  },
+  {
+    "id": 492,
+    "hanzi": "自从",
+    "pinyin": "zìcóng",
+    "meaning": "〜してから",
+    "example": "自从他离开后，这里变了很多。",
+    "exampleMeaning": "彼が去ってから、ここはとても変わりました。",
+    "category": "preposition"
+  },
+  {
+    "id": 493,
+    "hanzi": "自信",
+    "pinyin": "zìxìn",
+    "meaning": "自信がある",
+    "example": "你要对自己有信心。",
+    "exampleMeaning": "自分に自信を持ってください。",
+    "category": "adjective"
+  },
+  {
+    "id": 494,
+    "hanzi": "字母",
+    "pinyin": "zìmǔ",
+    "meaning": "アルファベット、文字",
+    "example": "请用字母写你的名字。",
+    "exampleMeaning": "アルファベットで名前を書いてください。",
+    "category": "noun"
+  },
+  {
+    "id": 495,
+    "hanzi": "宗教",
+    "pinyin": "zōngjiào",
+    "meaning": "宗教",
+    "example": "每个人都有宗教自由。",
+    "exampleMeaning": "誰もが宗教の自由を持っています。",
+    "category": "noun"
+  },
+  {
+    "id": 496,
+    "hanzi": "总统",
+    "pinyin": "zǒngtǒng",
+    "meaning": "大統領",
+    "example": "美国总统访问了中国。",
+    "exampleMeaning": "アメリカ大統領が中国を訪問しました。",
+    "category": "noun"
+  },
+  {
+    "id": 497,
+    "hanzi": "总算",
+    "pinyin": "zǒngsuàn",
+    "meaning": "やっと、ようやく",
+    "example": "我总算找到了。",
+    "exampleMeaning": "やっと見つけました。",
+    "category": "adverb"
+  },
+  {
+    "id": 498,
+    "hanzi": "阻止",
+    "pinyin": "zǔzhǐ",
+    "meaning": "阻止する、止める",
+    "example": "没有人能阻止他。",
+    "exampleMeaning": "誰も彼を止められません。",
+    "category": "verb"
+  },
+  {
+    "id": 499,
+    "hanzi": "最近",
+    "pinyin": "zuìjìn",
+    "meaning": "最近",
+    "example": "最近天气很热。",
+    "exampleMeaning": "最近天気がとても暑いです。",
+    "category": "adverb"
+  },
+  {
+    "id": 500,
+    "hanzi": "座位",
+    "pinyin": "zuòwèi",
+    "meaning": "席、座席",
+    "example": "请按号入座。",
+    "exampleMeaning": "番号順に席についてください。",
+    "category": "noun"
+  }
+]
