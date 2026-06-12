@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample } from '../utils/speech'
+import { breakdownWord } from '../utils/hanziBreakdown'
 
 export function WordCard() {
   const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
   const [showExample, setShowExample] = useState(false)
+  const [showBreakdown, setShowBreakdown] = useState(false)
 
   // 単語が切り替わるたびに自動で音声を再生（設定でON/OFF切替可能）
   useEffect(() => {
@@ -24,6 +26,7 @@ export function WordCard() {
 
   const isLearned = learnedIds.has(currentWord.id)
   const isFavorited = favoriteIds.has(currentWord.id)
+  const breakdown = breakdownWord(currentWord.hanzi)
 
   return (
     <div className="word-card">
@@ -65,6 +68,39 @@ export function WordCard() {
       {settings.showMeaning && (
         <div className="meaning-display">
           {currentWord.meaning}
+        </div>
+      )}
+
+      <button
+        className="breakdown-toggle"
+        onClick={() => setShowBreakdown(!showBreakdown)}
+      >
+        {showBreakdown ? '漢字の構成を隠す ▲' : '漢字の構成を表示 ▼'}
+      </button>
+
+      {showBreakdown && (
+        <div className="breakdown-section">
+          {breakdown.map((item, i) => (
+            <div key={i} className="breakdown-item">
+              <span className="breakdown-char">{item.char}</span>
+              {item.info ? (
+                <div className="breakdown-detail">
+                  <div className="breakdown-radical">
+                    <span className="breakdown-label">部首：</span>
+                    {item.info.radical}
+                    <span className="breakdown-radical-meaning">（{item.info.radicalMeaning}）</span>
+                  </div>
+                  <div className="breakdown-components">
+                    <span className="breakdown-label">構成：</span>
+                    {item.info.components.join(' + ')}
+                  </div>
+                  <div className="breakdown-note">{item.info.note}</div>
+                </div>
+              ) : (
+                <span className="breakdown-none">— 未収録 —</span>
+              )}
+            </div>
+          ))}
         </div>
       )}
 

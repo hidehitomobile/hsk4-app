@@ -293,6 +293,98 @@ body {
   font-weight: 500;
 }
 
+/* Hanzi breakdown */
+.breakdown-toggle {
+  background: none;
+  border: 1.5px solid var(--border);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+  margin-bottom: 12px;
+}
+
+.breakdown-toggle:hover {
+  border-color: #7c4dff;
+  color: #7c4dff;
+}
+
+.breakdown-section {
+  background: #f3e5f5;
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.breakdown-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(124, 77, 255, 0.15);
+}
+
+.breakdown-item:last-child {
+  border-bottom: none;
+}
+
+.breakdown-char {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #7c4dff;
+  min-width: 48px;
+  text-align: center;
+  font-family: 'Noto Serif CJK SC', 'SimSun', 'KaiTi', serif;
+}
+
+.breakdown-detail {
+  flex: 1;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.breakdown-label {
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.breakdown-radical {
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.breakdown-radical-meaning {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
+.breakdown-components {
+  color: var(--text);
+  margin-bottom: 2px;
+  font-family: 'Noto Serif CJK SC', 'SimSun', serif;
+}
+
+.breakdown-note {
+  color: #6a1b9a;
+  font-size: 0.82rem;
+  font-style: italic;
+  margin-top: 4px;
+  padding: 6px 10px;
+  background: rgba(124, 77, 255, 0.08);
+  border-radius: 6px;
+  border-left: 3px solid #7c4dff;
+}
+
+.breakdown-none {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+
 /* Example */
 .example-toggle {
   background: none;
