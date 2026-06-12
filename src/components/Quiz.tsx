@@ -1,6 +1,8 @@
 import { useState, useMemo, useCallback } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord } from '../utils/speech'
+import { playCorrectSound, playIncorrectSound } from '../utils/sound'
+import { categoryLabel } from '../utils/category'
 
 type QuizMode = 'hanzi-to-meaning' | 'meaning-to-hanzi'
 
@@ -10,6 +12,12 @@ interface QuizState {
   total: number
   finished: boolean
   wrongIds: number[]
+}
+
+/** 1問ごとの即時フィードバック状態 */
+interface FeedbackState {
+  selectedId: number      // 選んだ選択肢のID
+  isCorrect: boolean
 }
 
 export function Quiz() {
@@ -30,6 +38,8 @@ export function Quiz() {
     wrongIds: [],
   })
 
+  const [feedback, setFeedback] = useState<FeedbackState | null>(null)
+
   // 選択肢を生成
   const getOptions = useCallback((correctWord: typeof quizWords[0]) => {
     const others = words.filter(w => w.id !== correctWord.id)
@@ -41,26 +51,44 @@ export function Quiz() {
   const currentWord = quizWords[state.currentIndex]
   const options = currentWord ? getOptions(currentWord) : []
 
-  const handleAnswer = (word: typeof quizWords[0]) => {
-    const isCorrect = word.id === currentWord.id
-    setState(prev => {
-      const nextIndex = prev.currentIndex + 1
-      const isFinished = nextIndex >= quizWords.length
-      return {
-        currentIndex: nextIndex,
-        score: prev.score + (isCorrect ? 1 : 0),
-        total: prev.total + 1,
-        finished: isFinished,
-        wrongIds: isCorrect ? prev.wrongIds : [...prev.wrongIds, currentWord.id],
-      }
-    })
+  const handleAnswer = (selectedWord: typeof quizWords[0]) => {
+    if (feedback) return // フィードバック表示中は押せない
+
+    const isCorrect = selectedWord.id === currentWord.id
+
+    // 効果音を鳴らす
     if (isCorrect) {
-      speakWord('✓', 1.0)
+      playCorrectSound()
+    } else {
+      playIncorrectSound()
     }
+
+    // 即時フィードバック表示
+    setFeedback({
+      selectedId: selectedWord.id,
+      isCorrect,
+    })
+
+    // 1.2秒後に次の問題へ
+    setTimeout(() => {
+      setFeedback(null)
+      setState(prev => {
+        const nextIndex = prev.currentIndex + 1
+        const isFinished = nextIndex >= quizWords.length
+        return {
+          currentIndex: nextIndex,
+          score: prev.score + (isCorrect ? 1 : 0),
+          total: prev.total + 1,
+          finished: isFinished,
+          wrongIds: isCorrect ? prev.wrongIds : [...prev.wrongIds, currentWord.id],
+        }
+      })
+    }, 1200)
   }
 
   const restart = () => {
     setState({ currentIndex: 0, score: 0, total: 0, finished: false, wrongIds: [] })
+    setFeedback(null)
   }
 
   if (state.finished) {
@@ -104,13 +132,13 @@ export function Quiz() {
         <div className="quiz-mode-switch">
           <button
             className={mode === 'hanzi-to-meaning' ? 'active' : ''}
-            onClick={() => setMode('hanzi-to-meaning')}
+            onClick={() => { setMode('hanzi-to-meaning'); setFeedback(null) }}
           >
             漢字 → 意味
           </button>
           <button
             className={mode === 'meaning-to-hanzi' ? 'active' : ''}
-            onClick={() => setMode('meaning-to-hanzi')}
+            onClick={() => { setMode('meaning-to-hanzi'); setFeedback(null) }}
           >
             意味 → 漢字
           </button>
@@ -122,25 +150,57 @@ export function Quiz() {
 
       <div className="quiz-question">
         {mode === 'hanzi-to-meaning' ? (
-          <div className="question-hanzi">
-            <span>{currentWord.hanzi}</span>
-            <button onClick={() => speakWord(currentWord.hanzi, settings.speechRate)}>🔊</button>
-          </div>
+          <>
+            <div className="question-hanzi">
+              <span>{currentWord.hanzi}</span>
+              <button onClick={() => speakWord(currentWord.hanzi, settings.speechRate)}>🔊</button>
+            </div>
+            <div className="question-pinyin">{currentWord.pinyin}</div>
+            <div className="question-meta">
+              <span className="quiz-category-badge">{categoryLabel(currentWord.category)}</span>
+              {currentWord.measure && (
+                <span className="quiz-measure-badge">量詞：{currentWord.measure}</span>
+              )}
+            </div>
+          </>
         ) : (
           <div className="question-meaning">{currentWord.meaning}</div>
         )}
       </div>
 
       <div className="quiz-options">
-        {options.map((opt) => (
-          <button
-            key={opt.id}
-            className="quiz-option"
-            onClick={() => handleAnswer(opt)}
-          >
-            {mode === 'hanzi-to-meaning' ? opt.meaning : opt.hanzi}
-          </button>
-        ))}
+        {options.map((opt) => {
+          const isSelected = feedback?.selectedId === opt.id
+          const isCorrectOption = opt.id === currentWord.id
+          let optionClass = 'quiz-option'
+          if (feedback) {
+            if (isSelected && feedback.isCorrect) {
+              optionClass += ' correct'
+            } else if (isSelected && !feedback.isCorrect) {
+              optionClass += ' incorrect'
+            } else if (isCorrectOption) {
+              optionClass += ' highlight-correct'
+            }
+          }
+
+          return (
+            <button
+              key={opt.id}
+              className={optionClass}
+              onClick={() => handleAnswer(opt)}
+              disabled={!!feedback}
+            >
+              <span className="option-text">
+                {mode === 'hanzi-to-meaning' ? opt.meaning : opt.hanzi}
+              </span>
+              {feedback && isSelected && (
+                <span className="option-result-icon">
+                  {feedback.isCorrect ? '✅' : '❌'}
+                </span>
+              )}
+            </button>
+          )
+        })}
       </div>
     </div>
   )

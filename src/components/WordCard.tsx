@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
+import { PronunciationCheck } from './PronunciationCheck'
+import { categoryLabel } from '../utils/category'
 
 export function WordCard() {
   const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
@@ -40,9 +42,15 @@ export function WordCard() {
   return (
     <div className="word-card">
       <div className="card-header">
-        <span className="word-number">
-          {currentIndex + 1} / {filteredWords.length}
-        </span>
+        <div className="card-header-left">
+          <span className="word-number">
+            {currentIndex + 1} / {filteredWords.length}
+          </span>
+          <span className="word-category">{categoryLabel(currentWord.category)}</span>
+          {currentWord.measure && (
+            <span className="word-measure">量詞：{currentWord.measure}</span>
+          )}
+        </div>
         <div className="card-actions">
           <button
             className={`icon-btn favorite ${isFavorited ? 'active' : ''}`}
@@ -113,6 +121,11 @@ export function WordCard() {
           ))}
         </div>
       )}
+
+      <PronunciationCheck
+        correctHanzi={currentWord.hanzi}
+        correctPinyin={currentWord.pinyin}
+      />
 
       <button
         className="example-toggle"

@@ -208,9 +208,33 @@ body {
   margin-bottom: 20px;
 }
 
+.card-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .word-number {
   font-size: 0.85rem;
   color: var(--text-secondary);
+}
+
+.word-category {
+  font-size: 0.7rem;
+  color: #5f6368;
+  background: #f1f3f4;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+
+.word-measure {
+  font-size: 0.7rem;
+  color: #5f6368;
+  background: #f1f3f4;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 2px 8px;
 }
 
 .card-actions {
@@ -521,6 +545,29 @@ body {
 .list-hanzi {
   font-size: 1.15rem;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.list-category {
+  font-size: 0.58rem;
+  font-weight: 600;
+  color: #5f6368;
+  background: #e8eaed;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 1px 6px;
+}
+
+.list-measure {
+  font-size: 0.58rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: #e8f0fe;
+  border: 1px solid #d2e3fc;
+  border-radius: 8px;
+  padding: 1px 6px;
 }
 
 .list-pinyin {
@@ -636,6 +683,42 @@ body {
   color: var(--text);
 }
 
+.question-pinyin {
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.question-meta {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.quiz-category-badge {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #5f6368;
+  background: #e8eaed;
+  border: 1px solid #dadce0;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.quiz-measure-badge {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--success);
+  background: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
 .quiz-options {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -651,15 +734,50 @@ body {
   cursor: pointer;
   transition: all 0.15s;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
-.quiz-option:hover {
+.quiz-option:hover:not(:disabled) {
   border-color: var(--primary);
   background: #e8f0fe;
 }
 
-.quiz-option:active {
+.quiz-option:active:not(:disabled) {
   transform: scale(0.98);
+}
+
+.quiz-option:disabled {
+  cursor: default;
+}
+
+/* フィードバック状態 */
+.quiz-option.correct {
+  border-color: var(--success);
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.quiz-option.incorrect {
+  border-color: var(--accent);
+  background: #fef0ef;
+  color: #c62828;
+}
+
+.quiz-option.highlight-correct {
+  border-color: var(--success);
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.option-text {
+  flex: 1;
+}
+
+.option-result-icon {
+  font-size: 1.1rem;
 }
 
 /* Quiz result */
@@ -785,6 +903,207 @@ body {
   padding: 48px 16px;
   color: var(--text-secondary);
   font-size: 1.1rem;
+}
+
+/* Pronunciation check */
+.pronunciation-check {
+  margin-bottom: 12px;
+}
+
+.pronunciation-unsupported {
+  background: #fff3e0;
+  border: 1px solid #ffe0b2;
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  font-size: 0.85rem;
+  color: #e65100;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.pronunciation-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid var(--primary);
+  border-radius: var(--radius-sm);
+  background: var(--card-bg);
+  color: var(--primary);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pronunciation-btn:hover {
+  background: #e8f0fe;
+}
+
+.pronunciation-btn.recording {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  animation: pulse-recording 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-recording {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(234, 67, 53, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(234, 67, 53, 0); }
+}
+
+.pronunciation-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.pronunciation-btn-icon {
+  font-size: 1.2rem;
+}
+
+.pronunciation-btn-text {
+  font-size: 0.95rem;
+}
+
+/* Interim result */
+.pronunciation-interim {
+  margin-top: 8px;
+  padding: 10px 14px;
+  background: #f0f4ff;
+  border: 1px solid #c5d3f0;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.interim-label {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.interim-text {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+/* Result */
+.pronunciation-result {
+  margin-top: 8px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1.5px solid var(--border);
+}
+
+.pronunciation-result.correct {
+  border-color: var(--success);
+  background: #e8f5e9;
+}
+
+.pronunciation-result.incorrect {
+  border-color: var(--accent);
+  background: #fef0ef;
+}
+
+.result-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  font-weight: 700;
+}
+
+.result-icon {
+  font-size: 0.95rem;
+}
+
+.pronunciation-result.correct .result-icon {
+  color: #2e7d32;
+}
+
+.pronunciation-result.incorrect .result-icon {
+  color: #c62828;
+}
+
+.result-confidence {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.result-details {
+  padding: 0 14px 12px;
+}
+
+.result-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.result-label {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  min-width: 90px;
+}
+
+.result-value {
+  font-weight: 600;
+}
+
+.result-value.your {
+  font-size: 1.2rem;
+  font-family: 'Noto Serif CJK SC', 'SimSun', serif;
+}
+
+.result-value.pinyin {
+  font-size: 0.95rem;
+}
+
+.result-value.pinyin.match {
+  color: #2e7d32;
+}
+
+.result-value.pinyin.mismatch {
+  color: #c62828;
+}
+
+.result-row.correct-row {
+  padding-top: 10px;
+  border-top: 1px dashed rgba(0,0,0,0.1);
+  margin-top: 4px;
+}
+
+.result-value.correct {
+  font-size: 1.15rem;
+  font-family: 'Noto Serif CJK SC', 'SimSun', serif;
+  color: #2e7d32;
+}
+
+.correct-pinyin {
+  color: var(--primary);
+  font-weight: 500;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.95rem;
+}
+
+/* Error */
+.pronunciation-error {
+  margin-top: 8px;
+  padding: 10px 14px;
+  background: #fff3e0;
+  border: 1px solid #ffe0b2;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  color: #e65100;
 }
 
 /* Learn page */

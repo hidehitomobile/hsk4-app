@@ -1,5 +1,6 @@
 import { useWords } from '../context/WordContext'
 import { speakWord } from '../utils/speech'
+import { categoryLabel } from '../utils/category'
 
 export function WordList() {
   const { filteredWords, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex } = useWords()
@@ -17,7 +18,11 @@ export function WordList() {
         return (
           <div key={word.id} className={`list-item ${isLearned ? 'learned' : ''}`}>
             <div className="list-main" onClick={() => setCurrentIndex(idx)}>
-              <div className="list-hanzi">{word.hanzi}</div>
+              <div className="list-hanzi">
+                {word.hanzi}
+                <span className="list-category">{categoryLabel(word.category)}</span>
+                {word.measure && <span className="list-measure">{word.measure}</span>}
+              </div>
               <div className="list-pinyin">{word.pinyin}</div>
               <div className="list-meaning">{word.meaning}</div>
             </div>

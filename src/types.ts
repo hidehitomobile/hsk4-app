@@ -5,6 +5,7 @@ export interface Word {
   meaning: string
   example: string
   exampleMeaning: string
+  measure?: string
 }
 
 export type Category = 'noun' | 'verb' | 'adjective' | 'adverb' | 'conjunction' | 'preposition' | 'measure' | 'pronoun' | 'numeral' | 'particle' | 'other'

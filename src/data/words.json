@@ -6,7 +6,8 @@
     "meaning": "愛情",
     "example": "他们的爱情故事很感人。",
     "exampleMeaning": "彼らの愛情物語はとても感動的です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "段"
   },
   {
     "id": 2,
@@ -69,7 +70,8 @@
     "meaning": "包子（中華まん）",
     "example": "我每天早上吃两个包子。",
     "exampleMeaning": "私は毎朝包子を二つ食べます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 9,
@@ -159,7 +161,8 @@
     "meaning": "ノートパソコン、手帳",
     "example": "我买了一台新笔记本。",
     "exampleMeaning": "私は新しいノートパソコンを買いました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 19,
@@ -186,7 +189,8 @@
     "meaning": "標準、基準",
     "example": "这个产品不符合安全标准。",
     "exampleMeaning": "この製品は安全基準に適合していません。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 22,
@@ -195,7 +199,8 @@
     "meaning": "表、フォーム",
     "example": "请填写这张表格。",
     "exampleMeaning": "このフォームにご記入ください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "张"
   },
   {
     "id": 23,
@@ -231,7 +236,8 @@
     "meaning": "ビスケット、クッキー",
     "example": "我喜欢吃巧克力饼干。",
     "exampleMeaning": "私はチョコレートビスケットを食べるのが好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 27,
@@ -249,7 +255,8 @@
     "meaning": "博士",
     "example": "他是计算机科学的博士。",
     "exampleMeaning": "彼はコンピューターサイエンスの博士です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 29,
@@ -294,7 +301,8 @@
     "meaning": "部分",
     "example": "大部分学生都通过了考试。",
     "exampleMeaning": "大部分の学生が試験に合格しました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 34,
@@ -321,7 +329,8 @@
     "meaning": "材料、資料",
     "example": "我们需要准备一些学习材料。",
     "exampleMeaning": "私たちはいくつかの学習資料を準備する必要があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "份"
   },
   {
     "id": 37,
@@ -339,7 +348,8 @@
     "meaning": "食堂、レストラン",
     "example": "公司的餐厅很大。",
     "exampleMeaning": "会社の食堂はとても大きいです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "家"
   },
   {
     "id": 39,
@@ -348,7 +358,8 @@
     "meaning": "トイレ",
     "example": "请问厕所在哪里？",
     "exampleMeaning": "トイレはどこですか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 40,
@@ -375,7 +386,8 @@
     "meaning": "万里の長城",
     "example": "长城是中国的象征之一。",
     "exampleMeaning": "万里の長城は中国のシンボルの一つです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 43,
@@ -420,7 +432,8 @@
     "meaning": "都市、都会",
     "example": "北京是一个大城市。",
     "exampleMeaning": "北京は大きな都市です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "座"
   },
   {
     "id": 48,
@@ -483,7 +496,8 @@
     "meaning": "窓",
     "example": "请打开窗户，房间里太热了。",
     "exampleMeaning": "窓を開けてください、部屋が暑すぎます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 55,
@@ -492,7 +506,8 @@
     "meaning": "ファックス",
     "example": "请把文件用传真发给我。",
     "exampleMeaning": "書類をファックスで送ってください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "份"
   },
   {
     "id": 56,
@@ -501,7 +516,8 @@
     "meaning": "辞書",
     "example": "我买了一本汉日词典。",
     "exampleMeaning": "私は中日辞書を一冊買いました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "本"
   },
   {
     "id": 58,
@@ -537,7 +553,8 @@
     "meaning": "答え、解答",
     "example": "你知道这道题的答案吗？",
     "exampleMeaning": "この問題の答えを知っていますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 62,
@@ -582,7 +599,8 @@
     "meaning": "大使館",
     "example": "我去日本大使馆办签证。",
     "exampleMeaning": "私は日本大使館にビザの手続きに行きます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 67,
@@ -627,7 +645,8 @@
     "meaning": "ナイフ、刀",
     "example": "请给我一把刀。",
     "exampleMeaning": "ナイフを一つください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "把"
   },
   {
     "id": 72,
@@ -690,7 +709,8 @@
     "meaning": "地球",
     "example": "地球是我们的家。",
     "exampleMeaning": "地球は私たちの家です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 79,
@@ -699,7 +719,8 @@
     "meaning": "住所",
     "example": "请告诉我你的地址。",
     "exampleMeaning": "あなたの住所を教えてください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 80,
@@ -726,7 +747,8 @@
     "meaning": "動作",
     "example": "这个舞蹈的动作很优美。",
     "exampleMeaning": "このダンスの動作はとても優雅です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 83,
@@ -744,7 +766,8 @@
     "meaning": "お腹",
     "example": "我肚子饿了。",
     "exampleMeaning": "お腹が空きました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 85,
@@ -753,7 +776,8 @@
     "meaning": "ショートメッセージ",
     "example": "我给你发了一条短信。",
     "exampleMeaning": "あなたにショートメッセージを送りました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "条"
   },
   {
     "id": 86,
@@ -762,7 +786,8 @@
     "meaning": "対話、会話",
     "example": "请跟你的同伴进行对话练习。",
     "exampleMeaning": "パートナーと会話の練習をしてください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 87,
@@ -780,7 +805,8 @@
     "meaning": "児童、子供",
     "example": "这本书适合儿童阅读。",
     "exampleMeaning": "この本は児童の読書に適しています。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 89,
@@ -789,7 +815,8 @@
     "meaning": "法律",
     "example": "每个人都应该遵守法律。",
     "exampleMeaning": "誰もが法律を守るべきです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "条"
   },
   {
     "id": 90,
@@ -807,7 +834,8 @@
     "meaning": "悩み、心配事",
     "example": "你不要为这点小事烦恼。",
     "exampleMeaning": "こんな小さなことで悩まないでください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 92,
@@ -825,7 +853,8 @@
     "meaning": "方法",
     "example": "你有什么好方法吗？",
     "exampleMeaning": "何かいい方法がありますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 94,
@@ -834,7 +863,8 @@
     "meaning": "方面、分野",
     "example": "他在很多方面都做得很好。",
     "exampleMeaning": "彼は多くの面でよくやっています。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 95,
@@ -843,7 +873,8 @@
     "meaning": "方向",
     "example": "你朝这个方向走就能到。",
     "exampleMeaning": "この方向に歩けば着きます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 96,
@@ -897,7 +928,8 @@
     "meaning": "父親",
     "example": "我的父亲是一名医生。",
     "exampleMeaning": "私の父は医者です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "位"
   },
   {
     "id": 102,
@@ -951,7 +983,8 @@
     "meaning": "感情",
     "example": "他们之间的感情很好。",
     "exampleMeaning": "彼らの間の感情はとても良いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 108,
@@ -996,7 +1029,8 @@
     "meaning": "高速道路",
     "example": "我们走高速公路去机场。",
     "exampleMeaning": "高速道路で空港に行きます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "条"
   },
   {
     "id": 113,
@@ -1077,7 +1111,8 @@
     "meaning": "肝心な点、鍵",
     "example": "成功的关键是坚持。",
     "exampleMeaning": "成功の鍵は継続することです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "把"
   },
   {
     "id": 123,
@@ -1086,7 +1121,8 @@
     "meaning": "観客、視聴者",
     "example": "观众们热烈鼓掌。",
     "exampleMeaning": "観客たちは熱烈に拍手しました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 124,
@@ -1113,7 +1149,8 @@
     "meaning": "広告",
     "example": "我在网上看到了这个广告。",
     "exampleMeaning": "ネットでこの広告を見ました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 127,
@@ -1122,7 +1159,8 @@
     "meaning": "国籍",
     "example": "请问你的国籍是什么？",
     "exampleMeaning": "あなたの国籍は何ですか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 128,
@@ -1131,7 +1169,8 @@
     "meaning": "ジュース",
     "example": "我要一杯果汁。",
     "exampleMeaning": "ジュースを一杯ください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 129,
@@ -1140,7 +1179,8 @@
     "meaning": "過程、プロセス",
     "example": "学习的过程很重要。",
     "exampleMeaning": "学習の過程はとても重要です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 130,
@@ -1158,7 +1198,8 @@
     "meaning": "冬休み",
     "example": "寒假我们打算去滑雪。",
     "exampleMeaning": "冬休みに私たちはスキーに行く予定です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 132,
@@ -1167,7 +1208,8 @@
     "meaning": "汗",
     "example": "天太热了，我出了很多汗。",
     "exampleMeaning": "天気が暑すぎて、たくさん汗をかきました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "滴"
   },
   {
     "id": 133,
@@ -1176,7 +1218,8 @@
     "meaning": "フライト、航空便",
     "example": "我的航班延误了。",
     "exampleMeaning": "私のフライトが遅延しました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 134,
@@ -1185,7 +1228,8 @@
     "meaning": "利点、メリット",
     "example": "运动对身体有很多好处。",
     "exampleMeaning": "運動は体に多くのメリットがあります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 135,
@@ -1203,7 +1247,8 @@
     "meaning": "番号",
     "example": "请告诉我你的电话号码。",
     "exampleMeaning": "あなたの電話番号を教えてください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 137,
@@ -1230,7 +1275,8 @@
     "meaning": "箱、ボックス",
     "example": "这个盒子里面是什么？",
     "exampleMeaning": "この箱の中は何ですか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 140,
@@ -1257,7 +1303,8 @@
     "meaning": "インターネット",
     "example": "互联网改变了我们的生活。",
     "exampleMeaning": "インターネットは私たちの生活を変えました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 143,
@@ -1275,7 +1322,8 @@
     "meaning": "看護師",
     "example": "她是医院的护士。",
     "exampleMeaning": "彼女は病院の看護師です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 145,
@@ -1293,7 +1341,8 @@
     "meaning": "思い出、回想する",
     "example": "这些照片让我想起了很多回忆。",
     "exampleMeaning": "これらの写真は多くの思い出を思い起こさせます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 147,
@@ -1311,7 +1360,8 @@
     "meaning": "火",
     "example": "小心，有火！",
     "exampleMeaning": "気をつけて、火があります！",
-    "category": "noun"
+    "category": "noun",
+    "measure": "场"
   },
   {
     "id": 149,
@@ -1347,7 +1397,8 @@
     "meaning": "基礎、基本",
     "example": "打好基础很重要。",
     "exampleMeaning": "基礎をしっかり固めることがとても重要です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "本"
   },
   {
     "id": 153,
@@ -1383,7 +1434,8 @@
     "meaning": "計画する、計画",
     "example": "你有什么计划？",
     "exampleMeaning": "何か計画がありますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 157,
@@ -1401,7 +1453,8 @@
     "meaning": "記者",
     "example": "他是一名新闻记者。",
     "exampleMeaning": "彼は新聞記者です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "名"
   },
   {
     "id": 159,
@@ -1410,7 +1463,8 @@
     "meaning": "技術",
     "example": "信息技术发展很快。",
     "exampleMeaning": "情報技術の発展はとても速いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 160,
@@ -1437,7 +1491,8 @@
     "meaning": "家具",
     "example": "新房子需要买一些家具。",
     "exampleMeaning": "新しい家には家具を買う必要があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "套"
   },
   {
     "id": 163,
@@ -1455,7 +1510,8 @@
     "meaning": "価格、値段",
     "example": "这家店的商品价格很便宜。",
     "exampleMeaning": "この店の商品の価格はとても安いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 165,
@@ -1500,7 +1556,8 @@
     "meaning": "将来",
     "example": "你将来的计划是什么？",
     "exampleMeaning": "将来の計画は何ですか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 170,
@@ -1509,7 +1566,8 @@
     "meaning": "ボーナス、賞金",
     "example": "今年我们公司发了奖金。",
     "exampleMeaning": "今年、私たちの会社はボーナスを支給しました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 171,
@@ -1527,7 +1585,8 @@
     "meaning": "交通",
     "example": "北京的交通很堵。",
     "exampleMeaning": "北京の交通はとても渋滞しています。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 173,
@@ -1554,7 +1613,8 @@
     "meaning": "郊外",
     "example": "我住在北京的郊区。",
     "exampleMeaning": "私は北京の郊外に住んでいます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 176,
@@ -1563,7 +1623,8 @@
     "meaning": "餃子",
     "example": "我最喜欢吃饺子。",
     "exampleMeaning": "私は餃子が一番好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 177,
@@ -1572,7 +1633,8 @@
     "meaning": "教授",
     "example": "王教授是我们的中文老师。",
     "exampleMeaning": "王教授は私たちの中国語の先生です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "位"
   },
   {
     "id": 178,
@@ -1581,7 +1643,8 @@
     "meaning": "教育",
     "example": "教育是国家发展的基础。",
     "exampleMeaning": "教育は国家発展の基礎です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 179,
@@ -1599,7 +1662,8 @@
     "meaning": "結果",
     "example": "考试结果什么时候出来？",
     "exampleMeaning": "試験結果はいつ出ますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 181,
@@ -1662,7 +1726,8 @@
     "meaning": "経済",
     "example": "中国的经济增长很快。",
     "exampleMeaning": "中国の経済成長はとても速いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 188,
@@ -1689,7 +1754,8 @@
     "meaning": "鏡",
     "example": "她每天都要照镜子。",
     "exampleMeaning": "彼女は毎日鏡を見ます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 191,
@@ -1707,7 +1773,8 @@
     "meaning": "集まり、パーティー",
     "example": "周末我们有个同学聚会。",
     "exampleMeaning": "週末に同窓会があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 193,
@@ -1725,7 +1792,8 @@
     "meaning": "距離",
     "example": "从家到公司距离很远。",
     "exampleMeaning": "家から会社まで距離がとても遠いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 195,
@@ -1743,7 +1811,8 @@
     "meaning": "見方、考え方",
     "example": "你对这件事有什么看法？",
     "exampleMeaning": "この件についてどう思いますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 197,
@@ -1761,7 +1830,8 @@
     "meaning": "北京ダック",
     "example": "北京烤鸭很有名。",
     "exampleMeaning": "北京ダックはとても有名です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 199,
@@ -1815,7 +1885,8 @@
     "meaning": "空気",
     "example": "这里的空气很新鲜。",
     "exampleMeaning": "ここの空気はとても新鮮です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 205,
@@ -1842,7 +1913,8 @@
     "meaning": "ミネラルウォーター",
     "example": "我要一瓶矿泉水。",
     "exampleMeaning": "ミネラルウォーターを一本ください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "瓶"
   },
   {
     "id": 208,
@@ -1869,7 +1941,8 @@
     "meaning": "ゴミ箱",
     "example": "请把废纸扔进垃圾桶。",
     "exampleMeaning": "紙くずをゴミ箱に捨ててください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 211,
@@ -1905,7 +1978,8 @@
     "meaning": "虎",
     "example": "动物园里有两只老虎。",
     "exampleMeaning": "動物園に虎が二匹います。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "只"
   },
   {
     "id": 215,
@@ -1932,7 +2006,8 @@
     "meaning": "力、体力",
     "example": "他力气很大。",
     "exampleMeaning": "彼は力がとても強いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 218,
@@ -1968,7 +2043,8 @@
     "meaning": "顔",
     "example": "你的脸很红。",
     "exampleMeaning": "顔がとても赤いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "张"
   },
   {
     "id": 222,
@@ -1986,7 +2062,8 @@
     "meaning": "小銭",
     "example": "我没有零钱。",
     "exampleMeaning": "小銭を持っていません。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "些"
   },
   {
     "id": 224,
@@ -2022,7 +2099,8 @@
     "meaning": "弁護士",
     "example": "他想成为一名律师。",
     "exampleMeaning": "彼は弁護士になりたいと思っています。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 228,
@@ -2049,7 +2127,8 @@
     "meaning": "毛、1角（貨幣単位）",
     "example": "这只猫的毛很软。",
     "exampleMeaning": "この猫の毛はとても柔らかいです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "毛"
   },
   {
     "id": 231,
@@ -2058,7 +2137,8 @@
     "meaning": "タオル",
     "example": "请给我一条毛巾。",
     "exampleMeaning": "タオルを一枚ください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "条"
   },
   {
     "id": 232,
@@ -2076,7 +2156,8 @@
     "meaning": "夢",
     "example": "我昨天做了一个好梦。",
     "exampleMeaning": "昨日いい夢を見ました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "场"
   },
   {
     "id": 234,
@@ -2094,7 +2175,8 @@
     "meaning": "パスワード",
     "example": "我忘记了这个网站的密码。",
     "exampleMeaning": "このサイトのパスワードを忘れました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 236,
@@ -2112,7 +2194,8 @@
     "meaning": "民族",
     "example": "中国有56个民族。",
     "exampleMeaning": "中国には56の民族があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 238,
@@ -2121,7 +2204,8 @@
     "meaning": "母親",
     "example": "我的母亲是老师。",
     "exampleMeaning": "私の母は先生です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "位"
   },
   {
     "id": 239,
@@ -2130,7 +2214,8 @@
     "meaning": "目的",
     "example": "学习的目的是提高自己。",
     "exampleMeaning": "学習の目的は自分を向上させることです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 240,
@@ -2166,7 +2251,8 @@
     "meaning": "〜以内、内側",
     "example": "一个星期内完成工作。",
     "exampleMeaning": "一週間以内に仕事を終えます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 244,
@@ -2175,7 +2261,8 @@
     "meaning": "能力",
     "example": "他有很强的学习能力。",
     "exampleMeaning": "彼はとても強い学習能力を持っています。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 245,
@@ -2184,7 +2271,8 @@
     "meaning": "年齢",
     "example": "你的年龄是多少？",
     "exampleMeaning": "あなたの年齢はいくつですか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 246,
@@ -2274,7 +2362,8 @@
     "meaning": "皮膚",
     "example": "她的皮肤很好。",
     "exampleMeaning": "彼女の肌はとてもきれいです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 256,
@@ -2301,7 +2390,8 @@
     "meaning": "卓球",
     "example": "中国人很喜欢打乒乓球。",
     "exampleMeaning": "中国人は卓球をするのがとても好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 259,
@@ -2328,7 +2418,8 @@
     "meaning": "ブドウ",
     "example": "我喜欢吃葡萄。",
     "exampleMeaning": "私はブドウを食べるのが好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 262,
@@ -2364,7 +2455,8 @@
     "meaning": "気候",
     "example": "日本的气候很温和。",
     "exampleMeaning": "日本の気候はとても温暖です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 266,
@@ -2382,7 +2474,8 @@
     "meaning": "ビザ",
     "example": "我要申请中国的签证。",
     "exampleMeaning": "中国のビザを申請します。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 268,
@@ -2400,7 +2493,8 @@
     "meaning": "橋",
     "example": "这座桥很长。",
     "exampleMeaning": "この橋はとても長いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "座"
   },
   {
     "id": 270,
@@ -2409,7 +2503,8 @@
     "meaning": "チョコレート",
     "example": "女孩子都喜欢吃巧克力。",
     "exampleMeaning": "女の子はみんなチョコレートを食べるのが好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "块"
   },
   {
     "id": 271,
@@ -2418,7 +2513,8 @@
     "meaning": "親戚",
     "example": "春节我们去拜访亲戚。",
     "exampleMeaning": "春節には親戚を訪問します。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "位"
   },
   {
     "id": 272,
@@ -2445,7 +2541,8 @@
     "meaning": "状況",
     "example": "请告诉我现在的情况。",
     "exampleMeaning": "今の状況を教えてください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 275,
@@ -2454,7 +2551,8 @@
     "meaning": "区別、違い",
     "example": "这两个词有什么区别？",
     "exampleMeaning": "この二つの単語はどう違いますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 276,
@@ -2481,7 +2579,8 @@
     "meaning": "欠点",
     "example": "每个人都有自己的缺点。",
     "exampleMeaning": "誰にでも自分の欠点があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 279,
@@ -2553,7 +2652,8 @@
     "meaning": "日記",
     "example": "我每天都写日记。",
     "exampleMeaning": "私は毎日日記を書きます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "本"
   },
   {
     "id": 287,
@@ -2562,7 +2662,8 @@
     "meaning": "入口",
     "example": "入口在那边。",
     "exampleMeaning": "入口はあちらです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 288,
@@ -2580,7 +2681,8 @@
     "meaning": "森林",
     "example": "这片森林很美。",
     "exampleMeaning": "この森林はとても美しいです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "片"
   },
   {
     "id": 290,
@@ -2589,7 +2691,8 @@
     "meaning": "ソファー",
     "example": "我坐在沙发上看电视。",
     "exampleMeaning": "ソファーに座ってテレビを見ます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 291,
@@ -2607,7 +2710,8 @@
     "meaning": "社会",
     "example": "每个人都生活在社会中。",
     "exampleMeaning": "誰もが社会の中で生きています。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 293,
@@ -2634,7 +2738,8 @@
     "meaning": "生活、暮らす",
     "example": "我很喜欢这里的生活。",
     "exampleMeaning": "ここの生活がとても好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 296,
@@ -2643,7 +2748,8 @@
     "meaning": "性別",
     "example": "请在表格上填写你的性别。",
     "exampleMeaning": "用紙に性別を記入してください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 297,
@@ -2652,7 +2758,8 @@
     "meaning": "性格",
     "example": "她的性格很开朗。",
     "exampleMeaning": "彼女の性格はとても明るいです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 298,
@@ -2688,7 +2795,8 @@
     "meaning": "学期",
     "example": "这个学期我学中文。",
     "exampleMeaning": "今学期は中国語を勉強します。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 302,
@@ -2697,7 +2805,8 @@
     "meaning": "プレッシャー、圧力",
     "example": "工作压力太大了。",
     "exampleMeaning": "仕事のプレッシャーが大きすぎます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 303,
@@ -2706,7 +2815,8 @@
     "meaning": "歯磨き粉",
     "example": "我买了一支牙膏。",
     "exampleMeaning": "歯磨き粉を一本買いました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 304,
@@ -2733,7 +2843,8 @@
     "meaning": "上演する、公演",
     "example": "今晚有京剧演出。",
     "exampleMeaning": "今晩は京劇の公演があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "场"
   },
   {
     "id": 307,
@@ -2742,7 +2853,8 @@
     "meaning": "眼鏡",
     "example": "我戴眼镜。",
     "exampleMeaning": "私は眼鏡をかけています。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 308,
@@ -2760,7 +2872,8 @@
     "meaning": "鍵",
     "example": "我把钥匙忘在家里了。",
     "exampleMeaning": "鍵を家に忘れました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "把"
   },
   {
     "id": 310,
@@ -2796,7 +2909,8 @@
     "meaning": "芸術",
     "example": "我对艺术很感兴趣。",
     "exampleMeaning": "私は芸術にとても興味があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 314,
@@ -2814,7 +2928,8 @@
     "meaning": "印象",
     "example": "北京给我留下了很深的印象。",
     "exampleMeaning": "北京は私に深い印象を残しました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 316,
@@ -2850,7 +2965,8 @@
     "meaning": "長所、利点",
     "example": "这个计划有很多优点。",
     "exampleMeaning": "この計画には多くの利点があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 320,
@@ -2886,7 +3002,8 @@
     "meaning": "友情",
     "example": "我们的友谊永远不会变。",
     "exampleMeaning": "私たちの友情は永遠に変わりません。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 324,
@@ -2913,7 +3030,8 @@
     "meaning": "バドミントン",
     "example": "周末我们一起去打羽毛球吧。",
     "exampleMeaning": "週末に一緒にバドミントンをしましょう。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 327,
@@ -2922,7 +3040,8 @@
     "meaning": "文法",
     "example": "中文语法不太难。",
     "exampleMeaning": "中国語の文法はあまり難しくありません。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 328,
@@ -2931,7 +3050,8 @@
     "meaning": "言語",
     "example": "学习一种新语言很有趣。",
     "exampleMeaning": "新しい言語を学ぶのはとても面白いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 329,
@@ -2958,7 +3078,8 @@
     "meaning": "原因",
     "example": "你知道这件事的原因吗？",
     "exampleMeaning": "この件の原因を知っていますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 332,
@@ -2985,7 +3106,8 @@
     "meaning": "雲",
     "example": "天上有很多云。",
     "exampleMeaning": "空に雲がたくさんあります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 335,
@@ -3003,7 +3125,8 @@
     "meaning": "雑誌",
     "example": "我每个月都买这本杂志。",
     "exampleMeaning": "私は毎月この雑誌を買います。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "本"
   },
   {
     "id": 337,
@@ -3030,7 +3153,8 @@
     "meaning": "責任",
     "example": "每个人都应该承担自己的责任。",
     "exampleMeaning": "誰もが自分の責任を負うべきです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 340,
@@ -3048,7 +3172,8 @@
     "meaning": "展覧会",
     "example": "这个画展展览很有意思。",
     "exampleMeaning": "この絵画展覧会はとても面白いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 342,
@@ -3120,7 +3245,8 @@
     "meaning": "品質",
     "example": "这个产品的质量很好。",
     "exampleMeaning": "この製品の品質はとても良いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 350,
@@ -3138,7 +3264,8 @@
     "meaning": "重点、ポイント",
     "example": "考试的重点是什么？",
     "exampleMeaning": "試験の重点は何ですか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 352,
@@ -3156,7 +3283,8 @@
     "meaning": "周り、周囲",
     "example": "学校周围有很多商店。",
     "exampleMeaning": "学校の周りにはたくさんのお店があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 354,
@@ -3183,7 +3311,8 @@
     "meaning": "アイデア、考え",
     "example": "你有什么好主意？",
     "exampleMeaning": "何かいいアイデアはありますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 357,
@@ -3210,7 +3339,8 @@
     "meaning": "専門、専攻",
     "example": "我的专业是经济学。",
     "exampleMeaning": "私の専攻は経済学です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 360,
@@ -3273,7 +3403,8 @@
     "meaning": "席、座席",
     "example": "请找自己的座位坐下。",
     "exampleMeaning": "自分の席を見つけて座ってください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 367,
@@ -3282,7 +3413,8 @@
     "meaning": "作家",
     "example": "他是一位著名的作家。",
     "exampleMeaning": "彼は有名な作家です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 368,
@@ -3291,7 +3423,8 @@
     "meaning": "作者、著者",
     "example": "这本书的作者是谁？",
     "exampleMeaning": "この本の著者は誰ですか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 369,
@@ -3309,7 +3442,8 @@
     "meaning": "暗証番号",
     "example": "请输入密码。",
     "exampleMeaning": "パスワードを入力してください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 371,
@@ -3318,7 +3452,8 @@
     "meaning": "収入",
     "example": "他的收入比以前增加了。",
     "exampleMeaning": "彼の収入は以前より増えました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 372,
@@ -3354,7 +3489,8 @@
     "meaning": "販売員、店員",
     "example": "售货员很热情。",
     "exampleMeaning": "販売員はとても親切です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "家"
   },
   {
     "id": 376,
@@ -3372,7 +3508,8 @@
     "meaning": "数字",
     "example": "请把这些数字加起来。",
     "exampleMeaning": "これらの数字を足してください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 378,
@@ -3381,7 +3518,8 @@
     "meaning": "修士",
     "example": "他正在读硕士。",
     "exampleMeaning": "彼は修士課程に在学中です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 379,
@@ -3399,7 +3537,8 @@
     "meaning": "速度、スピード",
     "example": "汽车的速度太快了。",
     "exampleMeaning": "車の速度が速すぎます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 381,
@@ -3408,7 +3547,8 @@
     "meaning": "ビニール袋",
     "example": "请给我一个塑料袋。",
     "exampleMeaning": "ビニール袋を一枚ください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 382,
@@ -3435,7 +3575,8 @@
     "meaning": "特徴",
     "example": "北京烤鸭有什么特点？",
     "exampleMeaning": "北京ダックにはどんな特徴がありますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 385,
@@ -3471,7 +3612,8 @@
     "meaning": "条件",
     "example": "这个工作条件很好。",
     "exampleMeaning": "この仕事の条件はとても良いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 389,
@@ -3534,7 +3676,8 @@
     "meaning": "ウェブサイト",
     "example": "你有自己的网站吗？",
     "exampleMeaning": "自分のウェブサイトを持っていますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 396,
@@ -3552,7 +3695,8 @@
     "meaning": "味、風味",
     "example": "这个菜的味道真好。",
     "exampleMeaning": "この料理の味は本当に美味しいです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 398,
@@ -3561,7 +3705,8 @@
     "meaning": "温度",
     "example": "今天温度很高。",
     "exampleMeaning": "今日は温度がとても高いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 399,
@@ -3570,7 +3715,8 @@
     "meaning": "文章",
     "example": "请写一篇文章。",
     "exampleMeaning": "文章を一つ書いてください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "篇"
   },
   {
     "id": 400,
@@ -3624,7 +3770,8 @@
     "meaning": "トマト",
     "example": "我喜欢吃西红柿炒鸡蛋。",
     "exampleMeaning": "トマトと卵の炒め物が好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 406,
@@ -3651,7 +3798,8 @@
     "meaning": "現金",
     "example": "你带现金了吗？",
     "exampleMeaning": "現金を持っていますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 409,
@@ -3696,7 +3844,8 @@
     "meaning": "消しゴム",
     "example": "请借我一下橡皮。",
     "exampleMeaning": "消しゴムを貸してください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 414,
@@ -3705,7 +3854,8 @@
     "meaning": "ニュース、知らせ",
     "example": "有好消息要告诉你。",
     "exampleMeaning": "いい知らせがあります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "条"
   },
   {
     "id": 415,
@@ -3714,7 +3864,8 @@
     "meaning": "小説",
     "example": "我正在看一本中文小说。",
     "exampleMeaning": "中国語の小説を読んでいます。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "本"
   },
   {
     "id": 416,
@@ -3723,7 +3874,8 @@
     "meaning": "ジョーク、笑い話",
     "example": "他讲了一个笑话。",
     "exampleMeaning": "彼はジョークを一つ言いました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 417,
@@ -3732,7 +3884,8 @@
     "meaning": "効果",
     "example": "这种药效果很好。",
     "exampleMeaning": "この薬は効果がとても良いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 418,
@@ -3741,7 +3894,8 @@
     "meaning": "気分、気持ち",
     "example": "今天心情很好。",
     "exampleMeaning": "今日は気分がとても良いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 419,
@@ -3750,7 +3904,8 @@
     "meaning": "自信、信念",
     "example": "我对你有信心。",
     "exampleMeaning": "私はあなたに自信があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 420,
@@ -3786,7 +3941,8 @@
     "meaning": "封筒",
     "example": "请把信放进信封里。",
     "exampleMeaning": "手紙を封筒に入れてください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 424,
@@ -3795,7 +3951,8 @@
     "meaning": "情報",
     "example": "我需要更多的信息。",
     "exampleMeaning": "もっと情報が必要です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 425,
@@ -3831,7 +3988,8 @@
     "meaning": "様子、格好",
     "example": "看她高兴的样子。",
     "exampleMeaning": "彼女の嬉しそうな様子を見てください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 429,
@@ -3858,7 +4016,8 @@
     "meaning": "葉っぱ",
     "example": "树上的叶子变黄了。",
     "exampleMeaning": "木の葉っぱが黄色くなりました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 432,
@@ -3957,7 +4116,8 @@
     "meaning": "月、月分",
     "example": "现在是几月份？",
     "exampleMeaning": "今は何月ですか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 443,
@@ -4047,7 +4207,8 @@
     "meaning": "知識",
     "example": "知识就是力量。",
     "exampleMeaning": "知識は力です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "种"
   },
   {
     "id": 453,
@@ -4083,7 +4244,8 @@
     "meaning": "終点、ゴール",
     "example": "下一站是终点站。",
     "exampleMeaning": "次の駅は終点です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 457,
@@ -4137,7 +4299,8 @@
     "meaning": "状況、状態",
     "example": "经济状况不太好。",
     "exampleMeaning": "経済状況はあまり良くありません。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 463,
@@ -4173,7 +4336,8 @@
     "meaning": "作用、働き",
     "example": "这种药的作用很好。",
     "exampleMeaning": "この薬の効き目はとても良いです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 467,
@@ -4182,7 +4346,8 @@
     "meaning": "〜くらい、前後",
     "example": "他大概三十岁左右。",
     "exampleMeaning": "彼はだいたい30歳くらいです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 468,
@@ -4200,7 +4365,8 @@
     "meaning": "竹",
     "example": "熊猫喜欢吃竹子。",
     "exampleMeaning": "パンダは竹を食べるのが好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 470,
@@ -4209,7 +4375,8 @@
     "meaning": "主人、オーナー",
     "example": "这家店的主人很友好。",
     "exampleMeaning": "この店の主人はとても親切です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 471,
@@ -4236,7 +4403,8 @@
     "meaning": "専門",
     "example": "大学你选什么专业？",
     "exampleMeaning": "大学ではどの専攻を選びますか？",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 474,
@@ -4272,7 +4440,8 @@
     "meaning": "祖先",
     "example": "我们要尊重祖先。",
     "exampleMeaning": "祖先を尊重しましょう。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 478,
@@ -4299,7 +4468,8 @@
     "meaning": "作品",
     "example": "这是他的最新作品。",
     "exampleMeaning": "これは彼の最新作品です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 481,
@@ -4335,7 +4505,8 @@
     "meaning": "竹",
     "example": "大熊猫喜欢吃竹子。",
     "exampleMeaning": "パンダは竹を食べるのが好きです。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 485,
@@ -4362,7 +4533,8 @@
     "meaning": "資格",
     "example": "你有资格参加这个比赛。",
     "exampleMeaning": "このコンテストに参加する資格があります。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 488,
@@ -4371,7 +4543,8 @@
     "meaning": "資金",
     "example": "这个项目需要大量资金。",
     "exampleMeaning": "このプロジェクトには多額の資金が必要です。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 489,
@@ -4425,7 +4598,8 @@
     "meaning": "アルファベット、文字",
     "example": "请用字母写你的名字。",
     "exampleMeaning": "アルファベットで名前を書いてください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 495,
@@ -4434,7 +4608,8 @@
     "meaning": "宗教",
     "example": "每个人都有宗教自由。",
     "exampleMeaning": "誰もが宗教の自由を持っています。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 496,
@@ -4443,7 +4618,8 @@
     "meaning": "大統領",
     "example": "美国总统访问了中国。",
     "exampleMeaning": "アメリカ大統領が中国を訪問しました。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   },
   {
     "id": 497,
@@ -4479,6 +4655,7 @@
     "meaning": "席、座席",
     "example": "请按号入座。",
     "exampleMeaning": "番号順に席についてください。",
-    "category": "noun"
+    "category": "noun",
+    "measure": "个"
   }
 ]
