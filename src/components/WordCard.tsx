@@ -4,7 +4,7 @@ import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/spe
 import { breakdownWord } from '../utils/hanziBreakdown'
 import { PronunciationCheck } from './PronunciationCheck'
 import type { PronunciationCheckHandle } from './PronunciationCheck'
-import { categoryLabel } from '../utils/category'
+import { categoryLabels } from '../utils/category'
 
 export function WordCard() {
   const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
@@ -78,7 +78,7 @@ export function WordCard() {
           <span className="word-number">
             {currentIndex + 1} / {filteredWords.length}
           </span>
-          <span className="word-category">{categoryLabel(currentWord.category)}</span>
+          <span className="word-category">{categoryLabels(currentWord.category)}</span>
           {currentWord.measure && (
             <span className="word-measure">量詞：{currentWord.measure}</span>
           )}

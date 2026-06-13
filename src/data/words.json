@@ -6,7 +6,9 @@
     "meaning": "愛情",
     "example": "他们的爱情故事很感人。",
     "exampleMeaning": "彼らの愛情物語はとても感動的です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "段"
   },
   {
@@ -16,7 +18,9 @@
     "meaning": "手配する、段取りする",
     "example": "我已经安排好了明天的会议。",
     "exampleMeaning": "私はすでに明日の会議を手配しました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 3,
@@ -25,7 +29,10 @@
     "meaning": "安全な",
     "example": "这里很安全，你放心。",
     "exampleMeaning": "ここはとても安全です、安心してください。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "noun"
+    ]
   },
   {
     "id": 4,
@@ -34,7 +41,9 @@
     "meaning": "時間通りに",
     "example": "请大家按时到达教室。",
     "exampleMeaning": "みなさん時間通りに教室に到着してください。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 5,
@@ -43,7 +52,9 @@
     "meaning": "〜に従って、〜の通りに",
     "example": "请按照说明书使用这个产品。",
     "exampleMeaning": "説明書に従ってこの製品を使用してください。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 6,
@@ -52,7 +63,9 @@
     "meaning": "〜パーセント",
     "example": "百分之八十的学生通过了考试。",
     "exampleMeaning": "80%の学生が試験に合格しました。",
-    "category": "other"
+    "category": [
+      "other"
+    ]
   },
   {
     "id": 7,
@@ -61,7 +74,9 @@
     "meaning": "すばらしい、棒",
     "example": "你做得真棒！",
     "exampleMeaning": "あなたは本当にすばらしい！",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 8,
@@ -70,7 +85,9 @@
     "meaning": "包子（中華まん）",
     "example": "我每天早上吃两个包子。",
     "exampleMeaning": "私は毎朝包子を二つ食べます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -80,7 +97,9 @@
     "meaning": "保護する",
     "example": "我们应该保护环境。",
     "exampleMeaning": "私たちは環境を保護すべきです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 10,
@@ -89,7 +108,9 @@
     "meaning": "保証する",
     "example": "我保证明天一定完成工作。",
     "exampleMeaning": "明日必ず仕事を終わらせることを保証します。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 11,
@@ -98,7 +119,9 @@
     "meaning": "抱く、抱える",
     "example": "她抱着一个小孩。",
     "exampleMeaning": "彼女は小さな子供を抱いています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 12,
@@ -107,7 +130,9 @@
     "meaning": "申し訳ない、すまない",
     "example": "很抱歉，我来晚了。",
     "exampleMeaning": "申し訳ありません、遅れました。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 13,
@@ -116,7 +141,10 @@
     "meaning": "報道する、報告する",
     "example": "记者报道了这次会议的情况。",
     "exampleMeaning": "記者は今回の会議の状況を報道しました。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 14,
@@ -125,7 +153,9 @@
     "meaning": "申し込む、登録する",
     "example": "我已经报名参加汉语水平考试了。",
     "exampleMeaning": "私はすでにHSK試験に申し込みました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 15,
@@ -134,7 +164,9 @@
     "meaning": "〜倍",
     "example": "这个城市的人口是那个城市的三倍。",
     "exampleMeaning": "この都市の人口はあの都市の3倍です。",
-    "category": "measure"
+    "category": [
+      "measure"
+    ]
   },
   {
     "id": 16,
@@ -143,7 +175,9 @@
     "meaning": "本来、もともと",
     "example": "我本来想去旅行，但是太忙了。",
     "exampleMeaning": "私は本来旅行に行きたかったが、忙しすぎました。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 17,
@@ -152,7 +186,9 @@
     "meaning": "愚かな、不器用な",
     "example": "我不觉得你笨，你只是需要多练习。",
     "exampleMeaning": "私はあなたが愚かだとは思わない、ただもっと練習が必要なだけです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 18,
@@ -161,7 +197,9 @@
     "meaning": "ノートパソコン、手帳",
     "example": "我买了一台新笔记本。",
     "exampleMeaning": "私は新しいノートパソコンを買いました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -171,7 +209,9 @@
     "meaning": "例えば",
     "example": "我喜欢很多运动，比如跑步和游泳。",
     "exampleMeaning": "私は多くのスポーツが好きです、例えばランニングと水泳です。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 20,
@@ -180,7 +220,9 @@
     "meaning": "卒業する",
     "example": "我明年大学毕业。",
     "exampleMeaning": "私は来年大学を卒業します。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 21,
@@ -189,7 +231,10 @@
     "meaning": "標準、基準",
     "example": "这个产品不符合安全标准。",
     "exampleMeaning": "この製品は安全基準に適合していません。",
-    "category": "noun",
+    "category": [
+      "noun",
+      "adjective"
+    ],
     "measure": "个"
   },
   {
@@ -199,7 +244,9 @@
     "meaning": "表、フォーム",
     "example": "请填写这张表格。",
     "exampleMeaning": "このフォームにご記入ください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "张"
   },
   {
@@ -209,7 +256,9 @@
     "meaning": "示す、表明する",
     "example": "他表示对这个计划很感兴趣。",
     "exampleMeaning": "彼はこの計画にとても興味があることを示しました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 24,
@@ -218,7 +267,9 @@
     "meaning": "上演する、演技する",
     "example": "她在舞台上表演了一个舞蹈。",
     "exampleMeaning": "彼女はステージでダンスを上演しました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 25,
@@ -227,7 +278,9 @@
     "meaning": "褒める、表彰する",
     "example": "老师表扬了他的进步。",
     "exampleMeaning": "先生は彼の進歩を褒めました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 26,
@@ -236,7 +289,9 @@
     "meaning": "ビスケット、クッキー",
     "example": "我喜欢吃巧克力饼干。",
     "exampleMeaning": "私はチョコレートビスケットを食べるのが好きです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -246,7 +301,9 @@
     "meaning": "その上、かつ",
     "example": "他不但会说日语，并且会说韩语。",
     "exampleMeaning": "彼は日本語が話せるだけでなく、その上韓国語も話せます。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 28,
@@ -255,7 +312,9 @@
     "meaning": "博士",
     "example": "他是计算机科学的博士。",
     "exampleMeaning": "彼はコンピューターサイエンスの博士です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -265,7 +324,9 @@
     "meaning": "しかし、ただし",
     "example": "这件衣服很漂亮，不过太贵了。",
     "exampleMeaning": "この服はとてもきれいですが、高すぎます。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 30,
@@ -274,7 +335,9 @@
     "meaning": "〜せざるを得ない",
     "example": "下雨了，我们不得不取消郊游。",
     "exampleMeaning": "雨が降ったので、私たちは遠足をキャンセルせざるを得ませんでした。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 31,
@@ -283,7 +346,9 @@
     "meaning": "〜にかかわらず",
     "example": "不管多忙，我每天都学中文。",
     "exampleMeaning": "どんなに忙しくても、私は毎日中国語を勉強します。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 32,
@@ -292,7 +357,9 @@
     "meaning": "〜だけでなく",
     "example": "她不仅漂亮，而且聪明。",
     "exampleMeaning": "彼女は美しいだけでなく、賢いです。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 33,
@@ -301,7 +368,9 @@
     "meaning": "部分",
     "example": "大部分学生都通过了考试。",
     "exampleMeaning": "大部分の学生が試験に合格しました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -311,7 +380,9 @@
     "meaning": "拭く、磨く",
     "example": "请把桌子擦干净。",
     "exampleMeaning": "テーブルをきれいに拭いてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 35,
@@ -320,7 +391,9 @@
     "meaning": "推測する、当てる",
     "example": "你猜我今年多大了？",
     "exampleMeaning": "私が今年何歳か当ててみて？",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 36,
@@ -329,7 +402,9 @@
     "meaning": "材料、資料",
     "example": "我们需要准备一些学习材料。",
     "exampleMeaning": "私たちはいくつかの学習資料を準備する必要があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "份"
   },
   {
@@ -339,7 +414,9 @@
     "meaning": "見学する、参観する",
     "example": "明天我们去参观博物馆。",
     "exampleMeaning": "明日私たちは博物館を見学に行きます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 38,
@@ -348,7 +425,9 @@
     "meaning": "食堂、レストラン",
     "example": "公司的餐厅很大。",
     "exampleMeaning": "会社の食堂はとても大きいです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "家"
   },
   {
@@ -358,7 +437,9 @@
     "meaning": "トイレ",
     "example": "请问厕所在哪里？",
     "exampleMeaning": "トイレはどこですか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -368,7 +449,10 @@
     "meaning": "だいたい、ほとんど同じ",
     "example": "这两件衣服的颜色差不多。",
     "exampleMeaning": "この二つの服の色はだいたい同じです。",
-    "category": "adverb"
+    "category": [
+      "adverb",
+      "adjective"
+    ]
   },
   {
     "id": 41,
@@ -377,7 +461,9 @@
     "meaning": "味見する、試食する",
     "example": "你尝尝这个菜，很好吃。",
     "exampleMeaning": "この料理を味見してみて、とても美味しいです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 42,
@@ -386,7 +472,9 @@
     "meaning": "万里の長城",
     "example": "长城是中国的象征之一。",
     "exampleMeaning": "万里の長城は中国のシンボルの一つです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -396,7 +484,9 @@
     "meaning": "〜場（量詞）",
     "example": "我看了一场电影。",
     "exampleMeaning": "私は映画を一本見ました。",
-    "category": "measure"
+    "category": [
+      "measure"
+    ]
   },
   {
     "id": 44,
@@ -405,7 +495,9 @@
     "meaning": "超える、上回る",
     "example": "今天的温度超过了35度。",
     "exampleMeaning": "今日の気温は35度を超えました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 45,
@@ -414,7 +506,10 @@
     "meaning": "成功する",
     "example": "这次试验非常成功。",
     "exampleMeaning": "今回の実験は非常に成功しました。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "adjective"
+    ]
   },
   {
     "id": 46,
@@ -423,7 +518,9 @@
     "meaning": "誠実な、正直な",
     "example": "他是一个诚实的孩子。",
     "exampleMeaning": "彼は誠実な子供です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 47,
@@ -432,7 +529,9 @@
     "meaning": "都市、都会",
     "example": "北京是一个大城市。",
     "exampleMeaning": "北京は大きな都市です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "座"
   },
   {
@@ -442,7 +541,9 @@
     "meaning": "乗る（乗り物に）",
     "example": "我们乘坐地铁去上班。",
     "exampleMeaning": "私たちは地下鉄に乗って出勤します。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 49,
@@ -451,7 +552,9 @@
     "meaning": "改めて、もう一度",
     "example": "请重新写一遍。",
     "exampleMeaning": "もう一度書き直してください。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 50,
@@ -460,7 +563,9 @@
     "meaning": "タバコを吸う、喫煙する",
     "example": "这里不能抽烟。",
     "exampleMeaning": "ここではタバコを吸えません。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 51,
@@ -469,7 +574,9 @@
     "meaning": "出張する",
     "example": "爸爸下个星期去上海出差。",
     "exampleMeaning": "父は来週上海に出張に行きます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 52,
@@ -478,7 +585,9 @@
     "meaning": "出発する",
     "example": "我们明天早上六点出发。",
     "exampleMeaning": "私たちは明日の朝6時に出発します。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 53,
@@ -487,7 +596,9 @@
     "meaning": "生まれる",
     "example": "我出生在东京。",
     "exampleMeaning": "私は東京で生まれました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 54,
@@ -496,7 +607,9 @@
     "meaning": "窓",
     "example": "请打开窗户，房间里太热了。",
     "exampleMeaning": "窓を開けてください、部屋が暑すぎます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -506,7 +619,9 @@
     "meaning": "ファックス",
     "example": "请把文件用传真发给我。",
     "exampleMeaning": "書類をファックスで送ってください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "份"
   },
   {
@@ -516,7 +631,9 @@
     "meaning": "辞書",
     "example": "我买了一本汉日词典。",
     "exampleMeaning": "私は中日辞書を一冊買いました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "本"
   },
   {
@@ -526,7 +643,9 @@
     "meaning": "これまで、今まで",
     "example": "我从来没去过中国。",
     "exampleMeaning": "私はこれまで一度も中国に行ったことがありません。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 59,
@@ -535,7 +654,9 @@
     "meaning": "そそっかしい、不注意な",
     "example": "他太粗心了，考试时忘了写名字。",
     "exampleMeaning": "彼は不注意すぎて、試験の時に名前を書き忘れました。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 60,
@@ -544,7 +665,9 @@
     "meaning": "預ける、貯金する",
     "example": "我把钱存在银行里。",
     "exampleMeaning": "私はお金を銀行に預けています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 61,
@@ -553,7 +676,9 @@
     "meaning": "答え、解答",
     "example": "你知道这道题的答案吗？",
     "exampleMeaning": "この問題の答えを知っていますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -563,7 +688,9 @@
     "meaning": "おしゃれをする、身なりを整える",
     "example": "她喜欢打扮自己。",
     "exampleMeaning": "彼女はおしゃれをするのが好きです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 63,
@@ -572,7 +699,9 @@
     "meaning": "邪魔する",
     "example": "对不起，打扰您了。",
     "exampleMeaning": "すみません、お邪魔しました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 64,
@@ -581,7 +710,9 @@
     "meaning": "印刷する、プリントする",
     "example": "请帮我打印这份文件。",
     "exampleMeaning": "この書類を印刷するのを手伝ってください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 65,
@@ -590,7 +721,10 @@
     "meaning": "おおよそ、たぶん",
     "example": "大概需要多长时间？",
     "exampleMeaning": "おおよそどのくらい時間がかかりますか？",
-    "category": "adverb"
+    "category": [
+      "adverb",
+      "adjective"
+    ]
   },
   {
     "id": 66,
@@ -599,7 +733,9 @@
     "meaning": "大使館",
     "example": "我去日本大使馆办签证。",
     "exampleMeaning": "私は日本大使館にビザの手続きに行きます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -609,7 +745,10 @@
     "meaning": "代表する",
     "example": "他代表公司参加了会议。",
     "exampleMeaning": "彼は会社を代表して会議に参加しました。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 68,
@@ -618,7 +757,9 @@
     "meaning": "心配する",
     "example": "妈妈总是担心我的身体。",
     "exampleMeaning": "母はいつも私の体を心配しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 69,
@@ -627,7 +768,9 @@
     "meaning": "〜の時に、〜になる",
     "example": "当老师不容易。",
     "exampleMeaning": "先生になるのは簡単ではありません。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 70,
@@ -636,7 +779,9 @@
     "meaning": "現地の、地元の",
     "example": "我对当地的文化很感兴趣。",
     "exampleMeaning": "私は現地の文化にとても興味があります。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 71,
@@ -645,7 +790,9 @@
     "meaning": "ナイフ、刀",
     "example": "请给我一把刀。",
     "exampleMeaning": "ナイフを一つください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "把"
   },
   {
@@ -655,7 +802,9 @@
     "meaning": "至る所、どこでも",
     "example": "春天到了，到处都开满了花。",
     "exampleMeaning": "春が来て、至る所に花が咲いています。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 73,
@@ -664,7 +813,9 @@
     "meaning": "一体、結局",
     "example": "你到底想说什么？",
     "exampleMeaning": "一体何を言いたいのですか？",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 74,
@@ -673,7 +824,9 @@
     "meaning": "謝罪する、謝る",
     "example": "你应该向他道歉。",
     "exampleMeaning": "あなたは彼に謝るべきです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 75,
@@ -682,7 +835,9 @@
     "meaning": "〜しなければならない",
     "example": "我们得快点儿，要迟到了。",
     "exampleMeaning": "急がなければなりません、遅刻しそうです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 76,
@@ -691,7 +846,9 @@
     "meaning": "〜など、等等",
     "example": "我喜欢吃水果，比如苹果、香蕉等。",
     "exampleMeaning": "私は果物を食べるのが好きです、例えばりんご、バナナなど。",
-    "category": "particle"
+    "category": [
+      "particle"
+    ]
   },
   {
     "id": 77,
@@ -700,7 +857,9 @@
     "meaning": "低い",
     "example": "今天气温很低。",
     "exampleMeaning": "今日の気温はとても低いです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 78,
@@ -709,7 +868,9 @@
     "meaning": "地球",
     "example": "地球是我们的家。",
     "exampleMeaning": "地球は私たちの家です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -719,7 +880,9 @@
     "meaning": "住所",
     "example": "请告诉我你的地址。",
     "exampleMeaning": "あなたの住所を教えてください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -729,7 +892,10 @@
     "meaning": "調査する",
     "example": "警察正在调查这件事。",
     "exampleMeaning": "警察はこの事件を調査しています。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 81,
@@ -738,7 +904,9 @@
     "meaning": "失くす、なくす",
     "example": "我的钱包丢了。",
     "exampleMeaning": "私の財布をなくしました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 82,
@@ -747,7 +915,9 @@
     "meaning": "動作",
     "example": "这个舞蹈的动作很优美。",
     "exampleMeaning": "このダンスの動作はとても優雅です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -757,7 +927,9 @@
     "meaning": "渋滞する",
     "example": "早上上班时间经常堵车。",
     "exampleMeaning": "朝の出勤時間はよく渋滞します。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 84,
@@ -766,7 +938,9 @@
     "meaning": "お腹",
     "example": "我肚子饿了。",
     "exampleMeaning": "お腹が空きました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -776,7 +950,9 @@
     "meaning": "ショートメッセージ",
     "example": "我给你发了一条短信。",
     "exampleMeaning": "あなたにショートメッセージを送りました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "条"
   },
   {
@@ -786,7 +962,9 @@
     "meaning": "対話、会話",
     "example": "请跟你的同伴进行对话练习。",
     "exampleMeaning": "パートナーと会話の練習をしてください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -796,7 +974,9 @@
     "meaning": "〜に対して、〜について",
     "example": "对于这个问题，我有不同的看法。",
     "exampleMeaning": "この問題について、私は異なる見解を持っています。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 88,
@@ -805,7 +985,9 @@
     "meaning": "児童、子供",
     "example": "这本书适合儿童阅读。",
     "exampleMeaning": "この本は児童の読書に適しています。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -815,7 +997,9 @@
     "meaning": "法律",
     "example": "每个人都应该遵守法律。",
     "exampleMeaning": "誰もが法律を守るべきです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "条"
   },
   {
@@ -825,7 +1009,10 @@
     "meaning": "翻訳する、通訳する",
     "example": "请帮我把这句话翻译成中文。",
     "exampleMeaning": "この文を中国語に翻訳してください。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 91,
@@ -834,7 +1021,10 @@
     "meaning": "悩み、心配事",
     "example": "你不要为这点小事烦恼。",
     "exampleMeaning": "こんな小さなことで悩まないでください。",
-    "category": "noun",
+    "category": [
+      "noun",
+      "adjective"
+    ],
     "measure": "个"
   },
   {
@@ -844,7 +1034,9 @@
     "meaning": "反対する",
     "example": "很多人反对这个计划。",
     "exampleMeaning": "多くの人がこの計画に反対しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 93,
@@ -853,7 +1045,9 @@
     "meaning": "方法",
     "example": "你有什么好方法吗？",
     "exampleMeaning": "何かいい方法がありますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -863,7 +1057,9 @@
     "meaning": "方面、分野",
     "example": "他在很多方面都做得很好。",
     "exampleMeaning": "彼は多くの面でよくやっています。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -873,7 +1069,9 @@
     "meaning": "方向",
     "example": "你朝这个方向走就能到。",
     "exampleMeaning": "この方向に歩けば着きます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -883,7 +1081,9 @@
     "meaning": "諦める、放棄する",
     "example": "无论多难，我都不会放弃。",
     "exampleMeaning": "どんなに難しくても、私は諦めません。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 97,
@@ -892,7 +1092,9 @@
     "meaning": "〜部、〜セット（量詞）",
     "example": "我买了一份报纸。",
     "exampleMeaning": "私は新聞を一部買いました。",
-    "category": "measure"
+    "category": [
+      "measure"
+    ]
   },
   {
     "id": 98,
@@ -901,7 +1103,10 @@
     "meaning": "豊かな",
     "example": "这个超市的商品很丰富。",
     "exampleMeaning": "このスーパーの商品はとても豊富です。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "verb"
+    ]
   },
   {
     "id": 99,
@@ -910,7 +1115,9 @@
     "meaning": "さもなければ、そうでなければ",
     "example": "你必须努力学习，否则考不上大学。",
     "exampleMeaning": "しっかり勉強しなければなりません、さもなければ大学に受かりません。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 100,
@@ -919,7 +1126,9 @@
     "meaning": "合致する、一致する",
     "example": "这些条件不符合我们的要求。",
     "exampleMeaning": "これらの条件は私たちの要求に合致しません。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 101,
@@ -928,7 +1137,9 @@
     "meaning": "父親",
     "example": "我的父亲是一名医生。",
     "exampleMeaning": "私の父は医者です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "位"
   },
   {
@@ -938,7 +1149,9 @@
     "meaning": "コピーする",
     "example": "请帮我把这份文件复印一下。",
     "exampleMeaning": "この書類をコピーしてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 103,
@@ -947,7 +1160,9 @@
     "meaning": "複雑な",
     "example": "这个问题很复杂。",
     "exampleMeaning": "この問題はとても複雑です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 104,
@@ -956,7 +1171,9 @@
     "meaning": "裕福な、富む",
     "example": "这个地区资源丰富。",
     "exampleMeaning": "この地域は資源が豊かです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 105,
@@ -965,7 +1182,10 @@
     "meaning": "感動する",
     "example": "这个故事让我很感动。",
     "exampleMeaning": "この話は私をとても感動させました。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "adjective"
+    ]
   },
   {
     "id": 106,
@@ -974,7 +1194,10 @@
     "meaning": "感じる、感覚",
     "example": "我感觉今天比昨天冷。",
     "exampleMeaning": "今日は昨日より寒く感じます。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 107,
@@ -983,7 +1206,9 @@
     "meaning": "感情",
     "example": "他们之间的感情很好。",
     "exampleMeaning": "彼らの間の感情はとても良いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -993,7 +1218,9 @@
     "meaning": "感謝する",
     "example": "非常感谢你的帮助。",
     "exampleMeaning": "あなたの助けにとても感謝しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 109,
@@ -1002,7 +1229,9 @@
     "meaning": "思い切って〜する、大胆に〜する",
     "example": "我不敢一个人走夜路。",
     "exampleMeaning": "私は一人で夜道を歩く勇気がありません。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 110,
@@ -1011,7 +1240,9 @@
     "meaning": "する、やる",
     "example": "你在干什么？",
     "exampleMeaning": "何をしているの？",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 111,
@@ -1020,7 +1251,9 @@
     "meaning": "〜したばかり",
     "example": "我刚吃完饭。",
     "exampleMeaning": "私はご飯を食べたばかりです。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 112,
@@ -1029,7 +1262,9 @@
     "meaning": "高速道路",
     "example": "我们走高速公路去机场。",
     "exampleMeaning": "高速道路で空港に行きます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "条"
   },
   {
@@ -1039,7 +1274,9 @@
     "meaning": "各、それぞれの",
     "example": "各位老师、各位同学，大家好！",
     "exampleMeaning": "先生方、学生の皆さん、こんにちは！",
-    "category": "pronoun"
+    "category": [
+      "pronoun"
+    ]
   },
   {
     "id": 114,
@@ -1048,7 +1285,9 @@
     "meaning": "共同の、共に",
     "example": "这是我们共同的目标。",
     "exampleMeaning": "これは私たちの共同の目標です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 115,
@@ -1057,7 +1296,9 @@
     "meaning": "ショッピングする",
     "example": "周末我经常去超市购物。",
     "exampleMeaning": "週末はよくスーパーに買い物に行きます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 116,
@@ -1066,7 +1307,9 @@
     "meaning": "十分である、足りる",
     "example": "这些钱够不够？",
     "exampleMeaning": "このお金で足りますか？",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 118,
@@ -1075,7 +1318,9 @@
     "meaning": "推定する、見積もる",
     "example": "我估计他今天不会来了。",
     "exampleMeaning": "私は彼が今日は来ないだろうと推定しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 119,
@@ -1084,7 +1329,9 @@
     "meaning": "励ます、奨励する",
     "example": "老师经常鼓励我们多读书。",
     "exampleMeaning": "先生はよく私たちにもっと本を読むよう励まします。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 120,
@@ -1093,7 +1340,9 @@
     "meaning": "わざと、故意に",
     "example": "他不是故意迟到的。",
     "exampleMeaning": "彼はわざと遅刻したわけではありません。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 121,
@@ -1102,7 +1351,9 @@
     "meaning": "掛ける、電話を切る",
     "example": "我把衣服挂在衣柜里。",
     "exampleMeaning": "服をクローゼットに掛けます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 122,
@@ -1111,7 +1362,10 @@
     "meaning": "肝心な点、鍵",
     "example": "成功的关键是坚持。",
     "exampleMeaning": "成功の鍵は継続することです。",
-    "category": "noun",
+    "category": [
+      "noun",
+      "adjective"
+    ],
     "measure": "把"
   },
   {
@@ -1121,7 +1375,9 @@
     "meaning": "観客、視聴者",
     "example": "观众们热烈鼓掌。",
     "exampleMeaning": "観客たちは熱烈に拍手しました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1131,7 +1387,9 @@
     "meaning": "管理する",
     "example": "他负责管理这个部门。",
     "exampleMeaning": "彼はこの部門の管理を担当しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 125,
@@ -1140,7 +1398,9 @@
     "meaning": "〜だけ、ただ〜のみ",
     "example": "光说不做没有用。",
     "exampleMeaning": "言うだけでやらないのは役に立ちません。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 126,
@@ -1149,7 +1409,9 @@
     "meaning": "広告",
     "example": "我在网上看到了这个广告。",
     "exampleMeaning": "ネットでこの広告を見ました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1159,7 +1421,9 @@
     "meaning": "国籍",
     "example": "请问你的国籍是什么？",
     "exampleMeaning": "あなたの国籍は何ですか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1169,7 +1433,9 @@
     "meaning": "ジュース",
     "example": "我要一杯果汁。",
     "exampleMeaning": "ジュースを一杯ください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1179,7 +1445,9 @@
     "meaning": "過程、プロセス",
     "example": "学习的过程很重要。",
     "exampleMeaning": "学習の過程はとても重要です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1189,7 +1457,9 @@
     "meaning": "恥ずかしがる",
     "example": "她很害羞，不喜欢在很多人面前说话。",
     "exampleMeaning": "彼女はとても恥ずかしがり屋で、多くの人の前で話すのが好きではありません。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 131,
@@ -1198,7 +1468,9 @@
     "meaning": "冬休み",
     "example": "寒假我们打算去滑雪。",
     "exampleMeaning": "冬休みに私たちはスキーに行く予定です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1208,7 +1480,9 @@
     "meaning": "汗",
     "example": "天太热了，我出了很多汗。",
     "exampleMeaning": "天気が暑すぎて、たくさん汗をかきました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "滴"
   },
   {
@@ -1218,7 +1492,9 @@
     "meaning": "フライト、航空便",
     "example": "我的航班延误了。",
     "exampleMeaning": "私のフライトが遅延しました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1228,7 +1504,9 @@
     "meaning": "利点、メリット",
     "example": "运动对身体有很多好处。",
     "exampleMeaning": "運動は体に多くのメリットがあります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1238,7 +1516,9 @@
     "meaning": "〜のようだ",
     "example": "他好像不太高兴。",
     "exampleMeaning": "彼はあまり嬉しくなさそうです。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 136,
@@ -1247,7 +1527,9 @@
     "meaning": "番号",
     "example": "请告诉我你的电话号码。",
     "exampleMeaning": "あなたの電話番号を教えてください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1257,7 +1539,9 @@
     "meaning": "合格する",
     "example": "他终于合格了。",
     "exampleMeaning": "彼はついに合格しました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 138,
@@ -1266,7 +1550,9 @@
     "meaning": "適切な、ちょうどいい",
     "example": "这件衣服很合适。",
     "exampleMeaning": "この服はとてもちょうどいいです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 139,
@@ -1275,7 +1561,9 @@
     "meaning": "箱、ボックス",
     "example": "这个盒子里面是什么？",
     "exampleMeaning": "この箱の中は何ですか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1285,7 +1573,9 @@
     "meaning": "後悔する",
     "example": "我后悔没有好好学中文。",
     "exampleMeaning": "中国語をちゃんと勉強しなかったことを後悔しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 141,
@@ -1294,7 +1584,9 @@
     "meaning": "厚い",
     "example": "这本词典很厚。",
     "exampleMeaning": "この辞書はとても厚いです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 142,
@@ -1303,7 +1595,9 @@
     "meaning": "インターネット",
     "example": "互联网改变了我们的生活。",
     "exampleMeaning": "インターネットは私たちの生活を変えました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1313,7 +1607,9 @@
     "meaning": "お互いに",
     "example": "同学之间应该互相帮助。",
     "exampleMeaning": "学生同士はお互いに助け合うべきです。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 144,
@@ -1322,7 +1618,9 @@
     "meaning": "看護師",
     "example": "她是医院的护士。",
     "exampleMeaning": "彼女は病院の看護師です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1332,7 +1630,9 @@
     "meaning": "疑う、懐疑する",
     "example": "我怀疑这件事是真的。",
     "exampleMeaning": "この件が本当かどうか疑っています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 146,
@@ -1341,7 +1641,9 @@
     "meaning": "思い出、回想する",
     "example": "这些照片让我想起了很多回忆。",
     "exampleMeaning": "これらの写真は多くの思い出を思い起こさせます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1351,7 +1653,9 @@
     "meaning": "活発な",
     "example": "她是一个活泼的女孩。",
     "exampleMeaning": "彼女は活発な女の子です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 148,
@@ -1360,7 +1664,9 @@
     "meaning": "火",
     "example": "小心，有火！",
     "exampleMeaning": "気をつけて、火があります！",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "场"
   },
   {
@@ -1370,7 +1676,9 @@
     "meaning": "獲得する、得る",
     "example": "他获得了这次比赛的第一名。",
     "exampleMeaning": "彼は今回のコンテストで一等を獲得しました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 150,
@@ -1379,7 +1687,9 @@
     "meaning": "積極的な",
     "example": "他在工作中很积极。",
     "exampleMeaning": "彼は仕事でとても積極的です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 151,
@@ -1388,7 +1698,9 @@
     "meaning": "蓄積する、積み重ねる",
     "example": "学习需要不断积累。",
     "exampleMeaning": "学習は絶えず積み重ねる必要があります。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 152,
@@ -1397,7 +1709,9 @@
     "meaning": "基礎、基本",
     "example": "打好基础很重要。",
     "exampleMeaning": "基礎をしっかり固めることがとても重要です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "本"
   },
   {
@@ -1407,7 +1721,9 @@
     "meaning": "興奮する、感激する",
     "example": "听到这个消息，他很激动。",
     "exampleMeaning": "この知らせを聞いて、彼はとても興奮しました。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 154,
@@ -1416,7 +1732,9 @@
     "meaning": "適切な時に、すぐに",
     "example": "你来得真及时！",
     "exampleMeaning": "ちょうどいい時に来てくれました！",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 155,
@@ -1425,7 +1743,9 @@
     "meaning": "たとえ〜でも",
     "example": "即使下雨，我们也要去。",
     "exampleMeaning": "たとえ雨が降っても、私たちは行きます。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 156,
@@ -1434,7 +1754,10 @@
     "meaning": "計画する、計画",
     "example": "你有什么计划？",
     "exampleMeaning": "何か計画がありますか？",
-    "category": "noun",
+    "category": [
+      "noun",
+      "verb"
+    ],
     "measure": "个"
   },
   {
@@ -1444,7 +1767,9 @@
     "meaning": "覚える、書き留める",
     "example": "请记住这个号码。",
     "exampleMeaning": "この番号を覚えてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 158,
@@ -1453,7 +1778,9 @@
     "meaning": "記者",
     "example": "他是一名新闻记者。",
     "exampleMeaning": "彼は新聞記者です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "名"
   },
   {
@@ -1463,7 +1790,9 @@
     "meaning": "技術",
     "example": "信息技术发展很快。",
     "exampleMeaning": "情報技術の発展はとても速いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1473,7 +1802,9 @@
     "meaning": "〜である以上",
     "example": "既然来了，就多玩一会儿吧。",
     "exampleMeaning": "来た以上、もう少し遊んでいきましょう。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 161,
@@ -1482,7 +1813,9 @@
     "meaning": "継続する",
     "example": "请继续你的工作。",
     "exampleMeaning": "仕事を続けてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 162,
@@ -1491,7 +1824,9 @@
     "meaning": "家具",
     "example": "新房子需要买一些家具。",
     "exampleMeaning": "新しい家には家具を買う必要があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "套"
   },
   {
@@ -1501,7 +1836,9 @@
     "meaning": "偽の、休暇",
     "example": "这个包是假的。",
     "exampleMeaning": "このバッグは偽物です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 164,
@@ -1510,7 +1847,9 @@
     "meaning": "価格、値段",
     "example": "这家店的商品价格很便宜。",
     "exampleMeaning": "この店の商品の価格はとても安いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1520,7 +1859,9 @@
     "meaning": "堅持する、やり抜く",
     "example": "他每天都坚持跑步。",
     "exampleMeaning": "彼は毎日ランニングを続けています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 166,
@@ -1529,7 +1870,9 @@
     "meaning": "ダイエットする",
     "example": "她正在减肥。",
     "exampleMeaning": "彼女はダイエット中です。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 167,
@@ -1538,7 +1881,9 @@
     "meaning": "減らす、減少する",
     "example": "我们应该减少浪费。",
     "exampleMeaning": "私たちは無駄を減らすべきです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 168,
@@ -1547,7 +1892,9 @@
     "meaning": "提案する、アドバイス",
     "example": "我建议你多休息。",
     "exampleMeaning": "もっと休むことをお勧めします。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 169,
@@ -1556,7 +1903,9 @@
     "meaning": "将来",
     "example": "你将来的计划是什么？",
     "exampleMeaning": "将来の計画は何ですか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1566,7 +1915,9 @@
     "meaning": "ボーナス、賞金",
     "example": "今年我们公司发了奖金。",
     "exampleMeaning": "今年、私たちの会社はボーナスを支給しました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1576,7 +1927,9 @@
     "meaning": "低下させる、下げる",
     "example": "价格降低了很多。",
     "exampleMeaning": "価格がとても下がりました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 172,
@@ -1585,7 +1938,9 @@
     "meaning": "交通",
     "example": "北京的交通很堵。",
     "exampleMeaning": "北京の交通はとても渋滞しています。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1595,7 +1950,9 @@
     "meaning": "誇り高い、傲慢な",
     "example": "我为你感到骄傲。",
     "exampleMeaning": "私はあなたを誇りに思います。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 174,
@@ -1604,7 +1961,9 @@
     "meaning": "教える",
     "example": "妈妈教我做饭。",
     "exampleMeaning": "母は私に料理を教えます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 175,
@@ -1613,7 +1972,9 @@
     "meaning": "郊外",
     "example": "我住在北京的郊区。",
     "exampleMeaning": "私は北京の郊外に住んでいます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1623,7 +1984,9 @@
     "meaning": "餃子",
     "example": "我最喜欢吃饺子。",
     "exampleMeaning": "私は餃子が一番好きです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1633,7 +1996,9 @@
     "meaning": "教授",
     "example": "王教授是我们的中文老师。",
     "exampleMeaning": "王教授は私たちの中国語の先生です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "位"
   },
   {
@@ -1643,7 +2008,10 @@
     "meaning": "教育",
     "example": "教育是国家发展的基础。",
     "exampleMeaning": "教育は国家発展の基礎です。",
-    "category": "noun",
+    "category": [
+      "noun",
+      "verb"
+    ],
     "measure": "个"
   },
   {
@@ -1653,7 +2021,9 @@
     "meaning": "受け入れる、承諾する",
     "example": "我接受你的邀请。",
     "exampleMeaning": "あなたの招待を受け入れます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 180,
@@ -1662,7 +2032,9 @@
     "meaning": "結果",
     "example": "考试结果什么时候出来？",
     "exampleMeaning": "試験結果はいつ出ますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1672,7 +2044,9 @@
     "meaning": "節約する",
     "example": "我们要节省用水。",
     "exampleMeaning": "水を節約しましょう。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 182,
@@ -1681,7 +2055,9 @@
     "meaning": "説明する",
     "example": "请解释一下这个词的意思。",
     "exampleMeaning": "この単語の意味を説明してください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 183,
@@ -1690,7 +2066,10 @@
     "meaning": "緊張している",
     "example": "考试前我很紧张。",
     "exampleMeaning": "試験前はとても緊張します。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "verb"
+    ]
   },
   {
     "id": 184,
@@ -1699,7 +2078,9 @@
     "meaning": "〜にもかかわらず",
     "example": "尽管很累，他还是继续工作。",
     "exampleMeaning": "とても疲れているにもかかわらず、彼は仕事を続けました。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 185,
@@ -1708,7 +2089,9 @@
     "meaning": "進める、行う",
     "example": "会议正在进行中。",
     "exampleMeaning": "会議は進行中です。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 186,
@@ -1717,7 +2100,9 @@
     "meaning": "禁止する",
     "example": "这里禁止吸烟。",
     "exampleMeaning": "ここは喫煙禁止です。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 187,
@@ -1726,7 +2111,9 @@
     "meaning": "経済",
     "example": "中国的经济增长很快。",
     "exampleMeaning": "中国の経済成長はとても速いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1736,7 +2123,10 @@
     "meaning": "経験する、体験",
     "example": "这次旅行是一次难忘的经历。",
     "exampleMeaning": "今回の旅行は忘れられない経験でした。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 189,
@@ -1745,7 +2135,9 @@
     "meaning": "意外にも、なんと",
     "example": "他竟然忘了我的生日。",
     "exampleMeaning": "彼はなんと私の誕生日を忘れていました。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 190,
@@ -1754,7 +2146,9 @@
     "meaning": "鏡",
     "example": "她每天都要照镜子。",
     "exampleMeaning": "彼女は毎日鏡を見ます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1764,7 +2158,9 @@
     "meaning": "結局、一体",
     "example": "你究竟想说什么？",
     "exampleMeaning": "一体何を言いたいのですか？",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 192,
@@ -1773,7 +2169,9 @@
     "meaning": "集まり、パーティー",
     "example": "周末我们有个同学聚会。",
     "exampleMeaning": "週末に同窓会があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1783,7 +2181,9 @@
     "meaning": "拒否する、断る",
     "example": "他拒绝了我的请求。",
     "exampleMeaning": "彼は私の依頼を断りました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 194,
@@ -1792,7 +2192,9 @@
     "meaning": "距離",
     "example": "从家到公司距离很远。",
     "exampleMeaning": "家から会社まで距離がとても遠いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1802,7 +2204,9 @@
     "meaning": "嬉しい、楽しい",
     "example": "今天我特别开心。",
     "exampleMeaning": "今日は特に嬉しいです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 196,
@@ -1811,7 +2215,9 @@
     "meaning": "見方、考え方",
     "example": "你对这件事有什么看法？",
     "exampleMeaning": "この件についてどう思いますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1821,7 +2227,9 @@
     "meaning": "考慮する、検討する",
     "example": "我还在考虑这个问题。",
     "exampleMeaning": "まだこの問題を検討しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 198,
@@ -1830,7 +2238,9 @@
     "meaning": "北京ダック",
     "example": "北京烤鸭很有名。",
     "exampleMeaning": "北京ダックはとても有名です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1840,7 +2250,9 @@
     "meaning": "かわいそうな",
     "example": "那只小猫真可怜。",
     "exampleMeaning": "あの子猫は本当にかわいそうです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 200,
@@ -1849,7 +2261,9 @@
     "meaning": "しかし、でも",
     "example": "我想去，可是太远了。",
     "exampleMeaning": "行きたいですが、遠すぎます。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 201,
@@ -1858,7 +2272,9 @@
     "meaning": "残念な",
     "example": "真可惜，你没来参加。",
     "exampleMeaning": "本当に残念です、あなたは参加しませんでした。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 202,
@@ -1867,7 +2283,9 @@
     "meaning": "確かに、きっと",
     "example": "他肯定会来的。",
     "exampleMeaning": "彼はきっと来ます。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 203,
@@ -1876,7 +2294,9 @@
     "meaning": "空の、からっぽの",
     "example": "房间里一个人也没有，是空的。",
     "exampleMeaning": "部屋には誰もいなくて、空っぽです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 204,
@@ -1885,7 +2305,9 @@
     "meaning": "空気",
     "example": "这里的空气很新鲜。",
     "exampleMeaning": "ここの空気はとても新鮮です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1895,7 +2317,9 @@
     "meaning": "おそらく〜だろう（心配）、〜ではないかと思う",
     "example": "恐怕今天要下雨。",
     "exampleMeaning": "今日はおそらく雨が降るでしょう。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 206,
@@ -1904,7 +2328,9 @@
     "meaning": "苦い、辛い",
     "example": "这个药很苦。",
     "exampleMeaning": "この薬はとても苦いです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 207,
@@ -1913,7 +2339,9 @@
     "meaning": "ミネラルウォーター",
     "example": "我要一瓶矿泉水。",
     "exampleMeaning": "ミネラルウォーターを一本ください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "瓶"
   },
   {
@@ -1923,7 +2351,9 @@
     "meaning": "眠い",
     "example": "我困了，想睡觉。",
     "exampleMeaning": "眠くなりました、寝たいです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 209,
@@ -1932,7 +2362,10 @@
     "meaning": "困難な",
     "example": "学习汉语并不困难。",
     "exampleMeaning": "中国語を学ぶことはそれほど困難ではありません。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "noun"
+    ]
   },
   {
     "id": 210,
@@ -1941,7 +2374,9 @@
     "meaning": "ゴミ箱",
     "example": "请把废纸扔进垃圾桶。",
     "exampleMeaning": "紙くずをゴミ箱に捨ててください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -1951,7 +2386,9 @@
     "meaning": "〜から来る",
     "example": "我来自日本。",
     "exampleMeaning": "私は日本から来ました。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 212,
@@ -1960,7 +2397,9 @@
     "meaning": "怠惰な、面倒くさがる",
     "example": "他太懒了，什么都不想做。",
     "exampleMeaning": "彼はあまりに怠惰で、何もやりたがりません。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 213,
@@ -1969,7 +2408,9 @@
     "meaning": "ロマンチックな",
     "example": "这个餐厅很浪漫。",
     "exampleMeaning": "このレストランはとてもロマンチックです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 214,
@@ -1978,7 +2419,9 @@
     "meaning": "虎",
     "example": "动物园里有两只老虎。",
     "exampleMeaning": "動物園に虎が二匹います。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "只"
   },
   {
@@ -1988,7 +2431,9 @@
     "meaning": "冷静な",
     "example": "遇到问题时要保持冷静。",
     "exampleMeaning": "問題に直面した時は冷静さを保ちましょう。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 216,
@@ -1997,7 +2442,9 @@
     "meaning": "すごい、激しい",
     "example": "你中文说得真厉害！",
     "exampleMeaning": "あなたの中国語は本当にすごい！",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 217,
@@ -2006,7 +2453,9 @@
     "meaning": "力、体力",
     "example": "他力气很大。",
     "exampleMeaning": "彼は力がとても強いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -2016,7 +2465,9 @@
     "meaning": "例えば",
     "example": "很多国家都有地铁，例如日本和中国。",
     "exampleMeaning": "多くの国に地下鉄があります、例えば日本と中国です。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 219,
@@ -2025,7 +2476,9 @@
     "meaning": "〜さえも",
     "example": "他连早饭都没吃就去上班了。",
     "exampleMeaning": "彼は朝ごはんさえ食べずに出勤しました。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 220,
@@ -2034,7 +2487,10 @@
     "meaning": "連絡する",
     "example": "我们以后多联系。",
     "exampleMeaning": "これからもっと連絡を取りましょう。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 221,
@@ -2043,7 +2499,9 @@
     "meaning": "顔",
     "example": "你的脸很红。",
     "exampleMeaning": "顔がとても赤いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "张"
   },
   {
@@ -2053,7 +2511,9 @@
     "meaning": "二人、二つ",
     "example": "我们俩是好朋友。",
     "exampleMeaning": "私たち二人は良い友達です。",
-    "category": "numeral"
+    "category": [
+      "numeral"
+    ]
   },
   {
     "id": 223,
@@ -2062,7 +2522,9 @@
     "meaning": "小銭",
     "example": "我没有零钱。",
     "exampleMeaning": "小銭を持っていません。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "些"
   },
   {
@@ -2072,7 +2534,9 @@
     "meaning": "別の、そのほか",
     "example": "我另外还有一个问题。",
     "exampleMeaning": "別にもう一つ質問があります。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 225,
@@ -2081,7 +2545,9 @@
     "meaning": "残す、留まる",
     "example": "请留在这里等我。",
     "exampleMeaning": "ここに残って私を待っていてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 226,
@@ -2090,7 +2556,9 @@
     "meaning": "流暢な",
     "example": "她中文说得很流利。",
     "exampleMeaning": "彼女は中国語をとても流暢に話します。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 227,
@@ -2099,7 +2567,9 @@
     "meaning": "弁護士",
     "example": "他想成为一名律师。",
     "exampleMeaning": "彼は弁護士になりたいと思っています。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2109,7 +2579,9 @@
     "meaning": "乱れている、めちゃくちゃな",
     "example": "房间太乱了，快收拾一下。",
     "exampleMeaning": "部屋が散らかりすぎています、早く片付けてください。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 229,
@@ -2118,7 +2590,9 @@
     "meaning": "満足する",
     "example": "我对这次旅行很满意。",
     "exampleMeaning": "今回の旅行にとても満足しています。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 230,
@@ -2127,7 +2601,9 @@
     "meaning": "毛、1角（貨幣単位）",
     "example": "这只猫的毛很软。",
     "exampleMeaning": "この猫の毛はとても柔らかいです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "毛"
   },
   {
@@ -2137,7 +2613,9 @@
     "meaning": "タオル",
     "example": "请给我一条毛巾。",
     "exampleMeaning": "タオルを一枚ください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "条"
   },
   {
@@ -2147,7 +2625,9 @@
     "meaning": "美しい",
     "example": "这里的风景真美丽。",
     "exampleMeaning": "ここの風景は本当に美しいです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 233,
@@ -2156,7 +2636,9 @@
     "meaning": "夢",
     "example": "我昨天做了一个好梦。",
     "exampleMeaning": "昨日いい夢を見ました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "场"
   },
   {
@@ -2166,7 +2648,9 @@
     "meaning": "道に迷う",
     "example": "我在这个城市迷路了。",
     "exampleMeaning": "この街で道に迷いました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 235,
@@ -2175,7 +2659,9 @@
     "meaning": "パスワード",
     "example": "我忘记了这个网站的密码。",
     "exampleMeaning": "このサイトのパスワードを忘れました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2185,7 +2671,9 @@
     "meaning": "無料の",
     "example": "这个博物馆是免费的。",
     "exampleMeaning": "この博物館は無料です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 237,
@@ -2194,7 +2682,9 @@
     "meaning": "民族",
     "example": "中国有56个民族。",
     "exampleMeaning": "中国には56の民族があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2204,7 +2694,9 @@
     "meaning": "母親",
     "example": "我的母亲是老师。",
     "exampleMeaning": "私の母は先生です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "位"
   },
   {
@@ -2214,7 +2706,9 @@
     "meaning": "目的",
     "example": "学习的目的是提高自己。",
     "exampleMeaning": "学習の目的は自分を向上させることです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2224,7 +2718,9 @@
     "meaning": "忍耐強い",
     "example": "做老师需要有耐心。",
     "exampleMeaning": "先生になるには忍耐が必要です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 241,
@@ -2233,7 +2729,9 @@
     "meaning": "まさか〜ではあるまい（反語文）",
     "example": "难道你不知道吗？",
     "exampleMeaning": "まさか知らないのですか？",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 242,
@@ -2242,7 +2740,9 @@
     "meaning": "辛い、気分が悪い",
     "example": "我今天有点儿难受。",
     "exampleMeaning": "今日は少し気分が悪いです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 243,
@@ -2251,7 +2751,9 @@
     "meaning": "〜以内、内側",
     "example": "一个星期内完成工作。",
     "exampleMeaning": "一週間以内に仕事を終えます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2261,7 +2763,9 @@
     "meaning": "能力",
     "example": "他有很强的学习能力。",
     "exampleMeaning": "彼はとても強い学習能力を持っています。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -2271,7 +2775,9 @@
     "meaning": "年齢",
     "example": "你的年龄是多少？",
     "exampleMeaning": "あなたの年齢はいくつですか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2281,7 +2787,9 @@
     "meaning": "する、やる、扱う",
     "example": "你怎么弄坏了我的电脑？",
     "exampleMeaning": "どうやって私のパソコンを壊したの？",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 247,
@@ -2290,7 +2798,11 @@
     "meaning": "努力する",
     "example": "只要你努力，一定会成功。",
     "exampleMeaning": "努力しさえすれば、必ず成功します。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "adjective",
+      "adverb"
+    ]
   },
   {
     "id": 248,
@@ -2299,7 +2811,9 @@
     "meaning": "暖かい",
     "example": "今天的天气很暖和。",
     "exampleMeaning": "今日の天気はとても暖かいです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 249,
@@ -2308,7 +2822,9 @@
     "meaning": "たまに、時々",
     "example": "我偶尔会去看电影。",
     "exampleMeaning": "たまに映画を見に行きます。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 250,
@@ -2317,7 +2833,9 @@
     "meaning": "列に並ぶ",
     "example": "请排队买票。",
     "exampleMeaning": "列に並んでチケットを買ってください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 251,
@@ -2326,7 +2844,9 @@
     "meaning": "並べる、配列する",
     "example": "请把这些书按大小排列。",
     "exampleMeaning": "これらの本を大きさ順に並べてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 252,
@@ -2335,7 +2855,9 @@
     "meaning": "判断する",
     "example": "这件事很难判断对错。",
     "exampleMeaning": "この件は正誤の判断がとても難しいです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 253,
@@ -2344,7 +2866,9 @@
     "meaning": "付き添う、同伴する",
     "example": "我陪你去医院。",
     "exampleMeaning": "病院に付き添います。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 254,
@@ -2353,7 +2877,10 @@
     "meaning": "批判する",
     "example": "爸爸批评了我。",
     "exampleMeaning": "父に叱られました。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 255,
@@ -2362,7 +2889,9 @@
     "meaning": "皮膚",
     "example": "她的皮肤很好。",
     "exampleMeaning": "彼女の肌はとてもきれいです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2372,7 +2901,9 @@
     "meaning": "〜編、〜篇（量詞）",
     "example": "我写了一篇作文。",
     "exampleMeaning": "作文を一篇書きました。",
-    "category": "measure"
+    "category": [
+      "measure"
+    ]
   },
   {
     "id": 257,
@@ -2381,7 +2912,9 @@
     "meaning": "騙す",
     "example": "不要骗我。",
     "exampleMeaning": "私を騙さないでください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 258,
@@ -2390,7 +2923,9 @@
     "meaning": "卓球",
     "example": "中国人很喜欢打乒乓球。",
     "exampleMeaning": "中国人は卓球をするのがとても好きです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2400,7 +2935,9 @@
     "meaning": "普段、平素",
     "example": "我平时六点起床。",
     "exampleMeaning": "普段は6時に起きます。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 260,
@@ -2409,7 +2946,9 @@
     "meaning": "破れる、壊れる",
     "example": "我的鞋子破了。",
     "exampleMeaning": "私の靴が破れました。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 261,
@@ -2418,7 +2957,9 @@
     "meaning": "ブドウ",
     "example": "我喜欢吃葡萄。",
     "exampleMeaning": "私はブドウを食べるのが好きです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2428,7 +2969,9 @@
     "meaning": "普遍的な、一般的な",
     "example": "这种现象很普遍。",
     "exampleMeaning": "この現象はとても普遍的です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 263,
@@ -2437,7 +2980,9 @@
     "meaning": "次に、第二に",
     "example": "首先要注意安全，其次才是速度。",
     "exampleMeaning": "まず安全に注意し、その次が速度です。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 264,
@@ -2446,7 +2991,9 @@
     "meaning": "その中で",
     "example": "我们班有30个学生，其中10个是男生。",
     "exampleMeaning": "クラスには30人の学生がいて、そのうち10人が男子です。",
-    "category": "pronoun"
+    "category": [
+      "pronoun"
+    ]
   },
   {
     "id": 265,
@@ -2455,7 +3002,9 @@
     "meaning": "気候",
     "example": "日本的气候很温和。",
     "exampleMeaning": "日本の気候はとても温暖です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -2465,7 +3014,9 @@
     "meaning": "必ず、絶対に",
     "example": "你千万别忘了。",
     "exampleMeaning": "絶対に忘れないでください。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 267,
@@ -2474,7 +3025,9 @@
     "meaning": "ビザ",
     "example": "我要申请中国的签证。",
     "exampleMeaning": "中国のビザを申請します。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2484,7 +3037,9 @@
     "meaning": "ノックする、叩く",
     "example": "请敲门。",
     "exampleMeaning": "ドアをノックしてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 269,
@@ -2493,7 +3048,9 @@
     "meaning": "橋",
     "example": "这座桥很长。",
     "exampleMeaning": "この橋はとても長いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "座"
   },
   {
@@ -2503,7 +3060,9 @@
     "meaning": "チョコレート",
     "example": "女孩子都喜欢吃巧克力。",
     "exampleMeaning": "女の子はみんなチョコレートを食べるのが好きです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "块"
   },
   {
@@ -2513,7 +3072,9 @@
     "meaning": "親戚",
     "example": "春节我们去拜访亲戚。",
     "exampleMeaning": "春節には親戚を訪問します。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "位"
   },
   {
@@ -2523,7 +3084,9 @@
     "meaning": "軽い",
     "example": "这个箱子很轻。",
     "exampleMeaning": "このスーツケースはとても軽いです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 273,
@@ -2532,7 +3095,9 @@
     "meaning": "気楽な、リラックスした",
     "example": "考试结束后我感到很轻松。",
     "exampleMeaning": "試験が終わってとても気楽になりました。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 274,
@@ -2541,7 +3106,9 @@
     "meaning": "状況",
     "example": "请告诉我现在的情况。",
     "exampleMeaning": "今の状況を教えてください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -2551,7 +3118,10 @@
     "meaning": "区別、違い",
     "example": "这两个词有什么区别？",
     "exampleMeaning": "この二つの単語はどう違いますか？",
-    "category": "noun",
+    "category": [
+      "noun",
+      "verb"
+    ],
     "measure": "个"
   },
   {
@@ -2561,7 +3131,9 @@
     "meaning": "取る、受け取る",
     "example": "我去银行取钱。",
     "exampleMeaning": "銀行にお金を引き出しに行きます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 277,
@@ -2570,7 +3142,9 @@
     "meaning": "全部、すべて",
     "example": "全部学生都按时到了。",
     "exampleMeaning": "全ての学生が時間通りに着きました。",
-    "category": "pronoun"
+    "category": [
+      "pronoun"
+    ]
   },
   {
     "id": 278,
@@ -2579,7 +3153,9 @@
     "meaning": "欠点",
     "example": "每个人都有自己的缺点。",
     "exampleMeaning": "誰にでも自分の欠点があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2589,7 +3165,9 @@
     "meaning": "不足する、欠ける",
     "example": "这个地方缺少水。",
     "exampleMeaning": "この場所は水が不足しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 280,
@@ -2598,7 +3176,9 @@
     "meaning": "しかし、ところが",
     "example": "我想去，却去不了。",
     "exampleMeaning": "行きたいのに、行けません。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 281,
@@ -2607,7 +3187,9 @@
     "meaning": "しかしながら、だが",
     "example": "他工作很努力，然而效果并不好。",
     "exampleMeaning": "彼は仕事にとても努力したが、効果はあまり良くなかった。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 282,
@@ -2616,7 +3198,9 @@
     "meaning": "賑やかな",
     "example": "春节的时候这里很热闹。",
     "exampleMeaning": "春節の時はここはとても賑やかです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 283,
@@ -2625,7 +3209,9 @@
     "meaning": "いかなる、どんな",
     "example": "任何时候都可以来找我。",
     "exampleMeaning": "いつでも私のところに来てください。",
-    "category": "pronoun"
+    "category": [
+      "pronoun"
+    ]
   },
   {
     "id": 284,
@@ -2634,7 +3220,9 @@
     "meaning": "投げる、捨てる",
     "example": "请不要乱扔垃圾。",
     "exampleMeaning": "ゴミをむやみに捨てないでください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 285,
@@ -2643,7 +3231,9 @@
     "meaning": "依然として、相変わらず",
     "example": "他仍然没有回答我的问题。",
     "exampleMeaning": "彼は依然として私の質問に答えていません。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 286,
@@ -2652,7 +3242,9 @@
     "meaning": "日記",
     "example": "我每天都写日记。",
     "exampleMeaning": "私は毎日日記を書きます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "本"
   },
   {
@@ -2662,7 +3254,9 @@
     "meaning": "入口",
     "example": "入口在那边。",
     "exampleMeaning": "入口はあちらです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2672,7 +3266,9 @@
     "meaning": "散歩する",
     "example": "晚饭后我们去散步吧。",
     "exampleMeaning": "夕食後に散歩に行きましょう。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 289,
@@ -2681,7 +3277,9 @@
     "meaning": "森林",
     "example": "这片森林很美。",
     "exampleMeaning": "この森林はとても美しいです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "片"
   },
   {
@@ -2691,7 +3289,9 @@
     "meaning": "ソファー",
     "example": "我坐在沙发上看电视。",
     "exampleMeaning": "ソファーに座ってテレビを見ます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2701,7 +3301,9 @@
     "meaning": "悲しい、心が痛む",
     "example": "听到这个消息我很伤心。",
     "exampleMeaning": "この知らせを聞いてとても悲しくなりました。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 292,
@@ -2710,7 +3312,9 @@
     "meaning": "社会",
     "example": "每个人都生活在社会中。",
     "exampleMeaning": "誰もが社会の中で生きています。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2720,7 +3324,9 @@
     "meaning": "申請する",
     "example": "我要申请这份工作。",
     "exampleMeaning": "この仕事に応募します。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 294,
@@ -2729,7 +3335,9 @@
     "meaning": "〜でさえも",
     "example": "他甚至不会写自己的名字。",
     "exampleMeaning": "彼は自分の名前さえも書けません。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 295,
@@ -2738,7 +3346,10 @@
     "meaning": "生活、暮らす",
     "example": "我很喜欢这里的生活。",
     "exampleMeaning": "ここの生活がとても好きです。",
-    "category": "noun",
+    "category": [
+      "noun",
+      "verb"
+    ],
     "measure": "种"
   },
   {
@@ -2748,7 +3359,9 @@
     "meaning": "性別",
     "example": "请在表格上填写你的性别。",
     "exampleMeaning": "用紙に性別を記入してください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2758,7 +3371,9 @@
     "meaning": "性格",
     "example": "她的性格很开朗。",
     "exampleMeaning": "彼女の性格はとても明るいです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -2768,7 +3383,9 @@
     "meaning": "幸せな",
     "example": "祝你们幸福！",
     "exampleMeaning": "お幸せに！",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 299,
@@ -2777,7 +3394,9 @@
     "meaning": "修理する",
     "example": "请帮我修理一下电脑。",
     "exampleMeaning": "パソコンを修理してください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 300,
@@ -2786,7 +3405,9 @@
     "meaning": "多くの",
     "example": "这里有许多人。",
     "exampleMeaning": "ここには多くの人がいます。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 301,
@@ -2795,7 +3416,9 @@
     "meaning": "学期",
     "example": "这个学期我学中文。",
     "exampleMeaning": "今学期は中国語を勉強します。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2805,7 +3428,9 @@
     "meaning": "プレッシャー、圧力",
     "example": "工作压力太大了。",
     "exampleMeaning": "仕事のプレッシャーが大きすぎます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -2815,7 +3440,9 @@
     "meaning": "歯磨き粉",
     "example": "我买了一支牙膏。",
     "exampleMeaning": "歯磨き粉を一本買いました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2825,7 +3452,9 @@
     "meaning": "厳格な",
     "example": "我们的老师很严格。",
     "exampleMeaning": "私たちの先生はとても厳格です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 305,
@@ -2834,7 +3463,9 @@
     "meaning": "深刻な、重大な",
     "example": "这个问题很严重。",
     "exampleMeaning": "この問題はとても深刻です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 306,
@@ -2843,7 +3474,10 @@
     "meaning": "上演する、公演",
     "example": "今晚有京剧演出。",
     "exampleMeaning": "今晩は京劇の公演があります。",
-    "category": "noun",
+    "category": [
+      "noun",
+      "verb"
+    ],
     "measure": "场"
   },
   {
@@ -2853,7 +3487,9 @@
     "meaning": "眼鏡",
     "example": "我戴眼镜。",
     "exampleMeaning": "私は眼鏡をかけています。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2863,7 +3499,10 @@
     "meaning": "要求する",
     "example": "老师要求我们每天读课文。",
     "exampleMeaning": "先生は毎日教科書を読むよう要求しました。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 309,
@@ -2872,7 +3511,9 @@
     "meaning": "鍵",
     "example": "我把钥匙忘在家里了。",
     "exampleMeaning": "鍵を家に忘れました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "把"
   },
   {
@@ -2882,7 +3523,9 @@
     "meaning": "ページ",
     "example": "请翻到第十页。",
     "exampleMeaning": "10ページを開いてください。",
-    "category": "measure"
+    "category": [
+      "measure"
+    ]
   },
   {
     "id": 311,
@@ -2891,7 +3534,9 @@
     "meaning": "すべて、一切",
     "example": "一切都会好起来的。",
     "exampleMeaning": "すべてうまくいきます。",
-    "category": "pronoun"
+    "category": [
+      "pronoun"
+    ]
   },
   {
     "id": 312,
@@ -2900,7 +3545,9 @@
     "meaning": "〜と思う、〜と考える",
     "example": "我以为他是中国人。",
     "exampleMeaning": "彼は中国人だと思いました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 313,
@@ -2909,7 +3556,9 @@
     "meaning": "芸術",
     "example": "我对艺术很感兴趣。",
     "exampleMeaning": "私は芸術にとても興味があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2919,7 +3568,9 @@
     "meaning": "そのため、従って",
     "example": "他学习很努力，因此进步很快。",
     "exampleMeaning": "彼はとても努力したので、従って進歩も速いです。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 315,
@@ -2928,7 +3579,9 @@
     "meaning": "印象",
     "example": "北京给我留下了很深的印象。",
     "exampleMeaning": "北京は私に深い印象を残しました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2938,7 +3591,9 @@
     "meaning": "勝つ",
     "example": "我们队赢了这场比赛。",
     "exampleMeaning": "私たちのチームはこの試合に勝ちました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 317,
@@ -2947,7 +3602,9 @@
     "meaning": "勇敢な",
     "example": "他是一个勇敢的男孩。",
     "exampleMeaning": "彼は勇敢な男の子です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 318,
@@ -2956,7 +3613,9 @@
     "meaning": "永遠に",
     "example": "我会永远记得你。",
     "exampleMeaning": "私はあなたを永遠に覚えています。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 319,
@@ -2965,7 +3624,9 @@
     "meaning": "長所、利点",
     "example": "这个计划有很多优点。",
     "exampleMeaning": "この計画には多くの利点があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -2975,7 +3636,9 @@
     "meaning": "優秀な",
     "example": "她是一名优秀的学生。",
     "exampleMeaning": "彼女は優秀な学生です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 321,
@@ -2984,7 +3647,9 @@
     "meaning": "ユーモアのある",
     "example": "他说话很幽默。",
     "exampleMeaning": "彼の話し方はとてもユーモアがあります。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 322,
@@ -2993,7 +3658,9 @@
     "meaning": "友好的な",
     "example": "这里的人很友好。",
     "exampleMeaning": "ここの人々はとても友好的です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 323,
@@ -3002,7 +3669,9 @@
     "meaning": "友情",
     "example": "我们的友谊永远不会变。",
     "exampleMeaning": "私たちの友情は永遠に変わりません。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3012,7 +3681,9 @@
     "meaning": "そこで、それで",
     "example": "天黑了，于是我们回家了。",
     "exampleMeaning": "暗くなったので、そこで家に帰りました。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 325,
@@ -3021,7 +3692,9 @@
     "meaning": "愉快な、楽しい",
     "example": "祝你周末愉快！",
     "exampleMeaning": "楽しい週末を！",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 326,
@@ -3030,7 +3703,9 @@
     "meaning": "バドミントン",
     "example": "周末我们一起去打羽毛球吧。",
     "exampleMeaning": "週末に一緒にバドミントンをしましょう。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3040,7 +3715,9 @@
     "meaning": "文法",
     "example": "中文语法不太难。",
     "exampleMeaning": "中国語の文法はあまり難しくありません。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3050,7 +3727,9 @@
     "meaning": "言語",
     "example": "学习一种新语言很有趣。",
     "exampleMeaning": "新しい言語を学ぶのはとても面白いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3060,7 +3739,9 @@
     "meaning": "予習する",
     "example": "请预习下一课的内容。",
     "exampleMeaning": "次の授業の内容を予習してください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 330,
@@ -3069,7 +3750,10 @@
     "meaning": "もともと、なんと〜だったのか",
     "example": "原来你是老师啊！",
     "exampleMeaning": "なんとあなたは先生だったのですね！",
-    "category": "adverb"
+    "category": [
+      "adverb",
+      "adjective"
+    ]
   },
   {
     "id": 331,
@@ -3078,7 +3762,9 @@
     "meaning": "原因",
     "example": "你知道这件事的原因吗？",
     "exampleMeaning": "この件の原因を知っていますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3088,7 +3774,9 @@
     "meaning": "デートする、約束する",
     "example": "今天晚上我有约会。",
     "exampleMeaning": "今晩デートがあります。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 333,
@@ -3097,7 +3785,9 @@
     "meaning": "読書する、読む",
     "example": "我喜欢阅读中文小说。",
     "exampleMeaning": "私は中国語の小説を読むのが好きです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 334,
@@ -3106,7 +3796,9 @@
     "meaning": "雲",
     "example": "天上有很多云。",
     "exampleMeaning": "空に雲がたくさんあります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3116,7 +3808,9 @@
     "meaning": "許可する",
     "example": "这里不允许拍照。",
     "exampleMeaning": "ここでは写真撮影が許可されていません。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 336,
@@ -3125,7 +3819,9 @@
     "meaning": "雑誌",
     "example": "我每个月都买这本杂志。",
     "exampleMeaning": "私は毎月この雑誌を買います。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "本"
   },
   {
@@ -3135,7 +3831,9 @@
     "meaning": "不足する、欠ける",
     "example": "这个地区缺少医生。",
     "exampleMeaning": "この地域は医者が不足しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 338,
@@ -3144,7 +3842,9 @@
     "meaning": "しばらくの間、一時的な",
     "example": "这个商店暂时关门了。",
     "exampleMeaning": "この店は一時的に閉まっています。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 339,
@@ -3153,7 +3853,9 @@
     "meaning": "責任",
     "example": "每个人都应该承担自己的责任。",
     "exampleMeaning": "誰もが自分の責任を負うべきです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3163,7 +3865,9 @@
     "meaning": "増加する、増やす",
     "example": "公司决定增加员工工资。",
     "exampleMeaning": "会社は従業員の給料を増やすことを決定しました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 341,
@@ -3172,7 +3876,9 @@
     "meaning": "展覧会",
     "example": "这个画展展览很有意思。",
     "exampleMeaning": "この絵画展覧会はとても面白いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3182,7 +3888,9 @@
     "meaning": "世話をする",
     "example": "请照顾一下我的猫。",
     "exampleMeaning": "私の猫の世話をしてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 343,
@@ -3191,7 +3899,9 @@
     "meaning": "整理する",
     "example": "请整理一下你的房间。",
     "exampleMeaning": "部屋を整理してください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 344,
@@ -3200,7 +3910,9 @@
     "meaning": "正常な",
     "example": "一切都很正常。",
     "exampleMeaning": "すべて正常です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 345,
@@ -3209,7 +3921,9 @@
     "meaning": "正式な",
     "example": "这个合同需要正式签字。",
     "exampleMeaning": "この契約は正式な署名が必要です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 346,
@@ -3218,7 +3932,10 @@
     "meaning": "ちょうど良い",
     "example": "这件衣服正好合适。",
     "exampleMeaning": "この服はちょうどぴったりです。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "adverb"
+    ]
   },
   {
     "id": 347,
@@ -3227,7 +3944,9 @@
     "meaning": "支持する",
     "example": "感谢你的支持！",
     "exampleMeaning": "あなたの支持に感謝します！",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 348,
@@ -3236,7 +3955,9 @@
     "meaning": "〜する価値がある",
     "example": "这本书值得一读。",
     "exampleMeaning": "この本は読む価値があります。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 349,
@@ -3245,7 +3966,9 @@
     "meaning": "品質",
     "example": "这个产品的质量很好。",
     "exampleMeaning": "この製品の品質はとても良いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3255,7 +3978,9 @@
     "meaning": "重い",
     "example": "这个箱子太重了。",
     "exampleMeaning": "このスーツケースは重すぎます。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 351,
@@ -3264,7 +3989,9 @@
     "meaning": "重点、ポイント",
     "example": "考试的重点是什么？",
     "exampleMeaning": "試験の重点は何ですか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3274,7 +4001,9 @@
     "meaning": "重視する",
     "example": "公司非常重视员工的意见。",
     "exampleMeaning": "会社は従業員の意見を非常に重視しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 353,
@@ -3283,7 +4012,9 @@
     "meaning": "周り、周囲",
     "example": "学校周围有很多商店。",
     "exampleMeaning": "学校の周りにはたくさんのお店があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3293,7 +4024,9 @@
     "meaning": "次第に、だんだんと",
     "example": "天气逐渐变冷了。",
     "exampleMeaning": "天気がだんだん寒くなってきました。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 355,
@@ -3302,7 +4035,9 @@
     "meaning": "自発的な、主動の",
     "example": "他主动帮助我。",
     "exampleMeaning": "彼は自発的に私を助けてくれました。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 356,
@@ -3311,7 +4046,9 @@
     "meaning": "アイデア、考え",
     "example": "你有什么好主意？",
     "exampleMeaning": "何かいいアイデアはありますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3321,7 +4058,9 @@
     "meaning": "祝う、お祝いする",
     "example": "祝贺你通过考试！",
     "exampleMeaning": "試験合格おめでとう！",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 358,
@@ -3330,7 +4069,9 @@
     "meaning": "著名な、有名な",
     "example": "他是一位著名的作家。",
     "exampleMeaning": "彼は著名な作家です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 359,
@@ -3339,7 +4080,9 @@
     "meaning": "専門、専攻",
     "example": "我的专业是经济学。",
     "exampleMeaning": "私の専攻は経済学です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3349,7 +4092,9 @@
     "meaning": "回す、変える",
     "example": "请向左转。",
     "exampleMeaning": "左に曲がってください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 361,
@@ -3358,7 +4103,9 @@
     "meaning": "正確な",
     "example": "这个数字很准确。",
     "exampleMeaning": "この数字はとても正確です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 362,
@@ -3367,7 +4114,9 @@
     "meaning": "注意深く、念入りに",
     "example": "请仔细检查一遍。",
     "exampleMeaning": "注意深くもう一度チェックしてください。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 363,
@@ -3376,7 +4125,9 @@
     "meaning": "まとめる、総括する",
     "example": "请总结一下今天的内容。",
     "exampleMeaning": "今日の内容をまとめてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 364,
@@ -3385,7 +4136,9 @@
     "meaning": "一番良い、最も良い",
     "example": "你最好早点回家。",
     "exampleMeaning": "早く家に帰ったほうがいいですよ。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 365,
@@ -3394,7 +4147,9 @@
     "meaning": "尊重する",
     "example": "我们应该尊重老人。",
     "exampleMeaning": "私たちはお年寄りを尊重すべきです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 366,
@@ -3403,7 +4158,9 @@
     "meaning": "席、座席",
     "example": "请找自己的座位坐下。",
     "exampleMeaning": "自分の席を見つけて座ってください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3413,7 +4170,9 @@
     "meaning": "作家",
     "example": "他是一位著名的作家。",
     "exampleMeaning": "彼は有名な作家です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3423,7 +4182,9 @@
     "meaning": "作者、著者",
     "example": "这本书的作者是谁？",
     "exampleMeaning": "この本の著者は誰ですか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3433,7 +4194,9 @@
     "meaning": "〜座、〜棟（量詞）",
     "example": "前面有一座山。",
     "exampleMeaning": "前に山が一つあります。",
-    "category": "measure"
+    "category": [
+      "measure"
+    ]
   },
   {
     "id": 370,
@@ -3442,7 +4205,9 @@
     "meaning": "暗証番号",
     "example": "请输入密码。",
     "exampleMeaning": "パスワードを入力してください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3452,7 +4217,9 @@
     "meaning": "収入",
     "example": "他的收入比以前增加了。",
     "exampleMeaning": "彼の収入は以前より増えました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3462,7 +4229,9 @@
     "meaning": "片付ける",
     "example": "请收拾一下桌子。",
     "exampleMeaning": "机を片付けてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 373,
@@ -3471,7 +4240,9 @@
     "meaning": "耐えられない",
     "example": "我受不了这么热的天气。",
     "exampleMeaning": "こんなに暑い天気には耐えられません。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 374,
@@ -3480,7 +4251,9 @@
     "meaning": "受ける、受け取る",
     "example": "他受到了大家的欢迎。",
     "exampleMeaning": "彼はみんなの歓迎を受けました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 375,
@@ -3489,7 +4262,9 @@
     "meaning": "販売員、店員",
     "example": "售货员很热情。",
     "exampleMeaning": "販売員はとても親切です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "家"
   },
   {
@@ -3499,7 +4274,9 @@
     "meaning": "よく知っている、慣れている",
     "example": "我对这个地方很熟悉。",
     "exampleMeaning": "私はこの場所をよく知っています。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 377,
@@ -3508,7 +4285,9 @@
     "meaning": "数字",
     "example": "请把这些数字加起来。",
     "exampleMeaning": "これらの数字を足してください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3518,7 +4297,9 @@
     "meaning": "修士",
     "example": "他正在读硕士。",
     "exampleMeaning": "彼は修士課程に在学中です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3528,7 +4309,9 @@
     "meaning": "死ぬ",
     "example": "我的手机没电死机了。",
     "exampleMeaning": "携帯の電池が切れて動かなくなりました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 380,
@@ -3537,7 +4320,9 @@
     "meaning": "速度、スピード",
     "example": "汽车的速度太快了。",
     "exampleMeaning": "車の速度が速すぎます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -3547,7 +4332,9 @@
     "meaning": "ビニール袋",
     "example": "请给我一个塑料袋。",
     "exampleMeaning": "ビニール袋を一枚ください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3557,7 +4344,9 @@
     "meaning": "酸っぱい",
     "example": "这个橘子太酸了。",
     "exampleMeaning": "このみかんは酸っぱすぎます。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 383,
@@ -3566,7 +4355,9 @@
     "meaning": "嫌い、嫌う",
     "example": "我讨厌下雨天。",
     "exampleMeaning": "雨の日が嫌いです。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 384,
@@ -3575,7 +4366,9 @@
     "meaning": "特徴",
     "example": "北京烤鸭有什么特点？",
     "exampleMeaning": "北京ダックにはどんな特徴がありますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3585,7 +4378,9 @@
     "meaning": "予定より早く",
     "example": "请提前十分钟到。",
     "exampleMeaning": "10分前に到着してください。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 386,
@@ -3594,7 +4389,9 @@
     "meaning": "注意を促す、知らせる",
     "example": "谢谢你提醒我。",
     "exampleMeaning": "注意してくれてありがとう。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 387,
@@ -3603,7 +4400,9 @@
     "meaning": "空欄を埋める",
     "example": "请填空完成句子。",
     "exampleMeaning": "空欄を埋めて文を完成させてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 388,
@@ -3612,7 +4411,9 @@
     "meaning": "条件",
     "example": "这个工作条件很好。",
     "exampleMeaning": "この仕事の条件はとても良いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3622,7 +4423,9 @@
     "meaning": "止まる、止める",
     "example": "公共汽车在这里停吗？",
     "exampleMeaning": "バスはここに停まりますか？",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 390,
@@ -3631,7 +4434,9 @@
     "meaning": "通知する",
     "example": "请提前通知我。",
     "exampleMeaning": "事前に知らせてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 391,
@@ -3640,7 +4445,9 @@
     "meaning": "押す",
     "example": "请推门进去。",
     "exampleMeaning": "ドアを押して入ってください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 392,
@@ -3649,7 +4456,9 @@
     "meaning": "延期する",
     "example": "会议推迟到明天了。",
     "exampleMeaning": "会議は明日に延期されました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 393,
@@ -3658,7 +4467,9 @@
     "meaning": "脱ぐ",
     "example": "请脱鞋。",
     "exampleMeaning": "靴を脱いでください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 394,
@@ -3667,7 +4478,10 @@
     "meaning": "完全に",
     "example": "我完全同意你的看法。",
     "exampleMeaning": "私はあなたの意見に完全に同意します。",
-    "category": "adverb"
+    "category": [
+      "adverb",
+      "adjective"
+    ]
   },
   {
     "id": 395,
@@ -3676,7 +4490,9 @@
     "meaning": "ウェブサイト",
     "example": "你有自己的网站吗？",
     "exampleMeaning": "自分のウェブサイトを持っていますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3686,7 +4502,10 @@
     "meaning": "危険な",
     "example": "这里很危险，快离开。",
     "exampleMeaning": "ここはとても危険です、早く離れてください。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "noun"
+    ]
   },
   {
     "id": 397,
@@ -3695,7 +4514,9 @@
     "meaning": "味、風味",
     "example": "这个菜的味道真好。",
     "exampleMeaning": "この料理の味は本当に美味しいです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -3705,7 +4526,9 @@
     "meaning": "温度",
     "example": "今天温度很高。",
     "exampleMeaning": "今日は温度がとても高いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3715,7 +4538,9 @@
     "meaning": "文章",
     "example": "请写一篇文章。",
     "exampleMeaning": "文章を一つ書いてください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "篇"
   },
   {
@@ -3725,7 +4550,10 @@
     "meaning": "汚染する、汚染",
     "example": "空气污染很严重。",
     "exampleMeaning": "大気汚染はとても深刻です。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 401,
@@ -3734,7 +4562,9 @@
     "meaning": "〜がない、無",
     "example": "这里无信号。",
     "exampleMeaning": "ここには信号がありません。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 402,
@@ -3743,7 +4573,9 @@
     "meaning": "退屈な",
     "example": "我一个人在家很无聊。",
     "exampleMeaning": "一人で家にいるととても退屈です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 403,
@@ -3752,7 +4584,9 @@
     "meaning": "〜にかかわらず",
     "example": "无论多忙，我每天都锻炼。",
     "exampleMeaning": "どんなに忙しくても、毎日運動します。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 404,
@@ -3761,7 +4595,10 @@
     "meaning": "誤解する",
     "example": "你误会我了。",
     "exampleMeaning": "誤解していますよ。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 405,
@@ -3770,7 +4607,9 @@
     "meaning": "トマト",
     "example": "我喜欢吃西红柿炒鸡蛋。",
     "exampleMeaning": "トマトと卵の炒め物が好きです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3780,7 +4619,9 @@
     "meaning": "引きつける、魅了する",
     "example": "这个故事很吸引人。",
     "exampleMeaning": "この話はとても人を引きつけます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 407,
@@ -3789,7 +4630,9 @@
     "meaning": "塩辛い",
     "example": "这个菜太咸了。",
     "exampleMeaning": "この料理は塩辛すぎます。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 408,
@@ -3798,7 +4641,9 @@
     "meaning": "現金",
     "example": "你带现金了吗？",
     "exampleMeaning": "現金を持っていますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3808,7 +4653,10 @@
     "meaning": "制限する",
     "example": "这里限制车速。",
     "exampleMeaning": "ここは速度制限があります。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 410,
@@ -3817,7 +4665,9 @@
     "meaning": "同じ、同一の",
     "example": "我们的想法相同。",
     "exampleMeaning": "私たちの考えは同じです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 411,
@@ -3826,7 +4676,9 @@
     "meaning": "香りがいい、美味しい",
     "example": "这个菜真香！",
     "exampleMeaning": "この料理は本当にいい匂い！",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 412,
@@ -3835,7 +4687,9 @@
     "meaning": "詳細な",
     "example": "请详细说明一下。",
     "exampleMeaning": "詳細に説明してください。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 413,
@@ -3844,7 +4698,9 @@
     "meaning": "消しゴム",
     "example": "请借我一下橡皮。",
     "exampleMeaning": "消しゴムを貸してください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3854,7 +4710,9 @@
     "meaning": "ニュース、知らせ",
     "example": "有好消息要告诉你。",
     "exampleMeaning": "いい知らせがあります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "条"
   },
   {
@@ -3864,7 +4722,9 @@
     "meaning": "小説",
     "example": "我正在看一本中文小说。",
     "exampleMeaning": "中国語の小説を読んでいます。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "本"
   },
   {
@@ -3874,7 +4734,10 @@
     "meaning": "ジョーク、笑い話",
     "example": "他讲了一个笑话。",
     "exampleMeaning": "彼はジョークを一つ言いました。",
-    "category": "noun",
+    "category": [
+      "noun",
+      "verb"
+    ],
     "measure": "个"
   },
   {
@@ -3884,7 +4747,9 @@
     "meaning": "効果",
     "example": "这种药效果很好。",
     "exampleMeaning": "この薬は効果がとても良いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3894,7 +4759,9 @@
     "meaning": "気分、気持ち",
     "example": "今天心情很好。",
     "exampleMeaning": "今日は気分がとても良いです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -3904,7 +4771,9 @@
     "meaning": "自信、信念",
     "example": "我对你有信心。",
     "exampleMeaning": "私はあなたに自信があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -3914,7 +4783,9 @@
     "meaning": "目が覚める",
     "example": "我今天早上六点就醒了。",
     "exampleMeaning": "今朝6時に目が覚めました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 421,
@@ -3923,7 +4794,10 @@
     "meaning": "興奮する、ワクワクする",
     "example": "孩子们都很兴奋。",
     "exampleMeaning": "子供たちはみんなワクワクしています。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "verb"
+    ]
   },
   {
     "id": 422,
@@ -3932,7 +4806,9 @@
     "meaning": "大丈夫、よろしい",
     "example": "你这样做也行。",
     "exampleMeaning": "そうやっても大丈夫です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 423,
@@ -3941,7 +4817,9 @@
     "meaning": "封筒",
     "example": "请把信放进信封里。",
     "exampleMeaning": "手紙を封筒に入れてください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3951,7 +4829,9 @@
     "meaning": "情報",
     "example": "我需要更多的信息。",
     "exampleMeaning": "もっと情報が必要です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3961,7 +4841,9 @@
     "meaning": "必要とする",
     "example": "我需要你的帮助。",
     "exampleMeaning": "あなたの助けが必要です。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 426,
@@ -3970,7 +4852,10 @@
     "meaning": "選択する",
     "example": "请选择一个答案。",
     "exampleMeaning": "答えを一つ選んでください。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 427,
@@ -3979,7 +4864,9 @@
     "meaning": "習慣づける、育てる",
     "example": "要养成早起的习惯。",
     "exampleMeaning": "早起きの習慣を身につけましょう。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 428,
@@ -3988,7 +4875,9 @@
     "meaning": "様子、格好",
     "example": "看她高兴的样子。",
     "exampleMeaning": "彼女の嬉しそうな様子を見てください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -3998,7 +4887,9 @@
     "meaning": "招待する",
     "example": "我邀请你参加我的生日派对。",
     "exampleMeaning": "私の誕生日パーティーに招待します。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 430,
@@ -4007,7 +4898,9 @@
     "meaning": "もし〜ならば",
     "example": "要是下雨，我们就别出去了。",
     "exampleMeaning": "もし雨が降ったら、出かけないようにしましょう。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 431,
@@ -4016,7 +4909,9 @@
     "meaning": "葉っぱ",
     "example": "树上的叶子变黄了。",
     "exampleMeaning": "木の葉っぱが黄色くなりました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4026,7 +4921,9 @@
     "meaning": "必ず、絶対に",
     "example": "我一定会努力的。",
     "exampleMeaning": "必ず努力します。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 433,
@@ -4035,7 +4932,9 @@
     "meaning": "全部で、合計",
     "example": "一共多少钱？",
     "exampleMeaning": "全部でいくらですか？",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 434,
@@ -4044,7 +4943,9 @@
     "meaning": "引き起こす",
     "example": "这个问题引起了大家的注意。",
     "exampleMeaning": "この問題はみんなの注意を引き起こしました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 435,
@@ -4053,7 +4954,9 @@
     "meaning": "迎える",
     "example": "我们去机场迎接客人。",
     "exampleMeaning": "空港に客を迎えに行きます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 436,
@@ -4062,7 +4965,9 @@
     "meaning": "特に",
     "example": "我喜欢运动，尤其是游泳。",
     "exampleMeaning": "私はスポーツが好きです、特に水泳です。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 437,
@@ -4071,7 +4976,9 @@
     "meaning": "〜によって",
     "example": "这件事由你决定。",
     "exampleMeaning": "この件はあなたが決めてください。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 438,
@@ -4080,7 +4987,9 @@
     "meaning": "〜のために、〜によって",
     "example": "由于天气不好，飞机晚点了。",
     "exampleMeaning": "天気が悪かったため、飛行機が遅れました。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 439,
@@ -4089,7 +4998,9 @@
     "meaning": "面白い",
     "example": "这个故事很有趣。",
     "exampleMeaning": "この話はとても面白いです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 440,
@@ -4098,7 +5009,9 @@
     "meaning": "〜と（and）",
     "example": "中国与日本是邻国。",
     "exampleMeaning": "中国と日本は隣国です。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 441,
@@ -4107,7 +5020,9 @@
     "meaning": "丸い",
     "example": "月亮是圆的。",
     "exampleMeaning": "月は丸いです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 442,
@@ -4116,7 +5031,9 @@
     "meaning": "月、月分",
     "example": "现在是几月份？",
     "exampleMeaning": "今は何月ですか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4126,7 +5043,9 @@
     "meaning": "ますます、だんだん",
     "example": "天气越来越热了。",
     "exampleMeaning": "天気がますます暑くなってきました。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 444,
@@ -4135,7 +5054,9 @@
     "meaning": "〜している（進行中）",
     "example": "他在看书。",
     "exampleMeaning": "彼は本を読んでいます。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 445,
@@ -4144,7 +5065,9 @@
     "meaning": "私たち（話し手と聞き手）",
     "example": "咱们一起去吧。",
     "exampleMeaning": "一緒に行きましょう。",
-    "category": "pronoun"
+    "category": [
+      "pronoun"
+    ]
   },
   {
     "id": 446,
@@ -4153,7 +5076,9 @@
     "meaning": "汚い",
     "example": "这件衣服脏了。",
     "exampleMeaning": "この服は汚れています。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 447,
@@ -4162,7 +5087,9 @@
     "meaning": "狭い",
     "example": "这条路很窄。",
     "exampleMeaning": "この道はとても狭いです。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 448,
@@ -4171,7 +5098,9 @@
     "meaning": "募集する、求人する",
     "example": "公司正在招聘新员工。",
     "exampleMeaning": "会社は新入社員を募集しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 449,
@@ -4180,7 +5109,9 @@
     "meaning": "写す、照らす",
     "example": "请帮我照一张相。",
     "exampleMeaning": "写真を一枚撮ってください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 450,
@@ -4189,7 +5120,10 @@
     "meaning": "真の、本当の",
     "example": "他是我真正的朋友。",
     "exampleMeaning": "彼は私の本当の友達です。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "adverb"
+    ]
   },
   {
     "id": 451,
@@ -4198,7 +5132,10 @@
     "meaning": "証明する",
     "example": "请证明你是对的。",
     "exampleMeaning": "あなたが正しいことを証明してください。",
-    "category": "verb"
+    "category": [
+      "verb",
+      "noun"
+    ]
   },
   {
     "id": 452,
@@ -4207,7 +5144,9 @@
     "meaning": "知識",
     "example": "知识就是力量。",
     "exampleMeaning": "知識は力です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "种"
   },
   {
@@ -4217,7 +5156,9 @@
     "meaning": "〜しさえすれば",
     "example": "只要努力，就能成功。",
     "exampleMeaning": "努力しさえすれば、成功できます。",
-    "category": "conjunction"
+    "category": [
+      "conjunction"
+    ]
   },
   {
     "id": 454,
@@ -4226,7 +5167,9 @@
     "meaning": "製造する",
     "example": "这个产品是中国制造的。",
     "exampleMeaning": "この製品は中国製です。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 455,
@@ -4235,7 +5178,9 @@
     "meaning": "治療する",
     "example": "医生正在治疗病人。",
     "exampleMeaning": "医者は患者を治療しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 456,
@@ -4244,7 +5189,9 @@
     "meaning": "終点、ゴール",
     "example": "下一站是终点站。",
     "exampleMeaning": "次の駅は終点です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4254,7 +5201,9 @@
     "meaning": "種類、種",
     "example": "超市里有各种水果。",
     "exampleMeaning": "スーパーには各種の果物があります。",
-    "category": "measure"
+    "category": [
+      "measure"
+    ]
   },
   {
     "id": 458,
@@ -4263,7 +5212,9 @@
     "meaning": "司会する、主宰する",
     "example": "他来主持这个会议。",
     "exampleMeaning": "彼がこの会議を司会します。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 459,
@@ -4272,7 +5223,9 @@
     "meaning": "専門に、特に",
     "example": "我专门为了你来的。",
     "exampleMeaning": "私は特にあなたのために来ました。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 460,
@@ -4281,7 +5234,9 @@
     "meaning": "稼ぐ、儲ける",
     "example": "他一个月能赚很多钱。",
     "exampleMeaning": "彼は一ヶ月にたくさんのお金を稼げます。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 461,
@@ -4290,7 +5245,9 @@
     "meaning": "装う、詰める",
     "example": "请把书装进书包。",
     "exampleMeaning": "本をカバンに詰めてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 462,
@@ -4299,7 +5256,9 @@
     "meaning": "状況、状態",
     "example": "经济状况不太好。",
     "exampleMeaning": "経済状況はあまり良くありません。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4309,7 +5268,10 @@
     "meaning": "自然な、自然",
     "example": "她说中文说得很自然。",
     "exampleMeaning": "彼女は中国語をとても自然に話します。",
-    "category": "adjective"
+    "category": [
+      "adjective",
+      "noun"
+    ]
   },
   {
     "id": 464,
@@ -4318,7 +5280,9 @@
     "meaning": "自由自在な、気ままな",
     "example": "一个人旅行很自在。",
     "exampleMeaning": "一人旅はとても自由自在です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 465,
@@ -4327,7 +5291,9 @@
     "meaning": "構成する、組み立てる",
     "example": "这个班由二十个学生组成。",
     "exampleMeaning": "このクラスは20人の学生で構成されています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 466,
@@ -4336,7 +5302,10 @@
     "meaning": "作用、働き",
     "example": "这种药的作用很好。",
     "exampleMeaning": "この薬の効き目はとても良いです。",
-    "category": "noun",
+    "category": [
+      "noun",
+      "verb"
+    ],
     "measure": "个"
   },
   {
@@ -4346,7 +5315,9 @@
     "meaning": "〜くらい、前後",
     "example": "他大概三十岁左右。",
     "exampleMeaning": "彼はだいたい30歳くらいです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4356,7 +5327,9 @@
     "meaning": "時間通りに",
     "example": "请准时参加。",
     "exampleMeaning": "時間通りに参加してください。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 469,
@@ -4365,7 +5338,9 @@
     "meaning": "竹",
     "example": "熊猫喜欢吃竹子。",
     "exampleMeaning": "パンダは竹を食べるのが好きです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4375,7 +5350,9 @@
     "meaning": "主人、オーナー",
     "example": "这家店的主人很友好。",
     "exampleMeaning": "この店の主人はとても親切です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4385,7 +5362,9 @@
     "meaning": "祝う",
     "example": "祝贺你取得好成绩！",
     "exampleMeaning": "良い成績おめでとう！",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 472,
@@ -4394,7 +5373,9 @@
     "meaning": "有名な",
     "example": "他是著名的科学家。",
     "exampleMeaning": "彼は有名な科学者です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 473,
@@ -4403,7 +5384,9 @@
     "meaning": "専門",
     "example": "大学你选什么专业？",
     "exampleMeaning": "大学ではどの専攻を選びますか？",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4413,7 +5396,9 @@
     "meaning": "正確な",
     "example": "这个答案很准确。",
     "exampleMeaning": "この答えはとても正確です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 475,
@@ -4422,7 +5407,9 @@
     "meaning": "注意深く",
     "example": "仔细想想再回答。",
     "exampleMeaning": "注意深く考えてから答えてください。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 476,
@@ -4431,7 +5418,9 @@
     "meaning": "まとめる",
     "example": "请把今天的内容总结一下。",
     "exampleMeaning": "今日の内容をまとめてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 477,
@@ -4440,7 +5429,9 @@
     "meaning": "祖先",
     "example": "我们要尊重祖先。",
     "exampleMeaning": "祖先を尊重しましょう。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4450,7 +5441,9 @@
     "meaning": "酔う",
     "example": "他喝醉了。",
     "exampleMeaning": "彼は酔っ払いました。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 479,
@@ -4459,7 +5452,9 @@
     "meaning": "最も良い、〜した方がいい",
     "example": "你最好多休息。",
     "exampleMeaning": "もっと休んだ方がいいですよ。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 480,
@@ -4468,7 +5463,9 @@
     "meaning": "作品",
     "example": "这是他的最新作品。",
     "exampleMeaning": "これは彼の最新作品です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4478,7 +5475,9 @@
     "meaning": "〜として",
     "example": "作为一名学生，应该努力学习。",
     "exampleMeaning": "学生として、しっかり勉強すべきです。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 482,
@@ -4487,7 +5486,9 @@
     "meaning": "夢を見る",
     "example": "我昨晚做了一个奇怪的梦。",
     "exampleMeaning": "昨晩変な夢を見ました。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 483,
@@ -4496,7 +5497,9 @@
     "meaning": "重視する",
     "example": "政府重视环境保护。",
     "exampleMeaning": "政府は環境保護を重視しています。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 484,
@@ -4505,7 +5508,9 @@
     "meaning": "竹",
     "example": "大熊猫喜欢吃竹子。",
     "exampleMeaning": "パンダは竹を食べるのが好きです。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4515,7 +5520,9 @@
     "meaning": "伝言する",
     "example": "请转告他我明天来。",
     "exampleMeaning": "明日来ると彼に伝えてください。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 486,
@@ -4524,7 +5531,9 @@
     "meaning": "正確",
     "example": "这个数据很准确。",
     "exampleMeaning": "このデータはとても正確です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 487,
@@ -4533,7 +5542,9 @@
     "meaning": "資格",
     "example": "你有资格参加这个比赛。",
     "exampleMeaning": "このコンテストに参加する資格があります。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4543,7 +5554,9 @@
     "meaning": "資金",
     "example": "这个项目需要大量资金。",
     "exampleMeaning": "このプロジェクトには多額の資金が必要です。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4553,7 +5566,9 @@
     "meaning": "自動の",
     "example": "这个门是自动的。",
     "exampleMeaning": "このドアは自動です。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 490,
@@ -4562,7 +5577,9 @@
     "meaning": "誇りに思う",
     "example": "我为我的女儿感到自豪。",
     "exampleMeaning": "娘を誇りに思います。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 491,
@@ -4571,7 +5588,9 @@
     "meaning": "自分",
     "example": "你自己决定吧。",
     "exampleMeaning": "自分で決めてください。",
-    "category": "pronoun"
+    "category": [
+      "pronoun"
+    ]
   },
   {
     "id": 492,
@@ -4580,7 +5599,9 @@
     "meaning": "〜してから",
     "example": "自从他离开后，这里变了很多。",
     "exampleMeaning": "彼が去ってから、ここはとても変わりました。",
-    "category": "preposition"
+    "category": [
+      "preposition"
+    ]
   },
   {
     "id": 493,
@@ -4589,7 +5610,9 @@
     "meaning": "自信がある",
     "example": "你要对自己有信心。",
     "exampleMeaning": "自分に自信を持ってください。",
-    "category": "adjective"
+    "category": [
+      "adjective"
+    ]
   },
   {
     "id": 494,
@@ -4598,7 +5621,9 @@
     "meaning": "アルファベット、文字",
     "example": "请用字母写你的名字。",
     "exampleMeaning": "アルファベットで名前を書いてください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4608,7 +5633,9 @@
     "meaning": "宗教",
     "example": "每个人都有宗教自由。",
     "exampleMeaning": "誰もが宗教の自由を持っています。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4618,7 +5645,9 @@
     "meaning": "大統領",
     "example": "美国总统访问了中国。",
     "exampleMeaning": "アメリカ大統領が中国を訪問しました。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   },
   {
@@ -4628,7 +5657,9 @@
     "meaning": "やっと、ようやく",
     "example": "我总算找到了。",
     "exampleMeaning": "やっと見つけました。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 498,
@@ -4637,7 +5668,9 @@
     "meaning": "阻止する、止める",
     "example": "没有人能阻止他。",
     "exampleMeaning": "誰も彼を止められません。",
-    "category": "verb"
+    "category": [
+      "verb"
+    ]
   },
   {
     "id": 499,
@@ -4646,7 +5679,9 @@
     "meaning": "最近",
     "example": "最近天气很热。",
     "exampleMeaning": "最近天気がとても暑いです。",
-    "category": "adverb"
+    "category": [
+      "adverb"
+    ]
   },
   {
     "id": 500,
@@ -4655,7 +5690,9 @@
     "meaning": "席、座席",
     "example": "请按号入座。",
     "exampleMeaning": "番号順に席についてください。",
-    "category": "noun",
+    "category": [
+      "noun"
+    ],
     "measure": "个"
   }
 ]

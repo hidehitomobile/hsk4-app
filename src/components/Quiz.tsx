@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord } from '../utils/speech'
 import { playCorrectSound, playIncorrectSound } from '../utils/sound'
-import { categoryLabel } from '../utils/category'
+import { categoryLabels } from '../utils/category'
 
 type QuizMode = 'hanzi-to-meaning' | 'meaning-to-hanzi' | 'audio-to-hanzi'
 
@@ -191,7 +191,7 @@ export function Quiz() {
             </div>
             <div className="question-pinyin">{currentWord.pinyin}</div>
             <div className="question-meta">
-              <span className="quiz-category-badge">{categoryLabel(currentWord.category)}</span>
+              <span className="quiz-category-badge">{categoryLabels(currentWord.category)}</span>
               {currentWord.measure && (
                 <span className="quiz-measure-badge">量詞：{currentWord.measure}</span>
               )}

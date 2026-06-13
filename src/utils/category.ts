@@ -17,3 +17,8 @@ const LABELS: Record<Category, string> = {
 export function categoryLabel(cat: Category): string {
   return LABELS[cat] ?? cat
 }
+
+/** 複数品詞のラベルを「、」で連結して返す */
+export function categoryLabels(categories: Category[]): string {
+  return categories.map(c => LABELS[c] ?? c).join('、')
+}

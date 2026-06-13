@@ -11,7 +11,7 @@ export interface Word {
 export type Category = 'noun' | 'verb' | 'adjective' | 'adverb' | 'conjunction' | 'preposition' | 'measure' | 'pronoun' | 'numeral' | 'particle' | 'other'
 
 export interface WordEntry extends Word {
-  category: Category
+  category: Category[]
 }
 
 export interface AppSettings {

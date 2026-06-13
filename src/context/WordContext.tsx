@@ -30,7 +30,7 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
 
   // フィルタリング
   const filteredWords = words.filter(w => {
-    const matchCategory = selectedCategory === 'all' || w.category === selectedCategory
+    const matchCategory = selectedCategory === 'all' || w.category.includes(selectedCategory)
     const q = searchQuery.trim().toLowerCase()
     const matchSearch = !q ||
       w.hanzi.includes(q) ||
