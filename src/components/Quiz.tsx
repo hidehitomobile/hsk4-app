@@ -240,7 +240,12 @@ export function Quiz() {
                   <>
                     <span className="option-hanzi">{opt.hanzi}</span>
                     {feedback && (
-                      <span className="option-meaning-sub">{opt.meaning}</span>
+                      <>
+                        <span className="option-meaning-sub">{opt.meaning}</span>
+                        {isCorrectOption && (
+                          <span className="option-pinyin-sub">{opt.pinyin}</span>
+                        )}
+                      </>
                     )}
                   </>
                 )}
