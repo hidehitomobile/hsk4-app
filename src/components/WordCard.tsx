@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
-import { getWordEtymology } from '../data/wordEtymology'
 import { PronunciationCheck } from './PronunciationCheck'
 import type { PronunciationCheckHandle } from './PronunciationCheck'
 import { categoryLabels } from '../utils/category'
@@ -72,7 +71,6 @@ export function WordCard() {
   const isLearned = learnedIds.has(currentWord.id)
   const isFavorited = favoriteIds.has(currentWord.id)
   const breakdown = breakdownWord(currentWord.hanzi)
-  const etymology = getWordEtymology(currentWord.hanzi)
 
   return (
     <div className="word-card">
@@ -174,15 +172,15 @@ export function WordCard() {
 
       {showEtymology && (
         <div className="etymology-section">
-          {etymology ? (
+          {currentWord.etymology ? (
             <>
               <div className="etymology-block word-level">
                 <div className="etymology-title">単語レベル — 語源・由来</div>
-                <p className="etymology-text">{etymology.etymology}</p>
+                <p className="etymology-text">{currentWord.etymology}</p>
               </div>
               <div className="etymology-block mnemonic-level">
                 <div className="etymology-title">覚え方 — 日本語話者向けヒント</div>
-                <p className="etymology-text mnemonic-text">{etymology.mnemonic}</p>
+                <p className="etymology-text mnemonic-text">{currentWord.mnemonic}</p>
               </div>
             </>
           ) : (
