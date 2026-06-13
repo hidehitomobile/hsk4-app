@@ -428,6 +428,92 @@ body {
   line-height: 1.8rem;
 }
 
+/* Etymology toggle */
+.etymology-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  border-radius: 14px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.etymology-toggle:hover {
+  border-color: #ff6f00;
+  color: #ff6f00;
+  background: #fff3e0;
+}
+
+/* Etymology section */
+.etymology-section {
+  background: #fff8e1;
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.etymology-section-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #7c4dff;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(124, 77, 255, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.etymology-block {
+  padding: 10px 0;
+}
+
+.etymology-block.word-level {
+  border-bottom: 1px dashed rgba(255, 111, 0, 0.2);
+  margin-bottom: 8px;
+  padding-bottom: 12px;
+}
+
+.etymology-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #e65100;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.etymology-block.mnemonic-level .etymology-title {
+  color: #2e7d32;
+}
+
+.etymology-text {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--text);
+  margin: 0;
+}
+
+.etymology-text.mnemonic-text {
+  color: #1b5e20;
+  font-style: italic;
+  background: rgba(46, 125, 50, 0.06);
+  padding: 10px 14px;
+  border-radius: 8px;
+  border-left: 3px solid #4caf50;
+}
+
+.etymology-empty {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  padding: 12px;
+}
+
 /* Example */
 .example-toggle {
   background: none;

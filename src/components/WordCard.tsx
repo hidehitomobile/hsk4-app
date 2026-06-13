@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
+import { getWordEtymology } from '../data/wordEtymology'
 import { PronunciationCheck } from './PronunciationCheck'
 import type { PronunciationCheckHandle } from './PronunciationCheck'
 import { categoryLabels } from '../utils/category'
@@ -10,6 +11,7 @@ export function WordCard() {
   const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
   const [showExample, setShowExample] = useState(false)
   const [showBreakdown, setShowBreakdown] = useState(false)
+  const [showEtymology, setShowEtymology] = useState(false)
 
   // 発音チェックのref（キーボードショートカット用）
   const pronunciationRef = useRef<PronunciationCheckHandle>(null)
@@ -70,6 +72,7 @@ export function WordCard() {
   const isLearned = learnedIds.has(currentWord.id)
   const isFavorited = favoriteIds.has(currentWord.id)
   const breakdown = breakdownWord(currentWord.hanzi)
+  const etymology = getWordEtymology(currentWord.hanzi)
 
   return (
     <div className="word-card">
@@ -129,6 +132,12 @@ export function WordCard() {
           {showBreakdown ? '漢字構成 ▲' : '漢字構成 ▼'}
         </button>
         <button
+          className="etymology-toggle"
+          onClick={() => setShowEtymology(!showEtymology)}
+        >
+          {showEtymology ? '語源・覚え方 ▲' : '語源・覚え方 ▼'}
+        </button>
+        <button
           className="example-toggle"
           onClick={() => setShowExample(!showExample)}
         >
@@ -138,6 +147,7 @@ export function WordCard() {
 
       {showBreakdown && (
         <div className="breakdown-section">
+          <div className="etymology-section-title">漢字レベル — 各漢字の部首・構成</div>
           {breakdown.map((item, i) => (
             <div key={i} className="breakdown-item">
               <span className="breakdown-char">{item.char}</span>
@@ -159,6 +169,27 @@ export function WordCard() {
               )}
             </div>
           ))}
+        </div>
+      )}
+
+      {showEtymology && (
+        <div className="etymology-section">
+          {etymology ? (
+            <>
+              <div className="etymology-block word-level">
+                <div className="etymology-title">単語レベル — 語源・由来</div>
+                <p className="etymology-text">{etymology.etymology}</p>
+              </div>
+              <div className="etymology-block mnemonic-level">
+                <div className="etymology-title">覚え方 — 日本語話者向けヒント</div>
+                <p className="etymology-text mnemonic-text">{etymology.mnemonic}</p>
+              </div>
+            </>
+          ) : (
+            <div className="etymology-empty">
+              <p>この単語の語源・覚え方データはまだ登録されていません。</p>
+            </div>
+          )}
         </div>
       )}
 
