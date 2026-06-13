@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react'
+import { useState, useMemo, useEffect, useCallback } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord } from '../utils/speech'
 import { playCorrectSound, playIncorrectSound } from '../utils/sound'
@@ -40,16 +40,15 @@ export function Quiz() {
 
   const [feedback, setFeedback] = useState<FeedbackState | null>(null)
 
-  // 選択肢を生成
-  const getOptions = useCallback((correctWord: typeof quizWords[0]) => {
-    const others = words.filter(w => w.id !== correctWord.id)
-    const shuffled = [...others].sort(() => Math.random() - 0.5)
-    const options = [correctWord, ...shuffled.slice(0, 3)].sort(() => Math.random() - 0.5)
-    return options
-  }, [words])
-
   const currentWord = quizWords[state.currentIndex]
-  const options = currentWord ? getOptions(currentWord) : []
+
+  // 選択肢を生成（currentWord.id が変わらない限り再計算しない）
+  const options = useMemo(() => {
+    if (!currentWord) return []
+    const others = words.filter(w => w.id !== currentWord.id)
+    const shuffled = [...others].sort(() => Math.random() - 0.5)
+    return [currentWord, ...shuffled.slice(0, 3)].sort(() => Math.random() - 0.5)
+  }, [currentWord?.id, words])
 
   const handleAnswer = (selectedWord: typeof quizWords[0]) => {
     if (feedback) return // フィードバック表示中は押せない
@@ -63,28 +62,44 @@ export function Quiz() {
       playIncorrectSound()
     }
 
-    // 即時フィードバック表示
+    // 即時フィードバック表示（次へボタンを押すまで待機）
     setFeedback({
       selectedId: selectedWord.id,
       isCorrect,
     })
-
-    // 1.2秒後に次の問題へ
-    setTimeout(() => {
-      setFeedback(null)
-      setState(prev => {
-        const nextIndex = prev.currentIndex + 1
-        const isFinished = nextIndex >= quizWords.length
-        return {
-          currentIndex: nextIndex,
-          score: prev.score + (isCorrect ? 1 : 0),
-          total: prev.total + 1,
-          finished: isFinished,
-          wrongIds: isCorrect ? prev.wrongIds : [...prev.wrongIds, currentWord.id],
-        }
-      })
-    }, 1200)
   }
+
+  const handleNext = useCallback(() => {
+    if (!feedback) return
+
+    const isCorrect = feedback.isCorrect
+
+    setFeedback(null)
+    setState(prev => {
+      const nextIndex = prev.currentIndex + 1
+      const isFinished = nextIndex >= quizWords.length
+      return {
+        currentIndex: nextIndex,
+        score: prev.score + (isCorrect ? 1 : 0),
+        total: prev.total + 1,
+        finished: isFinished,
+        wrongIds: isCorrect ? prev.wrongIds : [...prev.wrongIds, currentWord.id],
+      }
+    })
+  }, [feedback, quizWords.length, currentWord?.id])
+
+  // RIGHTキーで「次へ」を発動
+  useEffect(() => {
+    if (!feedback) return
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowRight') {
+        e.preventDefault()
+        handleNext()
+      }
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [feedback, handleNext])
 
   const restart = () => {
     setState({ currentIndex: 0, score: 0, total: 0, finished: false, wrongIds: [] })
@@ -193,15 +208,19 @@ export function Quiz() {
               <span className="option-text">
                 {mode === 'hanzi-to-meaning' ? opt.meaning : opt.hanzi}
               </span>
-              {feedback && isSelected && (
-                <span className="option-result-icon">
-                  {feedback.isCorrect ? '✅' : '❌'}
-                </span>
-              )}
+              <span className="option-result-icon">
+                {feedback && isSelected ? (feedback.isCorrect ? '✅' : '❌') : ''}
+              </span>
             </button>
           )
         })}
       </div>
+
+      {feedback && (
+        <button className="btn-primary quiz-next-btn" onClick={handleNext}>
+          次へ →
+        </button>
+      )}
     </div>
   )
 }

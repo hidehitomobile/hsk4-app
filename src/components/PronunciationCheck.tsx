@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from 'react'
+import { useState, useCallback, useRef, useEffect, forwardRef, useImperativeHandle } from 'react'
 import { pinyin } from 'pinyin-pro'
 import {
   isSpeechRecognitionSupported,
@@ -19,15 +19,20 @@ interface PronunciationCheckProps {
   correctPinyin: string
 }
 
+export interface PronunciationCheckHandle {
+  toggle: () => void
+}
+
 /**
- * ピンインを正規化（スペースを除去して比較用に変換）
- * "zhōng wén" / "zhōngwén" → "zhōngwén"
+ * ピンインを正規化（スペース除去 + Unicode正規化で比較用に変換）
+ * "ài qíng" / "àiqíng" → "àiqíng"（NFC正規化で声調記号を統一）
  */
 function normalizePinyin(raw: string): string {
   return raw
     .replace(/\s+/g, '')
     .trim()
     .toLowerCase()
+    .normalize('NFC')
 }
 
 /**
@@ -37,7 +42,8 @@ function comparePinyin(a: string, b: string): boolean {
   return normalizePinyin(a) === normalizePinyin(b)
 }
 
-export function PronunciationCheck({ correctHanzi, correctPinyin }: PronunciationCheckProps) {
+export const PronunciationCheck = forwardRef<PronunciationCheckHandle, PronunciationCheckProps>(
+  function PronunciationCheck({ correctHanzi, correctPinyin }, ref) {
   const [session] = useState(() => new SpeechRecognitionSession())
   const [state, setState] = useState<RecognitionState>('idle')
   const [result, setResult] = useState<PronunciationResult | null>(null)
@@ -52,15 +58,20 @@ export function PronunciationCheck({ correctHanzi, correctPinyin }: Pronunciatio
 
     s.onResult = (recResult) => {
       if (recResult.isFinal) {
+        // 認識結果から余分な空白・句読点・記号を除去（漢字のみ残す）
+        const cleanTranscript = recResult.transcript
+          .replace(/[^\u4e00-\u9fff\u3400-\u4dbf]/g, '')
+          .normalize('NFC')
+
         // 認識結果の漢字からピンインを変換
-        const recognizedPinyin = pinyin(recResult.transcript, {
+        const recognizedPinyin = pinyin(cleanTranscript || recResult.transcript, {
           toneType: 'symbol',  // 声調付きピンイン（例：nǐ hǎo）
           type: 'string',
         })
 
-        const isCorrect =
-          recResult.transcript === correctHanzi &&
-          comparePinyin(recognizedPinyin, correctPinyin)
+        const hanziMatch = cleanTranscript === correctHanzi.trim().normalize('NFC')
+        const pinyinMatch = comparePinyin(recognizedPinyin, correctPinyin)
+        const isCorrect = hanziMatch || pinyinMatch
 
         // 効果音を鳴らす
         if (isCorrect) {
@@ -111,6 +122,8 @@ export function PronunciationCheck({ correctHanzi, correctPinyin }: Pronunciatio
       sessionRef.current.start('zh-CN')
     }
   }, [state, sessionRef])
+
+  useImperativeHandle(ref, () => ({ toggle: handleToggle }), [handleToggle])
 
   if (!supported) {
     return (
@@ -194,4 +207,4 @@ export function PronunciationCheck({ correctHanzi, correctPinyin }: Pronunciatio
       )}
     </div>
   )
-}
+})

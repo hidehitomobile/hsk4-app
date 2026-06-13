@@ -1,14 +1,46 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
 import { PronunciationCheck } from './PronunciationCheck'
+import type { PronunciationCheckHandle } from './PronunciationCheck'
 import { categoryLabel } from '../utils/category'
 
 export function WordCard() {
   const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
   const [showExample, setShowExample] = useState(false)
   const [showBreakdown, setShowBreakdown] = useState(false)
+
+  // 発音チェックのref（キーボードショートカット用）
+  const pronunciationRef = useRef<PronunciationCheckHandle>(null)
+
+  // refで最新の関数を保持（useEffectの再登録を避けるため）
+  const goNextRef = useRef(goNext)
+  const goPrevRef = useRef(goPrev)
+  goNextRef.current = goNext
+  goPrevRef.current = goPrev
+
+  // キーボードショートカット
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // 入力フィールドにフォーカスがある場合は無視
+      const tag = (e.target as HTMLElement).tagName
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return
+
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault()
+        goPrevRef.current()
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault()
+        goNextRef.current()
+      } else if (e.key === ' ') {
+        e.preventDefault()
+        pronunciationRef.current?.toggle()
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [])
 
   // 単語が切り替わるたびに自動で音声を再生（設定でON/OFF切替可能）
   useEffect(() => {
@@ -89,12 +121,20 @@ export function WordCard() {
         </div>
       )}
 
-      <button
-        className="breakdown-toggle"
-        onClick={() => setShowBreakdown(!showBreakdown)}
-      >
-        {showBreakdown ? '漢字の構成を隠す ▲' : '漢字の構成を表示 ▼'}
-      </button>
+      <div className="card-toggles">
+        <button
+          className="breakdown-toggle"
+          onClick={() => setShowBreakdown(!showBreakdown)}
+        >
+          {showBreakdown ? '漢字構成 ▲' : '漢字構成 ▼'}
+        </button>
+        <button
+          className="example-toggle"
+          onClick={() => setShowExample(!showExample)}
+        >
+          {showExample ? '例文を隠す ▲' : '例文を表示 ▼'}
+        </button>
+      </div>
 
       {showBreakdown && (
         <div className="breakdown-section">
@@ -123,16 +163,10 @@ export function WordCard() {
       )}
 
       <PronunciationCheck
+        ref={pronunciationRef}
         correctHanzi={currentWord.hanzi}
         correctPinyin={currentWord.pinyin}
       />
-
-      <button
-        className="example-toggle"
-        onClick={() => setShowExample(!showExample)}
-      >
-        {showExample ? '例文を隠す ▲' : '例文を表示 ▼'}
-      </button>
 
       {showExample && (
         <div className="example-section">
