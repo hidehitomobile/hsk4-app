@@ -1,6 +1,13 @@
-import { createContext, useContext, useState, useCallback, useEffect, ReactNode } from 'react'
+import { createContext, useContext, useState, useCallback, useEffect, useRef, ReactNode } from 'react'
 import { AppSettings, AppState, Category, WordEntry } from '../types'
-import { loadLearnedIds, saveLearnedIds, loadFavoriteIds, saveFavoriteIds, loadSettings, saveSettings } from '../utils/storage'
+import {
+  loadLearnedIds, saveLearnedIds,
+  loadFavoriteIds, saveFavoriteIds,
+  loadSettings, saveSettings,
+  loadCurrentIndex, saveCurrentIndex,
+  loadSelectedCategory, saveSelectedCategory,
+  loadSearchQuery, saveSearchQuery,
+} from '../utils/storage'
 
 interface WordContextType extends AppState {
   setCurrentIndex: (index: number) => void
@@ -21,15 +28,16 @@ interface WordContextType extends AppState {
 const WordContext = createContext<WordContextType | null>(null)
 
 export function WordProvider({ children, words }: { children: ReactNode; words: WordEntry[] }) {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState(() => loadCurrentIndex())
   const [learnedIds, setLearnedIds] = useState<Set<number>>(() => loadLearnedIds())
   const [favoriteIds, setFavoriteIds] = useState<Set<number>>(() => loadFavoriteIds())
-  const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>('all')
-  const [searchQuery, setSearchQuery] = useState('')
+  const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>(() => loadSelectedCategory())
+  const [searchQuery, setSearchQuery] = useState(() => loadSearchQuery())
   const [settings, setSettings] = useState<AppSettings>(() => loadSettings())
 
   // フィルタリング
   const filteredWords = words.filter(w => {
+    if (settings.hideLearned && learnedIds.has(w.id)) return false
     const matchCategory = selectedCategory === 'all' || w.category.includes(selectedCategory)
     const q = searchQuery.trim().toLowerCase()
     const matchSearch = !q ||
@@ -39,10 +47,40 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
     return matchCategory && matchSearch
   })
 
+  // フィルターの前回値を保持（値が実際に変わった時だけインデックスをリセット）
+  const prevFilter = useRef({ category: loadSelectedCategory(), query: loadSearchQuery(), hideLearned: loadSettings().hideLearned })
+
   // フィルター変更時にインデックスをリセット
   useEffect(() => {
+    const { category, query, hideLearned } = prevFilter.current
+    if (category === selectedCategory && query === searchQuery && hideLearned === settings.hideLearned) {
+      return // 値が変わっていない（マウント時・StrictMode再マウント時）
+    }
+    prevFilter.current = { category: selectedCategory, query: searchQuery, hideLearned: settings.hideLearned }
     setCurrentIndex(0)
-  }, [selectedCategory, searchQuery])
+  }, [selectedCategory, searchQuery, settings.hideLearned])
+
+  // currentIndex を localStorage に保存
+  useEffect(() => {
+    saveCurrentIndex(currentIndex)
+  }, [currentIndex])
+
+  // selectedCategory を localStorage に保存
+  useEffect(() => {
+    saveSelectedCategory(selectedCategory)
+  }, [selectedCategory])
+
+  // searchQuery を localStorage に保存
+  useEffect(() => {
+    saveSearchQuery(searchQuery)
+  }, [searchQuery])
+
+  // 初期ロード時に currentIndex が範囲外なら補正
+  useEffect(() => {
+    if (currentIndex >= filteredWords.length) {
+      setCurrentIndex(Math.max(0, filteredWords.length - 1))
+    }
+  }, []) // 初回のみ実行
 
   const currentWord = filteredWords.length > 0 ? filteredWords[currentIndex] ?? null : null
 

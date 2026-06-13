@@ -50,8 +50,7 @@ let SpeechRecognitionConstructor: { new(): SpeechRecognitionInstance } | null = 
 function getRecognitionConstructor(): { new(): SpeechRecognitionInstance } | null {
   if (SpeechRecognitionConstructor) return SpeechRecognitionConstructor
 
-  const win = window as Record<string, unknown>
-  // @ts-expect-error SpeechRecognition
+  const win = window as unknown as Record<string, unknown>
   const Ctor = win.SpeechRecognition || win.webkitSpeechRecognition
   if (typeof Ctor === 'function') {
     SpeechRecognitionConstructor = Ctor as { new(): SpeechRecognitionInstance }

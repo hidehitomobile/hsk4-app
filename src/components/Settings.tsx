@@ -76,6 +76,17 @@ export function Settings() {
           ダークモード
         </label>
       </div>
+
+      <div className="setting-group">
+        <label>
+          <input
+            type="checkbox"
+            checked={settings.hideLearned}
+            onChange={e => updateSettings({ hideLearned: e.target.checked })}
+          />
+          学習済みの単語を非表示
+        </label>
+      </div>
     </div>
   )
 }

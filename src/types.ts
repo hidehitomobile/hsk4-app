@@ -23,6 +23,7 @@ export interface AppSettings {
   showPinyin: boolean
   showMeaning: boolean
   darkMode: boolean
+  hideLearned: boolean
 }
 
 export interface AppState {
