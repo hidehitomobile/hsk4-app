@@ -1,10 +1,10 @@
-import { useState, useMemo, useEffect, useCallback } from 'react'
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord } from '../utils/speech'
 import { playCorrectSound, playIncorrectSound } from '../utils/sound'
 import { categoryLabel } from '../utils/category'
 
-type QuizMode = 'hanzi-to-meaning' | 'meaning-to-hanzi'
+type QuizMode = 'hanzi-to-meaning' | 'meaning-to-hanzi' | 'audio-to-hanzi'
 
 interface QuizState {
   currentIndex: number
@@ -49,6 +49,19 @@ export function Quiz() {
     const shuffled = [...others].sort(() => Math.random() - 0.5)
     return [currentWord, ...shuffled.slice(0, 3)].sort(() => Math.random() - 0.5)
   }, [currentWord?.id, words])
+
+  // 問題表示時に音声を自動再生（初回含む）
+  const prevWordIdRef = useRef<number | null>(null)
+  useEffect(() => {
+    if (!currentWord || state.finished) return
+    if (prevWordIdRef.current === currentWord.id) return
+    prevWordIdRef.current = currentWord.id
+
+    const timer = setTimeout(() => {
+      speakWord(currentWord.hanzi, settings.speechRate)
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [currentWord?.id, state.finished])
 
   const handleAnswer = (selectedWord: typeof quizWords[0]) => {
     if (feedback) return // フィードバック表示中は押せない
@@ -157,6 +170,12 @@ export function Quiz() {
           >
             意味 → 漢字
           </button>
+          <button
+            className={mode === 'audio-to-hanzi' ? 'active' : ''}
+            onClick={() => { setMode('audio-to-hanzi'); setFeedback(null) }}
+          >
+            音声 → 漢字
+          </button>
         </div>
         <span className="quiz-progress">
           {state.currentIndex + 1} / {quizWords.length}
@@ -178,6 +197,15 @@ export function Quiz() {
               )}
             </div>
           </>
+        ) : mode === 'audio-to-hanzi' ? (
+          <div className="question-audio">
+            <button
+              className="question-speaker-btn"
+              onClick={() => speakWord(currentWord.hanzi, settings.speechRate)}
+            >
+              🔊 音声を再生
+            </button>
+          </div>
         ) : (
           <div className="question-meaning">{currentWord.meaning}</div>
         )}
@@ -206,7 +234,16 @@ export function Quiz() {
               disabled={!!feedback}
             >
               <span className="option-text">
-                {mode === 'hanzi-to-meaning' ? opt.meaning : opt.hanzi}
+                {mode === 'hanzi-to-meaning' ? (
+                  opt.meaning
+                ) : (
+                  <>
+                    <span className="option-hanzi">{opt.hanzi}</span>
+                    {feedback && (
+                      <span className="option-meaning-sub">{opt.meaning}</span>
+                    )}
+                  </>
+                )}
               </span>
               <span className="option-result-icon">
                 {feedback && isSelected ? (feedback.isCorrect ? '✅' : '❌') : ''}

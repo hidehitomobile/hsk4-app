@@ -162,12 +162,6 @@ export function WordCard() {
         </div>
       )}
 
-      <PronunciationCheck
-        ref={pronunciationRef}
-        correctHanzi={currentWord.hanzi}
-        correctPinyin={currentWord.pinyin}
-      />
-
       {showExample && (
         <div className="example-section">
           <div className="example-chinese" onClick={() => speakExample(currentWord.example, settings.speechRate)}>
@@ -179,6 +173,12 @@ export function WordCard() {
           </div>
         </div>
       )}
+
+      <PronunciationCheck
+        ref={pronunciationRef}
+        correctHanzi={currentWord.hanzi}
+        correctPinyin={currentWord.pinyin}
+      />
 
       <div className="card-navigation">
         <button onClick={goPrev} disabled={currentIndex === 0}>
