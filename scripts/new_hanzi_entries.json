@@ -1,0 +1,2017 @@
+{
+  "子": {
+    "radical": "子",
+    "radicalMeaning": "こへん",
+    "components": [
+      "了",
+      "一"
+    ],
+    "note": "赤ん坊の形。手足を包まれた子どもの象形。"
+  },
+  "自": {
+    "radical": "自",
+    "radicalMeaning": "みずから",
+    "components": [
+      "丿",
+      "目"
+    ],
+    "note": "自分の鼻を指す形→自分。"
+  },
+  "不": {
+    "radical": "一",
+    "radicalMeaning": "いち",
+    "components": [
+      "一",
+      "丿",
+      "丨",
+      "丶"
+    ],
+    "note": "否定を表す。鳥が飛び立たない様子。"
+  },
+  "重": {
+    "radical": "里",
+    "radicalMeaning": "さと",
+    "components": [
+      "千",
+      "里"
+    ],
+    "note": "千＋里→千里の重み→重い。"
+  },
+  "心": {
+    "radical": "心",
+    "radicalMeaning": "こころ",
+    "components": [
+      "心の形"
+    ],
+    "note": "心臓の形をかたどった象形文字。"
+  },
+  "来": {
+    "radical": "木",
+    "radicalMeaning": "き",
+    "components": [
+      "一",
+      "米"
+    ],
+    "note": "麦の穂が来る様子→来る。"
+  },
+  "格": {
+    "radical": "木",
+    "radicalMeaning": "きへん",
+    "components": [
+      "木",
+      "各"
+    ],
+    "note": "木の枝分かれ→規格・格式。"
+  },
+  "作": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "乍"
+    ],
+    "note": "人が乍（たちまち）に作る→作業。"
+  },
+  "好": {
+    "radical": "女",
+    "radicalMeaning": "おんなへん",
+    "components": [
+      "女",
+      "子"
+    ],
+    "note": "女＋子→女性が子を大切にする→良い。"
+  },
+  "时": {
+    "radical": "日",
+    "radicalMeaning": "ひへん",
+    "components": [
+      "日",
+      "寸"
+    ],
+    "note": "日＋寸（長さ）→時間を測る。"
+  },
+  "动": {
+    "radical": "力",
+    "radicalMeaning": "ちから",
+    "components": [
+      "云",
+      "力"
+    ],
+    "note": "云（うごく）＋力→動く。"
+  },
+  "然": {
+    "radical": "火（灬）",
+    "radicalMeaning": "れっか",
+    "components": [
+      "肰",
+      "灬"
+    ],
+    "note": "犬の肉を火で焼く→然（しかり）。自然の意にも。"
+  },
+  "道": {
+    "radical": "辶",
+    "radicalMeaning": "しんにょう",
+    "components": [
+      "辶",
+      "首"
+    ],
+    "note": "道（辶）＋首（かしら）→道教・道理。"
+  },
+  "出": {
+    "radical": "凵",
+    "radicalMeaning": "うけばこ",
+    "components": [
+      "凵",
+      "山"
+    ],
+    "note": "穴（凵）から足が出る様子→出る。"
+  },
+  "受": {
+    "radical": "又",
+    "radicalMeaning": "また",
+    "components": [
+      "爫",
+      "冖",
+      "又"
+    ],
+    "note": "手（爫＋又）で受け取る→受ける。"
+  },
+  "会": {
+    "radical": "人",
+    "radicalMeaning": "ひと",
+    "components": [
+      "人",
+      "云"
+    ],
+    "note": "人＋云（いう）→人が集まって話す→会う。"
+  },
+  "正": {
+    "radical": "止",
+    "radicalMeaning": "とめる",
+    "components": [
+      "一",
+      "止"
+    ],
+    "note": "一＋止→まっすぐ→正しい。"
+  },
+  "总": {
+    "radical": "心",
+    "radicalMeaning": "こころ",
+    "components": [
+      "丷",
+      "口",
+      "心"
+    ],
+    "note": "口でまとめて心で総括→総合。"
+  },
+  "名": {
+    "radical": "口",
+    "radicalMeaning": "くち",
+    "components": [
+      "夕",
+      "口"
+    ],
+    "note": "夕＋口→夕暮れに名を呼ぶ→名前。"
+  },
+  "业": {
+    "radical": "一",
+    "radicalMeaning": "いち",
+    "components": [
+      "丨",
+      "丷",
+      "一"
+    ],
+    "note": "音符を簡略化→事業・職業。"
+  },
+  "士": {
+    "radical": "士",
+    "radicalMeaning": "さむらい",
+    "components": [
+      "十",
+      "一"
+    ],
+    "note": "十と一→知識人の意。"
+  },
+  "过": {
+    "radical": "辶",
+    "radicalMeaning": "しんにょう",
+    "components": [
+      "辶",
+      "寸"
+    ],
+    "note": "辶（道）＋寸→通り過ぎる→経過。"
+  },
+  "管": {
+    "radical": "竹（⺮）",
+    "radicalMeaning": "たけかんむり",
+    "components": [
+      "⺮",
+      "官"
+    ],
+    "note": "竹＋官→竹の管→管理。"
+  },
+  "成": {
+    "radical": "戈",
+    "radicalMeaning": "ほこ",
+    "components": [
+      "戊",
+      "丁"
+    ],
+    "note": "戊（まもる）＋丁→成し遂げる→成功。"
+  },
+  "打": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "丁"
+    ],
+    "note": "手（扌）＋丁（くぎ）→打つ。"
+  },
+  "印": {
+    "radical": "卩",
+    "radicalMeaning": "わりふ",
+    "components": [
+      "匕",
+      "卩"
+    ],
+    "note": "手（匕）で印を押す→印刷。"
+  },
+  "到": {
+    "radical": "刀（刂）",
+    "radicalMeaning": "りっとう",
+    "components": [
+      "至",
+      "刂"
+    ],
+    "note": "至（いたる）＋刀→到着。"
+  },
+  "对": {
+    "radical": "寸",
+    "radicalMeaning": "すん",
+    "components": [
+      "又",
+      "寸"
+    ],
+    "note": "手（又）＋寸（はかる）→向かい合う→正しい。"
+  },
+  "于": {
+    "radical": "二",
+    "radicalMeaning": "に",
+    "components": [
+      "一",
+      "亅"
+    ],
+    "note": "気が滞る様子→〜において。"
+  },
+  "合": {
+    "radical": "口",
+    "radicalMeaning": "くち",
+    "components": [
+      "人",
+      "一",
+      "口"
+    ],
+    "note": "人＋一＋口→合わせる→合う。"
+  },
+  "亲": {
+    "radical": "立",
+    "radicalMeaning": "たつ",
+    "components": [
+      "立",
+      "木"
+    ],
+    "note": "立＋木→親しく立つ→親。"
+  },
+  "码": {
+    "radical": "石",
+    "radicalMeaning": "いしへん",
+    "components": [
+      "石",
+      "马"
+    ],
+    "note": "石＋马→数字の符号・コード。"
+  },
+  "少": {
+    "radical": "小",
+    "radicalMeaning": "ちいさい",
+    "components": [
+      "小",
+      "丿"
+    ],
+    "note": "小＋丿→少ない。"
+  },
+  "金": {
+    "radical": "金",
+    "radicalMeaning": "かねへん",
+    "components": [
+      "人",
+      "王",
+      "丷"
+    ],
+    "note": "土中に埋まる金属の粒の象形→お金。"
+  },
+  "结": {
+    "radical": "糸（纟）",
+    "radicalMeaning": "いとへん",
+    "components": [
+      "纟",
+      "吉"
+    ],
+    "note": "糸（纟）＋吉→結ぶ→結束。"
+  },
+  "可": {
+    "radical": "口",
+    "radicalMeaning": "くち",
+    "components": [
+      "丁",
+      "口"
+    ],
+    "note": "丁（かなめ）＋口→承諾→可能。"
+  },
+  "是": {
+    "radical": "日",
+    "radicalMeaning": "ひへん",
+    "components": [
+      "日",
+      "疋"
+    ],
+    "note": "日＋疋（あし）→日の下を歩く→正しい。"
+  },
+  "气": {
+    "radical": "气",
+    "radicalMeaning": "きがまえ",
+    "components": [
+      "气の形"
+    ],
+    "note": "立ちのぼる蒸気の形→空気。"
+  },
+  "难": {
+    "radical": "隹",
+    "radicalMeaning": "ふるとり",
+    "components": [
+      "又",
+      "隹"
+    ],
+    "note": "又（手）＋隹（とり）→鳥を捕まえるのは難しい。"
+  },
+  "毛": {
+    "radical": "毛",
+    "radicalMeaning": "け",
+    "components": [
+      "毛の形"
+    ],
+    "note": "動物の毛の象形文字。"
+  },
+  "其": {
+    "radical": "八",
+    "radicalMeaning": "はち",
+    "components": [
+      "甘",
+      "八"
+    ],
+    "note": "箕（み）の形→その。"
+  },
+  "缺": {
+    "radical": "缶",
+    "radicalMeaning": "ほとぎ",
+    "components": [
+      "缶",
+      "夬"
+    ],
+    "note": "缶（かめ）＋夬（わける）→欠ける。"
+  },
+  "一": {
+    "radical": "一",
+    "radicalMeaning": "いち",
+    "components": [
+      "一"
+    ],
+    "note": "一本の横線。数の始まり。"
+  },
+  "专": {
+    "radical": "一",
+    "radicalMeaning": "いち",
+    "components": [
+      "⺗",
+      "寸"
+    ],
+    "note": "専（もっぱら）の簡略→専門。"
+  },
+  "确": {
+    "radical": "石",
+    "radicalMeaning": "いしへん",
+    "components": [
+      "石",
+      "角"
+    ],
+    "note": "石＋角→石のように固い→確か。"
+  },
+  "细": {
+    "radical": "糸（纟）",
+    "radicalMeaning": "いとへん",
+    "components": [
+      "纟",
+      "田"
+    ],
+    "note": "糸（纟）＋田→細い糸→細かい。"
+  },
+  "最": {
+    "radical": "曰",
+    "radicalMeaning": "ひらび",
+    "components": [
+      "曰",
+      "取"
+    ],
+    "note": "曰＋取→最も取る→最も。"
+  },
+  "座": {
+    "radical": "广",
+    "radicalMeaning": "まだれ",
+    "components": [
+      "广",
+      "坐"
+    ],
+    "note": "广（建物）＋坐（座る）→座席。"
+  },
+  "歉": {
+    "radical": "欠",
+    "radicalMeaning": "あくび",
+    "components": [
+      "兼",
+      "欠"
+    ],
+    "note": "兼＋欠→不足→申し訳ない→抱歉（すまない）。"
+  },
+  "报": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "𠬝"
+    ],
+    "note": "手（扌）で知らせる→報告・新聞。"
+  },
+  "博": {
+    "radical": "十",
+    "radicalMeaning": "じゅう",
+    "components": [
+      "十",
+      "甫",
+      "寸"
+    ],
+    "note": "十＋甫＋寸→広く博す→博士。"
+  },
+  "崇": {
+    "radical": "山",
+    "radicalMeaning": "やまへん",
+    "components": [
+      "山",
+      "宗"
+    ],
+    "note": "山＋宗→高い山→崇高。"
+  },
+  "窗": {
+    "radical": "穴",
+    "radicalMeaning": "あなかんむり",
+    "components": [
+      "穴",
+      "囱"
+    ],
+    "note": "穴＋囱（まど）→窓。"
+  },
+  "聪": {
+    "radical": "耳",
+    "radicalMeaning": "みみへん",
+    "components": [
+      "耳",
+      "总"
+    ],
+    "note": "耳＋总→耳がよい→聡明。"
+  },
+  "而": {
+    "radical": "而",
+    "radicalMeaning": "しこうして",
+    "components": [
+      "一",
+      "冂",
+      "丨",
+      "丨"
+    ],
+    "note": "あごひげの形→そして。"
+  },
+  "丰": {
+    "radical": "丨",
+    "radicalMeaning": "ぼう",
+    "components": [
+      "三",
+      "丨"
+    ],
+    "note": "豊かな穂の形→豊か。"
+  },
+  "否": {
+    "radical": "口",
+    "radicalMeaning": "くち",
+    "components": [
+      "不",
+      "口"
+    ],
+    "note": "不＋口→否定→そうではない。"
+  },
+  "逛": {
+    "radical": "辶",
+    "radicalMeaning": "しんにょう",
+    "components": [
+      "辶",
+      "狂"
+    ],
+    "note": "辶（道）＋狂→ぶらつく→散歩。"
+  },
+  "航": {
+    "radical": "舟",
+    "radicalMeaning": "ふねへん",
+    "components": [
+      "舟",
+      "亢"
+    ],
+    "note": "舟＋亢（たかい）→航行。"
+  },
+  "互": {
+    "radical": "二",
+    "radicalMeaning": "に",
+    "components": [
+      "一",
+      "彑"
+    ],
+    "note": "互い違いに交差する形→相互。"
+  },
+  "获": {
+    "radical": "艹",
+    "radicalMeaning": "くさかんむり",
+    "components": [
+      "艹",
+      "犭",
+      "犬"
+    ],
+    "note": "草（艹）＋犬（獣）→獲物→獲得。"
+  },
+  "极": {
+    "radical": "木",
+    "radicalMeaning": "きへん",
+    "components": [
+      "木",
+      "及"
+    ],
+    "note": "木＋及→木の頂点→極める。"
+  },
+  "积": {
+    "radical": "禾",
+    "radicalMeaning": "のぎへん",
+    "components": [
+      "禾",
+      "只"
+    ],
+    "note": "禾（穀物）＋只（ただ）→積み重ねる→蓄積。"
+  },
+  "既": {
+    "radical": "无",
+    "radicalMeaning": "む",
+    "components": [
+      "艮",
+      "无"
+    ],
+    "note": "艮＋无→すでに食べ終わる→既に。"
+  },
+  "减": {
+    "radical": "冫",
+    "radicalMeaning": "にすい",
+    "components": [
+      "冫",
+      "咸"
+    ],
+    "note": "冫（氷）＋咸（へらす）→減少。"
+  },
+  "将": {
+    "radical": "寸",
+    "radicalMeaning": "すん",
+    "components": [
+      "爿",
+      "寸"
+    ],
+    "note": "爿（ゆか）＋寸→まさに〜しようとする。"
+  },
+  "骄": {
+    "radical": "馬（马）",
+    "radicalMeaning": "うまへん",
+    "components": [
+      "马",
+      "乔"
+    ],
+    "note": "馬＋乔（たかい）→驕る。"
+  },
+  "旷": {
+    "radical": "日",
+    "radicalMeaning": "ひへん",
+    "components": [
+      "日",
+      "广"
+    ],
+    "note": "日＋广（ひろい）→広々→広大。"
+  },
+  "览": {
+    "radical": "見（见）",
+    "radicalMeaning": "みる",
+    "components": [
+      "临の上部",
+      "见"
+    ],
+    "note": "上から見下ろす→展覧。"
+  },
+  "励": {
+    "radical": "力",
+    "radicalMeaning": "ちから",
+    "components": [
+      "厉",
+      "力"
+    ],
+    "note": "厉（はげむ）＋力→励ます。"
+  },
+  "俩": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "两"
+    ],
+    "note": "人＋两→二人。"
+  },
+  "辆": {
+    "radical": "車（车）",
+    "radicalMeaning": "くるまへん",
+    "components": [
+      "车",
+      "两"
+    ],
+    "note": "車＋两→車両（量詞）。"
+  },
+  "龄": {
+    "radical": "歯（齿）",
+    "radicalMeaning": "はへん",
+    "components": [
+      "齿",
+      "令"
+    ],
+    "note": "歯＋令→年齢。歯で年を数える。"
+  },
+  "律": {
+    "radical": "彳",
+    "radicalMeaning": "ぎょうにんべん",
+    "components": [
+      "彳",
+      "聿"
+    ],
+    "note": "彳（道）＋聿（ふで）→法律。道を定める。"
+  },
+  "苹": {
+    "radical": "艹",
+    "radicalMeaning": "くさかんむり",
+    "components": [
+      "艹",
+      "平"
+    ],
+    "note": "草＋平→リンゴ（苹果）。"
+  },
+  "葡": {
+    "radical": "艹",
+    "radicalMeaning": "くさかんむり",
+    "components": [
+      "艹",
+      "匍"
+    ],
+    "note": "草＋匍→葡萄（ぶどう）。"
+  },
+  "萄": {
+    "radical": "艹",
+    "radicalMeaning": "くさかんむり",
+    "components": [
+      "艹",
+      "匋"
+    ],
+    "note": "草＋匋→葡萄（ぶどう）。"
+  },
+  "弃": {
+    "radical": "廾",
+    "radicalMeaning": "にじゅうあし",
+    "components": [
+      "亠",
+      "厶",
+      "廾"
+    ],
+    "note": "両手（廾）で捨てる→放棄。"
+  },
+  "却": {
+    "radical": "卩",
+    "radicalMeaning": "わりふ",
+    "components": [
+      "去",
+      "卩"
+    ],
+    "note": "去＋卩→退く→しかし。"
+  },
+  "售": {
+    "radical": "口",
+    "radicalMeaning": "くち",
+    "components": [
+      "隹",
+      "口"
+    ],
+    "note": "隹＋口→鳥を口で売る→販売。"
+  },
+  "授": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "受"
+    ],
+    "note": "手（扌）＋受→手渡す→教授。"
+  },
+  "酸": {
+    "radical": "酉",
+    "radicalMeaning": "とりへん",
+    "components": [
+      "酉",
+      "夋"
+    ],
+    "note": "酒（酉）＋夋→酸っぱい。"
+  },
+  "钥": {
+    "radical": "金（钅）",
+    "radicalMeaning": "かねへん",
+    "components": [
+      "钅",
+      "月"
+    ],
+    "note": "金＋月→鍵（钥匙）。"
+  },
+  "仔": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "子"
+    ],
+    "note": "人＋子→子細→仔細。"
+  },
+  "匙": {
+    "radical": "匕",
+    "radicalMeaning": "さじ",
+    "components": [
+      "是",
+      "匕"
+    ],
+    "note": "是＋匕（さじ）→スプーン→钥匙（鍵）。"
+  },
+  "傲": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "敖"
+    ],
+    "note": "人（亻）＋敖（おごる）→傲慢。"
+  },
+  "毕": {
+    "radical": "比",
+    "radicalMeaning": "くらべる",
+    "components": [
+      "比",
+      "十"
+    ],
+    "note": "比＋十→すべて終わる→卒業。"
+  },
+  "玻": {
+    "radical": "玉（王）",
+    "radicalMeaning": "たまへん",
+    "components": [
+      "王",
+      "皮"
+    ],
+    "note": "玉＋皮→玻璃（ガラス）。"
+  },
+  "璃": {
+    "radical": "玉（王）",
+    "radicalMeaning": "たまへん",
+    "components": [
+      "王",
+      "离"
+    ],
+    "note": "玉＋离→玻璃（ガラス）。"
+  },
+  "础": {
+    "radical": "石",
+    "radicalMeaning": "いしへん",
+    "components": [
+      "石",
+      "出"
+    ],
+    "note": "石＋出→土台の石→基礎。"
+  },
+  "蹈": {
+    "radical": "足（⻊）",
+    "radicalMeaning": "あしへん",
+    "components": [
+      "⻊",
+      "舀"
+    ],
+    "note": "足＋舀→踏む→舞踏。"
+  },
+  "堵": {
+    "radical": "土",
+    "radicalMeaning": "つちへん",
+    "components": [
+      "土",
+      "者"
+    ],
+    "note": "土＋者→土でふさぐ→渋滞。"
+  },
+  "肚": {
+    "radical": "肉（月）",
+    "radicalMeaning": "にくづき",
+    "components": [
+      "月",
+      "土"
+    ],
+    "note": "肉（月）＋土→お腹。"
+  },
+  "队": {
+    "radical": "阜（阝）",
+    "radicalMeaning": "こざとへん",
+    "components": [
+      "阝",
+      "人"
+    ],
+    "note": "阜（おか）＋人→隊列。"
+  },
+  "翻": {
+    "radical": "羽",
+    "radicalMeaning": "はね",
+    "components": [
+      "番",
+      "羽"
+    ],
+    "note": "番＋羽→羽ばたく→翻訳（ひっくり返す）。"
+  },
+  "肥": {
+    "radical": "肉（月）",
+    "radicalMeaning": "にくづき",
+    "components": [
+      "月",
+      "巴"
+    ],
+    "note": "肉＋巴→太る→肥満。"
+  },
+  "份": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "分"
+    ],
+    "note": "人＋分→取り分→分け前（量詞）。"
+  },
+  "符": {
+    "radical": "竹（⺮）",
+    "radicalMeaning": "たけかんむり",
+    "components": [
+      "⺮",
+      "付"
+    ],
+    "note": "竹＋付→竹札を付ける→符合。"
+  },
+  "福": {
+    "radical": "示（礻）",
+    "radicalMeaning": "しめすへん",
+    "components": [
+      "礻",
+      "畐"
+    ],
+    "note": "神（礻）＋畐（みちる）→幸福。"
+  },
+  "概": {
+    "radical": "木",
+    "radicalMeaning": "きへん",
+    "components": [
+      "木",
+      "既"
+    ],
+    "note": "木＋既→木でおおまかに量る→大概。"
+  },
+  "糕": {
+    "radical": "米",
+    "radicalMeaning": "こめへん",
+    "components": [
+      "米",
+      "羔"
+    ],
+    "note": "米＋羔→お菓子・ケーキ。"
+  },
+  "估": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "古"
+    ],
+    "note": "人＋古→昔と比べて見積もる→評価。"
+  },
+  "鼓": {
+    "radical": "鼓",
+    "radicalMeaning": "つづみ",
+    "components": [
+      "士",
+      "口",
+      "支"
+    ],
+    "note": "士＋口＋支→太鼓を打つ→鼓舞。"
+  },
+  "挂": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "圭"
+    ],
+    "note": "手（扌）＋圭→掛ける。"
+  },
+  "寒": {
+    "radical": "宀",
+    "radicalMeaning": "うかんむり",
+    "components": [
+      "宀",
+      "共",
+      "冫"
+    ],
+    "note": "家（宀）の中で共に氷（冫）→寒い。"
+  },
+  "汗": {
+    "radical": "水（氵）",
+    "radicalMeaning": "さんずい",
+    "components": [
+      "氵",
+      "干"
+    ],
+    "note": "水＋干→汗が出る。"
+  },
+  "盒": {
+    "radical": "皿",
+    "radicalMeaning": "さら",
+    "components": [
+      "合",
+      "皿"
+    ],
+    "note": "合＋皿→合わせる皿→箱・ケース。"
+  },
+  "厚": {
+    "radical": "厂",
+    "radicalMeaning": "がんだれ",
+    "components": [
+      "厂",
+      "日",
+      "子"
+    ],
+    "note": "厂（がけ）＋日＋子→厚い。"
+  },
+  "悔": {
+    "radical": "心（忄）",
+    "radicalMeaning": "りっしんべん",
+    "components": [
+      "忄",
+      "每"
+    ],
+    "note": "心（忄）＋每→毎回心が痛む→後悔。"
+  },
+  "基": {
+    "radical": "土",
+    "radicalMeaning": "つち",
+    "components": [
+      "其",
+      "土"
+    ],
+    "note": "其＋土→土台→基本。"
+  },
+  "籍": {
+    "radical": "竹（⺮）",
+    "radicalMeaning": "たけかんむり",
+    "components": [
+      "⺮",
+      "耤"
+    ],
+    "note": "竹＋耤→竹簡の名簿→国籍。"
+  },
+  "及": {
+    "radical": "又",
+    "radicalMeaning": "また",
+    "components": [
+      "人",
+      "又"
+    ],
+    "note": "人が又（さらに）及ぶ→及ぶ。"
+  },
+  "技": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "支"
+    ],
+    "note": "手（扌）＋支→技術。"
+  },
+  "具": {
+    "radical": "八",
+    "radicalMeaning": "はち",
+    "components": [
+      "目",
+      "一",
+      "八"
+    ],
+    "note": "目と手で道具を備える→具体。"
+  },
+  "聚": {
+    "radical": "耳",
+    "radicalMeaning": "みみ",
+    "components": [
+      "取",
+      "乑"
+    ],
+    "note": "取＋乑（あつまる）→集まる。"
+  },
+  "绝": {
+    "radical": "糸（纟）",
+    "radicalMeaning": "いとへん",
+    "components": [
+      "纟",
+      "色"
+    ],
+    "note": "糸（纟）＋色→糸が絶える→絶対。"
+  },
+  "烤": {
+    "radical": "火",
+    "radicalMeaning": "ひへん",
+    "components": [
+      "火",
+      "考"
+    ],
+    "note": "火＋考→あぶる→焼く。"
+  },
+  "恐": {
+    "radical": "心",
+    "radicalMeaning": "こころ",
+    "components": [
+      "巩",
+      "心"
+    ],
+    "note": "巩＋心→心が固まる→恐怖。"
+  },
+  "懒": {
+    "radical": "心（忄）",
+    "radicalMeaning": "りっしんべん",
+    "components": [
+      "忄",
+      "赖"
+    ],
+    "note": "心＋赖→心がたるむ→怠惰。"
+  },
+  "浪": {
+    "radical": "水（氵）",
+    "radicalMeaning": "さんずい",
+    "components": [
+      "氵",
+      "良"
+    ],
+    "note": "水＋良→良い波→浪花。"
+  },
+  "厉": {
+    "radical": "厂",
+    "radicalMeaning": "がんだれ",
+    "components": [
+      "厂",
+      "万"
+    ],
+    "note": "厂（がけ）＋万→厳しい→厲害。"
+  },
+  "怜": {
+    "radical": "心（忄）",
+    "radicalMeaning": "りっしんべん",
+    "components": [
+      "忄",
+      "令"
+    ],
+    "note": "心＋令→心が令（うつ）る→可憐。"
+  },
+  "漫": {
+    "radical": "水（氵）",
+    "radicalMeaning": "さんずい",
+    "components": [
+      "氵",
+      "曼"
+    ],
+    "note": "水＋曼（ひろがる）→広がる→浪漫。"
+  },
+  "貌": {
+    "radical": "豸",
+    "radicalMeaning": "むじなへん",
+    "components": [
+      "豸",
+      "皃"
+    ],
+    "note": "豸＋皃→姿かたち→礼儀→面貌。"
+  },
+  "迷": {
+    "radical": "辶",
+    "radicalMeaning": "しんにょう",
+    "components": [
+      "辶",
+      "米"
+    ],
+    "note": "道（辶）に米が迷う→迷路。"
+  },
+  "密": {
+    "radical": "宀",
+    "radicalMeaning": "うかんむり",
+    "components": [
+      "宀",
+      "必",
+      "山"
+    ],
+    "note": "必ず山のように家を閉ざす→秘密。"
+  },
+  "耐": {
+    "radical": "而",
+    "radicalMeaning": "しこうして",
+    "components": [
+      "而",
+      "寸"
+    ],
+    "note": "而＋寸→耐える→忍耐。"
+  },
+  "暖": {
+    "radical": "日",
+    "radicalMeaning": "ひへん",
+    "components": [
+      "日",
+      "爰"
+    ],
+    "note": "日＋爰→日があたたかい→暖かい。"
+  },
+  "偶": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "禺"
+    ],
+    "note": "人＋禺→人形→偶然。"
+  },
+  "判": {
+    "radical": "刀（刂）",
+    "radicalMeaning": "りっとう",
+    "components": [
+      "半",
+      "刂"
+    ],
+    "note": "半＋刀→半分に切る→判断。"
+  },
+  "陪": {
+    "radical": "阜（阝）",
+    "radicalMeaning": "こざとへん",
+    "components": [
+      "阝",
+      "咅"
+    ],
+    "note": "阜（おか）＋咅→そばにいる→同伴。"
+  },
+  "脾": {
+    "radical": "肉（月）",
+    "radicalMeaning": "にくづき",
+    "components": [
+      "月",
+      "卑"
+    ],
+    "note": "肉＋卑→脾臓→脾气（気性）。"
+  },
+  "骗": {
+    "radical": "馬（马）",
+    "radicalMeaning": "うまへん",
+    "components": [
+      "马",
+      "扁"
+    ],
+    "note": "馬＋扁→馬に乗って騙す→詐欺。"
+  },
+  "泼": {
+    "radical": "水（氵）",
+    "radicalMeaning": "さんずい",
+    "components": [
+      "氵",
+      "发"
+    ],
+    "note": "水＋发→水をはねる→活発。"
+  },
+  "签": {
+    "radical": "竹（⺮）",
+    "radicalMeaning": "たけかんむり",
+    "components": [
+      "⺮",
+      "佥"
+    ],
+    "note": "竹＋佥→竹札に署名→サイン。"
+  },
+  "敲": {
+    "radical": "攴",
+    "radicalMeaning": "ぼくづくり",
+    "components": [
+      "高",
+      "攴"
+    ],
+    "note": "高＋攴（うつ）→叩く。"
+  },
+  "巧": {
+    "radical": "工",
+    "radicalMeaning": "たくみ",
+    "components": [
+      "工",
+      "丂"
+    ],
+    "note": "工＋丂→巧み→巧妙。"
+  },
+  "轻": {
+    "radical": "車（车）",
+    "radicalMeaning": "くるまへん",
+    "components": [
+      "车",
+      "圣"
+    ],
+    "note": "車＋圣→車が軽い→軽い。"
+  },
+  "仍": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "乃"
+    ],
+    "note": "人＋乃→まだ〜のまま→依然。"
+  },
+  "沙": {
+    "radical": "水（氵）",
+    "radicalMeaning": "さんずい",
+    "components": [
+      "氵",
+      "少"
+    ],
+    "note": "水＋少→少ない水→砂。"
+  },
+  "伤": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "𠃓"
+    ],
+    "note": "人＋傷→怪我→悲しむ。"
+  },
+  "社": {
+    "radical": "示（礻）",
+    "radicalMeaning": "しめすへん",
+    "components": [
+      "礻",
+      "土"
+    ],
+    "note": "神（礻）＋土→土地の神→社会。"
+  },
+  "拾": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "合"
+    ],
+    "note": "手＋合→拾う→収拾。"
+  },
+  "暑": {
+    "radical": "日",
+    "radicalMeaning": "ひ",
+    "components": [
+      "日",
+      "者"
+    ],
+    "note": "日＋者→暑い日→暑さ。"
+  },
+  "松": {
+    "radical": "木",
+    "radicalMeaning": "きへん",
+    "components": [
+      "木",
+      "公"
+    ],
+    "note": "木＋公→松の木→リラックス。"
+  },
+  "算": {
+    "radical": "竹（⺮）",
+    "radicalMeaning": "たけかんむり",
+    "components": [
+      "⺮",
+      "目",
+      "廾"
+    ],
+    "note": "竹＋目＋両手→算盤→計算。"
+  },
+  "糖": {
+    "radical": "米",
+    "radicalMeaning": "こめへん",
+    "components": [
+      "米",
+      "唐"
+    ],
+    "note": "米＋唐→砂糖。"
+  },
+  "讨": {
+    "radical": "言（讠）",
+    "radicalMeaning": "ごんべん",
+    "components": [
+      "讠",
+      "寸"
+    ],
+    "note": "言葉＋寸→言葉で討つ→討議。"
+  },
+  "填": {
+    "radical": "土",
+    "radicalMeaning": "つちへん",
+    "components": [
+      "土",
+      "真"
+    ],
+    "note": "土＋真→土を詰める→記入。"
+  },
+  "庭": {
+    "radical": "广",
+    "radicalMeaning": "まだれ",
+    "components": [
+      "广",
+      "廷"
+    ],
+    "note": "广＋廷→家の庭→家庭。"
+  },
+  "脱": {
+    "radical": "肉（月）",
+    "radicalMeaning": "にくづき",
+    "components": [
+      "月",
+      "兑"
+    ],
+    "note": "肉＋兑→肉を脱ぐ→脱出。"
+  },
+  "围": {
+    "radical": "囗",
+    "radicalMeaning": "くにがまえ",
+    "components": [
+      "囗",
+      "韦"
+    ],
+    "note": "囲み＋韦→囲む→周囲。"
+  },
+  "污": {
+    "radical": "水（氵）",
+    "radicalMeaning": "さんずい",
+    "components": [
+      "氵",
+      "亏"
+    ],
+    "note": "水＋亏→水が汚れる→汚染。"
+  },
+  "厌": {
+    "radical": "厂",
+    "radicalMeaning": "がんだれ",
+    "components": [
+      "厂",
+      "犬"
+    ],
+    "note": "厂（がけ）＋犬→犬が圧迫→嫌悪。"
+  },
+  "养": {
+    "radical": "羊",
+    "radicalMeaning": "ひつじ",
+    "components": [
+      "羊",
+      "良"
+    ],
+    "note": "羊＋良→羊を育てる→養う。"
+  },
+  "亿": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "乙"
+    ],
+    "note": "人＋乙→一億。乙は「おつ」。"
+  },
+  "忆": {
+    "radical": "心（忄）",
+    "radicalMeaning": "りっしんべん",
+    "components": [
+      "忄",
+      "乙"
+    ],
+    "note": "心＋乙→心に留める→記憶。"
+  },
+  "谊": {
+    "radical": "言（讠）",
+    "radicalMeaning": "ごんべん",
+    "components": [
+      "讠",
+      "宜"
+    ],
+    "note": "言葉＋宜→よい関係→友誼。"
+  },
+  "迎": {
+    "radical": "辶",
+    "radicalMeaning": "しんにょう",
+    "components": [
+      "辶",
+      "卬"
+    ],
+    "note": "辶（道）＋卬（むかえる）→迎える。"
+  },
+  "勇": {
+    "radical": "力",
+    "radicalMeaning": "ちから",
+    "components": [
+      "甬",
+      "力"
+    ],
+    "note": "甬＋力→力が湧く→勇気。"
+  },
+  "优": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "尤"
+    ],
+    "note": "人＋尤（すぐれる）→優れる。"
+  },
+  "愉": {
+    "radical": "心（忄）",
+    "radicalMeaning": "りっしんべん",
+    "components": [
+      "忄",
+      "俞"
+    ],
+    "note": "心＋俞→心が安らぐ→愉快。"
+  },
+  "羽": {
+    "radical": "羽",
+    "radicalMeaning": "はね",
+    "components": [
+      "习",
+      "习"
+    ],
+    "note": "二枚の羽→羽毛。"
+  },
+  "阅": {
+    "radical": "門（门）",
+    "radicalMeaning": "もんがまえ",
+    "components": [
+      "门",
+      "兑"
+    ],
+    "note": "門＋兑→門で調べる→閲覧。"
+  },
+  "允": {
+    "radical": "儿",
+    "radicalMeaning": "にんにょう",
+    "components": [
+      "厶",
+      "儿"
+    ],
+    "note": "厶＋儿→許す→允許。"
+  },
+  "暂": {
+    "radical": "日",
+    "radicalMeaning": "ひへん",
+    "components": [
+      "斩",
+      "日"
+    ],
+    "note": "斬＋日→日を区切る→暫時。"
+  },
+  "增": {
+    "radical": "土",
+    "radicalMeaning": "つちへん",
+    "components": [
+      "土",
+      "曽"
+    ],
+    "note": "土＋曽→土を重ねる→増加。"
+  },
+  "周": {
+    "radical": "口",
+    "radicalMeaning": "くち",
+    "components": [
+      "⺆",
+      "吉"
+    ],
+    "note": "田の周囲→周り。"
+  },
+  "逐": {
+    "radical": "辶",
+    "radicalMeaning": "しんにょう",
+    "components": [
+      "辶",
+      "豕"
+    ],
+    "note": "辶（道）＋豕（ぶた）→追う→逐一。"
+  },
+  "著": {
+    "radical": "艹",
+    "radicalMeaning": "くさかんむり",
+    "components": [
+      "艹",
+      "者"
+    ],
+    "note": "草＋者→草が目立つ→著名。"
+  },
+  "资": {
+    "radical": "貝（贝）",
+    "radicalMeaning": "かいへん",
+    "components": [
+      "次",
+      "贝"
+    ],
+    "note": "次＋貝→財を次ぐ→資金。"
+  },
+  "尊": {
+    "radical": "寸",
+    "radicalMeaning": "すん",
+    "components": [
+      "酋",
+      "寸"
+    ],
+    "note": "酋＋寸→酒をすすめる→尊敬。"
+  },
+  "劲": {
+    "radical": "力",
+    "radicalMeaning": "ちから",
+    "components": [
+      "圣",
+      "力"
+    ],
+    "note": "圣＋力→力が強い→使勁。"
+  },
+  "连": {
+    "radical": "辶",
+    "radicalMeaning": "しんにょう",
+    "components": [
+      "辶",
+      "车"
+    ],
+    "note": "車＋道→つながる→連続。"
+  },
+  "梦": {
+    "radical": "夕",
+    "radicalMeaning": "ゆう",
+    "components": [
+      "林",
+      "夕"
+    ],
+    "note": "林＋夕→夕の林で夢を見る。"
+  },
+  "免": {
+    "radical": "儿",
+    "radicalMeaning": "にんにょう",
+    "components": [
+      "⺍",
+      "儿"
+    ],
+    "note": "⺍＋儿→免れる→免除。"
+  },
+  "秒": {
+    "radical": "禾",
+    "radicalMeaning": "のぎへん",
+    "components": [
+      "禾",
+      "少"
+    ],
+    "note": "禾＋少→少ない穀物→秒。"
+  },
+  "弄": {
+    "radical": "廾",
+    "radicalMeaning": "にじゅうあし",
+    "components": [
+      "王",
+      "廾"
+    ],
+    "note": "王＋両手→玉を弄ぶ。"
+  },
+  "批": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "比"
+    ],
+    "note": "手＋比→比べて叩く→批判。"
+  },
+  "篇": {
+    "radical": "竹（⺮）",
+    "radicalMeaning": "たけかんむり",
+    "components": [
+      "⺮",
+      "扁"
+    ],
+    "note": "竹＋扁→竹簡→文章の一篇。"
+  },
+  "普": {
+    "radical": "日",
+    "radicalMeaning": "ひ",
+    "components": [
+      "並",
+      "日"
+    ],
+    "note": "並（ならぶ）＋日→普遍。"
+  },
+  "穷": {
+    "radical": "穴",
+    "radicalMeaning": "あなかんむり",
+    "components": [
+      "穴",
+      "力"
+    ],
+    "note": "穴＋力→穴の中の力→貧乏。"
+  },
+  "散": {
+    "radical": "攵",
+    "radicalMeaning": "のぶん",
+    "components": [
+      "共",
+      "月",
+      "攵"
+    ],
+    "note": "共＋月＋攵→散らばる→散歩。"
+  },
+  "申": {
+    "radical": "田",
+    "radicalMeaning": "た",
+    "components": [
+      "日",
+      "丨"
+    ],
+    "note": "日＋丨→申す→申請。"
+  },
+  "剩": {
+    "radical": "刀（刂）",
+    "radicalMeaning": "りっとう",
+    "components": [
+      "乘",
+      "刂"
+    ],
+    "note": "乗＋刀→乗った後に残る→剩余。"
+  },
+  "识": {
+    "radical": "言（讠）",
+    "radicalMeaning": "ごんべん",
+    "components": [
+      "讠",
+      "只"
+    ],
+    "note": "言葉＋只→知る→知識。"
+  },
+  "使": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "吏"
+    ],
+    "note": "人＋吏→吏を使う→使用。"
+  },
+  "收": {
+    "radical": "攵",
+    "radicalMeaning": "のぶん",
+    "components": [
+      "丩",
+      "攵"
+    ],
+    "note": "丩（からむ）＋攵→収める→収穫。"
+  },
+  "熟": {
+    "radical": "火（灬）",
+    "radicalMeaning": "れっか",
+    "components": [
+      "孰",
+      "灬"
+    ],
+    "note": "孰＋火→火でよく煮る→熟す。"
+  },
+  "顺": {
+    "radical": "頁（页）",
+    "radicalMeaning": "おおがい",
+    "components": [
+      "川",
+      "页"
+    ],
+    "note": "川＋頁→川のように流れる→順調。"
+  },
+  "塑": {
+    "radical": "土",
+    "radicalMeaning": "つち",
+    "components": [
+      "朔",
+      "土"
+    ],
+    "note": "朔＋土→土を形づくる→塑像→プラスチック。"
+  },
+  "虽": {
+    "radical": "虫",
+    "radicalMeaning": "むし",
+    "components": [
+      "口",
+      "虫"
+    ],
+    "note": "口＋虫→虫のようでも→虽然。"
+  },
+  "提": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "是"
+    ],
+    "note": "手＋是→持ち上げる→提出。"
+  },
+  "厅": {
+    "radical": "厂",
+    "radicalMeaning": "がんだれ",
+    "components": [
+      "厂",
+      "丁"
+    ],
+    "note": "厂＋丁→広間→大庁。"
+  },
+  "推": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "隹"
+    ],
+    "note": "手＋隹→鳥を押し出す→推進。"
+  },
+  "误": {
+    "radical": "言（讠）",
+    "radicalMeaning": "ごんべん",
+    "components": [
+      "讠",
+      "吴"
+    ],
+    "note": "言葉＋吴→言い誤る→誤解。"
+  },
+  "悉": {
+    "radical": "心",
+    "radicalMeaning": "こころ",
+    "components": [
+      "釆",
+      "心"
+    ],
+    "note": "釆＋心→心でわきまえる→熟知。"
+  },
+  "惜": {
+    "radical": "心（忄）",
+    "radicalMeaning": "りっしんべん",
+    "components": [
+      "忄",
+      "昔"
+    ],
+    "note": "心＋昔→昔を惜しむ→可惜。"
+  },
+  "象": {
+    "radical": "豕",
+    "radicalMeaning": "ぶた",
+    "components": [
+      "⺍",
+      "豕"
+    ],
+    "note": "ゾウの形→象徴→印象。"
+  },
+  "修": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "攸",
+      "彡"
+    ],
+    "note": "人＋攸＋彡→身を修める→修理。"
+  },
+  "秀": {
+    "radical": "禾",
+    "radicalMeaning": "のぎへん",
+    "components": [
+      "禾",
+      "乃"
+    ],
+    "note": "禾＋乃→穂が出る→優秀。"
+  },
+  "压": {
+    "radical": "厂",
+    "radicalMeaning": "がんだれ",
+    "components": [
+      "厂",
+      "土"
+    ],
+    "note": "厂＋土→崖の土が圧する→圧力。"
+  },
+  "颜": {
+    "radical": "頁（页）",
+    "radicalMeaning": "おおがい",
+    "components": [
+      "彦",
+      "页"
+    ],
+    "note": "彦＋頁→顔の色→顔色。"
+  },
+  "洋": {
+    "radical": "水（氵）",
+    "radicalMeaning": "さんずい",
+    "components": [
+      "氵",
+      "羊"
+    ],
+    "note": "水＋羊→大海→海洋。"
+  },
+  "艺": {
+    "radical": "艹",
+    "radicalMeaning": "くさかんむり",
+    "components": [
+      "艹",
+      "乙"
+    ],
+    "note": "草＋乙→草を植える→芸術。"
+  },
+  "永": {
+    "radical": "水",
+    "radicalMeaning": "みず",
+    "components": [
+      "丶",
+      "水の変形"
+    ],
+    "note": "水が長く流れる→永遠。"
+  },
+  "幽": {
+    "radical": "幺",
+    "radicalMeaning": "いとがしら",
+    "components": [
+      "山",
+      "幺",
+      "幺"
+    ],
+    "note": "山に糸→奥深い→幽霊。"
+  },
+  "澡": {
+    "radical": "水（氵）",
+    "radicalMeaning": "さんずい",
+    "components": [
+      "氵",
+      "喿"
+    ],
+    "note": "水＋喿→体を洗う→入浴。"
+  },
+  "照": {
+    "radical": "火（灬）",
+    "radicalMeaning": "れっか",
+    "components": [
+      "昭",
+      "灬"
+    ],
+    "note": "昭＋火→明るく照らす。"
+  },
+  "争": {
+    "radical": "爪（爫）",
+    "radialMeaning": "つめ",
+    "components": [
+      "爫",
+      "亅"
+    ],
+    "note": "爪で争う→競争。"
+  },
+  "政": {
+    "radical": "攵",
+    "radicalMeaning": "のぶん",
+    "components": [
+      "正",
+      "攵"
+    ],
+    "note": "正＋攵→正しく治める→政治。"
+  },
+  "值": {
+    "radical": "人（亻）",
+    "radicalMeaning": "にんべん",
+    "components": [
+      "亻",
+      "直"
+    ],
+    "note": "人＋直→まっすぐな値→価値。"
+  },
+  "止": {
+    "radical": "止",
+    "radicalMeaning": "とめる",
+    "components": [
+      "止の形"
+    ],
+    "note": "足跡の形→止まる→禁止。"
+  },
+  "转": {
+    "radical": "車（车）",
+    "radicalMeaning": "くるまへん",
+    "components": [
+      "车",
+      "专"
+    ],
+    "note": "車＋专→車が回る→転換。"
+  },
+  "装": {
+    "radical": "衣",
+    "radicalMeaning": "ころも",
+    "components": [
+      "壮",
+      "衣"
+    ],
+    "note": "壮＋衣→衣を装う→装備。"
+  },
+  "租": {
+    "radical": "禾",
+    "radicalMeaning": "のぎへん",
+    "components": [
+      "禾",
+      "且"
+    ],
+    "note": "禾＋且→租税→賃貸。"
+  },
+  "桌": {
+    "radical": "木",
+    "radicalMeaning": "き",
+    "components": [
+      "卜",
+      "日",
+      "木"
+    ],
+    "note": "卜＋日＋木→木の台→机。"
+  },
+  "阻": {
+    "radical": "阜（阝）",
+    "radicalMeaning": "こざとへん",
+    "components": [
+      "阝",
+      "且"
+    ],
+    "note": "阜＋且→壁が阻む→阻止。"
+  },
+  "醉": {
+    "radical": "酉",
+    "radicalMeaning": "とりへん",
+    "components": [
+      "酉",
+      "卒"
+    ],
+    "note": "酉＋卒→酒に卒（たお）れる→酔う。"
+  },
+  "昨": {
+    "radical": "日",
+    "radicalMeaning": "ひへん",
+    "components": [
+      "日",
+      "乍"
+    ],
+    "note": "日＋乍→過ぎた日→昨日。"
+  },
+  "搬": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "般"
+    ],
+    "note": "手＋般→運ぶ→搬送。"
+  },
+  "抱": {
+    "radical": "手（扌）",
+    "radicalMeaning": "てへん",
+    "components": [
+      "扌",
+      "包"
+    ],
+    "note": "手＋包→包み込む→抱く。"
+  }
+}
