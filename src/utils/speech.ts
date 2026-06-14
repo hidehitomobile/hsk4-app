@@ -16,17 +16,32 @@ export function speak(text: string, rate: number = 1.0, lang: string = 'zh-CN'):
   window.speechSynthesis.cancel()
   const utterance = createUtterance(text, lang, rate)
 
+  const doSpeak = () => {
+    const voices = window.speechSynthesis.getVoices()
+    const v = voices.find(vo => vo.lang.startsWith(lang))
+    if (v) utterance.voice = v
+    window.speechSynthesis.speak(utterance)
+  }
+
   if (window.speechSynthesis.getVoices().length === 0) {
-    window.speechSynthesis.onvoiceschanged = () => {
-      const updatedVoices = window.speechSynthesis.getVoices()
-      const v = updatedVoices.find(vo => vo.lang.startsWith(lang))
-      if (v) utterance.voice = v
-      window.speechSynthesis.speak(utterance)
+    // iOS は遅延ロードされるため、イベントを待つ + フォールバック
+    let resolved = false
+    const onVoices = () => {
+      if (!resolved) { resolved = true; doSpeak() }
     }
+    window.speechSynthesis.addEventListener('voiceschanged', onVoices, { once: true })
+    // フォールバック：1秒以内に音声が読み込まれなければ、そのまま発声
+    setTimeout(() => {
+      if (!resolved) {
+        resolved = true
+        window.speechSynthesis.removeEventListener('voiceschanged', onVoices)
+        window.speechSynthesis.speak(utterance)
+      }
+    }, 1000)
     return
   }
 
-  window.speechSynthesis.speak(utterance)
+  doSpeak()
 }
 
 export function speakWord(hanzi: string, rate: number = 0.8): void {
@@ -57,16 +72,29 @@ export function speakAsync(text: string, rate: number, lang: string): Promise<vo
     const estimatedMs = Math.max(text.length * charMs / rate + 800, 1500)
     setTimeout(done, estimatedMs)
 
+    const doSpeak = () => {
+      const voices = window.speechSynthesis.getVoices()
+      const v = voices.find(vo => vo.lang.startsWith(lang))
+      if (v) utterance.voice = v
+      window.speechSynthesis.speak(utterance)
+    }
+
     if (window.speechSynthesis.getVoices().length === 0) {
-      window.speechSynthesis.onvoiceschanged = () => {
-        const updatedVoices = window.speechSynthesis.getVoices()
-        const v = updatedVoices.find(vo => vo.lang.startsWith(lang))
-        if (v) utterance.voice = v
-        window.speechSynthesis.speak(utterance)
+      let voiceResolved = false
+      const onVoices = () => {
+        if (!voiceResolved) { voiceResolved = true; doSpeak() }
       }
+      window.speechSynthesis.addEventListener('voiceschanged', onVoices, { once: true })
+      setTimeout(() => {
+        if (!voiceResolved) {
+          voiceResolved = true
+          window.speechSynthesis.removeEventListener('voiceschanged', onVoices)
+          window.speechSynthesis.speak(utterance)
+        }
+      }, 1000)
       return
     }
 
-    window.speechSynthesis.speak(utterance)
+    doSpeak()
   })
 }

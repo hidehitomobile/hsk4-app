@@ -14,6 +14,7 @@ export function WordCard() {
 
   // --- speechSynthesis のプライミング（iOS対策） ---
   // iOS では最初のユーザージェスチャー内で speak() を呼ばないと以降の自動再生がブロックされる
+  // 無音の発声を流しっぱなしにすることで API をアクティベートする
   useEffect(() => {
     let primed = false
     const prime = () => {
@@ -21,9 +22,8 @@ export function WordCard() {
       primed = true
       const u = new SpeechSynthesisUtterance('')
       u.volume = 0
+      // キャンセルせず、無音の発声を完了させることで iOS に API 利用を許可させる
       window.speechSynthesis.speak(u)
-      window.speechSynthesis.pause()
-      window.speechSynthesis.cancel()
     }
     window.addEventListener('touchstart', prime, { once: true })
     window.addEventListener('click', prime, { once: true })
@@ -82,13 +82,18 @@ export function WordCard() {
   const touchStartX = useRef(0)
   const touchStartY = useRef(0)
   const touchMoved = useRef(false)
+  const touchBlocked = useRef(false)
 
   const SWIPE_THRESHOLD = 50
 
   const onTouchStart = useCallback((e: React.TouchEvent) => {
-    // インタラクティブ要素上でのスワイプは無視
+    // インタラクティブ要素上でのスワイプは無視（タップ操作を妨げない）
     const target = e.target as HTMLElement
-    if (target.closest('button, input, textarea, select, .card-toggles, .pronunciation-check')) return
+    if (target.closest('button, input, textarea, select, a, .card-toggles, .card-actions, .card-navigation, .pronunciation-check, .hanzi-display, .pinyin-display, .meaning-display, .example-chinese')) {
+      touchBlocked.current = true
+      return
+    }
+    touchBlocked.current = false
 
     const touch = e.touches[0]
     touchStartX.current = touch.clientX
@@ -97,6 +102,7 @@ export function WordCard() {
   }, [])
 
   const onTouchMove = useCallback((e: React.TouchEvent) => {
+    if (touchBlocked.current) return
     const touch = e.touches[0]
     const dx = touch.clientX - touchStartX.current
     const dy = touch.clientY - touchStartY.current
@@ -109,6 +115,8 @@ export function WordCard() {
   }, [])
 
   const onTouchEnd = useCallback((e: React.TouchEvent) => {
+    if (touchBlocked.current) { touchBlocked.current = false; return }
+
     const touch = e.changedTouches[0]
     const dx = touch.clientX - touchStartX.current
     const dy = touch.clientY - touchStartY.current
