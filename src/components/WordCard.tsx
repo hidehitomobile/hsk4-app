@@ -35,8 +35,15 @@ export function WordCard() {
 
   // --- ナビゲーション（発声をユーザージェスチャー内で実行） ---
   const navigateAndSpeak = useCallback((direction: 'next' | 'prev') => {
+    // 重複呼び出し防止
+    if (navigating.current) return
+    navigating.current = true
+
     const nextIdx = direction === 'next' ? currentIndex + 1 : currentIndex - 1
-    if (nextIdx < 0 || nextIdx >= filteredWords.length) return
+    if (nextIdx < 0 || nextIdx >= filteredWords.length) {
+      navigating.current = false
+      return
+    }
 
     const targetWord = filteredWords[nextIdx]
     window.speechSynthesis.cancel()
@@ -49,11 +56,17 @@ export function WordCard() {
 
     // ユーザージェスチャー内で直接発声（iOS で必要）
     if (settings.autoPlay && targetWord) {
-      speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
-        if (settings.autoPlayMeaning) {
-          speakAsync(targetWord.meaning, settings.speechRate, 'ja-JP')
-        }
-      })
+      speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN')
+        .then(() => {
+          if (settings.autoPlayMeaning) {
+            return speakAsync(targetWord.meaning, settings.speechRate, 'ja-JP')
+          }
+        })
+        .finally(() => {
+          navigating.current = false
+        })
+    } else {
+      navigating.current = false
     }
   }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning, goNext, goPrev])
 
@@ -82,18 +95,18 @@ export function WordCard() {
   const touchStartX = useRef(0)
   const touchStartY = useRef(0)
   const touchMoved = useRef(false)
-  const touchBlocked = useRef(false)
+  // ナビゲーション中は重複呼び出しを防止
+  const navigating = useRef(false)
 
   const SWIPE_THRESHOLD = 50
+  const TAP_MOVE_TOLERANCE = 8 // px — タップ時の指ブレ許容量
 
   const onTouchStart = useCallback((e: React.TouchEvent) => {
-    // インタラクティブ要素上でのスワイプは無視（タップ操作を妨げない）
+    // ボタン・入力欄など操作要素上でのスワイプは無視
     const target = e.target as HTMLElement
-    if (target.closest('button, input, textarea, select, a, .card-toggles, .card-actions, .card-navigation, .pronunciation-check, .hanzi-display, .pinyin-display, .meaning-display, .example-chinese')) {
-      touchBlocked.current = true
+    if (target.closest('button, input, textarea, select, a')) {
       return
     }
-    touchBlocked.current = false
 
     const touch = e.touches[0]
     touchStartX.current = touch.clientX
@@ -102,21 +115,23 @@ export function WordCard() {
   }, [])
 
   const onTouchMove = useCallback((e: React.TouchEvent) => {
-    if (touchBlocked.current) return
     const touch = e.touches[0]
     const dx = touch.clientX - touchStartX.current
     const dy = touch.clientY - touchStartY.current
+
+    // 微小な動きはタップ扱い（指ブレ防止）
+    if (!touchMoved.current && Math.abs(dx) + Math.abs(dy) < TAP_MOVE_TOLERANCE) {
+      return
+    }
     touchMoved.current = true
 
-    // 水平方向が垂直方向より大きい場合のみ横スワイプ
+    // 水平方向が垂直方向より大きい場合のみ横スワイプビジュアル
     if (Math.abs(dx) > Math.abs(dy)) {
       setSwipeOffset(dx)
     }
   }, [])
 
   const onTouchEnd = useCallback((e: React.TouchEvent) => {
-    if (touchBlocked.current) { touchBlocked.current = false; return }
-
     const touch = e.changedTouches[0]
     const dx = touch.clientX - touchStartX.current
     const dy = touch.clientY - touchStartY.current
