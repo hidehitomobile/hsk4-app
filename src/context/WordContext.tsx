@@ -75,6 +75,11 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
     saveSearchQuery(searchQuery)
   }, [searchQuery])
 
+  // ダークモード
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', settings.darkMode ? 'dark' : 'light')
+  }, [settings.darkMode])
+
   // 初期ロード時に currentIndex が範囲外なら補正
   useEffect(() => {
     if (currentIndex >= filteredWords.length) {

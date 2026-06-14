@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect, forwardRef, useImperativeHandle } from 'react'
+import { useState, useCallback, useRef, useEffect } from 'react'
 import { pinyin } from 'pinyin-pro'
 import {
   isSpeechRecognitionSupported,
@@ -8,10 +8,10 @@ import {
 import { playCorrectSound, playIncorrectSound } from '../utils/sound'
 
 interface PronunciationResult {
-  transcript: string      // 認識された漢字
-  recognizedPinyin: string // 認識された漢字から変換したピンイン（声調付き）
-  isCorrect: boolean      // 判定結果
-  confidence: number      // 信頼度
+  transcript: string
+  recognizedPinyin: string
+  isCorrect: boolean
+  confidence: number
 }
 
 interface PronunciationCheckProps {
@@ -19,14 +19,6 @@ interface PronunciationCheckProps {
   correctPinyin: string
 }
 
-export interface PronunciationCheckHandle {
-  toggle: () => void
-}
-
-/**
- * ピンインを正規化（スペース除去 + Unicode正規化で比較用に変換）
- * "ài qíng" / "àiqíng" → "àiqíng"（NFC正規化で声調記号を統一）
- */
 function normalizePinyin(raw: string): string {
   return raw
     .replace(/\s+/g, '')
@@ -35,15 +27,11 @@ function normalizePinyin(raw: string): string {
     .normalize('NFC')
 }
 
-/**
- * 2つのピンインを比較（スペースの有無に関わらず音節一致で判定）
- */
 function comparePinyin(a: string, b: string): boolean {
   return normalizePinyin(a) === normalizePinyin(b)
 }
 
-export const PronunciationCheck = forwardRef<PronunciationCheckHandle, PronunciationCheckProps>(
-  function PronunciationCheck({ correctHanzi, correctPinyin }, ref) {
+export function PronunciationCheck({ correctHanzi, correctPinyin }: PronunciationCheckProps) {
   const [session] = useState(() => new SpeechRecognitionSession())
   const [state, setState] = useState<RecognitionState>('idle')
   const [result, setResult] = useState<PronunciationResult | null>(null)
@@ -54,18 +42,17 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
 
   useEffect(() => {
     const s = sessionRef.current
+
     s.onStateChange = (newState) => setState(newState)
 
     s.onResult = (recResult) => {
       if (recResult.isFinal) {
-        // 認識結果から余分な空白・句読点・記号を除去（漢字のみ残す）
         const cleanTranscript = recResult.transcript
           .replace(/[^\u4e00-\u9fff\u3400-\u4dbf]/g, '')
           .normalize('NFC')
 
-        // 認識結果の漢字からピンインを変換
         const recognizedPinyin = pinyin(cleanTranscript || recResult.transcript, {
-          toneType: 'symbol',  // 声調付きピンイン（例：nǐ hǎo）
+          toneType: 'symbol',
           type: 'string',
         })
 
@@ -73,7 +60,6 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
         const pinyinMatch = comparePinyin(recognizedPinyin, correctPinyin)
         const isCorrect = hanziMatch || pinyinMatch
 
-        // 効果音を鳴らす
         if (isCorrect) {
           playCorrectSound()
         } else {
@@ -88,7 +74,6 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
         })
         setInterimText('')
       } else {
-        // 中間結果
         setInterimText(recResult.transcript)
       }
     }
@@ -104,7 +89,7 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
     }
   }, [correctHanzi, correctPinyin])
 
-  // 単語が変わったら結果をリセット
+  // 単語が変わったらリセット
   useEffect(() => {
     setResult(null)
     setInterimText('')
@@ -121,9 +106,7 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
       setInterimText('')
       sessionRef.current.start('zh-CN')
     }
-  }, [state, sessionRef])
-
-  useImperativeHandle(ref, () => ({ toggle: handleToggle }), [handleToggle])
+  }, [state])
 
   if (!supported) {
     return (
@@ -154,7 +137,6 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
         </span>
       </button>
 
-      {/* 中間結果 */}
       {interimText && (
         <div className="pronunciation-interim">
           <span className="interim-label">認識中：</span>
@@ -162,7 +144,6 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
         </div>
       )}
 
-      {/* 最終結果 */}
       {result && (
         <div className={`pronunciation-result ${result.isCorrect ? 'correct' : 'incorrect'}`}>
           <div className="result-header">
@@ -199,7 +180,6 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
         </div>
       )}
 
-      {/* エラー表示 */}
       {error && (
         <div className="pronunciation-error">
           ⚠️ {error}
@@ -207,4 +187,4 @@ export const PronunciationCheck = forwardRef<PronunciationCheckHandle, Pronuncia
       )}
     </div>
   )
-})
+}

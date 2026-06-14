@@ -3,7 +3,6 @@ import { useWords } from '../context/WordContext'
 import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
 import { PronunciationCheck } from './PronunciationCheck'
-import type { PronunciationCheckHandle } from './PronunciationCheck'
 import { categoryLabels } from '../utils/category'
 
 export function WordCard() {
@@ -11,9 +10,6 @@ export function WordCard() {
   const [showExample, setShowExample] = useState(false)
   const [showBreakdown, setShowBreakdown] = useState(false)
   const [showEtymology, setShowEtymology] = useState(false)
-
-  // 発音チェックのref（キーボードショートカット用）
-  const pronunciationRef = useRef<PronunciationCheckHandle>(null)
 
   // refで最新の関数を保持（useEffectの再登録を避けるため）
   const goNextRef = useRef(goNext)
@@ -34,9 +30,6 @@ export function WordCard() {
       } else if (e.key === 'ArrowRight') {
         e.preventDefault()
         goNextRef.current()
-      } else if (e.key === ' ') {
-        e.preventDefault()
-        pronunciationRef.current?.toggle()
       }
     }
     window.addEventListener('keydown', handleKeyDown)
@@ -204,7 +197,6 @@ export function WordCard() {
       )}
 
       <PronunciationCheck
-        ref={pronunciationRef}
         correctHanzi={currentWord.hanzi}
         correctPinyin={currentWord.pinyin}
       />
