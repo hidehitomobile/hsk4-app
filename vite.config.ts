@@ -7,4 +7,18 @@ export default defineConfig({
     host: true,
     port: 5173,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor'
+          }
+          if (id.includes('words.json')) {
+            return 'word-data'
+          }
+        },
+      },
+    },
+  },
 })
