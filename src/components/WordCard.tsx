@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
@@ -10,47 +10,120 @@ export function WordCard() {
   const [showExample, setShowExample] = useState(false)
   const [showBreakdown, setShowBreakdown] = useState(false)
   const [showEtymology, setShowEtymology] = useState(false)
+  const [swipeOffset, setSwipeOffset] = useState(0)
 
-  // refで最新の関数を保持（useEffectの再登録を避けるため）
-  const goNextRef = useRef(goNext)
-  const goPrevRef = useRef(goPrev)
-  goNextRef.current = goNext
-  goPrevRef.current = goPrev
+  // --- speechSynthesis のプライミング（iOS対策） ---
+  // iOS では最初のユーザージェスチャー内で speak() を呼ばないと以降の自動再生がブロックされる
+  useEffect(() => {
+    let primed = false
+    const prime = () => {
+      if (primed) return
+      primed = true
+      const u = new SpeechSynthesisUtterance('')
+      u.volume = 0
+      window.speechSynthesis.speak(u)
+      window.speechSynthesis.pause()
+      window.speechSynthesis.cancel()
+    }
+    window.addEventListener('touchstart', prime, { once: true })
+    window.addEventListener('click', prime, { once: true })
+    return () => {
+      window.removeEventListener('touchstart', prime)
+      window.removeEventListener('click', prime)
+    }
+  }, [])
+
+  // --- ナビゲーション（発声をユーザージェスチャー内で実行） ---
+  const navigateAndSpeak = useCallback((direction: 'next' | 'prev') => {
+    const nextIdx = direction === 'next' ? currentIndex + 1 : currentIndex - 1
+    if (nextIdx < 0 || nextIdx >= filteredWords.length) return
+
+    const targetWord = filteredWords[nextIdx]
+    window.speechSynthesis.cancel()
+
+    if (direction === 'next') {
+      goNext()
+    } else {
+      goPrev()
+    }
+
+    // ユーザージェスチャー内で直接発声（iOS で必要）
+    if (settings.autoPlay && targetWord) {
+      speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
+        if (settings.autoPlayMeaning) {
+          speakAsync(targetWord.meaning, settings.speechRate, 'ja-JP')
+        }
+      })
+    }
+  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning, goNext, goPrev])
+
+  const handleGoNext = useCallback(() => navigateAndSpeak('next'), [navigateAndSpeak])
+  const handleGoPrev = useCallback(() => navigateAndSpeak('prev'), [navigateAndSpeak])
 
   // キーボードショートカット
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // 入力フィールドにフォーカスがある場合は無視
       const tag = (e.target as HTMLElement).tagName
       if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return
 
       if (e.key === 'ArrowLeft') {
         e.preventDefault()
-        goPrevRef.current()
+        handleGoPrev()
       } else if (e.key === 'ArrowRight') {
         e.preventDefault()
-        goNextRef.current()
+        handleGoNext()
       }
     }
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [handleGoNext, handleGoPrev])
+
+  // --- スワイプ操作 ---
+  const touchStartX = useRef(0)
+  const touchStartY = useRef(0)
+  const touchMoved = useRef(false)
+
+  const SWIPE_THRESHOLD = 50
+
+  const onTouchStart = useCallback((e: React.TouchEvent) => {
+    // インタラクティブ要素上でのスワイプは無視
+    const target = e.target as HTMLElement
+    if (target.closest('button, input, textarea, select, .card-toggles, .pronunciation-check')) return
+
+    const touch = e.touches[0]
+    touchStartX.current = touch.clientX
+    touchStartY.current = touch.clientY
+    touchMoved.current = false
   }, [])
 
-  // 単語が切り替わるたびに自動で音声を再生（設定でON/OFF切替可能）
-  useEffect(() => {
-    if (!currentWord || !settings.autoPlay) return
+  const onTouchMove = useCallback((e: React.TouchEvent) => {
+    const touch = e.touches[0]
+    const dx = touch.clientX - touchStartX.current
+    const dy = touch.clientY - touchStartY.current
+    touchMoved.current = true
 
-    let cancelled = false
-    window.speechSynthesis.cancel()
+    // 水平方向が垂直方向より大きい場合のみ横スワイプ
+    if (Math.abs(dx) > Math.abs(dy)) {
+      setSwipeOffset(dx)
+    }
+  }, [])
 
-    speakAsync(currentWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
-      if (!cancelled && settings.autoPlayMeaning) {
-        speakAsync(currentWord.meaning, settings.speechRate, 'ja-JP')
-      }
-    })
+  const onTouchEnd = useCallback((e: React.TouchEvent) => {
+    const touch = e.changedTouches[0]
+    const dx = touch.clientX - touchStartX.current
+    const dy = touch.clientY - touchStartY.current
 
-    return () => { cancelled = true }
-  }, [currentWord, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning])
+    setSwipeOffset(0)
+
+    if (!touchMoved.current) return
+    if (Math.abs(dy) > Math.abs(dx)) return
+
+    if (dx < -SWIPE_THRESHOLD) {
+      handleGoNext()
+    } else if (dx > SWIPE_THRESHOLD) {
+      handleGoPrev()
+    }
+  }, [handleGoNext, handleGoPrev])
 
   if (!currentWord) {
     return (
@@ -66,7 +139,13 @@ export function WordCard() {
   const breakdown = breakdownWord(currentWord.hanzi)
 
   return (
-    <div className="word-card">
+    <div
+      className="word-card"
+      style={swipeOffset !== 0 ? { transform: `translateX(${swipeOffset * 0.5}px)`, transition: 'none' } : { transform: 'translateX(0)', transition: 'transform 0.3s ease' }}
+      onTouchStart={onTouchStart}
+      onTouchMove={onTouchMove}
+      onTouchEnd={onTouchEnd}
+    >
       <div className="card-header">
         <div className="card-header-left">
           <span className="word-number">
@@ -202,10 +281,10 @@ export function WordCard() {
       />
 
       <div className="card-navigation">
-        <button onClick={goPrev} disabled={currentIndex === 0}>
+        <button onClick={handleGoPrev} disabled={currentIndex === 0}>
           ← 前へ
         </button>
-        <button onClick={goNext} disabled={currentIndex >= filteredWords.length - 1}>
+        <button onClick={handleGoNext} disabled={currentIndex >= filteredWords.length - 1}>
           次へ →
         </button>
       </div>

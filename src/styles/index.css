@@ -206,6 +206,9 @@ body {
   box-shadow: var(--shadow);
   padding: 24px;
   text-align: center;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .word-card.empty {
