@@ -20,6 +20,9 @@ dist/
 .DS_Store
 Thumbs.db
 
+# Backup
+*.bak
+
 # TypeScript
 *.tsbuildinfo
 

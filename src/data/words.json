@@ -5900,7 +5900,7 @@
     "id": 501,
     "hanzi": "爱",
     "pinyin": "ài",
-    "meaning": "to love",
+    "meaning": "愛する、大好きだ",
     "example": "我爱了。",
     "exampleMeaning": "私は爱ました。",
     "category": [
@@ -5911,7 +5911,7 @@
     "id": 502,
     "hanzi": "八",
     "pinyin": "bā",
-    "meaning": "eight",
+    "meaning": "8、八つ",
     "example": "有八个。",
     "exampleMeaning": "八個あります。",
     "category": [
@@ -5922,7 +5922,7 @@
     "id": 503,
     "hanzi": "爸爸",
     "pinyin": "bàba",
-    "meaning": "father",
+    "meaning": "お父さん",
     "example": "这是爸爸。",
     "exampleMeaning": "これは爸爸です。",
     "category": [
@@ -5933,7 +5933,7 @@
     "id": 504,
     "hanzi": "杯子",
     "pinyin": "bēizi",
-    "meaning": "cup",
+    "meaning": "コップ、カップ",
     "example": "这是杯子。",
     "exampleMeaning": "これは杯子です。",
     "category": [
@@ -5944,7 +5944,7 @@
     "id": 505,
     "hanzi": "北京",
     "pinyin": "běijīng",
-    "meaning": "Beijing",
+    "meaning": "北京",
     "example": "这是北京。",
     "exampleMeaning": "これは北京です。",
     "category": [
@@ -5955,7 +5955,7 @@
     "id": 506,
     "hanzi": "本",
     "pinyin": "běn",
-    "meaning": "origin",
+    "meaning": "起源、もともと",
     "example": "这是本。",
     "exampleMeaning": "これは本です。",
     "category": [
@@ -5966,7 +5966,7 @@
     "id": 507,
     "hanzi": "不客气",
     "pinyin": "búkèqi",
-    "meaning": "you're welcome",
+    "meaning": "どういたしまして",
     "example": "这是不客气。",
     "exampleMeaning": "これは不客气です。",
     "category": [
@@ -5977,7 +5977,7 @@
     "id": 508,
     "hanzi": "不",
     "pinyin": "bù",
-    "meaning": "not",
+    "meaning": "〜ではない",
     "example": "他不来了。",
     "exampleMeaning": "彼は不来ました。",
     "category": [
@@ -5988,7 +5988,7 @@
     "id": 509,
     "hanzi": "菜",
     "pinyin": "cài",
-    "meaning": "dish",
+    "meaning": "料理、おかず",
     "example": "这是菜。",
     "exampleMeaning": "これは菜です。",
     "category": [
@@ -5999,7 +5999,7 @@
     "id": 510,
     "hanzi": "茶",
     "pinyin": "chá",
-    "meaning": "tea",
+    "meaning": "お茶",
     "example": "这是茶。",
     "exampleMeaning": "これは茶です。",
     "category": [
@@ -6010,7 +6010,7 @@
     "id": 511,
     "hanzi": "吃",
     "pinyin": "chī",
-    "meaning": "to eat",
+    "meaning": "食べる",
     "example": "我吃了。",
     "exampleMeaning": "私は吃ました。",
     "category": [
@@ -6021,7 +6021,7 @@
     "id": 512,
     "hanzi": "出租车",
     "pinyin": "chūzūchē",
-    "meaning": "taxi",
+    "meaning": "タクシー",
     "example": "这是出租车。",
     "exampleMeaning": "これは出租车です。",
     "category": [
@@ -6032,7 +6032,7 @@
     "id": 513,
     "hanzi": "打电话",
     "pinyin": "dǎdiànhuà",
-    "meaning": "to make a phone call",
+    "meaning": "電話をかける",
     "example": "我打电话了。",
     "exampleMeaning": "私は打电话ました。",
     "category": [
@@ -6043,7 +6043,7 @@
     "id": 514,
     "hanzi": "大",
     "pinyin": "dà",
-    "meaning": "big",
+    "meaning": "大きい",
     "example": "这很大。",
     "exampleMeaning": "これはとても大です。",
     "category": [
@@ -6054,7 +6054,7 @@
     "id": 515,
     "hanzi": "的",
     "pinyin": "de",
-    "meaning": "of",
+    "meaning": "〜の",
     "example": "他的我来了。",
     "exampleMeaning": "彼は私的来ました。",
     "category": [
@@ -6065,7 +6065,7 @@
     "id": 516,
     "hanzi": "点",
     "pinyin": "diǎn",
-    "meaning": "a little",
+    "meaning": "少し",
     "example": "这是点。",
     "exampleMeaning": "これは点です。",
     "category": [
@@ -6076,7 +6076,7 @@
     "id": 517,
     "hanzi": "电脑",
     "pinyin": "diànnǎo",
-    "meaning": "computer",
+    "meaning": "パソコン、コンピュータ",
     "example": "这是电脑。",
     "exampleMeaning": "これは电脑です。",
     "category": [
@@ -6087,7 +6087,7 @@
     "id": 518,
     "hanzi": "电视",
     "pinyin": "diànshì",
-    "meaning": "television",
+    "meaning": "テレビ",
     "example": "这是电视。",
     "exampleMeaning": "これは电视です。",
     "category": [
@@ -6098,7 +6098,7 @@
     "id": 519,
     "hanzi": "电影",
     "pinyin": "diànyǐng",
-    "meaning": "movie",
+    "meaning": "映画",
     "example": "这是电影。",
     "exampleMeaning": "これは电影です。",
     "category": [
@@ -6109,7 +6109,7 @@
     "id": 520,
     "hanzi": "东西",
     "pinyin": "dōngxi",
-    "meaning": "thing",
+    "meaning": "もの、こと",
     "example": "这是东西。",
     "exampleMeaning": "これは东西です。",
     "category": [
@@ -6120,7 +6120,7 @@
     "id": 521,
     "hanzi": "都",
     "pinyin": "dōu",
-    "meaning": "all, both",
+    "meaning": "全部、どちらも",
     "example": "都很好。",
     "exampleMeaning": "都はとても良いです。",
     "category": [
@@ -6131,7 +6131,7 @@
     "id": 522,
     "hanzi": "读",
     "pinyin": "dú",
-    "meaning": "to read",
+    "meaning": "読む",
     "example": "我读了。",
     "exampleMeaning": "私は读ました。",
     "category": [
@@ -6142,7 +6142,7 @@
     "id": 523,
     "hanzi": "对不起",
     "pinyin": "duìbuqǐ",
-    "meaning": "I'm sorry",
+    "meaning": "すみません、ごめんなさい",
     "example": "这是对不起。",
     "exampleMeaning": "これは对不起です。",
     "category": [
@@ -6153,7 +6153,7 @@
     "id": 524,
     "hanzi": "多",
     "pinyin": "duō",
-    "meaning": "many",
+    "meaning": "多い",
     "example": "多很好。",
     "exampleMeaning": "多はとても良いです。",
     "category": [
@@ -6164,7 +6164,7 @@
     "id": 525,
     "hanzi": "多少",
     "pinyin": "duōshǎo",
-    "meaning": "how much",
+    "meaning": "いくら、どのくらい",
     "example": "这是多少。",
     "exampleMeaning": "これは多少です。",
     "category": [
@@ -6175,7 +6175,7 @@
     "id": 526,
     "hanzi": "儿子",
     "pinyin": "érzi",
-    "meaning": "son",
+    "meaning": "息子",
     "example": "这是儿子。",
     "exampleMeaning": "これは儿子です。",
     "category": [
@@ -6186,7 +6186,7 @@
     "id": 527,
     "hanzi": "二",
     "pinyin": "èr",
-    "meaning": "two",
+    "meaning": "2、二つ",
     "example": "有二个。",
     "exampleMeaning": "二個あります。",
     "category": [
@@ -6197,7 +6197,7 @@
     "id": 528,
     "hanzi": "饭店",
     "pinyin": "fàndiàn",
-    "meaning": "restaurant",
+    "meaning": "レストラン、飲食店",
     "example": "这是饭店。",
     "exampleMeaning": "これは饭店です。",
     "category": [
@@ -6208,7 +6208,7 @@
     "id": 529,
     "hanzi": "飞机",
     "pinyin": "fēijī",
-    "meaning": "airplane",
+    "meaning": "飛行機",
     "example": "这是飞机。",
     "exampleMeaning": "これは飞机です。",
     "category": [
@@ -6219,7 +6219,7 @@
     "id": 530,
     "hanzi": "分钟",
     "pinyin": "fēnzhōng",
-    "meaning": "minute",
+    "meaning": "分（時間）",
     "example": "这是分钟。",
     "exampleMeaning": "これは分钟です。",
     "category": [
@@ -6230,7 +6230,7 @@
     "id": 531,
     "hanzi": "高兴",
     "pinyin": "gāoxìng",
-    "meaning": "happy",
+    "meaning": "嬉しい、楽しい",
     "example": "这很高兴。",
     "exampleMeaning": "これはとても高兴です。",
     "category": [
@@ -6241,7 +6241,7 @@
     "id": 532,
     "hanzi": "个",
     "pinyin": "gè",
-    "meaning": "classifier for people or objects in general",
+    "meaning": "〜個（人や物を数える量詞）",
     "example": "一个。",
     "exampleMeaning": "1个。",
     "category": [
@@ -6252,7 +6252,7 @@
     "id": 533,
     "hanzi": "工作",
     "pinyin": "gōngzuò",
-    "meaning": "job",
+    "meaning": "仕事",
     "example": "这是工作。",
     "exampleMeaning": "これは工作です。",
     "category": [
@@ -6263,7 +6263,7 @@
     "id": 534,
     "hanzi": "狗",
     "pinyin": "gǒu",
-    "meaning": "dog",
+    "meaning": "犬",
     "example": "这是狗。",
     "exampleMeaning": "これは狗です。",
     "category": [
@@ -6274,7 +6274,7 @@
     "id": 535,
     "hanzi": "汉语",
     "pinyin": "hànyǔ",
-    "meaning": "Chinese language",
+    "meaning": "中国語",
     "example": "这是汉语。",
     "exampleMeaning": "これは汉语です。",
     "category": [
@@ -6285,7 +6285,7 @@
     "id": 536,
     "hanzi": "好",
     "pinyin": "hǎo",
-    "meaning": "good",
+    "meaning": "良い",
     "example": "这很好。",
     "exampleMeaning": "これはとても好です。",
     "category": [
@@ -6296,7 +6296,7 @@
     "id": 537,
     "hanzi": "号",
     "pinyin": "hào",
-    "meaning": "day of a month",
+    "meaning": "〜日（日付）",
     "example": "这是号。",
     "exampleMeaning": "これは号です。",
     "category": [
@@ -6307,7 +6307,7 @@
     "id": 538,
     "hanzi": "喝",
     "pinyin": "hē",
-    "meaning": "to drink",
+    "meaning": "飲む",
     "example": "我喝了。",
     "exampleMeaning": "私は喝ました。",
     "category": [
@@ -6318,7 +6318,7 @@
     "id": 539,
     "hanzi": "和",
     "pinyin": "hé",
-    "meaning": "and",
+    "meaning": "〜と（and）",
     "example": "我喜欢茶，和也喜欢咖啡。",
     "exampleMeaning": "私はお茶が好きで、和コーヒーも好きです。",
     "category": [
@@ -6329,7 +6329,7 @@
     "id": 540,
     "hanzi": "很",
     "pinyin": "hěn",
-    "meaning": "very",
+    "meaning": "とても",
     "example": "他很来了。",
     "exampleMeaning": "彼は很来ました。",
     "category": [
@@ -6340,7 +6340,7 @@
     "id": 541,
     "hanzi": "后面",
     "pinyin": "hòumiàn",
-    "meaning": "rear",
+    "meaning": "後ろ、後方",
     "example": "这是后面。",
     "exampleMeaning": "これは后面です。",
     "category": [
@@ -6351,7 +6351,7 @@
     "id": 542,
     "hanzi": "回",
     "pinyin": "huí",
-    "meaning": "to go back",
+    "meaning": "戻る、帰る",
     "example": "我回了。",
     "exampleMeaning": "私は回ました。",
     "category": [
@@ -6362,7 +6362,7 @@
     "id": 543,
     "hanzi": "会",
     "pinyin": "huì",
-    "meaning": "can",
+    "meaning": "できる",
     "example": "这是会。",
     "exampleMeaning": "これは会です。",
     "category": [
@@ -6373,7 +6373,7 @@
     "id": 544,
     "hanzi": "几",
     "pinyin": "jǐ",
-    "meaning": "how much",
+    "meaning": "いくら、どのくらい",
     "example": "这是几。",
     "exampleMeaning": "これは几です。",
     "category": [
@@ -6384,7 +6384,7 @@
     "id": 545,
     "hanzi": "家",
     "pinyin": "jiā",
-    "meaning": "home",
+    "meaning": "家、家庭",
     "example": "这是家。",
     "exampleMeaning": "これは家です。",
     "category": [
@@ -6395,7 +6395,7 @@
     "id": 546,
     "hanzi": "叫",
     "pinyin": "jiào",
-    "meaning": "to call",
+    "meaning": "呼ぶ、〜という",
     "example": "我叫了。",
     "exampleMeaning": "私は叫ました。",
     "category": [
@@ -6406,7 +6406,7 @@
     "id": 547,
     "hanzi": "今天",
     "pinyin": "jīntiān",
-    "meaning": "today",
+    "meaning": "今日",
     "example": "这是今天。",
     "exampleMeaning": "これは今天です。",
     "category": [
@@ -6417,7 +6417,7 @@
     "id": 548,
     "hanzi": "九",
     "pinyin": "jiǔ",
-    "meaning": "nine",
+    "meaning": "9、九つ",
     "example": "有九个。",
     "exampleMeaning": "九個あります。",
     "category": [
@@ -6428,7 +6428,7 @@
     "id": 549,
     "hanzi": "开",
     "pinyin": "kāi",
-    "meaning": "to open",
+    "meaning": "開ける、開く",
     "example": "我开了。",
     "exampleMeaning": "私は开ました。",
     "category": [
@@ -6439,7 +6439,7 @@
     "id": 550,
     "hanzi": "看",
     "pinyin": "kàn",
-    "meaning": "to look at",
+    "meaning": "見る",
     "example": "我看了。",
     "exampleMeaning": "私は看ました。",
     "category": [
@@ -6450,7 +6450,7 @@
     "id": 551,
     "hanzi": "看见",
     "pinyin": "kànjiàn",
-    "meaning": "to see",
+    "meaning": "見える、見かける",
     "example": "我看见了。",
     "exampleMeaning": "私は看见ました。",
     "category": [
@@ -6461,7 +6461,7 @@
     "id": 552,
     "hanzi": "块",
     "pinyin": "kuài",
-    "meaning": "unit of currency",
+    "meaning": "元（通貨単位）",
     "example": "这是块。",
     "exampleMeaning": "これは块です。",
     "category": [
@@ -6472,7 +6472,7 @@
     "id": 553,
     "hanzi": "来",
     "pinyin": "lái",
-    "meaning": "to come",
+    "meaning": "来る",
     "example": "我来了。",
     "exampleMeaning": "私は来ました。",
     "category": [
@@ -6483,7 +6483,7 @@
     "id": 554,
     "hanzi": "老师",
     "pinyin": "lǎoshī",
-    "meaning": "teacher",
+    "meaning": "先生",
     "example": "这是老师。",
     "exampleMeaning": "これは老师です。",
     "category": [
@@ -6505,7 +6505,7 @@
     "id": 556,
     "hanzi": "冷",
     "pinyin": "lěng",
-    "meaning": "cold",
+    "meaning": "寒い、冷たい",
     "example": "这很冷。",
     "exampleMeaning": "これはとても冷です。",
     "category": [
@@ -6516,7 +6516,7 @@
     "id": 557,
     "hanzi": "里",
     "pinyin": "lǐ",
-    "meaning": "inside",
+    "meaning": "〜の中、内側",
     "example": "他里我来了。",
     "exampleMeaning": "彼は私里来ました。",
     "category": [
@@ -6527,7 +6527,7 @@
     "id": 558,
     "hanzi": "六",
     "pinyin": "liù",
-    "meaning": "six",
+    "meaning": "6、六つ",
     "example": "有六个。",
     "exampleMeaning": "六個あります。",
     "category": [
@@ -6549,7 +6549,7 @@
     "id": 560,
     "hanzi": "妈妈",
     "pinyin": "māma",
-    "meaning": "mum",
+    "meaning": "お母さん",
     "example": "这是妈妈。",
     "exampleMeaning": "これは妈妈です。",
     "category": [
@@ -6560,7 +6560,7 @@
     "id": 561,
     "hanzi": "买",
     "pinyin": "mǎi",
-    "meaning": "to buy",
+    "meaning": "買う",
     "example": "我买了。",
     "exampleMeaning": "私は买ました。",
     "category": [
@@ -6571,7 +6571,7 @@
     "id": 562,
     "hanzi": "猫",
     "pinyin": "māo",
-    "meaning": "cat",
+    "meaning": "猫",
     "example": "这是猫。",
     "exampleMeaning": "これは猫です。",
     "category": [
@@ -6582,7 +6582,7 @@
     "id": 563,
     "hanzi": "没关系",
     "pinyin": "méiguānxi",
-    "meaning": "it doesn't matter",
+    "meaning": "大丈夫、気にしないで",
     "example": "没关系很好。",
     "exampleMeaning": "没关系はとても良いです。",
     "category": [
@@ -6593,7 +6593,7 @@
     "id": 564,
     "hanzi": "没有",
     "pinyin": "méiyǒu",
-    "meaning": "haven't",
+    "meaning": "ない、持っていない",
     "example": "这是没有。",
     "exampleMeaning": "これは没有です。",
     "category": [
@@ -6604,7 +6604,7 @@
     "id": 565,
     "hanzi": "米饭",
     "pinyin": "mǐfàn",
-    "meaning": "rice",
+    "meaning": "ご飯、米",
     "example": "这是米饭。",
     "exampleMeaning": "これは米饭です。",
     "category": [
@@ -6615,7 +6615,7 @@
     "id": 566,
     "hanzi": "名字",
     "pinyin": "míngzi",
-    "meaning": "name",
+    "meaning": "名前",
     "example": "这是名字。",
     "exampleMeaning": "これは名字です。",
     "category": [
@@ -6626,7 +6626,7 @@
     "id": 567,
     "hanzi": "明天",
     "pinyin": "míngtiān",
-    "meaning": "tomorrow",
+    "meaning": "明日",
     "example": "这是明天。",
     "exampleMeaning": "これは明天です。",
     "category": [
@@ -6637,7 +6637,7 @@
     "id": 568,
     "hanzi": "哪",
     "pinyin": "nǎ",
-    "meaning": "which?",
+    "meaning": "どの、どれ",
     "example": "这是哪。",
     "exampleMeaning": "これは哪です。",
     "category": [
@@ -6648,7 +6648,7 @@
     "id": 569,
     "hanzi": "哪儿",
     "pinyin": "nǎer",
-    "meaning": "where?",
+    "meaning": "どこ",
     "example": "这是哪儿。",
     "exampleMeaning": "これは哪儿です。",
     "category": [
@@ -6659,7 +6659,7 @@
     "id": 570,
     "hanzi": "那",
     "pinyin": "nà",
-    "meaning": "that",
+    "meaning": "あの、その",
     "example": "那很好。",
     "exampleMeaning": "那はとても良いです。",
     "category": [
@@ -6681,7 +6681,7 @@
     "id": 572,
     "hanzi": "能",
     "pinyin": "néng",
-    "meaning": "to be able to",
+    "meaning": "〜できる",
     "example": "我能了。",
     "exampleMeaning": "私は能ました。",
     "category": [
@@ -6692,7 +6692,7 @@
     "id": 573,
     "hanzi": "你",
     "pinyin": "nǐ",
-    "meaning": "you",
+    "meaning": "あなた",
     "example": "你很好。",
     "exampleMeaning": "你はとても良いです。",
     "category": [
@@ -6703,7 +6703,7 @@
     "id": 574,
     "hanzi": "年",
     "pinyin": "nián",
-    "meaning": "year",
+    "meaning": "年",
     "example": "这是年。",
     "exampleMeaning": "これは年です。",
     "category": [
@@ -6714,7 +6714,7 @@
     "id": 575,
     "hanzi": "女儿",
     "pinyin": "nǚér",
-    "meaning": "daughter",
+    "meaning": "娘",
     "example": "这是女儿。",
     "exampleMeaning": "これは女儿です。",
     "category": [
@@ -6725,7 +6725,7 @@
     "id": 576,
     "hanzi": "朋友",
     "pinyin": "péngyou",
-    "meaning": "friend",
+    "meaning": "友達",
     "example": "这是朋友。",
     "exampleMeaning": "これは朋友です。",
     "category": [
@@ -6736,7 +6736,7 @@
     "id": 577,
     "hanzi": "漂亮",
     "pinyin": "piàoliang",
-    "meaning": "pretty",
+    "meaning": "きれいな、美しい",
     "example": "这是漂亮。",
     "exampleMeaning": "これは漂亮です。",
     "category": [
@@ -6747,7 +6747,7 @@
     "id": 578,
     "hanzi": "苹果",
     "pinyin": "píngguǒ",
-    "meaning": "apple",
+    "meaning": "りんご",
     "example": "这是苹果。",
     "exampleMeaning": "これは苹果です。",
     "category": [
@@ -6758,7 +6758,7 @@
     "id": 579,
     "hanzi": "七",
     "pinyin": "qī",
-    "meaning": "seven",
+    "meaning": "7、七つ",
     "example": "有七个。",
     "exampleMeaning": "七個あります。",
     "category": [
@@ -6769,7 +6769,7 @@
     "id": 580,
     "hanzi": "前面",
     "pinyin": "qiánmiàn",
-    "meaning": "ahead",
+    "meaning": "前、前方",
     "example": "这是前面。",
     "exampleMeaning": "これは前面です。",
     "category": [
@@ -6780,7 +6780,7 @@
     "id": 581,
     "hanzi": "钱",
     "pinyin": "qián",
-    "meaning": "coin",
+    "meaning": "お金",
     "example": "这是钱。",
     "exampleMeaning": "これは钱です。",
     "category": [
@@ -6791,7 +6791,7 @@
     "id": 582,
     "hanzi": "请",
     "pinyin": "qǐng",
-    "meaning": "to ask",
+    "meaning": "頼む、どうぞ",
     "example": "我请了。",
     "exampleMeaning": "私は请ました。",
     "category": [
@@ -6802,7 +6802,7 @@
     "id": 583,
     "hanzi": "去",
     "pinyin": "qù",
-    "meaning": "to go",
+    "meaning": "行く",
     "example": "我去了。",
     "exampleMeaning": "私は去ました。",
     "category": [
@@ -6813,7 +6813,7 @@
     "id": 584,
     "hanzi": "热",
     "pinyin": "rè",
-    "meaning": "heat",
+    "meaning": "暑い、熱い",
     "example": "这是热。",
     "exampleMeaning": "これは热です。",
     "category": [
@@ -6824,7 +6824,7 @@
     "id": 585,
     "hanzi": "人",
     "pinyin": "rén",
-    "meaning": "man",
+    "meaning": "人、男性",
     "example": "这是人。",
     "exampleMeaning": "これは人です。",
     "category": [
@@ -6835,7 +6835,7 @@
     "id": 586,
     "hanzi": "认识",
     "pinyin": "rènshi",
-    "meaning": "to know",
+    "meaning": "知っている",
     "example": "我认识了。",
     "exampleMeaning": "私は认识ました。",
     "category": [
@@ -6846,7 +6846,7 @@
     "id": 587,
     "hanzi": "三",
     "pinyin": "sān",
-    "meaning": "three",
+    "meaning": "3、三つ",
     "example": "有三个。",
     "exampleMeaning": "三個あります。",
     "category": [
@@ -6857,7 +6857,7 @@
     "id": 588,
     "hanzi": "商店",
     "pinyin": "shāngdiàn",
-    "meaning": "store",
+    "meaning": "商店、店",
     "example": "这是商店。",
     "exampleMeaning": "これは商店です。",
     "category": [
@@ -6868,7 +6868,7 @@
     "id": 589,
     "hanzi": "上",
     "pinyin": "shàng",
-    "meaning": "on",
+    "meaning": "上、〜の上に",
     "example": "他上我来了。",
     "exampleMeaning": "彼は私上来ました。",
     "category": [
@@ -6879,7 +6879,7 @@
     "id": 590,
     "hanzi": "上午",
     "pinyin": "shàngwǔ",
-    "meaning": "morning",
+    "meaning": "朝、午前",
     "example": "这是上午。",
     "exampleMeaning": "これは上午です。",
     "category": [
@@ -6890,7 +6890,7 @@
     "id": 591,
     "hanzi": "少",
     "pinyin": "shǎo",
-    "meaning": "few",
+    "meaning": "少ない",
     "example": "少很好。",
     "exampleMeaning": "少はとても良いです。",
     "category": [
@@ -6901,7 +6901,7 @@
     "id": 592,
     "hanzi": "谁",
     "pinyin": "shéi",
-    "meaning": "who",
+    "meaning": "誰",
     "example": "谁很好。",
     "exampleMeaning": "谁はとても良いです。",
     "category": [
@@ -6912,7 +6912,7 @@
     "id": 593,
     "hanzi": "什么",
     "pinyin": "shénme",
-    "meaning": "what?",
+    "meaning": "何？",
     "example": "这是什么。",
     "exampleMeaning": "これは什么です。",
     "category": [
@@ -6923,7 +6923,7 @@
     "id": 594,
     "hanzi": "十",
     "pinyin": "shí",
-    "meaning": "ten",
+    "meaning": "10、十",
     "example": "有十个。",
     "exampleMeaning": "十個あります。",
     "category": [
@@ -6934,7 +6934,7 @@
     "id": 595,
     "hanzi": "时候",
     "pinyin": "shíhou",
-    "meaning": "time",
+    "meaning": "時間、〜の時",
     "example": "这是时候。",
     "exampleMeaning": "これは时候です。",
     "category": [
@@ -6945,7 +6945,7 @@
     "id": 596,
     "hanzi": "是",
     "pinyin": "shì",
-    "meaning": "to be",
+    "meaning": "〜である（是）",
     "example": "我是了。",
     "exampleMeaning": "私は是ました。",
     "category": [
@@ -6956,7 +6956,7 @@
     "id": 597,
     "hanzi": "书",
     "pinyin": "shū",
-    "meaning": "book",
+    "meaning": "本",
     "example": "这是书。",
     "exampleMeaning": "これは书です。",
     "category": [
@@ -6967,7 +6967,7 @@
     "id": 598,
     "hanzi": "水",
     "pinyin": "shuǐ",
-    "meaning": "water",
+    "meaning": "水",
     "example": "这是水。",
     "exampleMeaning": "これは水です。",
     "category": [
@@ -6978,7 +6978,7 @@
     "id": 599,
     "hanzi": "水果",
     "pinyin": "shuǐguǒ",
-    "meaning": "fruit",
+    "meaning": "果物",
     "example": "这是水果。",
     "exampleMeaning": "これは水果です。",
     "category": [
@@ -6989,7 +6989,7 @@
     "id": 600,
     "hanzi": "睡觉",
     "pinyin": "shuìjiào",
-    "meaning": "to go to bed",
+    "meaning": "寝る",
     "example": "我睡觉了。",
     "exampleMeaning": "私は睡觉ました。",
     "category": [
@@ -7000,7 +7000,7 @@
     "id": 601,
     "hanzi": "说",
     "pinyin": "shuō",
-    "meaning": "to speak",
+    "meaning": "話す、言う",
     "example": "我说了。",
     "exampleMeaning": "私は说ました。",
     "category": [
@@ -7011,7 +7011,7 @@
     "id": 602,
     "hanzi": "四",
     "pinyin": "sì",
-    "meaning": "four",
+    "meaning": "4、四つ",
     "example": "有四个。",
     "exampleMeaning": "四個あります。",
     "category": [
@@ -7022,7 +7022,7 @@
     "id": 603,
     "hanzi": "岁",
     "pinyin": "suì",
-    "meaning": "classifier for years",
+    "meaning": "〜歳（年齢を数える量詞）",
     "example": "一岁。",
     "exampleMeaning": "1岁。",
     "category": [
@@ -7033,7 +7033,7 @@
     "id": 604,
     "hanzi": "他",
     "pinyin": "tā",
-    "meaning": "he or him",
+    "meaning": "彼",
     "example": "他很好。",
     "exampleMeaning": "他はとても良いです。",
     "category": [
@@ -7044,7 +7044,7 @@
     "id": 605,
     "hanzi": "她",
     "pinyin": "tā",
-    "meaning": "she",
+    "meaning": "彼女",
     "example": "她很好。",
     "exampleMeaning": "她はとても良いです。",
     "category": [
@@ -7055,7 +7055,7 @@
     "id": 606,
     "hanzi": "太",
     "pinyin": "tài",
-    "meaning": "too",
+    "meaning": "〜すぎる",
     "example": "他太来了。",
     "exampleMeaning": "彼は太来ました。",
     "category": [
@@ -7066,7 +7066,7 @@
     "id": 607,
     "hanzi": "天气",
     "pinyin": "tiānqì",
-    "meaning": "weather",
+    "meaning": "天気",
     "example": "这是天气。",
     "exampleMeaning": "これは天气です。",
     "category": [
@@ -7077,7 +7077,7 @@
     "id": 608,
     "hanzi": "听",
     "pinyin": "tīng",
-    "meaning": "to listen",
+    "meaning": "聞く",
     "example": "我听了。",
     "exampleMeaning": "私は听ました。",
     "category": [
@@ -7088,7 +7088,7 @@
     "id": 609,
     "hanzi": "同学",
     "pinyin": "tóngxué",
-    "meaning": "classmate",
+    "meaning": "クラスメート",
     "example": "这是同学。",
     "exampleMeaning": "これは同学です。",
     "category": [
@@ -7099,7 +7099,7 @@
     "id": 610,
     "hanzi": "喂(叹词)",
     "pinyin": "wèi",
-    "meaning": "hello",
+    "meaning": "もしもし（電話）",
     "example": "这是喂(叹词)。",
     "exampleMeaning": "これは喂(叹词)です。",
     "category": [
@@ -7110,7 +7110,7 @@
     "id": 611,
     "hanzi": "我",
     "pinyin": "wǒ",
-    "meaning": "I",
+    "meaning": "私",
     "example": "我很好。",
     "exampleMeaning": "我はとても良いです。",
     "category": [
@@ -7121,7 +7121,7 @@
     "id": 612,
     "hanzi": "我们",
     "pinyin": "wǒmen",
-    "meaning": "we",
+    "meaning": "私たち",
     "example": "我们很好。",
     "exampleMeaning": "我们はとても良いです。",
     "category": [
@@ -7132,7 +7132,7 @@
     "id": 613,
     "hanzi": "五",
     "pinyin": "wǔ",
-    "meaning": "five",
+    "meaning": "5、五つ",
     "example": "有五个。",
     "exampleMeaning": "五個あります。",
     "category": [
@@ -7143,7 +7143,7 @@
     "id": 614,
     "hanzi": "喜欢",
     "pinyin": "xǐhuan",
-    "meaning": "to like",
+    "meaning": "好きだ",
     "example": "我喜欢了。",
     "exampleMeaning": "私は喜欢ました。",
     "category": [
@@ -7154,7 +7154,7 @@
     "id": 615,
     "hanzi": "下",
     "pinyin": "xià",
-    "meaning": "down",
+    "meaning": "下",
     "example": "这是下。",
     "exampleMeaning": "これは下です。",
     "category": [
@@ -7165,7 +7165,7 @@
     "id": 616,
     "hanzi": "下午",
     "pinyin": "xiàwǔ",
-    "meaning": "afternoon",
+    "meaning": "午後",
     "example": "这是下午。",
     "exampleMeaning": "これは下午です。",
     "category": [
@@ -7176,7 +7176,7 @@
     "id": 617,
     "hanzi": "下雨",
     "pinyin": "xiàyǔ",
-    "meaning": "to rain",
+    "meaning": "雨が降る",
     "example": "我下雨了。",
     "exampleMeaning": "私は下雨ました。",
     "category": [
@@ -7187,7 +7187,7 @@
     "id": 618,
     "hanzi": "先生",
     "pinyin": "xiānsheng",
-    "meaning": "Mister",
+    "meaning": "〜さん（男性）",
     "example": "这是先生。",
     "exampleMeaning": "これは先生です。",
     "category": [
@@ -7198,7 +7198,7 @@
     "id": 619,
     "hanzi": "现在",
     "pinyin": "xiànzài",
-    "meaning": "now",
+    "meaning": "今",
     "example": "他现在来了。",
     "exampleMeaning": "彼は现在来ました。",
     "category": [
@@ -7209,7 +7209,7 @@
     "id": 620,
     "hanzi": "想",
     "pinyin": "xiǎng",
-    "meaning": "to think",
+    "meaning": "思う、考える",
     "example": "我想了。",
     "exampleMeaning": "私は想ました。",
     "category": [
@@ -7220,7 +7220,7 @@
     "id": 621,
     "hanzi": "小",
     "pinyin": "xiǎo",
-    "meaning": "small",
+    "meaning": "小さい",
     "example": "这很小。",
     "exampleMeaning": "これはとても小です。",
     "category": [
@@ -7231,7 +7231,7 @@
     "id": 622,
     "hanzi": "小姐",
     "pinyin": "xiǎojie",
-    "meaning": "young lady",
+    "meaning": "お嬢さん",
     "example": "这是小姐。",
     "exampleMeaning": "これは小姐です。",
     "category": [
@@ -7242,7 +7242,7 @@
     "id": 623,
     "hanzi": "些",
     "pinyin": "xiē",
-    "meaning": "some",
+    "meaning": "いくつかの",
     "example": "些很好。",
     "exampleMeaning": "些はとても良いです。",
     "category": [
@@ -7253,7 +7253,7 @@
     "id": 624,
     "hanzi": "写",
     "pinyin": "xiě",
-    "meaning": "to write",
+    "meaning": "書く",
     "example": "我写了。",
     "exampleMeaning": "私は写ました。",
     "category": [
@@ -7264,7 +7264,7 @@
     "id": 625,
     "hanzi": "谢谢",
     "pinyin": "xièxie",
-    "meaning": "to thank",
+    "meaning": "ありがとう、感謝する",
     "example": "我谢谢了。",
     "exampleMeaning": "私は谢谢ました。",
     "category": [
@@ -7275,7 +7275,7 @@
     "id": 626,
     "hanzi": "星期",
     "pinyin": "xīngqī",
-    "meaning": "week",
+    "meaning": "週",
     "example": "这是星期。",
     "exampleMeaning": "これは星期です。",
     "category": [
@@ -7286,7 +7286,7 @@
     "id": 627,
     "hanzi": "学生",
     "pinyin": "xuésheng",
-    "meaning": "student",
+    "meaning": "学生",
     "example": "这是学生。",
     "exampleMeaning": "これは学生です。",
     "category": [
@@ -7297,7 +7297,7 @@
     "id": 628,
     "hanzi": "学习",
     "pinyin": "xuéxí",
-    "meaning": "to learn",
+    "meaning": "学ぶ",
     "example": "我学习了。",
     "exampleMeaning": "私は学习ました。",
     "category": [
@@ -7308,7 +7308,7 @@
     "id": 629,
     "hanzi": "学校",
     "pinyin": "xuéxiào",
-    "meaning": "school",
+    "meaning": "学校",
     "example": "这是学校。",
     "exampleMeaning": "これは学校です。",
     "category": [
@@ -7319,7 +7319,7 @@
     "id": 630,
     "hanzi": "一",
     "pinyin": "yī",
-    "meaning": "one",
+    "meaning": "1、一つ",
     "example": "有一个。",
     "exampleMeaning": "一個あります。",
     "category": [
@@ -7330,7 +7330,7 @@
     "id": 631,
     "hanzi": "一点儿",
     "pinyin": "yīdiǎner",
-    "meaning": "a little",
+    "meaning": "少し",
     "example": "这是一点儿。",
     "exampleMeaning": "これは一点儿です。",
     "category": [
@@ -7341,7 +7341,7 @@
     "id": 632,
     "hanzi": "医生",
     "pinyin": "yīshēng",
-    "meaning": "doctor",
+    "meaning": "医者",
     "example": "这是医生。",
     "exampleMeaning": "これは医生です。",
     "category": [
@@ -7352,7 +7352,7 @@
     "id": 633,
     "hanzi": "医院",
     "pinyin": "yīyuàn",
-    "meaning": "hospital",
+    "meaning": "病院",
     "example": "这是医院。",
     "exampleMeaning": "これは医院です。",
     "category": [
@@ -7363,7 +7363,7 @@
     "id": 634,
     "hanzi": "衣服",
     "pinyin": "yīfu",
-    "meaning": "clothes",
+    "meaning": "服",
     "example": "这是衣服。",
     "exampleMeaning": "これは衣服です。",
     "category": [
@@ -7374,7 +7374,7 @@
     "id": 635,
     "hanzi": "椅子",
     "pinyin": "yǐzi",
-    "meaning": "chair",
+    "meaning": "椅子",
     "example": "这是椅子。",
     "exampleMeaning": "これは椅子です。",
     "category": [
@@ -7385,7 +7385,7 @@
     "id": 636,
     "hanzi": "有",
     "pinyin": "yǒu",
-    "meaning": "to have",
+    "meaning": "ある、持っている",
     "example": "我有了。",
     "exampleMeaning": "私は有ました。",
     "category": [
@@ -7396,7 +7396,7 @@
     "id": 637,
     "hanzi": "月",
     "pinyin": "yuè",
-    "meaning": "month",
+    "meaning": "月",
     "example": "这是月。",
     "exampleMeaning": "これは月です。",
     "category": [
@@ -7407,7 +7407,7 @@
     "id": 638,
     "hanzi": "再见",
     "pinyin": "zàijiàn",
-    "meaning": "goodbye",
+    "meaning": "さようなら",
     "example": "这是再见。",
     "exampleMeaning": "これは再见です。",
     "category": [
@@ -7418,7 +7418,7 @@
     "id": 639,
     "hanzi": "怎么",
     "pinyin": "zěnme",
-    "meaning": "how?",
+    "meaning": "どうやって？",
     "example": "这是怎么。",
     "exampleMeaning": "これは怎么です。",
     "category": [
@@ -7429,7 +7429,7 @@
     "id": 640,
     "hanzi": "怎么样",
     "pinyin": "zěnmeyàng",
-    "meaning": "how are things? how?",
+    "meaning": "どう？どんな感じ？",
     "example": "这是怎么样。",
     "exampleMeaning": "これは怎么样です。",
     "category": [
@@ -7440,7 +7440,7 @@
     "id": 641,
     "hanzi": "这",
     "pinyin": "zhè",
-    "meaning": "this",
+    "meaning": "これ、この",
     "example": "这很好。",
     "exampleMeaning": "这はとても良いです。",
     "category": [
@@ -7451,7 +7451,7 @@
     "id": 642,
     "hanzi": "中国",
     "pinyin": "zhōngguó",
-    "meaning": "China",
+    "meaning": "中国",
     "example": "这是中国。",
     "exampleMeaning": "これは中国です。",
     "category": [
@@ -7462,7 +7462,7 @@
     "id": 643,
     "hanzi": "中午",
     "pinyin": "zhōngwǔ",
-    "meaning": "noon",
+    "meaning": "正午",
     "example": "这是中午。",
     "exampleMeaning": "これは中午です。",
     "category": [
@@ -7473,7 +7473,7 @@
     "id": 644,
     "hanzi": "住",
     "pinyin": "zhù",
-    "meaning": "to live",
+    "meaning": "住む",
     "example": "我住了。",
     "exampleMeaning": "私は住ました。",
     "category": [
@@ -7484,7 +7484,7 @@
     "id": 645,
     "hanzi": "桌子",
     "pinyin": "zhuōzi",
-    "meaning": "table",
+    "meaning": "机、テーブル",
     "example": "这是桌子。",
     "exampleMeaning": "これは桌子です。",
     "category": [
@@ -7495,7 +7495,7 @@
     "id": 646,
     "hanzi": "字",
     "pinyin": "zì",
-    "meaning": "letter",
+    "meaning": "文字、字",
     "example": "这是字。",
     "exampleMeaning": "これは字です。",
     "category": [
@@ -7506,7 +7506,7 @@
     "id": 647,
     "hanzi": "昨天",
     "pinyin": "zuótiān",
-    "meaning": "yesterday",
+    "meaning": "昨日",
     "example": "这是昨天。",
     "exampleMeaning": "これは昨天です。",
     "category": [
@@ -7517,7 +7517,7 @@
     "id": 648,
     "hanzi": "做",
     "pinyin": "zuò",
-    "meaning": "to do",
+    "meaning": "する、作る",
     "example": "我做了。",
     "exampleMeaning": "私は做ました。",
     "category": [
@@ -7528,7 +7528,7 @@
     "id": 649,
     "hanzi": "坐",
     "pinyin": "zuò",
-    "meaning": "to sit",
+    "meaning": "座る",
     "example": "我坐了。",
     "exampleMeaning": "私は坐ました。",
     "category": [
@@ -7539,7 +7539,7 @@
     "id": 650,
     "hanzi": "吧",
     "pinyin": "ba",
-    "meaning": "modal particle indicating polite suggestion",
+    "meaning": "〜しよう（提案の語気助詞）",
     "example": "你好吧！",
     "exampleMeaning": "こんにちは吧！",
     "category": [
@@ -7550,7 +7550,7 @@
     "id": 651,
     "hanzi": "白",
     "pinyin": "bái",
-    "meaning": "white",
+    "meaning": "白い",
     "example": "这是白。",
     "exampleMeaning": "これは白です。",
     "category": [
@@ -7561,7 +7561,7 @@
     "id": 652,
     "hanzi": "百",
     "pinyin": "bǎi",
-    "meaning": "hundred",
+    "meaning": "百",
     "example": "有百个。",
     "exampleMeaning": "百個あります。",
     "category": [
@@ -7572,7 +7572,7 @@
     "id": 653,
     "hanzi": "帮助",
     "pinyin": "bāngzhù",
-    "meaning": "assistance",
+    "meaning": "助ける、手伝う",
     "example": "这是帮助。",
     "exampleMeaning": "これは帮助です。",
     "category": [
@@ -7583,7 +7583,7 @@
     "id": 654,
     "hanzi": "报纸",
     "pinyin": "bàozhǐ",
-    "meaning": "newspaper",
+    "meaning": "新聞",
     "example": "这是报纸。",
     "exampleMeaning": "これは报纸です。",
     "category": [
@@ -7594,7 +7594,7 @@
     "id": 655,
     "hanzi": "比",
     "pinyin": "bǐ",
-    "meaning": "particle used for comparison and '-er than'",
+    "meaning": "〜より（比較）",
     "example": "你好比！",
     "exampleMeaning": "こんにちは比！",
     "category": [
@@ -7605,7 +7605,7 @@
     "id": 656,
     "hanzi": "别",
     "pinyin": "bié",
-    "meaning": "do not",
+    "meaning": "〜しないで",
     "example": "我别了。",
     "exampleMeaning": "私は别ました。",
     "category": [
@@ -7616,7 +7616,7 @@
     "id": 657,
     "hanzi": "宾馆",
     "pinyin": "bīnguǎn",
-    "meaning": "guesthouse",
+    "meaning": "旅館、ホテル",
     "example": "这是宾馆。",
     "exampleMeaning": "これは宾馆です。",
     "category": [
@@ -7627,7 +7627,7 @@
     "id": 658,
     "hanzi": "长(形容词)",
     "pinyin": "cháng",
-    "meaning": "long",
+    "meaning": "長い",
     "example": "这很长(形容词)。",
     "exampleMeaning": "これはとても长(形容词)です。",
     "category": [
@@ -7638,7 +7638,7 @@
     "id": 659,
     "hanzi": "唱歌",
     "pinyin": "chànggē",
-    "meaning": "to sing a song",
+    "meaning": "歌を歌う",
     "example": "我唱歌了。",
     "exampleMeaning": "私は唱歌ました。",
     "category": [
@@ -7649,7 +7649,7 @@
     "id": 660,
     "hanzi": "出",
     "pinyin": "chū",
-    "meaning": "to go out",
+    "meaning": "出る",
     "example": "我出了。",
     "exampleMeaning": "私は出ました。",
     "category": [
@@ -7660,7 +7660,7 @@
     "id": 661,
     "hanzi": "穿",
     "pinyin": "chuān",
-    "meaning": "to wear",
+    "meaning": "着る、履く",
     "example": "我穿了。",
     "exampleMeaning": "私は穿ました。",
     "category": [
@@ -7671,7 +7671,7 @@
     "id": 662,
     "hanzi": "次",
     "pinyin": "cì",
-    "meaning": "next in sequence",
+    "meaning": "〜回、次",
     "example": "这是次。",
     "exampleMeaning": "これは次です。",
     "category": [
@@ -7682,7 +7682,7 @@
     "id": 663,
     "hanzi": "从",
     "pinyin": "cóng",
-    "meaning": "from",
+    "meaning": "〜から",
     "example": "他从我来了。",
     "exampleMeaning": "彼は私从来ました。",
     "category": [
@@ -7693,7 +7693,7 @@
     "id": 664,
     "hanzi": "错",
     "pinyin": "cuò",
-    "meaning": "mistake",
+    "meaning": "間違い",
     "example": "这是错。",
     "exampleMeaning": "これは错です。",
     "category": [
@@ -7704,7 +7704,7 @@
     "id": 665,
     "hanzi": "打篮球",
     "pinyin": "dǎlánqiú",
-    "meaning": "play basketball",
+    "meaning": "バスケットボールをする",
     "example": "我打篮球了。",
     "exampleMeaning": "私は打篮球ました。",
     "category": [
@@ -7715,7 +7715,7 @@
     "id": 666,
     "hanzi": "大家",
     "pinyin": "dàjiā",
-    "meaning": "everyone",
+    "meaning": "みなさん、皆",
     "example": "大家很好。",
     "exampleMeaning": "大家はとても良いです。",
     "category": [
@@ -7726,7 +7726,7 @@
     "id": 667,
     "hanzi": "到",
     "pinyin": "dào",
-    "meaning": "to",
+    "meaning": "〜に着く、〜へ",
     "example": "他到我来了。",
     "exampleMeaning": "彼は私到来ました。",
     "category": [
@@ -7737,7 +7737,7 @@
     "id": 668,
     "hanzi": "得(助词)",
     "pinyin": "de",
-    "meaning": "structural particle: used after a verb, linking it to following phrase indica...",
+    "meaning": "〜の仕方を表す構造助詞（動詞の後ろに付けて様態を表す）",
     "example": "你好得(助词)！",
     "exampleMeaning": "こんにちは得(助词)！",
     "category": [
@@ -7748,7 +7748,7 @@
     "id": 669,
     "hanzi": "等(动词)",
     "pinyin": "děng",
-    "meaning": "to wait for",
+    "meaning": "待つ",
     "example": "我等(动词)了。",
     "exampleMeaning": "私は等(动词)ました。",
     "category": [
@@ -7759,7 +7759,7 @@
     "id": 670,
     "hanzi": "弟弟",
     "pinyin": "dìdi",
-    "meaning": "younger brother",
+    "meaning": "弟",
     "example": "这是弟弟。",
     "exampleMeaning": "これは弟弟です。",
     "category": [
@@ -7770,7 +7770,7 @@
     "id": 671,
     "hanzi": "第一",
     "pinyin": "dìyī",
-    "meaning": "first",
+    "meaning": "まず、最初に",
     "example": "有第一个。",
     "exampleMeaning": "第一個あります。",
     "category": [
@@ -7781,7 +7781,7 @@
     "id": 672,
     "hanzi": "懂",
     "pinyin": "dǒng",
-    "meaning": "to understand",
+    "meaning": "分かる、理解する",
     "example": "我懂了。",
     "exampleMeaning": "私は懂ました。",
     "category": [
@@ -7792,7 +7792,7 @@
     "id": 673,
     "hanzi": "对(介词)",
     "pinyin": "duì",
-    "meaning": "towards",
+    "meaning": "〜に対して（前置詞）",
     "example": "这是对(介词)。",
     "exampleMeaning": "これは对(介词)です。",
     "category": [
@@ -7803,7 +7803,7 @@
     "id": 674,
     "hanzi": "对(形容词)",
     "pinyin": "duì",
-    "meaning": "right",
+    "meaning": "正しい",
     "example": "这很对(形容词)。",
     "exampleMeaning": "これはとても对(形容词)です。",
     "category": [
@@ -7814,7 +7814,7 @@
     "id": 675,
     "hanzi": "房间",
     "pinyin": "fángjiān",
-    "meaning": "room",
+    "meaning": "部屋",
     "example": "这是房间。",
     "exampleMeaning": "これは房间です。",
     "category": [
@@ -7825,7 +7825,7 @@
     "id": 676,
     "hanzi": "非常",
     "pinyin": "fēicháng",
-    "meaning": "extraordinary",
+    "meaning": "非常に、とても",
     "example": "这是非常。",
     "exampleMeaning": "これは非常です。",
     "category": [
@@ -7836,7 +7836,7 @@
     "id": 677,
     "hanzi": "服务员",
     "pinyin": "fúwùyuán",
-    "meaning": "waiter",
+    "meaning": "店員、ウェイター",
     "example": "这是服务员。",
     "exampleMeaning": "これは服务员です。",
     "category": [
@@ -7847,7 +7847,7 @@
     "id": 678,
     "hanzi": "高",
     "pinyin": "gāo",
-    "meaning": "high",
+    "meaning": "高い",
     "example": "这很高。",
     "exampleMeaning": "これはとても高です。",
     "category": [
@@ -7858,7 +7858,7 @@
     "id": 679,
     "hanzi": "告诉",
     "pinyin": "gàosu",
-    "meaning": "to tell",
+    "meaning": "教える、伝える",
     "example": "我告诉了。",
     "exampleMeaning": "私は告诉ました。",
     "category": [
@@ -7869,7 +7869,7 @@
     "id": 680,
     "hanzi": "哥哥",
     "pinyin": "gēge",
-    "meaning": "older brother",
+    "meaning": "兄、お兄さん",
     "example": "这是哥哥。",
     "exampleMeaning": "これは哥哥です。",
     "category": [
@@ -7880,7 +7880,7 @@
     "id": 681,
     "hanzi": "给",
     "pinyin": "gěi",
-    "meaning": "to",
+    "meaning": "〜に、〜へ",
     "example": "他给我来了。",
     "exampleMeaning": "彼は私给来ました。",
     "category": [
@@ -7891,7 +7891,7 @@
     "id": 682,
     "hanzi": "公共汽车",
     "pinyin": "gōnggòngqìchē",
-    "meaning": "bus",
+    "meaning": "バス",
     "example": "这是公共汽车。",
     "exampleMeaning": "これは公共汽车です。",
     "category": [
@@ -7902,7 +7902,7 @@
     "id": 683,
     "hanzi": "公司",
     "pinyin": "gōngsī",
-    "meaning": "company",
+    "meaning": "会社",
     "example": "这是公司。",
     "exampleMeaning": "これは公司です。",
     "category": [
@@ -7913,7 +7913,7 @@
     "id": 684,
     "hanzi": "贵",
     "pinyin": "guì",
-    "meaning": "expensive",
+    "meaning": "高い（値段）",
     "example": "这很贵。",
     "exampleMeaning": "これはとても贵です。",
     "category": [
@@ -7924,7 +7924,7 @@
     "id": 685,
     "hanzi": "过(助词)",
     "pinyin": "guo",
-    "meaning": "to indicate the completion of an action",
+    "meaning": "〜したことがある（経験を表す助詞）",
     "example": "我过(助词)了。",
     "exampleMeaning": "私は过(助词)ました。",
     "category": [
@@ -7935,7 +7935,7 @@
     "id": 686,
     "hanzi": "孩子",
     "pinyin": "háizi",
-    "meaning": "child",
+    "meaning": "子供",
     "example": "这是孩子。",
     "exampleMeaning": "これは孩子です。",
     "category": [
@@ -7946,7 +7946,7 @@
     "id": 687,
     "hanzi": "还(副词)",
     "pinyin": "hái",
-    "meaning": "still",
+    "meaning": "まだ",
     "example": "他还(副词)来了。",
     "exampleMeaning": "彼は还(副词)来ました。",
     "category": [
@@ -7957,7 +7957,7 @@
     "id": 688,
     "hanzi": "好吃",
     "pinyin": "hǎochī",
-    "meaning": "tasty",
+    "meaning": "美味しい",
     "example": "这是好吃。",
     "exampleMeaning": "これは好吃です。",
     "category": [
@@ -7968,7 +7968,7 @@
     "id": 689,
     "hanzi": "黑",
     "pinyin": "hēi",
-    "meaning": "black",
+    "meaning": "黒い",
     "example": "这是黑。",
     "exampleMeaning": "これは黑です。",
     "category": [
@@ -7979,7 +7979,7 @@
     "id": 690,
     "hanzi": "红",
     "pinyin": "hóng",
-    "meaning": "red",
+    "meaning": "赤い",
     "example": "这是红。",
     "exampleMeaning": "これは红です。",
     "category": [
@@ -7990,7 +7990,7 @@
     "id": 691,
     "hanzi": "火车站",
     "pinyin": "huǒchēzhàn",
-    "meaning": "train station",
+    "meaning": "駅（鉄道）",
     "example": "这是火车站。",
     "exampleMeaning": "これは火车站です。",
     "category": [
@@ -8001,7 +8001,7 @@
     "id": 692,
     "hanzi": "机场",
     "pinyin": "jīchǎng",
-    "meaning": "airport",
+    "meaning": "空港",
     "example": "这是机场。",
     "exampleMeaning": "これは机场です。",
     "category": [
@@ -8012,7 +8012,7 @@
     "id": 693,
     "hanzi": "鸡蛋",
     "pinyin": "jīdàn",
-    "meaning": "egg",
+    "meaning": "卵",
     "example": "这是鸡蛋。",
     "exampleMeaning": "これは鸡蛋です。",
     "category": [
@@ -8023,7 +8023,7 @@
     "id": 694,
     "hanzi": "件",
     "pinyin": "jiàn",
-    "meaning": "item",
+    "meaning": "〜件（出来事などを数える量詞）",
     "example": "这是件。",
     "exampleMeaning": "これは件です。",
     "category": [
@@ -8034,7 +8034,7 @@
     "id": 695,
     "hanzi": "教室",
     "pinyin": "jiàoshì",
-    "meaning": "classroom",
+    "meaning": "教室",
     "example": "这是教室。",
     "exampleMeaning": "これは教室です。",
     "category": [
@@ -8045,7 +8045,7 @@
     "id": 696,
     "hanzi": "姐姐",
     "pinyin": "jiějie",
-    "meaning": "older sister",
+    "meaning": "姉、お姉さん",
     "example": "这是姐姐。",
     "exampleMeaning": "これは姐姐です。",
     "category": [
@@ -8056,7 +8056,7 @@
     "id": 697,
     "hanzi": "介绍",
     "pinyin": "jièshào",
-    "meaning": "to present",
+    "meaning": "紹介する",
     "example": "我介绍了。",
     "exampleMeaning": "私は介绍ました。",
     "category": [
@@ -8067,7 +8067,7 @@
     "id": 698,
     "hanzi": "近",
     "pinyin": "jìn",
-    "meaning": "near",
+    "meaning": "近い",
     "example": "这是近。",
     "exampleMeaning": "これは近です。",
     "category": [
@@ -8078,7 +8078,7 @@
     "id": 699,
     "hanzi": "进",
     "pinyin": "jìn",
-    "meaning": "to enter",
+    "meaning": "入る",
     "example": "我进了。",
     "exampleMeaning": "私は进ました。",
     "category": [
@@ -8089,7 +8089,7 @@
     "id": 700,
     "hanzi": "就",
     "pinyin": "jiù",
-    "meaning": "just",
+    "meaning": "ちょうど、ただ",
     "example": "他就来了。",
     "exampleMeaning": "彼は就来ました。",
     "category": [
@@ -8100,7 +8100,7 @@
     "id": 701,
     "hanzi": "觉得",
     "pinyin": "juéde",
-    "meaning": "to think",
+    "meaning": "思う、考える",
     "example": "我觉得了。",
     "exampleMeaning": "私は觉得ました。",
     "category": [
@@ -8111,7 +8111,7 @@
     "id": 702,
     "hanzi": "咖啡",
     "pinyin": "kāfēi",
-    "meaning": "coffee",
+    "meaning": "コーヒー",
     "example": "这是咖啡。",
     "exampleMeaning": "これは咖啡です。",
     "category": [
@@ -8122,7 +8122,7 @@
     "id": 703,
     "hanzi": "开始",
     "pinyin": "kāishǐ",
-    "meaning": "to begin",
+    "meaning": "始まる、始める",
     "example": "我开始了。",
     "exampleMeaning": "私は开始ました。",
     "category": [
@@ -8133,7 +8133,7 @@
     "id": 704,
     "hanzi": "考试",
     "pinyin": "kǎoshì",
-    "meaning": "exam",
+    "meaning": "試験",
     "example": "这是考试。",
     "exampleMeaning": "これは考试です。",
     "category": [
@@ -8144,7 +8144,7 @@
     "id": 705,
     "hanzi": "可能",
     "pinyin": "kěnéng",
-    "meaning": "might",
+    "meaning": "〜かもしれない",
     "example": "这是可能。",
     "exampleMeaning": "これは可能です。",
     "category": [
@@ -8155,7 +8155,7 @@
     "id": 706,
     "hanzi": "可以",
     "pinyin": "kěyǐ",
-    "meaning": "can",
+    "meaning": "できる",
     "example": "这是可以。",
     "exampleMeaning": "これは可以です。",
     "category": [
@@ -8166,7 +8166,7 @@
     "id": 707,
     "hanzi": "课",
     "pinyin": "kè",
-    "meaning": "subject",
+    "meaning": "科目、主題",
     "example": "这是课。",
     "exampleMeaning": "これは课です。",
     "category": [
@@ -8177,7 +8177,7 @@
     "id": 708,
     "hanzi": "快",
     "pinyin": "kuài",
-    "meaning": "rapid",
+    "meaning": "急速な",
     "example": "这是快。",
     "exampleMeaning": "これは快です。",
     "category": [
@@ -8188,7 +8188,7 @@
     "id": 709,
     "hanzi": "快乐",
     "pinyin": "kuàilè",
-    "meaning": "happy",
+    "meaning": "嬉しい、楽しい",
     "example": "这很快乐。",
     "exampleMeaning": "これはとても快乐です。",
     "category": [
@@ -8199,7 +8199,7 @@
     "id": 710,
     "hanzi": "累",
     "pinyin": "lèi",
-    "meaning": "tired",
+    "meaning": "疲れた",
     "example": "这很累。",
     "exampleMeaning": "これはとても累です。",
     "category": [
@@ -8210,7 +8210,7 @@
     "id": 711,
     "hanzi": "离",
     "pinyin": "lí",
-    "meaning": "to leave",
+    "meaning": "〜から離れている",
     "example": "我离了。",
     "exampleMeaning": "私は离ました。",
     "category": [
@@ -8221,7 +8221,7 @@
     "id": 712,
     "hanzi": "两",
     "pinyin": "liǎng",
-    "meaning": "two",
+    "meaning": "2、二つ",
     "example": "有两个。",
     "exampleMeaning": "两個あります。",
     "category": [
@@ -8232,7 +8232,7 @@
     "id": 713,
     "hanzi": "零",
     "pinyin": "líng",
-    "meaning": "zero",
+    "meaning": "0、ゼロ",
     "example": "有零个。",
     "exampleMeaning": "零個あります。",
     "category": [
@@ -8243,7 +8243,7 @@
     "id": 714,
     "hanzi": "路",
     "pinyin": "lù",
-    "meaning": "road",
+    "meaning": "道、道路",
     "example": "这是路。",
     "exampleMeaning": "これは路です。",
     "category": [
@@ -8254,7 +8254,7 @@
     "id": 715,
     "hanzi": "旅游",
     "pinyin": "lv3yóu",
-    "meaning": "trip",
+    "meaning": "旅行、出張",
     "example": "这是旅游。",
     "exampleMeaning": "これは旅游です。",
     "category": [
@@ -8265,7 +8265,7 @@
     "id": 716,
     "hanzi": "卖",
     "pinyin": "mài",
-    "meaning": "to sell",
+    "meaning": "売る",
     "example": "我卖了。",
     "exampleMeaning": "私は卖ました。",
     "category": [
@@ -8276,7 +8276,7 @@
     "id": 717,
     "hanzi": "慢",
     "pinyin": "màn",
-    "meaning": "slow",
+    "meaning": "遅い",
     "example": "这很慢。",
     "exampleMeaning": "これはとても慢です。",
     "category": [
@@ -8287,7 +8287,7 @@
     "id": 718,
     "hanzi": "忙",
     "pinyin": "máng",
-    "meaning": "busy",
+    "meaning": "話し中（電話）",
     "example": "这很忙。",
     "exampleMeaning": "これはとても忙です。",
     "category": [
@@ -8298,7 +8298,7 @@
     "id": 719,
     "hanzi": "每",
     "pinyin": "měi",
-    "meaning": "each",
+    "meaning": "それぞれ",
     "example": "每很好。",
     "exampleMeaning": "每はとても良いです。",
     "category": [
@@ -8309,7 +8309,7 @@
     "id": 720,
     "hanzi": "妹妹",
     "pinyin": "mèimei",
-    "meaning": "younger sister",
+    "meaning": "妹",
     "example": "这是妹妹。",
     "exampleMeaning": "これは妹妹です。",
     "category": [
@@ -8320,7 +8320,7 @@
     "id": 721,
     "hanzi": "门",
     "pinyin": "mén",
-    "meaning": "gate",
+    "meaning": "ドア、門",
     "example": "这是门。",
     "exampleMeaning": "これは门です。",
     "category": [
@@ -8331,7 +8331,7 @@
     "id": 722,
     "hanzi": "面条",
     "pinyin": "miàntiáo",
-    "meaning": "noodles",
+    "meaning": "麺類",
     "example": "这是面条。",
     "exampleMeaning": "これは面条です。",
     "category": [
@@ -8342,7 +8342,7 @@
     "id": 723,
     "hanzi": "男",
     "pinyin": "nán",
-    "meaning": "male",
+    "meaning": "男性",
     "example": "这是男。",
     "exampleMeaning": "これは男です。",
     "category": [
@@ -8353,7 +8353,7 @@
     "id": 724,
     "hanzi": "您",
     "pinyin": "nín",
-    "meaning": "you",
+    "meaning": "あなた",
     "example": "您很好。",
     "exampleMeaning": "您はとても良いです。",
     "category": [
@@ -8364,7 +8364,7 @@
     "id": 725,
     "hanzi": "牛奶",
     "pinyin": "niúnǎi",
-    "meaning": "cow's milk",
+    "meaning": "牛乳",
     "example": "这是牛奶。",
     "exampleMeaning": "これは牛奶です。",
     "category": [
@@ -8375,7 +8375,7 @@
     "id": 726,
     "hanzi": "女",
     "pinyin": "nǚ",
-    "meaning": "female",
+    "meaning": "女性",
     "example": "这是女。",
     "exampleMeaning": "これは女です。",
     "category": [
@@ -8386,7 +8386,7 @@
     "id": 727,
     "hanzi": "旁边",
     "pinyin": "pángbiān",
-    "meaning": "lateral",
+    "meaning": "〜の隣、そば",
     "example": "这是旁边。",
     "exampleMeaning": "これは旁边です。",
     "category": [
@@ -8397,7 +8397,7 @@
     "id": 728,
     "hanzi": "跑步",
     "pinyin": "pǎobù",
-    "meaning": "to walk quickly",
+    "meaning": "走る、ジョギングする",
     "example": "我跑步了。",
     "exampleMeaning": "私は跑步ました。",
     "category": [
@@ -8408,7 +8408,7 @@
     "id": 729,
     "hanzi": "便宜",
     "pinyin": "piányi",
-    "meaning": "cheap",
+    "meaning": "安い",
     "example": "这很便宜。",
     "exampleMeaning": "これはとても便宜です。",
     "category": [
@@ -8419,7 +8419,7 @@
     "id": 730,
     "hanzi": "票",
     "pinyin": "piào",
-    "meaning": "ticket",
+    "meaning": "切符、チケット",
     "example": "这是票。",
     "exampleMeaning": "これは票です。",
     "category": [
@@ -8430,7 +8430,7 @@
     "id": 731,
     "hanzi": "妻子",
     "pinyin": "qīzi",
-    "meaning": "wife",
+    "meaning": "妻",
     "example": "这是妻子。",
     "exampleMeaning": "これは妻子です。",
     "category": [
@@ -8441,7 +8441,7 @@
     "id": 732,
     "hanzi": "起床",
     "pinyin": "qǐchuáng",
-    "meaning": "to get up",
+    "meaning": "起きる",
     "example": "我起床了。",
     "exampleMeaning": "私は起床ました。",
     "category": [
@@ -8452,7 +8452,7 @@
     "id": 733,
     "hanzi": "千",
     "pinyin": "qiān",
-    "meaning": "thousand",
+    "meaning": "千",
     "example": "有千个。",
     "exampleMeaning": "千個あります。",
     "category": [
@@ -8463,7 +8463,7 @@
     "id": 734,
     "hanzi": "铅笔",
     "pinyin": "qiānbǐ",
-    "meaning": "pencil",
+    "meaning": "鉛筆",
     "example": "这是铅笔。",
     "exampleMeaning": "これは铅笔です。",
     "category": [
@@ -8474,7 +8474,7 @@
     "id": 735,
     "hanzi": "晴",
     "pinyin": "qíng",
-    "meaning": "clear",
+    "meaning": "晴れ",
     "example": "这很晴。",
     "exampleMeaning": "これはとても晴です。",
     "category": [
@@ -8485,7 +8485,7 @@
     "id": 736,
     "hanzi": "去年",
     "pinyin": "qùnián",
-    "meaning": "last year",
+    "meaning": "去年",
     "example": "这是去年。",
     "exampleMeaning": "これは去年です。",
     "category": [
@@ -8496,7 +8496,7 @@
     "id": 737,
     "hanzi": "让",
     "pinyin": "ràng",
-    "meaning": "to permit",
+    "meaning": "〜させる、許可する",
     "example": "我让了。",
     "exampleMeaning": "私は让ました。",
     "category": [
@@ -8507,7 +8507,7 @@
     "id": 738,
     "hanzi": "日",
     "pinyin": "rì",
-    "meaning": "day",
+    "meaning": "日、〜日",
     "example": "这是日。",
     "exampleMeaning": "これは日です。",
     "category": [
@@ -8518,7 +8518,7 @@
     "id": 739,
     "hanzi": "上班",
     "pinyin": "shàngbān",
-    "meaning": "to go to work",
+    "meaning": "出勤する、仕事に行く",
     "example": "我上班了。",
     "exampleMeaning": "私は上班ました。",
     "category": [
@@ -8529,7 +8529,7 @@
     "id": 740,
     "hanzi": "身体",
     "pinyin": "shēntǐ",
-    "meaning": "body",
+    "meaning": "体",
     "example": "这是身体。",
     "exampleMeaning": "これは身体です。",
     "category": [
@@ -8540,7 +8540,7 @@
     "id": 741,
     "hanzi": "生病",
     "pinyin": "shēngbìng",
-    "meaning": "to fall ill",
+    "meaning": "病気になる",
     "example": "我生病了。",
     "exampleMeaning": "私は生病ました。",
     "category": [
@@ -8551,7 +8551,7 @@
     "id": 742,
     "hanzi": "生日",
     "pinyin": "shēngrì",
-    "meaning": "birthday",
+    "meaning": "誕生日",
     "example": "这是生日。",
     "exampleMeaning": "これは生日です。",
     "category": [
@@ -8562,7 +8562,7 @@
     "id": 743,
     "hanzi": "时间",
     "pinyin": "shíjiān",
-    "meaning": "time",
+    "meaning": "時間",
     "example": "这是时间。",
     "exampleMeaning": "これは时间です。",
     "category": [
@@ -8573,7 +8573,7 @@
     "id": 744,
     "hanzi": "事情",
     "pinyin": "shìqing",
-    "meaning": "affair",
+    "meaning": "用事、出来事",
     "example": "这是事情。",
     "exampleMeaning": "これは事情です。",
     "category": [
@@ -8584,7 +8584,7 @@
     "id": 745,
     "hanzi": "手表",
     "pinyin": "shǒubiǎo",
-    "meaning": "wrist watch",
+    "meaning": "腕時計",
     "example": "这是手表。",
     "exampleMeaning": "これは手表です。",
     "category": [
@@ -8595,7 +8595,7 @@
     "id": 746,
     "hanzi": "手机",
     "pinyin": "shǒujī",
-    "meaning": "cell phone",
+    "meaning": "携帯電話",
     "example": "这是手机。",
     "exampleMeaning": "これは手机です。",
     "category": [
@@ -8606,7 +8606,7 @@
     "id": 747,
     "hanzi": "说话",
     "pinyin": "shuōhuà",
-    "meaning": "to speak",
+    "meaning": "話す",
     "example": "我说话了。",
     "exampleMeaning": "私は说话ました。",
     "category": [
@@ -8617,7 +8617,7 @@
     "id": 748,
     "hanzi": "送",
     "pinyin": "sòng",
-    "meaning": "to deliver",
+    "meaning": "届ける、送る",
     "example": "我送了。",
     "exampleMeaning": "私は送ました。",
     "category": [
@@ -8628,7 +8628,7 @@
     "id": 749,
     "hanzi": "虽然…但是…",
     "pinyin": "suīrán…dànshì…",
-    "meaning": "although…still…",
+    "meaning": "〜だけれども、〜にもかかわらず",
     "example": "这是虽然…但是…。",
     "exampleMeaning": "これは虽然…但是…です。",
     "category": [
@@ -8639,7 +8639,7 @@
     "id": 750,
     "hanzi": "它",
     "pinyin": "tā",
-    "meaning": "it",
+    "meaning": "それ",
     "example": "它很好。",
     "exampleMeaning": "它はとても良いです。",
     "category": [
@@ -8650,7 +8650,7 @@
     "id": 751,
     "hanzi": "踢足球",
     "pinyin": "tīzúqiú",
-    "meaning": "play soccer",
+    "meaning": "サッカーをする",
     "example": "我踢足球了。",
     "exampleMeaning": "私は踢足球ました。",
     "category": [
@@ -8661,7 +8661,7 @@
     "id": 752,
     "hanzi": "题",
     "pinyin": "tí",
-    "meaning": "topic",
+    "meaning": "問題、題",
     "example": "这是题。",
     "exampleMeaning": "これは题です。",
     "category": [
@@ -8672,7 +8672,7 @@
     "id": 753,
     "hanzi": "跳舞",
     "pinyin": "tiàowǔ",
-    "meaning": "to dance",
+    "meaning": "踊る",
     "example": "我跳舞了。",
     "exampleMeaning": "私は跳舞ました。",
     "category": [
@@ -8683,7 +8683,7 @@
     "id": 754,
     "hanzi": "外",
     "pinyin": "wài",
-    "meaning": "outside",
+    "meaning": "外側",
     "example": "他外我来了。",
     "exampleMeaning": "彼は私外来ました。",
     "category": [
@@ -8694,7 +8694,7 @@
     "id": 755,
     "hanzi": "完",
     "pinyin": "wán",
-    "meaning": "to finish",
+    "meaning": "終わる",
     "example": "我完了。",
     "exampleMeaning": "私は完ました。",
     "category": [
@@ -8705,7 +8705,7 @@
     "id": 756,
     "hanzi": "玩",
     "pinyin": "wán",
-    "meaning": "to play",
+    "meaning": "遊ぶ、楽しむ",
     "example": "我玩了。",
     "exampleMeaning": "私は玩ました。",
     "category": [
@@ -8716,7 +8716,7 @@
     "id": 757,
     "hanzi": "晚上",
     "pinyin": "wǎnshang",
-    "meaning": "in the evening",
+    "meaning": "夜に",
     "example": "他晚上我来了。",
     "exampleMeaning": "彼は私晚上来ました。",
     "category": [
@@ -8727,7 +8727,7 @@
     "id": 758,
     "hanzi": "往",
     "pinyin": "wǎng",
-    "meaning": "to go",
+    "meaning": "行く",
     "example": "我往了。",
     "exampleMeaning": "私は往ました。",
     "category": [
@@ -8738,7 +8738,7 @@
     "id": 759,
     "hanzi": "为什么",
     "pinyin": "wèishénme",
-    "meaning": "for what reason?",
+    "meaning": "なぜ？",
     "example": "他为什么我来了。",
     "exampleMeaning": "彼は私为什么来ました。",
     "category": [
@@ -8749,7 +8749,7 @@
     "id": 760,
     "hanzi": "问",
     "pinyin": "wèn",
-    "meaning": "to ask",
+    "meaning": "頼む、どうぞ",
     "example": "我问了。",
     "exampleMeaning": "私は问ました。",
     "category": [
@@ -8760,7 +8760,7 @@
     "id": 761,
     "hanzi": "问题",
     "pinyin": "wèntí",
-    "meaning": "question",
+    "meaning": "質問、問題",
     "example": "这是问题。",
     "exampleMeaning": "これは问题です。",
     "category": [
@@ -8771,7 +8771,7 @@
     "id": 762,
     "hanzi": "希望",
     "pinyin": "xīwàng",
-    "meaning": "to wish for",
+    "meaning": "望む、〜したい",
     "example": "我希望了。",
     "exampleMeaning": "私は希望ました。",
     "category": [
@@ -8782,7 +8782,7 @@
     "id": 763,
     "hanzi": "西瓜",
     "pinyin": "xīguā",
-    "meaning": "watermelon",
+    "meaning": "スイカ",
     "example": "这是西瓜。",
     "exampleMeaning": "これは西瓜です。",
     "category": [
@@ -8793,7 +8793,7 @@
     "id": 764,
     "hanzi": "洗",
     "pinyin": "xǐ",
-    "meaning": "to wash",
+    "meaning": "洗う",
     "example": "我洗了。",
     "exampleMeaning": "私は洗ました。",
     "category": [
@@ -8804,7 +8804,7 @@
     "id": 765,
     "hanzi": "小时",
     "pinyin": "xiǎoshí",
-    "meaning": "hour",
+    "meaning": "〜時間（時間の単位）",
     "example": "这是小时。",
     "exampleMeaning": "これは小时です。",
     "category": [
@@ -8815,7 +8815,7 @@
     "id": 766,
     "hanzi": "笑",
     "pinyin": "xiào",
-    "meaning": "laugh",
+    "meaning": "笑う",
     "example": "这是笑。",
     "exampleMeaning": "これは笑です。",
     "category": [
@@ -8826,7 +8826,7 @@
     "id": 767,
     "hanzi": "新",
     "pinyin": "xīn",
-    "meaning": "new",
+    "meaning": "新しい",
     "example": "这很新。",
     "exampleMeaning": "これはとても新です。",
     "category": [
@@ -8837,7 +8837,7 @@
     "id": 768,
     "hanzi": "姓",
     "pinyin": "xìng",
-    "meaning": "family name",
+    "meaning": "名字、姓",
     "example": "他姓来了。",
     "exampleMeaning": "彼は姓来ました。",
     "category": [
@@ -8848,7 +8848,7 @@
     "id": 769,
     "hanzi": "休息",
     "pinyin": "xiūxi",
-    "meaning": "rest",
+    "meaning": "休む、残り",
     "example": "这是休息。",
     "exampleMeaning": "これは休息です。",
     "category": [
@@ -8859,7 +8859,7 @@
     "id": 770,
     "hanzi": "雪",
     "pinyin": "xuě",
-    "meaning": "snow",
+    "meaning": "雪",
     "example": "这是雪。",
     "exampleMeaning": "これは雪です。",
     "category": [
@@ -8870,7 +8870,7 @@
     "id": 771,
     "hanzi": "颜色",
     "pinyin": "yánsè",
-    "meaning": "color",
+    "meaning": "色",
     "example": "这是颜色。",
     "exampleMeaning": "これは颜色です。",
     "category": [
@@ -8881,7 +8881,7 @@
     "id": 772,
     "hanzi": "眼睛",
     "pinyin": "yǎnjing",
-    "meaning": "eye",
+    "meaning": "目",
     "example": "这是眼睛。",
     "exampleMeaning": "これは眼睛です。",
     "category": [
@@ -8892,7 +8892,7 @@
     "id": 773,
     "hanzi": "羊肉",
     "pinyin": "yángròu",
-    "meaning": "mutton",
+    "meaning": "羊肉",
     "example": "这是羊肉。",
     "exampleMeaning": "これは羊肉です。",
     "category": [
@@ -8903,7 +8903,7 @@
     "id": 774,
     "hanzi": "药",
     "pinyin": "yào",
-    "meaning": "medicine",
+    "meaning": "薬",
     "example": "这是药。",
     "exampleMeaning": "これは药です。",
     "category": [
@@ -8914,7 +8914,7 @@
     "id": 775,
     "hanzi": "要",
     "pinyin": "yào",
-    "meaning": "to want",
+    "meaning": "欲しい、〜したい",
     "example": "我要了。",
     "exampleMeaning": "私は要ました。",
     "category": [
@@ -8925,7 +8925,7 @@
     "id": 776,
     "hanzi": "也",
     "pinyin": "yě",
-    "meaning": "also",
+    "meaning": "〜も、また",
     "example": "他也来了。",
     "exampleMeaning": "彼は也来ました。",
     "category": [
@@ -8936,7 +8936,7 @@
     "id": 777,
     "hanzi": "一下",
     "pinyin": "yīxià",
-    "meaning": "give it a go",
+    "meaning": "ちょっと〜してみる",
     "example": "我一下了。",
     "exampleMeaning": "私は一下ました。",
     "category": [
@@ -8947,7 +8947,7 @@
     "id": 778,
     "hanzi": "已经",
     "pinyin": "yǐjīng",
-    "meaning": "already",
+    "meaning": "もう、すでに",
     "example": "他已经来了。",
     "exampleMeaning": "彼は已经来ました。",
     "category": [
@@ -8958,7 +8958,7 @@
     "id": 779,
     "hanzi": "一起",
     "pinyin": "yīqǐ",
-    "meaning": "together",
+    "meaning": "一緒に",
     "example": "他一起来了。",
     "exampleMeaning": "彼は一起来ました。",
     "category": [
@@ -8969,7 +8969,7 @@
     "id": 780,
     "hanzi": "意思",
     "pinyin": "yìsi",
-    "meaning": "idea",
+    "meaning": "アイデア、考え",
     "example": "这是意思。",
     "exampleMeaning": "これは意思です。",
     "category": [
@@ -8980,7 +8980,7 @@
     "id": 781,
     "hanzi": "因为…所以…",
     "pinyin": "yīnwèi…suǒyǐ…",
-    "meaning": "because… thus…",
+    "meaning": "〜なので〜だ（因果関係）",
     "example": "这是因为…所以…。",
     "exampleMeaning": "これは因为…所以…です。",
     "category": [
@@ -8991,7 +8991,7 @@
     "id": 782,
     "hanzi": "阴",
     "pinyin": "yīn",
-    "meaning": "overcast",
+    "meaning": "曇り",
     "example": "这是阴。",
     "exampleMeaning": "これは阴です。",
     "category": [
@@ -9002,7 +9002,7 @@
     "id": 783,
     "hanzi": "游泳",
     "pinyin": "yóuyǒng",
-    "meaning": "swim",
+    "meaning": "泳ぐ",
     "example": "这是游泳。",
     "exampleMeaning": "これは游泳です。",
     "category": [
@@ -9013,7 +9013,7 @@
     "id": 784,
     "hanzi": "右边",
     "pinyin": "yòubian",
-    "meaning": "right side",
+    "meaning": "右側",
     "example": "这是右边。",
     "exampleMeaning": "これは右边です。",
     "category": [
@@ -9024,7 +9024,7 @@
     "id": 785,
     "hanzi": "鱼",
     "pinyin": "yú",
-    "meaning": "fish",
+    "meaning": "魚",
     "example": "这是鱼。",
     "exampleMeaning": "これは鱼です。",
     "category": [
@@ -9035,7 +9035,7 @@
     "id": 786,
     "hanzi": "远",
     "pinyin": "yuǎn",
-    "meaning": "far",
+    "meaning": "遠い",
     "example": "这是远。",
     "exampleMeaning": "これは远です。",
     "category": [
@@ -9046,7 +9046,7 @@
     "id": 787,
     "hanzi": "运动",
     "pinyin": "yùndòng",
-    "meaning": "movement",
+    "meaning": "動き、運動",
     "example": "这是运动。",
     "exampleMeaning": "これは运动です。",
     "category": [
@@ -9057,7 +9057,7 @@
     "id": 788,
     "hanzi": "再",
     "pinyin": "zài",
-    "meaning": "again",
+    "meaning": "もう一度、また",
     "example": "他再来了。",
     "exampleMeaning": "彼は再来ました。",
     "category": [
@@ -9068,7 +9068,7 @@
     "id": 789,
     "hanzi": "早上",
     "pinyin": "zǎoshang",
-    "meaning": "early morning",
+    "meaning": "朝",
     "example": "他早上来了。",
     "exampleMeaning": "彼は早上来ました。",
     "category": [
@@ -9079,7 +9079,7 @@
     "id": 790,
     "hanzi": "丈夫",
     "pinyin": "zhàngfu",
-    "meaning": "husband",
+    "meaning": "夫",
     "example": "这是丈夫。",
     "exampleMeaning": "これは丈夫です。",
     "category": [
@@ -9090,7 +9090,7 @@
     "id": 791,
     "hanzi": "找",
     "pinyin": "zhǎo",
-    "meaning": "to try to find",
+    "meaning": "探す",
     "example": "我找了。",
     "exampleMeaning": "私は找ました。",
     "category": [
@@ -9101,7 +9101,7 @@
     "id": 792,
     "hanzi": "着",
     "pinyin": "zhe",
-    "meaning": "particle attached after verb to indicate action in progress, like -ing ending",
+    "meaning": "〜している（動作進行を表す助詞）",
     "example": "你好着！",
     "exampleMeaning": "こんにちは着！",
     "category": [
@@ -9112,7 +9112,7 @@
     "id": 793,
     "hanzi": "真",
     "pinyin": "zhēn",
-    "meaning": "really",
+    "meaning": "本当に、実に",
     "example": "他真来了。",
     "exampleMeaning": "彼は真来ました。",
     "category": [
@@ -9123,7 +9123,7 @@
     "id": 794,
     "hanzi": "正在",
     "pinyin": "zhèngzài",
-    "meaning": "in the process of",
+    "meaning": "ちょうど〜している最中",
     "example": "他正在我来了。",
     "exampleMeaning": "彼は私正在来ました。",
     "category": [
@@ -9134,7 +9134,7 @@
     "id": 795,
     "hanzi": "知道",
     "pinyin": "zhīdào",
-    "meaning": "to know",
+    "meaning": "知っている",
     "example": "我知道了。",
     "exampleMeaning": "私は知道ました。",
     "category": [
@@ -9145,7 +9145,7 @@
     "id": 796,
     "hanzi": "准备",
     "pinyin": "zhǔnbèi",
-    "meaning": "preparation",
+    "meaning": "準備する、用意",
     "example": "这是准备。",
     "exampleMeaning": "これは准备です。",
     "category": [
@@ -9156,7 +9156,7 @@
     "id": 797,
     "hanzi": "走",
     "pinyin": "zǒu",
-    "meaning": "to walk",
+    "meaning": "歩く",
     "example": "我走了。",
     "exampleMeaning": "私は走ました。",
     "category": [
@@ -9167,7 +9167,7 @@
     "id": 798,
     "hanzi": "最",
     "pinyin": "zuì",
-    "meaning": "most",
+    "meaning": "最も",
     "example": "这是最。",
     "exampleMeaning": "これは最です。",
     "category": [
@@ -9178,7 +9178,7 @@
     "id": 799,
     "hanzi": "左边",
     "pinyin": "zuǒbian",
-    "meaning": "left",
+    "meaning": "左",
     "example": "这是左边。",
     "exampleMeaning": "これは左边です。",
     "category": [
@@ -9189,7 +9189,7 @@
     "id": 800,
     "hanzi": "啊",
     "pinyin": "a",
-    "meaning": "modal particle ending sentence, showing affirmation, approval, or consent",
+    "meaning": "〜ね、〜よ（肯定・同意の語気助詞）",
     "example": "你好啊！",
     "exampleMeaning": "こんにちは啊！",
     "category": [
@@ -9200,7 +9200,7 @@
     "id": 801,
     "hanzi": "阿姨",
     "pinyin": "āyí",
-    "meaning": "maternal aunt",
+    "meaning": "おばさん（母方の叔母、または年配女性への呼称）",
     "example": "这是阿姨。",
     "exampleMeaning": "これは阿姨です。",
     "category": [
@@ -9211,7 +9211,7 @@
     "id": 802,
     "hanzi": "矮",
     "pinyin": "ǎi",
-    "meaning": "low",
+    "meaning": "低い",
     "example": "这很矮。",
     "exampleMeaning": "これはとても矮です。",
     "category": [
@@ -9222,7 +9222,7 @@
     "id": 803,
     "hanzi": "爱好",
     "pinyin": "àihào",
-    "meaning": "interest",
+    "meaning": "興味、利息",
     "example": "这是爱好。",
     "exampleMeaning": "これは爱好です。",
     "category": [
@@ -9233,7 +9233,7 @@
     "id": 804,
     "hanzi": "安静",
     "pinyin": "ānjìng",
-    "meaning": "quiet",
+    "meaning": "静かな",
     "example": "这很安静。",
     "exampleMeaning": "これはとても安静です。",
     "category": [
@@ -9244,7 +9244,7 @@
     "id": 805,
     "hanzi": "把",
     "pinyin": "bǎ",
-    "meaning": "to hold",
+    "meaning": "〜を（把構文）、持つ",
     "example": "我把了。",
     "exampleMeaning": "私は把ました。",
     "category": [
@@ -9255,7 +9255,7 @@
     "id": 806,
     "hanzi": "搬",
     "pinyin": "bān",
-    "meaning": "to move",
+    "meaning": "運ぶ、移動する",
     "example": "我搬了。",
     "exampleMeaning": "私は搬ました。",
     "category": [
@@ -9266,7 +9266,7 @@
     "id": 807,
     "hanzi": "班",
     "pinyin": "bān",
-    "meaning": "team",
+    "meaning": "チーム",
     "example": "这是班。",
     "exampleMeaning": "これは班です。",
     "category": [
@@ -9277,7 +9277,7 @@
     "id": 808,
     "hanzi": "办法",
     "pinyin": "bànfǎ",
-    "meaning": "means",
+    "meaning": "方法、手段",
     "example": "这是办法。",
     "exampleMeaning": "これは办法です。",
     "category": [
@@ -9288,7 +9288,7 @@
     "id": 809,
     "hanzi": "办公室",
     "pinyin": "bàngōngshì",
-    "meaning": "an office",
+    "meaning": "事務所、オフィス",
     "example": "这是办公室。",
     "exampleMeaning": "これは办公室です。",
     "category": [
@@ -9299,7 +9299,7 @@
     "id": 810,
     "hanzi": "半",
     "pinyin": "bàn",
-    "meaning": "half",
+    "meaning": "半分",
     "example": "有半个。",
     "exampleMeaning": "半個あります。",
     "category": [
@@ -9310,7 +9310,7 @@
     "id": 811,
     "hanzi": "帮忙",
     "pinyin": "bāngmáng",
-    "meaning": "to help",
+    "meaning": "助ける、手伝う",
     "example": "我帮忙了。",
     "exampleMeaning": "私は帮忙ました。",
     "category": [
@@ -9321,7 +9321,7 @@
     "id": 812,
     "hanzi": "包",
     "pinyin": "bāo",
-    "meaning": "to cover",
+    "meaning": "覆う、カバーする",
     "example": "我包了。",
     "exampleMeaning": "私は包ました。",
     "category": [
@@ -9332,7 +9332,7 @@
     "id": 813,
     "hanzi": "饱",
     "pinyin": "bǎo",
-    "meaning": "to eat till full",
+    "meaning": "お腹いっぱいだ",
     "example": "我饱了。",
     "exampleMeaning": "私は饱ました。",
     "category": [
@@ -9343,7 +9343,7 @@
     "id": 814,
     "hanzi": "北方",
     "pinyin": "běifāng",
-    "meaning": "north",
+    "meaning": "北",
     "example": "这是北方。",
     "exampleMeaning": "これは北方です。",
     "category": [
@@ -9354,7 +9354,7 @@
     "id": 815,
     "hanzi": "被",
     "pinyin": "bèi",
-    "meaning": "by",
+    "meaning": "〜される（受身）",
     "example": "他被我来了。",
     "exampleMeaning": "彼は私被来ました。",
     "category": [
@@ -9365,7 +9365,7 @@
     "id": 816,
     "hanzi": "鼻子",
     "pinyin": "bízi",
-    "meaning": "nose",
+    "meaning": "鼻",
     "example": "这是鼻子。",
     "exampleMeaning": "これは鼻子です。",
     "category": [
@@ -9376,7 +9376,7 @@
     "id": 817,
     "hanzi": "比较",
     "pinyin": "bǐjiào",
-    "meaning": "compare",
+    "meaning": "比較する、比べる",
     "example": "这是比较。",
     "exampleMeaning": "これは比较です。",
     "category": [
@@ -9387,7 +9387,7 @@
     "id": 818,
     "hanzi": "比赛",
     "pinyin": "bǐsài",
-    "meaning": "competition",
+    "meaning": "試合、競争",
     "example": "这是比赛。",
     "exampleMeaning": "これは比赛です。",
     "category": [
@@ -9398,7 +9398,7 @@
     "id": 819,
     "hanzi": "必须",
     "pinyin": "bìxū",
-    "meaning": "to have to",
+    "meaning": "〜しなければならない",
     "example": "我必须了。",
     "exampleMeaning": "私は必须ました。",
     "category": [
@@ -9409,7 +9409,7 @@
     "id": 820,
     "hanzi": "变化",
     "pinyin": "biànhuà",
-    "meaning": "change",
+    "meaning": "変化",
     "example": "这是变化。",
     "exampleMeaning": "これは变化です。",
     "category": [
@@ -9420,7 +9420,7 @@
     "id": 821,
     "hanzi": "别人",
     "pinyin": "biérén",
-    "meaning": "others",
+    "meaning": "他人、他の人",
     "example": "这是别人。",
     "exampleMeaning": "これは别人です。",
     "category": [
@@ -9431,7 +9431,7 @@
     "id": 822,
     "hanzi": "冰箱",
     "pinyin": "bīngxiāng",
-    "meaning": "icebox",
+    "meaning": "冷蔵庫",
     "example": "这是冰箱。",
     "exampleMeaning": "これは冰箱です。",
     "category": [
@@ -9442,7 +9442,7 @@
     "id": 823,
     "hanzi": "不但…而且…",
     "pinyin": "bùdàn…érqiě…",
-    "meaning": "not only ... but also...",
+    "meaning": "〜だけでなく〜も",
     "example": "他不但…而且…来了。",
     "exampleMeaning": "彼は不但…而且…来ました。",
     "category": [
@@ -9453,7 +9453,7 @@
     "id": 824,
     "hanzi": "菜单",
     "pinyin": "càidān",
-    "meaning": "menu",
+    "meaning": "メニュー",
     "example": "这是菜单。",
     "exampleMeaning": "これは菜单です。",
     "category": [
@@ -9464,7 +9464,7 @@
     "id": 825,
     "hanzi": "参加",
     "pinyin": "cānjiā",
-    "meaning": "to participate",
+    "meaning": "参加する",
     "example": "我参加了。",
     "exampleMeaning": "私は参加ました。",
     "category": [
@@ -9475,7 +9475,7 @@
     "id": 826,
     "hanzi": "草",
     "pinyin": "cǎo",
-    "meaning": "grass",
+    "meaning": "草",
     "example": "这是草。",
     "exampleMeaning": "これは草です。",
     "category": [
@@ -9486,7 +9486,7 @@
     "id": 827,
     "hanzi": "层",
     "pinyin": "céng",
-    "meaning": "layer",
+    "meaning": "〜階、層",
     "example": "这是层。",
     "exampleMeaning": "これは层です。",
     "category": [
@@ -9497,7 +9497,7 @@
     "id": 828,
     "hanzi": "差",
     "pinyin": "chà",
-    "meaning": "differ from",
+    "meaning": "足りない、劣る",
     "example": "这是差。",
     "exampleMeaning": "これは差です。",
     "category": [
@@ -9508,7 +9508,7 @@
     "id": 829,
     "hanzi": "超市",
     "pinyin": "chāoshì",
-    "meaning": "supermarket",
+    "meaning": "スーパー",
     "example": "这是超市。",
     "exampleMeaning": "これは超市です。",
     "category": [
@@ -9519,7 +9519,7 @@
     "id": 830,
     "hanzi": "衬衫",
     "pinyin": "chènshān",
-    "meaning": "shirt",
+    "meaning": "シャツ",
     "example": "这是衬衫。",
     "exampleMeaning": "これは衬衫です。",
     "category": [
@@ -9530,7 +9530,7 @@
     "id": 831,
     "hanzi": "成绩",
     "pinyin": "chéngjì",
-    "meaning": "achievement",
+    "meaning": "成績、成果",
     "example": "这是成绩。",
     "exampleMeaning": "これは成绩です。",
     "category": [
@@ -9541,7 +9541,7 @@
     "id": 832,
     "hanzi": "迟到",
     "pinyin": "chídào",
-    "meaning": "to arrive late",
+    "meaning": "遅刻する",
     "example": "我迟到了。",
     "exampleMeaning": "私は迟到ました。",
     "category": [
@@ -9552,7 +9552,7 @@
     "id": 833,
     "hanzi": "除了",
     "pinyin": "chúle",
-    "meaning": "besides",
+    "meaning": "〜を除いて、〜のほかに",
     "example": "我喜欢茶，除了也喜欢咖啡。",
     "exampleMeaning": "私はお茶が好きで、除了コーヒーも好きです。",
     "category": [
@@ -9563,7 +9563,7 @@
     "id": 834,
     "hanzi": "船",
     "pinyin": "chuán",
-    "meaning": "a boat",
+    "meaning": "船",
     "example": "这是船。",
     "exampleMeaning": "これは船です。",
     "category": [
@@ -9574,7 +9574,7 @@
     "id": 835,
     "hanzi": "春",
     "pinyin": "chūn",
-    "meaning": "spring",
+    "meaning": "春",
     "example": "这是春。",
     "exampleMeaning": "これは春です。",
     "category": [
@@ -9585,7 +9585,7 @@
     "id": 836,
     "hanzi": "聪明",
     "pinyin": "cōngming",
-    "meaning": "acute",
+    "meaning": "賢い、頭が良い",
     "example": "这是聪明。",
     "exampleMeaning": "これは聪明です。",
     "category": [
@@ -9596,7 +9596,7 @@
     "id": 837,
     "hanzi": "打扫",
     "pinyin": "dǎsǎo",
-    "meaning": "to clean",
+    "meaning": "掃除する",
     "example": "我打扫了。",
     "exampleMeaning": "私は打扫ました。",
     "category": [
@@ -9607,7 +9607,7 @@
     "id": 838,
     "hanzi": "打算",
     "pinyin": "dǎsuàn",
-    "meaning": "to plan",
+    "meaning": "〜するつもりだ、計画する",
     "example": "我打算了。",
     "exampleMeaning": "私は打算ました。",
     "category": [
@@ -9618,7 +9618,7 @@
     "id": 839,
     "hanzi": "带",
     "pinyin": "dài",
-    "meaning": "band",
+    "meaning": "持っていく、連れていく",
     "example": "这是带。",
     "exampleMeaning": "これは带です。",
     "category": [
@@ -9629,7 +9629,7 @@
     "id": 840,
     "hanzi": "蛋糕",
     "pinyin": "dàngāo",
-    "meaning": "cake",
+    "meaning": "ケーキ",
     "example": "这是蛋糕。",
     "exampleMeaning": "これは蛋糕です。",
     "category": [
@@ -9640,7 +9640,7 @@
     "id": 841,
     "hanzi": "当然",
     "pinyin": "dāngrán",
-    "meaning": "of course",
+    "meaning": "もちろん",
     "example": "他当然我来了。",
     "exampleMeaning": "彼は私当然来ました。",
     "category": [
@@ -9651,7 +9651,7 @@
     "id": 842,
     "hanzi": "地(助词)",
     "pinyin": "de",
-    "meaning": "-ly",
+    "meaning": "〜的に（副詞を作る助詞）",
     "example": "这是地(助词)。",
     "exampleMeaning": "これは地(助词)です。",
     "category": [
@@ -9662,7 +9662,7 @@
     "id": 843,
     "hanzi": "灯",
     "pinyin": "dēng",
-    "meaning": "lamp",
+    "meaning": "電気、ランプ",
     "example": "这是灯。",
     "exampleMeaning": "これは灯です。",
     "category": [
@@ -9673,7 +9673,7 @@
     "id": 844,
     "hanzi": "地方",
     "pinyin": "dìfang",
-    "meaning": "region",
+    "meaning": "場所、地域",
     "example": "这是地方。",
     "exampleMeaning": "これは地方です。",
     "category": [
@@ -9684,7 +9684,7 @@
     "id": 845,
     "hanzi": "地铁",
     "pinyin": "dìtiě",
-    "meaning": "subway",
+    "meaning": "地下鉄",
     "example": "这是地铁。",
     "exampleMeaning": "これは地铁です。",
     "category": [
@@ -9695,7 +9695,7 @@
     "id": 846,
     "hanzi": "地图",
     "pinyin": "dìtú",
-    "meaning": "map",
+    "meaning": "地図",
     "example": "这是地图。",
     "exampleMeaning": "これは地图です。",
     "category": [
@@ -9706,7 +9706,7 @@
     "id": 847,
     "hanzi": "电梯",
     "pinyin": "diàntī",
-    "meaning": "elevator",
+    "meaning": "エレベーター",
     "example": "这是电梯。",
     "exampleMeaning": "これは电梯です。",
     "category": [
@@ -9717,7 +9717,7 @@
     "id": 848,
     "hanzi": "电子邮件",
     "pinyin": "diànzǐyóujiàn",
-    "meaning": "electronic mail",
+    "meaning": "Eメール",
     "example": "这是电子邮件。",
     "exampleMeaning": "これは电子邮件です。",
     "category": [
@@ -9728,7 +9728,7 @@
     "id": 849,
     "hanzi": "东",
     "pinyin": "dōng",
-    "meaning": "east",
+    "meaning": "東",
     "example": "这是东。",
     "exampleMeaning": "これは东です。",
     "category": [
@@ -9739,7 +9739,7 @@
     "id": 850,
     "hanzi": "冬",
     "pinyin": "dōng",
-    "meaning": "winter",
+    "meaning": "冬",
     "example": "这是冬。",
     "exampleMeaning": "これは冬です。",
     "category": [
@@ -9750,7 +9750,7 @@
     "id": 851,
     "hanzi": "动物",
     "pinyin": "dòngwù",
-    "meaning": "animal",
+    "meaning": "動物",
     "example": "这是动物。",
     "exampleMeaning": "これは动物です。",
     "category": [
@@ -9761,7 +9761,7 @@
     "id": 852,
     "hanzi": "短",
     "pinyin": "duǎn",
-    "meaning": "short or brief",
+    "meaning": "短い",
     "example": "这是短。",
     "exampleMeaning": "これは短です。",
     "category": [
@@ -9772,7 +9772,7 @@
     "id": 853,
     "hanzi": "段",
     "pinyin": "duàn",
-    "meaning": "paragraph",
+    "meaning": "〜段落（文章を数える量詞）",
     "example": "这是段。",
     "exampleMeaning": "これは段です。",
     "category": [
@@ -9783,7 +9783,7 @@
     "id": 854,
     "hanzi": "锻炼",
     "pinyin": "duànliàn",
-    "meaning": "to engage in physical exercise",
+    "meaning": "運動する、鍛える",
     "example": "我锻炼了。",
     "exampleMeaning": "私は锻炼ました。",
     "category": [
@@ -9794,7 +9794,7 @@
     "id": 855,
     "hanzi": "多么",
     "pinyin": "duōme",
-    "meaning": "how",
+    "meaning": "どのように",
     "example": "这是多么。",
     "exampleMeaning": "これは多么です。",
     "category": [
@@ -9805,7 +9805,7 @@
     "id": 856,
     "hanzi": "饿",
     "pinyin": "èa",
-    "meaning": "to be hungry",
+    "meaning": "お腹が空いた",
     "example": "我饿了。",
     "exampleMeaning": "私は饿ました。",
     "category": [
@@ -9816,7 +9816,7 @@
     "id": 857,
     "hanzi": "耳朵",
     "pinyin": "ěrduo",
-    "meaning": "ear",
+    "meaning": "耳",
     "example": "这是耳朵。",
     "exampleMeaning": "これは耳朵です。",
     "category": [
@@ -9827,7 +9827,7 @@
     "id": 858,
     "hanzi": "发",
     "pinyin": "fā",
-    "meaning": "to send out",
+    "meaning": "送る、発送する",
     "example": "我发了。",
     "exampleMeaning": "私は发ました。",
     "category": [
@@ -9838,7 +9838,7 @@
     "id": 859,
     "hanzi": "发烧",
     "pinyin": "fāshāo",
-    "meaning": "have a high temperature",
+    "meaning": "熱が出る",
     "example": "这是发烧。",
     "exampleMeaning": "これは发烧です。",
     "category": [
@@ -9849,7 +9849,7 @@
     "id": 860,
     "hanzi": "发现",
     "pinyin": "fāxiàn",
-    "meaning": "to find",
+    "meaning": "見つける",
     "example": "我发现了。",
     "exampleMeaning": "私は发现ました。",
     "category": [
@@ -9860,7 +9860,7 @@
     "id": 861,
     "hanzi": "方便",
     "pinyin": "fāngbiàn",
-    "meaning": "convenient",
+    "meaning": "便利な",
     "example": "这很方便。",
     "exampleMeaning": "これはとても方便です。",
     "category": [
@@ -9871,7 +9871,7 @@
     "id": 862,
     "hanzi": "放",
     "pinyin": "fàng",
-    "meaning": "to release",
+    "meaning": "放す、置く",
     "example": "我放了。",
     "exampleMeaning": "私は放ました。",
     "category": [
@@ -9882,7 +9882,7 @@
     "id": 863,
     "hanzi": "放心",
     "pinyin": "fàngxīn",
-    "meaning": "to set one's mind at rest",
+    "meaning": "安心する",
     "example": "我放心了。",
     "exampleMeaning": "私は放心ました。",
     "category": [
@@ -9893,7 +9893,7 @@
     "id": 864,
     "hanzi": "分",
     "pinyin": "fēn",
-    "meaning": "to divide",
+    "meaning": "分ける",
     "example": "我分了。",
     "exampleMeaning": "私は分ました。",
     "category": [
@@ -9904,7 +9904,7 @@
     "id": 865,
     "hanzi": "复习",
     "pinyin": "fùxí",
-    "meaning": "to revise",
+    "meaning": "復習する",
     "example": "我复习了。",
     "exampleMeaning": "私は复习ました。",
     "category": [
@@ -9915,7 +9915,7 @@
     "id": 866,
     "hanzi": "附近",
     "pinyin": "fùjìn",
-    "meaning": "vicinity",
+    "meaning": "近所、付近",
     "example": "这是附近。",
     "exampleMeaning": "これは附近です。",
     "category": [
@@ -9926,7 +9926,7 @@
     "id": 867,
     "hanzi": "干净",
     "pinyin": "gānjìng",
-    "meaning": "neat and tidy",
+    "meaning": "清潔な、きれいな",
     "example": "这是干净。",
     "exampleMeaning": "これは干净です。",
     "category": [
@@ -9937,7 +9937,7 @@
     "id": 868,
     "hanzi": "感冒",
     "pinyin": "gǎnmào",
-    "meaning": "to catch cold",
+    "meaning": "風邪をひく",
     "example": "我感冒了。",
     "exampleMeaning": "私は感冒ました。",
     "category": [
@@ -9948,7 +9948,7 @@
     "id": 869,
     "hanzi": "感兴趣",
     "pinyin": "gǎnxìngqù",
-    "meaning": "to be interested",
+    "meaning": "興味がある",
     "example": "我感兴趣了。",
     "exampleMeaning": "私は感兴趣ました。",
     "category": [
@@ -9959,7 +9959,7 @@
     "id": 870,
     "hanzi": "刚才",
     "pinyin": "gāngcái",
-    "meaning": "just now",
+    "meaning": "さっき、先ほど",
     "example": "他刚才来了。",
     "exampleMeaning": "彼は刚才来ました。",
     "category": [
@@ -9970,7 +9970,7 @@
     "id": 871,
     "hanzi": "个子",
     "pinyin": "gèzi",
-    "meaning": "height",
+    "meaning": "高さ",
     "example": "这是个子。",
     "exampleMeaning": "これは个子です。",
     "category": [
@@ -9981,7 +9981,7 @@
     "id": 872,
     "hanzi": "根据",
     "pinyin": "gēnjù",
-    "meaning": "according to",
+    "meaning": "〜によると、〜に基づいて",
     "example": "这是根据。",
     "exampleMeaning": "これは根据です。",
     "category": [
@@ -9992,7 +9992,7 @@
     "id": 873,
     "hanzi": "跟",
     "pinyin": "gēn",
-    "meaning": "with",
+    "meaning": "〜と一緒に",
     "example": "他跟我来了。",
     "exampleMeaning": "彼は私跟来ました。",
     "category": [
@@ -10003,7 +10003,7 @@
     "id": 874,
     "hanzi": "更",
     "pinyin": "gèng",
-    "meaning": "more",
+    "meaning": "もっと",
     "example": "这是更。",
     "exampleMeaning": "これは更です。",
     "category": [
@@ -10014,7 +10014,7 @@
     "id": 875,
     "hanzi": "公斤",
     "pinyin": "gōngjīn",
-    "meaning": "kilogram",
+    "meaning": "キログラム",
     "example": "这是公斤。",
     "exampleMeaning": "これは公斤です。",
     "category": [
@@ -10025,7 +10025,7 @@
     "id": 876,
     "hanzi": "公园",
     "pinyin": "gōngyuán",
-    "meaning": "public park",
+    "meaning": "公園",
     "example": "这是公园。",
     "exampleMeaning": "これは公园です。",
     "category": [
@@ -10036,7 +10036,7 @@
     "id": 877,
     "hanzi": "故事",
     "pinyin": "gùshi",
-    "meaning": "story",
+    "meaning": "物語",
     "example": "这是故事。",
     "exampleMeaning": "これは故事です。",
     "category": [
@@ -10047,7 +10047,7 @@
     "id": 878,
     "hanzi": "刮风",
     "pinyin": "guāfēng",
-    "meaning": "to be windy",
+    "meaning": "風が吹く",
     "example": "我刮风了。",
     "exampleMeaning": "私は刮风ました。",
     "category": [
@@ -10058,7 +10058,7 @@
     "id": 879,
     "hanzi": "关",
     "pinyin": "guān",
-    "meaning": "to close",
+    "meaning": "閉める",
     "example": "我关了。",
     "exampleMeaning": "私は关ました。",
     "category": [
@@ -10069,7 +10069,7 @@
     "id": 880,
     "hanzi": "关系",
     "pinyin": "guānxì",
-    "meaning": "relationship",
+    "meaning": "関係、人間関係",
     "example": "这是关系。",
     "exampleMeaning": "これは关系です。",
     "category": [
@@ -10080,7 +10080,7 @@
     "id": 881,
     "hanzi": "关心",
     "pinyin": "guānxīn",
-    "meaning": "to care for sth",
+    "meaning": "気にかける、関心を持つ",
     "example": "我关心了。",
     "exampleMeaning": "私は关心ました。",
     "category": [
@@ -10091,7 +10091,7 @@
     "id": 882,
     "hanzi": "关于",
     "pinyin": "guānyú",
-    "meaning": "pertaining to",
+    "meaning": "〜について、〜に関する",
     "example": "这是关于。",
     "exampleMeaning": "これは关于です。",
     "category": [
@@ -10102,7 +10102,7 @@
     "id": 883,
     "hanzi": "国家",
     "pinyin": "guójiā",
-    "meaning": "country",
+    "meaning": "国",
     "example": "这是国家。",
     "exampleMeaning": "これは国家です。",
     "category": [
@@ -10113,7 +10113,7 @@
     "id": 884,
     "hanzi": "过(动词)",
     "pinyin": "guò",
-    "meaning": "to cross",
+    "meaning": "渡る、越える",
     "example": "我过(动词)了。",
     "exampleMeaning": "私は过(动词)ました。",
     "category": [
@@ -10124,7 +10124,7 @@
     "id": 885,
     "hanzi": "过去",
     "pinyin": "guòqu",
-    "meaning": "past",
+    "meaning": "過去、過ぎた",
     "example": "这是过去。",
     "exampleMeaning": "これは过去です。",
     "category": [
@@ -10135,7 +10135,7 @@
     "id": 886,
     "hanzi": "还是",
     "pinyin": "háishì",
-    "meaning": "or",
+    "meaning": "または",
     "example": "我喜欢茶，还是也喜欢咖啡。",
     "exampleMeaning": "私はお茶が好きで、还是コーヒーも好きです。",
     "category": [
@@ -10146,7 +10146,7 @@
     "id": 887,
     "hanzi": "害怕",
     "pinyin": "hàipà",
-    "meaning": "to be afraid",
+    "meaning": "怖がる、恐れる",
     "example": "我害怕了。",
     "exampleMeaning": "私は害怕ました。",
     "category": [
@@ -10157,7 +10157,7 @@
     "id": 888,
     "hanzi": "黑板",
     "pinyin": "hēibǎn",
-    "meaning": "blackboard",
+    "meaning": "黒板",
     "example": "这是黑板。",
     "exampleMeaning": "これは黑板です。",
     "category": [
@@ -10168,7 +10168,7 @@
     "id": 889,
     "hanzi": "后来",
     "pinyin": "hòulái",
-    "meaning": "afterwards",
+    "meaning": "その後、後で",
     "example": "这是后来。",
     "exampleMeaning": "これは后来です。",
     "category": [
@@ -10179,7 +10179,7 @@
     "id": 890,
     "hanzi": "护照",
     "pinyin": "hùzhào",
-    "meaning": "passport",
+    "meaning": "パスポート",
     "example": "这是护照。",
     "exampleMeaning": "これは护照です。",
     "category": [
@@ -10190,7 +10190,7 @@
     "id": 891,
     "hanzi": "花(动词)",
     "pinyin": "huā",
-    "meaning": "to blossom",
+    "meaning": "咲く、使う（お金・時間）",
     "example": "我花(动词)了。",
     "exampleMeaning": "私は花(动词)ました。",
     "category": [
@@ -10201,7 +10201,7 @@
     "id": 892,
     "hanzi": "花(名词)",
     "pinyin": "huā",
-    "meaning": "flower",
+    "meaning": "花",
     "example": "这是花(名词)。",
     "exampleMeaning": "これは花(名词)です。",
     "category": [
@@ -10212,7 +10212,7 @@
     "id": 893,
     "hanzi": "画",
     "pinyin": "huà",
-    "meaning": "to draw",
+    "meaning": "描く、絵を描く",
     "example": "我画了。",
     "exampleMeaning": "私は画ました。",
     "category": [
@@ -10223,7 +10223,7 @@
     "id": 894,
     "hanzi": "坏",
     "pinyin": "huài",
-    "meaning": "bad",
+    "meaning": "悪い、壊れた",
     "example": "这很坏。",
     "exampleMeaning": "これはとても坏です。",
     "category": [
@@ -10234,7 +10234,7 @@
     "id": 895,
     "hanzi": "欢迎",
     "pinyin": "huānyíng",
-    "meaning": "to welcome",
+    "meaning": "歓迎する、迎える",
     "example": "我欢迎了。",
     "exampleMeaning": "私は欢迎ました。",
     "category": [
@@ -10245,7 +10245,7 @@
     "id": 896,
     "hanzi": "环境",
     "pinyin": "huánjìng",
-    "meaning": "environment",
+    "meaning": "環境",
     "example": "这是环境。",
     "exampleMeaning": "これは环境です。",
     "category": [
@@ -10256,7 +10256,7 @@
     "id": 897,
     "hanzi": "还(动词)",
     "pinyin": "huán",
-    "meaning": "to come back",
+    "meaning": "返す、戻す",
     "example": "我还(动词)了。",
     "exampleMeaning": "私は还(动词)ました。",
     "category": [
@@ -10267,7 +10267,7 @@
     "id": 898,
     "hanzi": "换",
     "pinyin": "huàn",
-    "meaning": "change",
+    "meaning": "変化",
     "example": "这是换。",
     "exampleMeaning": "これは换です。",
     "category": [
@@ -10278,7 +10278,7 @@
     "id": 899,
     "hanzi": "黄河",
     "pinyin": "huánghé",
-    "meaning": "Yellow River",
+    "meaning": "黄河",
     "example": "这是黄河。",
     "exampleMeaning": "これは黄河です。",
     "category": [
@@ -10289,7 +10289,7 @@
     "id": 900,
     "hanzi": "回答",
     "pinyin": "huídá",
-    "meaning": "to reply",
+    "meaning": "答える、返事する",
     "example": "我回答了。",
     "exampleMeaning": "私は回答ました。",
     "category": [
@@ -10300,7 +10300,7 @@
     "id": 901,
     "hanzi": "会议",
     "pinyin": "huìyì",
-    "meaning": "meeting",
+    "meaning": "会議",
     "example": "这是会议。",
     "exampleMeaning": "これは会议です。",
     "category": [
@@ -10311,7 +10311,7 @@
     "id": 902,
     "hanzi": "或者",
     "pinyin": "huòzhě",
-    "meaning": "or",
+    "meaning": "または",
     "example": "我喜欢茶，或者也喜欢咖啡。",
     "exampleMeaning": "私はお茶が好きで、或者コーヒーも好きです。",
     "category": [
@@ -10322,7 +10322,7 @@
     "id": 903,
     "hanzi": "几乎",
     "pinyin": "jīhū",
-    "meaning": "almost",
+    "meaning": "ほとんど、ほぼ",
     "example": "他几乎来了。",
     "exampleMeaning": "彼は几乎来ました。",
     "category": [
@@ -10333,7 +10333,7 @@
     "id": 904,
     "hanzi": "机会",
     "pinyin": "jīhuì",
-    "meaning": "opportunity",
+    "meaning": "機会、チャンス",
     "example": "这是机会。",
     "exampleMeaning": "これは机会です。",
     "category": [
@@ -10344,7 +10344,7 @@
     "id": 905,
     "hanzi": "极",
     "pinyin": "jí",
-    "meaning": "extremely",
+    "meaning": "極めて、非常に",
     "example": "他极来了。",
     "exampleMeaning": "彼は极来ました。",
     "category": [
@@ -10355,7 +10355,7 @@
     "id": 906,
     "hanzi": "季节",
     "pinyin": "jìjié",
-    "meaning": "time",
+    "meaning": "季節",
     "example": "这是季节。",
     "exampleMeaning": "これは季节です。",
     "category": [
@@ -10366,7 +10366,7 @@
     "id": 907,
     "hanzi": "记得",
     "pinyin": "jìde",
-    "meaning": "to remember",
+    "meaning": "覚える",
     "example": "我记得了。",
     "exampleMeaning": "私は记得ました。",
     "category": [
@@ -10377,7 +10377,7 @@
     "id": 908,
     "hanzi": "检查",
     "pinyin": "jiǎnchá",
-    "meaning": "inspection",
+    "meaning": "検査する、チェックする",
     "example": "这是检查。",
     "exampleMeaning": "これは检查です。",
     "category": [
@@ -10388,7 +10388,7 @@
     "id": 909,
     "hanzi": "简单",
     "pinyin": "jiǎndān",
-    "meaning": "simple",
+    "meaning": "簡単な、シンプルな",
     "example": "这很简单。",
     "exampleMeaning": "これはとても简单です。",
     "category": [
@@ -10399,7 +10399,7 @@
     "id": 910,
     "hanzi": "健康",
     "pinyin": "jiànkāng",
-    "meaning": "health",
+    "meaning": "健康",
     "example": "这是健康。",
     "exampleMeaning": "これは健康です。",
     "category": [
@@ -10410,7 +10410,7 @@
     "id": 911,
     "hanzi": "见面",
     "pinyin": "jiànmiàn",
-    "meaning": "to meet",
+    "meaning": "会う、面会する",
     "example": "我见面了。",
     "exampleMeaning": "私は见面ました。",
     "category": [
@@ -10421,7 +10421,7 @@
     "id": 912,
     "hanzi": "讲",
     "pinyin": "jiǎng",
-    "meaning": "to explain",
+    "meaning": "説明する",
     "example": "我讲了。",
     "exampleMeaning": "私は讲ました。",
     "category": [
@@ -10432,7 +10432,7 @@
     "id": 913,
     "hanzi": "脚",
     "pinyin": "jiǎo",
-    "meaning": "foot",
+    "meaning": "足",
     "example": "这是脚。",
     "exampleMeaning": "これは脚です。",
     "category": [
@@ -10443,7 +10443,7 @@
     "id": 914,
     "hanzi": "角",
     "pinyin": "jiǎo",
-    "meaning": "horn",
+    "meaning": "角、〜角（通貨単位）",
     "example": "这是角。",
     "exampleMeaning": "これは角です。",
     "category": [
@@ -10454,7 +10454,7 @@
     "id": 915,
     "hanzi": "接",
     "pinyin": "jiē",
-    "meaning": "to receive",
+    "meaning": "受け取る、受け入れる",
     "example": "我接了。",
     "exampleMeaning": "私は接ました。",
     "category": [
@@ -10465,7 +10465,7 @@
     "id": 916,
     "hanzi": "街道",
     "pinyin": "jiēdào",
-    "meaning": "street",
+    "meaning": "通り、街路",
     "example": "这是街道。",
     "exampleMeaning": "これは街道です。",
     "category": [
@@ -10476,7 +10476,7 @@
     "id": 917,
     "hanzi": "结婚",
     "pinyin": "jiéhūn",
-    "meaning": "to marry",
+    "meaning": "結婚する",
     "example": "我结婚了。",
     "exampleMeaning": "私は结婚ました。",
     "category": [
@@ -10487,7 +10487,7 @@
     "id": 918,
     "hanzi": "结束",
     "pinyin": "jiéshù",
-    "meaning": "to finish",
+    "meaning": "終わる",
     "example": "我结束了。",
     "exampleMeaning": "私は结束ました。",
     "category": [
@@ -10498,7 +10498,7 @@
     "id": 919,
     "hanzi": "节目",
     "pinyin": "jiémù",
-    "meaning": "program",
+    "meaning": "プログラム",
     "example": "这是节目。",
     "exampleMeaning": "これは节目です。",
     "category": [
@@ -10509,7 +10509,7 @@
     "id": 920,
     "hanzi": "节日",
     "pinyin": "jiérì",
-    "meaning": "holiday",
+    "meaning": "休日",
     "example": "这是节日。",
     "exampleMeaning": "これは节日です。",
     "category": [
@@ -10520,7 +10520,7 @@
     "id": 921,
     "hanzi": "解决",
     "pinyin": "jiějué",
-    "meaning": "to settle",
+    "meaning": "解決する",
     "example": "我解决了。",
     "exampleMeaning": "私は解决ました。",
     "category": [
@@ -10531,7 +10531,7 @@
     "id": 922,
     "hanzi": "借",
     "pinyin": "jiè",
-    "meaning": "to lend",
+    "meaning": "借りる、貸す",
     "example": "我借了。",
     "exampleMeaning": "私は借ました。",
     "category": [
@@ -10542,7 +10542,7 @@
     "id": 923,
     "hanzi": "经常",
     "pinyin": "jīngcháng",
-    "meaning": "day to day",
+    "meaning": "いつも、よく",
     "example": "这是经常。",
     "exampleMeaning": "これは经常です。",
     "category": [
@@ -10553,7 +10553,7 @@
     "id": 924,
     "hanzi": "经过",
     "pinyin": "jīngguò",
-    "meaning": "to pass",
+    "meaning": "通過する、経由する",
     "example": "我经过了。",
     "exampleMeaning": "私は经过ました。",
     "category": [
@@ -10564,7 +10564,7 @@
     "id": 925,
     "hanzi": "经理",
     "pinyin": "jīnglǐ",
-    "meaning": "manager",
+    "meaning": "マネージャー",
     "example": "这是经理。",
     "exampleMeaning": "これは经理です。",
     "category": [
@@ -10575,7 +10575,7 @@
     "id": 926,
     "hanzi": "久",
     "pinyin": "jiǔ",
-    "meaning": "time",
+    "meaning": "長い間、久しい",
     "example": "这是久。",
     "exampleMeaning": "これは久です。",
     "category": [
@@ -10586,7 +10586,7 @@
     "id": 927,
     "hanzi": "旧",
     "pinyin": "jiù",
-    "meaning": "old",
+    "meaning": "古い、年を取った",
     "example": "这很旧。",
     "exampleMeaning": "これはとても旧です。",
     "category": [
@@ -10597,7 +10597,7 @@
     "id": 928,
     "hanzi": "句子",
     "pinyin": "jùzi",
-    "meaning": "sentence",
+    "meaning": "文",
     "example": "这是句子。",
     "exampleMeaning": "これは句子です。",
     "category": [
@@ -10608,7 +10608,7 @@
     "id": 929,
     "hanzi": "决定",
     "pinyin": "juédìng",
-    "meaning": "to decide",
+    "meaning": "決める、決定する",
     "example": "我决定了。",
     "exampleMeaning": "私は决定ました。",
     "category": [
@@ -10619,7 +10619,7 @@
     "id": 930,
     "hanzi": "可爱",
     "pinyin": "kěài",
-    "meaning": "amiable",
+    "meaning": "可愛い",
     "example": "这是可爱。",
     "exampleMeaning": "これは可爱です。",
     "category": [
@@ -10630,7 +10630,7 @@
     "id": 931,
     "hanzi": "渴",
     "pinyin": "kě",
-    "meaning": "thirsty",
+    "meaning": "喉が渇いた",
     "example": "这很渴。",
     "exampleMeaning": "これはとても渴です。",
     "category": [
@@ -10641,7 +10641,7 @@
     "id": 932,
     "hanzi": "刻",
     "pinyin": "kè",
-    "meaning": "quarter",
+    "meaning": "4分の1、四半期",
     "example": "这是刻。",
     "exampleMeaning": "これは刻です。",
     "category": [
@@ -10652,7 +10652,7 @@
     "id": 933,
     "hanzi": "客人",
     "pinyin": "kèrén",
-    "meaning": "visitor",
+    "meaning": "お客さん、来客",
     "example": "这是客人。",
     "exampleMeaning": "これは客人です。",
     "category": [
@@ -10663,7 +10663,7 @@
     "id": 934,
     "hanzi": "空调",
     "pinyin": "kōngtiáo",
-    "meaning": "air conditioning",
+    "meaning": "エアコン",
     "example": "这是空调。",
     "exampleMeaning": "これは空调です。",
     "category": [
@@ -10674,7 +10674,7 @@
     "id": 935,
     "hanzi": "口",
     "pinyin": "kǒu",
-    "meaning": "mouth",
+    "meaning": "口",
     "example": "这是口。",
     "exampleMeaning": "これは口です。",
     "category": [
@@ -10685,7 +10685,7 @@
     "id": 936,
     "hanzi": "哭",
     "pinyin": "kū",
-    "meaning": "to cry",
+    "meaning": "泣く",
     "example": "我哭了。",
     "exampleMeaning": "私は哭ました。",
     "category": [
@@ -10696,7 +10696,7 @@
     "id": 937,
     "hanzi": "裤子",
     "pinyin": "kùzi",
-    "meaning": "trousers",
+    "meaning": "ズボン",
     "example": "这是裤子。",
     "exampleMeaning": "これは裤子です。",
     "category": [
@@ -10707,7 +10707,7 @@
     "id": 938,
     "hanzi": "筷子",
     "pinyin": "kuàizi",
-    "meaning": "chopsticks",
+    "meaning": "箸",
     "example": "这是筷子。",
     "exampleMeaning": "これは筷子です。",
     "category": [
@@ -10718,7 +10718,7 @@
     "id": 939,
     "hanzi": "蓝",
     "pinyin": "lán",
-    "meaning": "blue",
+    "meaning": "青い",
     "example": "这是蓝。",
     "exampleMeaning": "これは蓝です。",
     "category": [
@@ -10729,7 +10729,7 @@
     "id": 940,
     "hanzi": "老",
     "pinyin": "lǎo",
-    "meaning": "old",
+    "meaning": "古い、年を取った",
     "example": "这很老。",
     "exampleMeaning": "これはとても老です。",
     "category": [
@@ -10740,7 +10740,7 @@
     "id": 941,
     "hanzi": "离开",
     "pinyin": "líkāi",
-    "meaning": "to depart",
+    "meaning": "離れる、去る",
     "example": "我离开了。",
     "exampleMeaning": "私は离开ました。",
     "category": [
@@ -10751,7 +10751,7 @@
     "id": 942,
     "hanzi": "礼物",
     "pinyin": "lǐwù",
-    "meaning": "gift",
+    "meaning": "プレゼント",
     "example": "这是礼物。",
     "exampleMeaning": "これは礼物です。",
     "category": [
@@ -10762,7 +10762,7 @@
     "id": 943,
     "hanzi": "历史",
     "pinyin": "lìshǐ",
-    "meaning": "History",
+    "meaning": "歴史",
     "example": "这是历史。",
     "exampleMeaning": "これは历史です。",
     "category": [
@@ -10773,7 +10773,7 @@
     "id": 944,
     "hanzi": "练习",
     "pinyin": "liànxí",
-    "meaning": "exercise",
+    "meaning": "運動",
     "example": "这是练习。",
     "exampleMeaning": "これは练习です。",
     "category": [
@@ -10784,7 +10784,7 @@
     "id": 945,
     "hanzi": "辆",
     "pinyin": "liàng",
-    "meaning": "classifier for vehicles",
+    "meaning": "〜台（車両を数える量詞）",
     "example": "一辆。",
     "exampleMeaning": "1辆。",
     "category": [
@@ -10795,7 +10795,7 @@
     "id": 946,
     "hanzi": "聊天",
     "pinyin": "liáotiān",
-    "meaning": "to chat",
+    "meaning": "おしゃべりする",
     "example": "我聊天了。",
     "exampleMeaning": "私は聊天ました。",
     "category": [
@@ -10806,7 +10806,7 @@
     "id": 947,
     "hanzi": "了解",
     "pinyin": "liǎojiě",
-    "meaning": "to understand",
+    "meaning": "分かる、理解する",
     "example": "我了解了。",
     "exampleMeaning": "私は了解ました。",
     "category": [
@@ -10817,7 +10817,7 @@
     "id": 948,
     "hanzi": "邻居",
     "pinyin": "línjū",
-    "meaning": "neighbor",
+    "meaning": "隣人",
     "example": "这是邻居。",
     "exampleMeaning": "これは邻居です。",
     "category": [
@@ -10828,7 +10828,7 @@
     "id": 949,
     "hanzi": "留学",
     "pinyin": "liúxué",
-    "meaning": "to study abroad",
+    "meaning": "留学する",
     "example": "我留学了。",
     "exampleMeaning": "私は留学ました。",
     "category": [
@@ -10839,7 +10839,7 @@
     "id": 950,
     "hanzi": "楼",
     "pinyin": "lóu",
-    "meaning": "house with more than 1 story",
+    "meaning": "ビル、〜階建ての建物",
     "example": "这是楼。",
     "exampleMeaning": "これは楼です。",
     "category": [
@@ -10850,7 +10850,7 @@
     "id": 951,
     "hanzi": "绿",
     "pinyin": "lv4",
-    "meaning": "green",
+    "meaning": "緑",
     "example": "这是绿。",
     "exampleMeaning": "これは绿です。",
     "category": [
@@ -10861,7 +10861,7 @@
     "id": 952,
     "hanzi": "马",
     "pinyin": "mǎ",
-    "meaning": "horse",
+    "meaning": "馬",
     "example": "这是马。",
     "exampleMeaning": "これは马です。",
     "category": [
@@ -10872,7 +10872,7 @@
     "id": 953,
     "hanzi": "马上",
     "pinyin": "mǎshàng",
-    "meaning": "right away",
+    "meaning": "すぐに、直ちに",
     "example": "这是马上。",
     "exampleMeaning": "これは马上です。",
     "category": [
@@ -10883,7 +10883,7 @@
     "id": 954,
     "hanzi": "帽子",
     "pinyin": "màozi",
-    "meaning": "hat",
+    "meaning": "帽子",
     "example": "这是帽子。",
     "exampleMeaning": "これは帽子です。",
     "category": [
@@ -10894,7 +10894,7 @@
     "id": 955,
     "hanzi": "米",
     "pinyin": "mǐ",
-    "meaning": "rice",
+    "meaning": "ご飯、米",
     "example": "这是米。",
     "exampleMeaning": "これは米です。",
     "category": [
@@ -10905,7 +10905,7 @@
     "id": 956,
     "hanzi": "面包",
     "pinyin": "miànbāo",
-    "meaning": "bread",
+    "meaning": "パン",
     "example": "这是面包。",
     "exampleMeaning": "これは面包です。",
     "category": [
@@ -10916,7 +10916,7 @@
     "id": 957,
     "hanzi": "明白",
     "pinyin": "míngbai",
-    "meaning": "to understand",
+    "meaning": "分かる、理解する",
     "example": "我明白了。",
     "exampleMeaning": "私は明白ました。",
     "category": [
@@ -10927,7 +10927,7 @@
     "id": 958,
     "hanzi": "拿",
     "pinyin": "ná",
-    "meaning": "to hold",
+    "meaning": "持つ、取る",
     "example": "我拿了。",
     "exampleMeaning": "私は拿ました。",
     "category": [
@@ -10938,7 +10938,7 @@
     "id": 959,
     "hanzi": "奶奶",
     "pinyin": "nǎinai",
-    "meaning": "father's mother",
+    "meaning": "おばあちゃん（父方の祖母）",
     "example": "这是奶奶。",
     "exampleMeaning": "これは奶奶です。",
     "category": [
@@ -10949,7 +10949,7 @@
     "id": 960,
     "hanzi": "南",
     "pinyin": "nán",
-    "meaning": "south",
+    "meaning": "南",
     "example": "这是南。",
     "exampleMeaning": "これは南です。",
     "category": [
@@ -10960,7 +10960,7 @@
     "id": 961,
     "hanzi": "难",
     "pinyin": "nán",
-    "meaning": "difficult",
+    "meaning": "難しい",
     "example": "这很难。",
     "exampleMeaning": "これはとても难です。",
     "category": [
@@ -10971,7 +10971,7 @@
     "id": 962,
     "hanzi": "难过",
     "pinyin": "nánguò",
-    "meaning": "feel sorry",
+    "meaning": "悲しい、辛い",
     "example": "我难过了。",
     "exampleMeaning": "私は难过ました。",
     "category": [
@@ -10982,7 +10982,7 @@
     "id": 963,
     "hanzi": "年级",
     "pinyin": "niánjí",
-    "meaning": "grade",
+    "meaning": "〜年生（学年）",
     "example": "这是年级。",
     "exampleMeaning": "これは年级です。",
     "category": [
@@ -10993,7 +10993,7 @@
     "id": 964,
     "hanzi": "年轻",
     "pinyin": "niánqīng",
-    "meaning": "young",
+    "meaning": "若い",
     "example": "这很年轻。",
     "exampleMeaning": "これはとても年轻です。",
     "category": [
@@ -11004,7 +11004,7 @@
     "id": 965,
     "hanzi": "鸟",
     "pinyin": "niǎo",
-    "meaning": "bird",
+    "meaning": "鳥",
     "example": "这是鸟。",
     "exampleMeaning": "これは鸟です。",
     "category": [
@@ -11015,7 +11015,7 @@
     "id": 966,
     "hanzi": "爬山",
     "pinyin": "páshān",
-    "meaning": "to climb a mountain",
+    "meaning": "山登りをする",
     "example": "我爬山了。",
     "exampleMeaning": "私は爬山ました。",
     "category": [
@@ -11026,7 +11026,7 @@
     "id": 967,
     "hanzi": "盘子",
     "pinyin": "pánzi",
-    "meaning": "plate",
+    "meaning": "皿、お皿",
     "example": "这是盘子。",
     "exampleMeaning": "これは盘子です。",
     "category": [
@@ -11037,7 +11037,7 @@
     "id": 968,
     "hanzi": "胖",
     "pinyin": "pàng",
-    "meaning": "fat",
+    "meaning": "太っている",
     "example": "这很胖。",
     "exampleMeaning": "これはとても胖です。",
     "category": [
@@ -11048,7 +11048,7 @@
     "id": 969,
     "hanzi": "啤酒",
     "pinyin": "píjiǔ",
-    "meaning": "beer",
+    "meaning": "ビール",
     "example": "这是啤酒。",
     "exampleMeaning": "これは啤酒です。",
     "category": [
@@ -11059,7 +11059,7 @@
     "id": 970,
     "hanzi": "皮鞋",
     "pinyin": "píxié",
-    "meaning": "leather shoes",
+    "meaning": "革靴",
     "example": "这是皮鞋。",
     "exampleMeaning": "これは皮鞋です。",
     "category": [
@@ -11070,7 +11070,7 @@
     "id": 971,
     "hanzi": "瓶子",
     "pinyin": "píngzi",
-    "meaning": "bottle",
+    "meaning": "瓶、ボトル",
     "example": "这是瓶子。",
     "exampleMeaning": "これは瓶子です。",
     "category": [
@@ -11081,7 +11081,7 @@
     "id": 972,
     "hanzi": "其实",
     "pinyin": "qíshí",
-    "meaning": "actually",
+    "meaning": "実は、実際には",
     "example": "他其实来了。",
     "exampleMeaning": "彼は其实来ました。",
     "category": [
@@ -11092,7 +11092,7 @@
     "id": 973,
     "hanzi": "其他",
     "pinyin": "qítā",
-    "meaning": "other",
+    "meaning": "その他、他の",
     "example": "其他很好。",
     "exampleMeaning": "其他はとても良いです。",
     "category": [
@@ -11103,7 +11103,7 @@
     "id": 974,
     "hanzi": "奇怪",
     "pinyin": "qíguài",
-    "meaning": "strange",
+    "meaning": "変な、奇妙な",
     "example": "这很奇怪。",
     "exampleMeaning": "これはとても奇怪です。",
     "category": [
@@ -11114,7 +11114,7 @@
     "id": 975,
     "hanzi": "骑",
     "pinyin": "qí",
-    "meaning": "to ride",
+    "meaning": "乗る（自転車・馬などに）",
     "example": "我骑了。",
     "exampleMeaning": "私は骑ました。",
     "category": [
@@ -11125,7 +11125,7 @@
     "id": 976,
     "hanzi": "起飞",
     "pinyin": "qǐfēi",
-    "meaning": "to take off",
+    "meaning": "離陸する",
     "example": "我起飞了。",
     "exampleMeaning": "私は起飞ました。",
     "category": [
@@ -11136,7 +11136,7 @@
     "id": 977,
     "hanzi": "起来",
     "pinyin": "qǐlái",
-    "meaning": "beginning or continuing an action",
+    "meaning": "〜してくる、〜し始める（方向補語）",
     "example": "这是起来。",
     "exampleMeaning": "これは起来です。",
     "category": [
@@ -11147,7 +11147,7 @@
     "id": 978,
     "hanzi": "清楚",
     "pinyin": "qīngchu",
-    "meaning": "（be) clear",
+    "meaning": "はっきりしている、明確だ",
     "example": "这是清楚。",
     "exampleMeaning": "これは清楚です。",
     "category": [
@@ -11158,7 +11158,7 @@
     "id": 979,
     "hanzi": "请假",
     "pinyin": "qǐngjià",
-    "meaning": "ask for time off",
+    "meaning": "休暇を取る、欠席届を出す",
     "example": "我请假了。",
     "exampleMeaning": "私は请假ました。",
     "category": [
@@ -11169,7 +11169,7 @@
     "id": 980,
     "hanzi": "秋",
     "pinyin": "qiū",
-    "meaning": "autumn",
+    "meaning": "秋",
     "example": "这是秋。",
     "exampleMeaning": "これは秋です。",
     "category": [
@@ -11180,7 +11180,7 @@
     "id": 981,
     "hanzi": "裙子",
     "pinyin": "qúnzi",
-    "meaning": "skirt",
+    "meaning": "スカート",
     "example": "这是裙子。",
     "exampleMeaning": "これは裙子です。",
     "category": [
@@ -11191,7 +11191,7 @@
     "id": 982,
     "hanzi": "然后",
     "pinyin": "ránhòu",
-    "meaning": "then",
+    "meaning": "それから",
     "example": "他然后来了。",
     "exampleMeaning": "彼は然后来ました。",
     "category": [
@@ -11202,7 +11202,7 @@
     "id": 983,
     "hanzi": "热情",
     "pinyin": "rèqíng",
-    "meaning": "cordial",
+    "meaning": "熱心な、親切な",
     "example": "这是热情。",
     "exampleMeaning": "これは热情です。",
     "category": [
@@ -11213,7 +11213,7 @@
     "id": 984,
     "hanzi": "认为",
     "pinyin": "rènwéi",
-    "meaning": "to believe",
+    "meaning": "〜と思う、考える",
     "example": "我认为了。",
     "exampleMeaning": "私は认为ました。",
     "category": [
@@ -11224,7 +11224,7 @@
     "id": 985,
     "hanzi": "认真",
     "pinyin": "rènzhēn",
-    "meaning": "conscientious",
+    "meaning": "真面目な、真剣な",
     "example": "这是认真。",
     "exampleMeaning": "これは认真です。",
     "category": [
@@ -11235,7 +11235,7 @@
     "id": 986,
     "hanzi": "容易",
     "pinyin": "róngyì",
-    "meaning": "easy",
+    "meaning": "簡単な",
     "example": "这很容易。",
     "exampleMeaning": "これはとても容易です。",
     "category": [
@@ -11246,7 +11246,7 @@
     "id": 987,
     "hanzi": "如果",
     "pinyin": "rúguǒ",
-    "meaning": "if",
+    "meaning": "もし〜なら",
     "example": "我喜欢茶，如果也喜欢咖啡。",
     "exampleMeaning": "私はお茶が好きで、如果コーヒーも好きです。",
     "category": [
@@ -11257,7 +11257,7 @@
     "id": 988,
     "hanzi": "伞",
     "pinyin": "sǎn",
-    "meaning": "umbrella",
+    "meaning": "傘",
     "example": "这是伞。",
     "exampleMeaning": "これは伞です。",
     "category": [
@@ -11268,7 +11268,7 @@
     "id": 989,
     "hanzi": "上网",
     "pinyin": "shàngwǎng",
-    "meaning": "to be on the internet",
+    "meaning": "インターネットをする",
     "example": "我上网了。",
     "exampleMeaning": "私は上网ました。",
     "category": [
@@ -11279,7 +11279,7 @@
     "id": 990,
     "hanzi": "声音",
     "pinyin": "shēngyīn",
-    "meaning": "voice",
+    "meaning": "声",
     "example": "这是声音。",
     "exampleMeaning": "これは声音です。",
     "category": [
@@ -11290,7 +11290,7 @@
     "id": 991,
     "hanzi": "生气",
     "pinyin": "shēngqì",
-    "meaning": "angry",
+    "meaning": "怒っている",
     "example": "这很生气。",
     "exampleMeaning": "これはとても生气です。",
     "category": [
@@ -11301,7 +11301,7 @@
     "id": 992,
     "hanzi": "世界",
     "pinyin": "shìjiè",
-    "meaning": "world",
+    "meaning": "世界",
     "example": "这是世界。",
     "exampleMeaning": "これは世界です。",
     "category": [
@@ -11312,7 +11312,7 @@
     "id": 993,
     "hanzi": "试",
     "pinyin": "shì",
-    "meaning": "to test",
+    "meaning": "試す、試着する",
     "example": "我试了。",
     "exampleMeaning": "私は试ました。",
     "category": [
@@ -11323,7 +11323,7 @@
     "id": 994,
     "hanzi": "瘦",
     "pinyin": "shòu",
-    "meaning": "tight",
+    "meaning": "きつい、ピンと張った",
     "example": "这是瘦。",
     "exampleMeaning": "これは瘦です。",
     "category": [
@@ -11334,7 +11334,7 @@
     "id": 995,
     "hanzi": "叔叔",
     "pinyin": "shūshu",
-    "meaning": "father's younger brother",
+    "meaning": "おじさん（父の弟）",
     "example": "这是叔叔。",
     "exampleMeaning": "これは叔叔です。",
     "category": [
@@ -11345,7 +11345,7 @@
     "id": 996,
     "hanzi": "舒服",
     "pinyin": "shūfu",
-    "meaning": "comfortable",
+    "meaning": "快適な、気持ち良い",
     "example": "这很舒服。",
     "exampleMeaning": "これはとても舒服です。",
     "category": [
@@ -11356,7 +11356,7 @@
     "id": 997,
     "hanzi": "数学",
     "pinyin": "shùxué",
-    "meaning": "mathematics",
+    "meaning": "数学",
     "example": "这是数学。",
     "exampleMeaning": "これは数学です。",
     "category": [
@@ -11367,7 +11367,7 @@
     "id": 998,
     "hanzi": "树",
     "pinyin": "shù",
-    "meaning": "tree",
+    "meaning": "木",
     "example": "这是树。",
     "exampleMeaning": "これは树です。",
     "category": [
@@ -11378,7 +11378,7 @@
     "id": 999,
     "hanzi": "刷牙",
     "pinyin": "shuāyá",
-    "meaning": "to brush teeth",
+    "meaning": "歯を磨く",
     "example": "我刷牙了。",
     "exampleMeaning": "私は刷牙ました。",
     "category": [
@@ -11389,7 +11389,7 @@
     "id": 1000,
     "hanzi": "双",
     "pinyin": "shuāng",
-    "meaning": "pair",
+    "meaning": "ペア、一組",
     "example": "这是双。",
     "exampleMeaning": "これは双です。",
     "category": [
@@ -11400,7 +11400,7 @@
     "id": 1001,
     "hanzi": "水平",
     "pinyin": "shuǐpíng",
-    "meaning": "level",
+    "meaning": "レベル、水準",
     "example": "这是水平。",
     "exampleMeaning": "これは水平です。",
     "category": [
@@ -11411,7 +11411,7 @@
     "id": 1002,
     "hanzi": "司机",
     "pinyin": "sījī",
-    "meaning": "chauffeur",
+    "meaning": "運転手",
     "example": "这是司机。",
     "exampleMeaning": "これは司机です。",
     "category": [
@@ -11422,7 +11422,7 @@
     "id": 1003,
     "hanzi": "太阳",
     "pinyin": "tàiyáng",
-    "meaning": "sun",
+    "meaning": "太陽",
     "example": "这是太阳。",
     "exampleMeaning": "これは太阳です。",
     "category": [
@@ -11433,7 +11433,7 @@
     "id": 1004,
     "hanzi": "特别",
     "pinyin": "tèbié",
-    "meaning": "especially",
+    "meaning": "特に",
     "example": "他特别来了。",
     "exampleMeaning": "彼は特别来ました。",
     "category": [
@@ -11444,7 +11444,7 @@
     "id": 1005,
     "hanzi": "疼",
     "pinyin": "téng",
-    "meaning": "hurts",
+    "meaning": "痛い",
     "example": "这是疼。",
     "exampleMeaning": "これは疼です。",
     "category": [
@@ -11455,7 +11455,7 @@
     "id": 1006,
     "hanzi": "提高",
     "pinyin": "tígāo",
-    "meaning": "to raise",
+    "meaning": "高める、向上させる",
     "example": "我提高了。",
     "exampleMeaning": "私は提高ました。",
     "category": [
@@ -11466,7 +11466,7 @@
     "id": 1007,
     "hanzi": "体育",
     "pinyin": "tǐyù",
-    "meaning": "sports",
+    "meaning": "体育、スポーツ",
     "example": "这是体育。",
     "exampleMeaning": "これは体育です。",
     "category": [
@@ -11477,7 +11477,7 @@
     "id": 1008,
     "hanzi": "甜",
     "pinyin": "tián",
-    "meaning": "sweet",
+    "meaning": "甘い",
     "example": "这很甜。",
     "exampleMeaning": "これはとても甜です。",
     "category": [
@@ -11488,7 +11488,7 @@
     "id": 1009,
     "hanzi": "条",
     "pinyin": "tiáo",
-    "meaning": "strip",
+    "meaning": "〜本（細長いものを数える量詞）",
     "example": "这是条。",
     "exampleMeaning": "これは条です。",
     "category": [
@@ -11499,7 +11499,7 @@
     "id": 1010,
     "hanzi": "同事",
     "pinyin": "tóngshì",
-    "meaning": "colleague",
+    "meaning": "同僚",
     "example": "这是同事。",
     "exampleMeaning": "これは同事です。",
     "category": [
@@ -11510,7 +11510,7 @@
     "id": 1011,
     "hanzi": "同意",
     "pinyin": "tóngyì",
-    "meaning": "to agree",
+    "meaning": "同意する、賛成する",
     "example": "我同意了。",
     "exampleMeaning": "私は同意ました。",
     "category": [
@@ -11521,7 +11521,7 @@
     "id": 1012,
     "hanzi": "头发",
     "pinyin": "tóufa",
-    "meaning": "hair",
+    "meaning": "髪の毛",
     "example": "这是头发。",
     "exampleMeaning": "これは头发です。",
     "category": [
@@ -11532,7 +11532,7 @@
     "id": 1013,
     "hanzi": "突然",
     "pinyin": "tūrán",
-    "meaning": "sudden",
+    "meaning": "突然",
     "example": "这是突然。",
     "exampleMeaning": "これは突然です。",
     "category": [
@@ -11543,7 +11543,7 @@
     "id": 1014,
     "hanzi": "图书馆",
     "pinyin": "túshūguǎn",
-    "meaning": "library",
+    "meaning": "図書館",
     "example": "这是图书馆。",
     "exampleMeaning": "これは图书馆です。",
     "category": [
@@ -11554,7 +11554,7 @@
     "id": 1015,
     "hanzi": "腿",
     "pinyin": "tuǐ",
-    "meaning": "leg",
+    "meaning": "脚",
     "example": "这是腿。",
     "exampleMeaning": "これは腿です。",
     "category": [
@@ -11565,7 +11565,7 @@
     "id": 1016,
     "hanzi": "完成",
     "pinyin": "wánchéng",
-    "meaning": "complete",
+    "meaning": "完成する、完全な",
     "example": "这是完成。",
     "exampleMeaning": "これは完成です。",
     "category": [
@@ -11576,7 +11576,7 @@
     "id": 1017,
     "hanzi": "碗",
     "pinyin": "wǎn",
-    "meaning": "bowl",
+    "meaning": "茶碗、お椀",
     "example": "这是碗。",
     "exampleMeaning": "これは碗です。",
     "category": [
@@ -11587,7 +11587,7 @@
     "id": 1018,
     "hanzi": "万",
     "pinyin": "wàn",
-    "meaning": "ten thousand",
+    "meaning": "万",
     "example": "有万个。",
     "exampleMeaning": "万個あります。",
     "category": [
@@ -11598,7 +11598,7 @@
     "id": 1019,
     "hanzi": "忘记",
     "pinyin": "wàngjì",
-    "meaning": "to forget",
+    "meaning": "忘れる",
     "example": "我忘记了。",
     "exampleMeaning": "私は忘记ました。",
     "category": [
@@ -11609,7 +11609,7 @@
     "id": 1020,
     "hanzi": "为",
     "pinyin": "wèi",
-    "meaning": "because of",
+    "meaning": "〜のために、〜のせいで",
     "example": "我喜欢茶，为也喜欢咖啡。",
     "exampleMeaning": "私はお茶が好きで、为コーヒーも好きです。",
     "category": [
@@ -11620,7 +11620,7 @@
     "id": 1021,
     "hanzi": "为了",
     "pinyin": "wèile",
-    "meaning": "in order to",
+    "meaning": "〜のために、〜するために",
     "example": "他为了我来了。",
     "exampleMeaning": "彼は私为了来ました。",
     "category": [
@@ -11631,7 +11631,7 @@
     "id": 1022,
     "hanzi": "位",
     "pinyin": "wèi",
-    "meaning": "position",
+    "meaning": "位置、ポジション",
     "example": "这是位。",
     "exampleMeaning": "これは位です。",
     "category": [
@@ -11642,7 +11642,7 @@
     "id": 1023,
     "hanzi": "文化",
     "pinyin": "wénhuà",
-    "meaning": "culture",
+    "meaning": "文化",
     "example": "这是文化。",
     "exampleMeaning": "これは文化です。",
     "category": [
@@ -11653,7 +11653,7 @@
     "id": 1024,
     "hanzi": "西",
     "pinyin": "xī",
-    "meaning": "west",
+    "meaning": "西",
     "example": "这是西。",
     "exampleMeaning": "これは西です。",
     "category": [
@@ -11664,7 +11664,7 @@
     "id": 1025,
     "hanzi": "习惯",
     "pinyin": "xíguàn",
-    "meaning": "habit",
+    "meaning": "習慣",
     "example": "这是习惯。",
     "exampleMeaning": "これは习惯です。",
     "category": [
@@ -11675,7 +11675,7 @@
     "id": 1026,
     "hanzi": "洗手间",
     "pinyin": "xǐshǒujiān",
-    "meaning": "toilet",
+    "meaning": "トイレ",
     "example": "这是洗手间。",
     "exampleMeaning": "これは洗手间です。",
     "category": [
@@ -11686,7 +11686,7 @@
     "id": 1027,
     "hanzi": "洗澡",
     "pinyin": "xǐzǎo",
-    "meaning": "to bathe",
+    "meaning": "お風呂に入る、シャワーを浴びる",
     "example": "我洗澡了。",
     "exampleMeaning": "私は洗澡ました。",
     "category": [
@@ -11697,7 +11697,7 @@
     "id": 1028,
     "hanzi": "夏",
     "pinyin": "xià",
-    "meaning": "summer",
+    "meaning": "夏",
     "example": "这是夏。",
     "exampleMeaning": "これは夏です。",
     "category": [
@@ -11708,7 +11708,7 @@
     "id": 1029,
     "hanzi": "先",
     "pinyin": "xiān",
-    "meaning": "early",
+    "meaning": "早い",
     "example": "他先来了。",
     "exampleMeaning": "彼は先来ました。",
     "category": [
@@ -11719,7 +11719,7 @@
     "id": 1030,
     "hanzi": "相信",
     "pinyin": "xiāngxìn",
-    "meaning": "to believe",
+    "meaning": "信じる、信用する",
     "example": "我相信了。",
     "exampleMeaning": "私は相信ました。",
     "category": [
@@ -11730,7 +11730,7 @@
     "id": 1031,
     "hanzi": "香蕉",
     "pinyin": "xiāngjiāo",
-    "meaning": "banana",
+    "meaning": "バナナ",
     "example": "这是香蕉。",
     "exampleMeaning": "これは香蕉です。",
     "category": [
@@ -11741,7 +11741,7 @@
     "id": 1032,
     "hanzi": "像",
     "pinyin": "xiàng",
-    "meaning": "like",
+    "meaning": "〜のような、好きな",
     "example": "这是像。",
     "exampleMeaning": "これは像です。",
     "category": [
@@ -11752,7 +11752,7 @@
     "id": 1033,
     "hanzi": "向",
     "pinyin": "xiàng",
-    "meaning": "direction",
+    "meaning": "〜に向かって、方向",
     "example": "这是向。",
     "exampleMeaning": "これは向です。",
     "category": [
@@ -11763,7 +11763,7 @@
     "id": 1034,
     "hanzi": "小心",
     "pinyin": "xiǎoxīn",
-    "meaning": "to be careful",
+    "meaning": "気をつける",
     "example": "我小心了。",
     "exampleMeaning": "私は小心ました。",
     "category": [
@@ -11774,7 +11774,7 @@
     "id": 1035,
     "hanzi": "校长",
     "pinyin": "xiàozhǎng",
-    "meaning": "president",
+    "meaning": "大統領、社長",
     "example": "这是校长。",
     "exampleMeaning": "これは校长です。",
     "category": [
@@ -11785,7 +11785,7 @@
     "id": 1036,
     "hanzi": "新闻",
     "pinyin": "xīnwén",
-    "meaning": "news",
+    "meaning": "ニュース",
     "example": "这是新闻。",
     "exampleMeaning": "これは新闻です。",
     "category": [
@@ -11796,7 +11796,7 @@
     "id": 1037,
     "hanzi": "新鲜",
     "pinyin": "xīnxiān",
-    "meaning": "fresh",
+    "meaning": "新鮮な",
     "example": "这是新鲜。",
     "exampleMeaning": "これは新鲜です。",
     "category": [
@@ -11807,7 +11807,7 @@
     "id": 1038,
     "hanzi": "信用卡",
     "pinyin": "xìnyòngkǎ",
-    "meaning": "credit card",
+    "meaning": "クレジットカード",
     "example": "这是信用卡。",
     "exampleMeaning": "これは信用卡です。",
     "category": [
@@ -11818,7 +11818,7 @@
     "id": 1039,
     "hanzi": "行李箱",
     "pinyin": "xínglǐxiāng",
-    "meaning": "suitcase",
+    "meaning": "スーツケース",
     "example": "这是行李箱。",
     "exampleMeaning": "これは行李箱です。",
     "category": [
@@ -11829,7 +11829,7 @@
     "id": 1040,
     "hanzi": "熊猫",
     "pinyin": "xióngmāo",
-    "meaning": "panda",
+    "meaning": "パンダ",
     "example": "这是熊猫。",
     "exampleMeaning": "これは熊猫です。",
     "category": [
@@ -11840,7 +11840,7 @@
     "id": 1041,
     "hanzi": "爷爷",
     "pinyin": "yéye",
-    "meaning": "father's father",
+    "meaning": "おじいちゃん（父方の祖父）",
     "example": "这是爷爷。",
     "exampleMeaning": "これは爷爷です。",
     "category": [
@@ -11851,7 +11851,7 @@
     "id": 1042,
     "hanzi": "一直",
     "pinyin": "yīzhí",
-    "meaning": "straight",
+    "meaning": "まっすぐな",
     "example": "这是一直。",
     "exampleMeaning": "これは一直です。",
     "category": [
@@ -11862,7 +11862,7 @@
     "id": 1043,
     "hanzi": "一会儿",
     "pinyin": "yīhuìer",
-    "meaning": "a while",
+    "meaning": "しばらく、少しの間",
     "example": "这是一会儿。",
     "exampleMeaning": "これは一会儿です。",
     "category": [
@@ -11873,7 +11873,7 @@
     "id": 1044,
     "hanzi": "一样",
     "pinyin": "yīyàng",
-    "meaning": "same",
+    "meaning": "同じ",
     "example": "这很一样。",
     "exampleMeaning": "これはとても一样です。",
     "category": [
@@ -11884,7 +11884,7 @@
     "id": 1045,
     "hanzi": "以前",
     "pinyin": "yǐqián",
-    "meaning": "before",
+    "meaning": "〜の前に",
     "example": "他以前我来了。",
     "exampleMeaning": "彼は私以前来ました。",
     "category": [
@@ -11895,7 +11895,7 @@
     "id": 1046,
     "hanzi": "一般",
     "pinyin": "yībān",
-    "meaning": "ordinary",
+    "meaning": "普通の、一般的な",
     "example": "这是一般。",
     "exampleMeaning": "これは一般です。",
     "category": [
@@ -11906,7 +11906,7 @@
     "id": 1047,
     "hanzi": "一边",
     "pinyin": "yībiān",
-    "meaning": "one side",
+    "meaning": "一方、片側",
     "example": "有一边个。",
     "exampleMeaning": "一边個あります。",
     "category": [
@@ -11917,7 +11917,7 @@
     "id": 1048,
     "hanzi": "音乐",
     "pinyin": "yīnyuè",
-    "meaning": "music",
+    "meaning": "音楽",
     "example": "这是音乐。",
     "exampleMeaning": "これは音乐です。",
     "category": [
@@ -11928,7 +11928,7 @@
     "id": 1049,
     "hanzi": "银行",
     "pinyin": "yínháng",
-    "meaning": "bank",
+    "meaning": "銀行",
     "example": "这是银行。",
     "exampleMeaning": "これは银行です。",
     "category": [
@@ -11939,7 +11939,7 @@
     "id": 1050,
     "hanzi": "饮料",
     "pinyin": "yǐnliào",
-    "meaning": "drink",
+    "meaning": "飲み物",
     "example": "这是饮料。",
     "exampleMeaning": "これは饮料です。",
     "category": [
@@ -11950,7 +11950,7 @@
     "id": 1051,
     "hanzi": "应该",
     "pinyin": "yīnggāi",
-    "meaning": "ought to",
+    "meaning": "〜すべきだ、〜のはずだ",
     "example": "这是应该。",
     "exampleMeaning": "これは应该です。",
     "category": [
@@ -11961,7 +11961,7 @@
     "id": 1052,
     "hanzi": "影响",
     "pinyin": "yǐngxiǎng",
-    "meaning": "influence",
+    "meaning": "影響",
     "example": "这是影响。",
     "exampleMeaning": "これは影响です。",
     "category": [
@@ -11972,7 +11972,7 @@
     "id": 1053,
     "hanzi": "用",
     "pinyin": "yòng",
-    "meaning": "to use",
+    "meaning": "使う",
     "example": "我用了。",
     "exampleMeaning": "私は用ました。",
     "category": [
@@ -11983,7 +11983,7 @@
     "id": 1054,
     "hanzi": "游戏",
     "pinyin": "yóuxì",
-    "meaning": "game",
+    "meaning": "ゲーム",
     "example": "这是游戏。",
     "exampleMeaning": "これは游戏です。",
     "category": [
@@ -11994,7 +11994,7 @@
     "id": 1055,
     "hanzi": "有名",
     "pinyin": "yǒumíng",
-    "meaning": "famous",
+    "meaning": "有名な",
     "example": "这很有名。",
     "exampleMeaning": "これはとても有名です。",
     "category": [
@@ -12005,7 +12005,7 @@
     "id": 1056,
     "hanzi": "又",
     "pinyin": "yòu",
-    "meaning": "again",
+    "meaning": "もう一度、また",
     "example": "他又来了。",
     "exampleMeaning": "彼は又来ました。",
     "category": [
@@ -12016,7 +12016,7 @@
     "id": 1057,
     "hanzi": "遇到",
     "pinyin": "yùdào",
-    "meaning": "to meet",
+    "meaning": "出会う、遭遇する",
     "example": "我遇到了。",
     "exampleMeaning": "私は遇到ました。",
     "category": [
@@ -12027,7 +12027,7 @@
     "id": 1058,
     "hanzi": "元",
     "pinyin": "yuán",
-    "meaning": "Yuan",
+    "meaning": "元（中国の通貨単位）",
     "example": "这是元。",
     "exampleMeaning": "これは元です。",
     "category": [
@@ -12038,7 +12038,7 @@
     "id": 1059,
     "hanzi": "愿意",
     "pinyin": "yuànyì",
-    "meaning": "to wish",
+    "meaning": "〜したいと思う、望む",
     "example": "我愿意了。",
     "exampleMeaning": "私は愿意ました。",
     "category": [
@@ -12049,7 +12049,7 @@
     "id": 1060,
     "hanzi": "月亮",
     "pinyin": "yuèliang",
-    "meaning": "moon",
+    "meaning": "月",
     "example": "这是月亮。",
     "exampleMeaning": "これは月亮です。",
     "category": [
@@ -12060,7 +12060,7 @@
     "id": 1061,
     "hanzi": "越",
     "pinyin": "yuè",
-    "meaning": "to exceed",
+    "meaning": "〜すればするほど、超える",
     "example": "我越了。",
     "exampleMeaning": "私は越ました。",
     "category": [
@@ -12071,7 +12071,7 @@
     "id": 1062,
     "hanzi": "站",
     "pinyin": "zhàn",
-    "meaning": "station",
+    "meaning": "駅",
     "example": "这是站。",
     "exampleMeaning": "これは站です。",
     "category": [
@@ -12082,7 +12082,7 @@
     "id": 1063,
     "hanzi": "张",
     "pinyin": "zhāng",
-    "meaning": "classifier for flat objects, sheet",
+    "meaning": "〜枚（平たいものを数える量詞）",
     "example": "一张。",
     "exampleMeaning": "1张。",
     "category": [
@@ -12093,7 +12093,7 @@
     "id": 1064,
     "hanzi": "长(动词)",
     "pinyin": "zhǎng",
-    "meaning": "elder",
+    "meaning": "育つ、成長する",
     "example": "这是长(动词)。",
     "exampleMeaning": "これは长(动词)です。",
     "category": [
@@ -12104,7 +12104,7 @@
     "id": 1065,
     "hanzi": "着急",
     "pinyin": "zháojí",
-    "meaning": "to worry",
+    "meaning": "焦る、心配する",
     "example": "我着急了。",
     "exampleMeaning": "私は着急ました。",
     "category": [
@@ -12115,7 +12115,7 @@
     "id": 1066,
     "hanzi": "照片",
     "pinyin": "zhàopiàn",
-    "meaning": "photo",
+    "meaning": "写真",
     "example": "这是照片。",
     "exampleMeaning": "これは照片です。",
     "category": [
@@ -12126,7 +12126,7 @@
     "id": 1067,
     "hanzi": "照相机",
     "pinyin": "zhàoxiàngjī",
-    "meaning": "camera",
+    "meaning": "カメラ",
     "example": "这是照相机。",
     "exampleMeaning": "これは照相机です。",
     "category": [
@@ -12137,7 +12137,7 @@
     "id": 1068,
     "hanzi": "只(副词)",
     "pinyin": "zhǐ",
-    "meaning": "only",
+    "meaning": "だけ、ただ",
     "example": "他只(副词)来了。",
     "exampleMeaning": "彼は只(副词)来ました。",
     "category": [
@@ -12148,7 +12148,7 @@
     "id": 1069,
     "hanzi": "只(量词)",
     "pinyin": "zhǐ",
-    "meaning": "single",
+    "meaning": "一人の、独身の",
     "example": "这是只(量词)。",
     "exampleMeaning": "これは只(量词)です。",
     "category": [
@@ -12159,7 +12159,7 @@
     "id": 1070,
     "hanzi": "只有…才…",
     "pinyin": "zhǐyǒu…cái…",
-    "meaning": "only if… then…",
+    "meaning": "〜してこそ〜だ（条件）",
     "example": "他只有…才…来了。",
     "exampleMeaning": "彼は只有…才…来ました。",
     "category": [
@@ -12170,7 +12170,7 @@
     "id": 1071,
     "hanzi": "中间",
     "pinyin": "zhōngjiān",
-    "meaning": "between",
+    "meaning": "〜の間、中間",
     "example": "他中间我来了。",
     "exampleMeaning": "彼は私中间来ました。",
     "category": [
@@ -12181,7 +12181,7 @@
     "id": 1072,
     "hanzi": "中文",
     "pinyin": "zhōngwén",
-    "meaning": "Chinese written language",
+    "meaning": "中国語（書き言葉）",
     "example": "这是中文。",
     "exampleMeaning": "これは中文です。",
     "category": [
@@ -12192,7 +12192,7 @@
     "id": 1073,
     "hanzi": "终于",
     "pinyin": "zhōngyú",
-    "meaning": "at last",
+    "meaning": "ついに、とうとう",
     "example": "他终于我来了。",
     "exampleMeaning": "彼は私终于来ました。",
     "category": [
@@ -12203,7 +12203,7 @@
     "id": 1074,
     "hanzi": "种(量词)",
     "pinyin": "zhǒng",
-    "meaning": "kind",
+    "meaning": "親切な、種類",
     "example": "这很种(量词)。",
     "exampleMeaning": "これはとても种(量词)です。",
     "category": [
@@ -12214,7 +12214,7 @@
     "id": 1075,
     "hanzi": "重要",
     "pinyin": "zhòngyào",
-    "meaning": "important",
+    "meaning": "重要な",
     "example": "这很重要。",
     "exampleMeaning": "これはとても重要です。",
     "category": [
@@ -12225,7 +12225,7 @@
     "id": 1076,
     "hanzi": "周末",
     "pinyin": "zhōumò",
-    "meaning": "weekend",
+    "meaning": "週末",
     "example": "这是周末。",
     "exampleMeaning": "これは周末です。",
     "category": [
@@ -12236,7 +12236,7 @@
     "id": 1077,
     "hanzi": "主要",
     "pinyin": "zhǔyào",
-    "meaning": "main",
+    "meaning": "主な、メインの",
     "example": "这很主要。",
     "exampleMeaning": "これはとても主要です。",
     "category": [
@@ -12247,7 +12247,7 @@
     "id": 1078,
     "hanzi": "注意",
     "pinyin": "zhùyì",
-    "meaning": "to take note of",
+    "meaning": "注意する、気をつける",
     "example": "我注意了。",
     "exampleMeaning": "私は注意ました。",
     "category": [
@@ -12258,7 +12258,7 @@
     "id": 1079,
     "hanzi": "自行车",
     "pinyin": "zìxíngchē",
-    "meaning": "bicycle",
+    "meaning": "自転車",
     "example": "这是自行车。",
     "exampleMeaning": "これは自行车です。",
     "category": [
@@ -12269,7 +12269,7 @@
     "id": 1080,
     "hanzi": "总是",
     "pinyin": "zǒngshì",
-    "meaning": "always",
+    "meaning": "いつも",
     "example": "他总是来了。",
     "exampleMeaning": "彼は总是来ました。",
     "category": [
@@ -12280,7 +12280,7 @@
     "id": 1081,
     "hanzi": "嘴",
     "pinyin": "zuǐ",
-    "meaning": "mouth",
+    "meaning": "口",
     "example": "这是嘴。",
     "exampleMeaning": "これは嘴です。",
     "category": [
@@ -12291,7 +12291,7 @@
     "id": 1082,
     "hanzi": "最后",
     "pinyin": "zuìhòu",
-    "meaning": "final",
+    "meaning": "最終の",
     "example": "这是最后。",
     "exampleMeaning": "これは最后です。",
     "category": [
@@ -12302,7 +12302,7 @@
     "id": 1083,
     "hanzi": "作业",
     "pinyin": "zuòyè",
-    "meaning": "school assignment",
+    "meaning": "宿題",
     "example": "这是作业。",
     "exampleMeaning": "これは作业です。",
     "category": [
@@ -12313,7 +12313,7 @@
     "id": 1084,
     "hanzi": "遍",
     "pinyin": "biàn",
-    "meaning": "a time",
+    "meaning": "〜回、〜遍（動作の回数）",
     "example": "这是遍。",
     "exampleMeaning": "これは遍です。",
     "category": [
@@ -12324,7 +12324,7 @@
     "id": 1085,
     "hanzi": "长江",
     "pinyin": "chángjiāng",
-    "meaning": "Changjiang river",
+    "meaning": "長江（揚子江）",
     "example": "这是长江。",
     "exampleMeaning": "これは长江です。",
     "category": [
@@ -12335,7 +12335,7 @@
     "id": 1086,
     "hanzi": "成为",
     "pinyin": "chéngwéi",
-    "meaning": "to become",
+    "meaning": "〜になる、〜となる",
     "example": "我成为了。",
     "exampleMeaning": "私は成为ました。",
     "category": [
@@ -12346,7 +12346,7 @@
     "id": 1087,
     "hanzi": "吃惊",
     "pinyin": "chījīng",
-    "meaning": "to be startled",
+    "meaning": "驚く、びっくりする",
     "example": "我吃惊了。",
     "exampleMeaning": "私は吃惊ました。",
     "category": [
@@ -12357,7 +12357,7 @@
     "id": 1088,
     "hanzi": "出现",
     "pinyin": "chūxiàn",
-    "meaning": "to appear",
+    "meaning": "現れる、出現する",
     "example": "我出现了。",
     "exampleMeaning": "私は出现ました。",
     "category": [
@@ -12368,7 +12368,7 @@
     "id": 1089,
     "hanzi": "厨房",
     "pinyin": "chúfáng",
-    "meaning": "kitchen",
+    "meaning": "キッチン、台所",
     "example": "这是厨房。",
     "exampleMeaning": "これは厨房です。",
     "category": [
@@ -12379,7 +12379,7 @@
     "id": 1090,
     "hanzi": "词语",
     "pinyin": "cíyǔ",
-    "meaning": "word",
+    "meaning": "単語",
     "example": "这是词语。",
     "exampleMeaning": "これは词语です。",
     "category": [
@@ -12390,7 +12390,7 @@
     "id": 1091,
     "hanzi": "错误",
     "pinyin": "cuòwù",
-    "meaning": "error",
+    "meaning": "間違い、エラー",
     "example": "这是错误。",
     "exampleMeaning": "これは错误です。",
     "category": [
@@ -12401,7 +12401,7 @@
     "id": 1092,
     "hanzi": "打招呼",
     "pinyin": "dǎzhāohu",
-    "meaning": "to greet sb by word or action",
+    "meaning": "挨拶する、声をかける",
     "example": "我打招呼了。",
     "exampleMeaning": "私は打招呼ました。",
     "category": [
@@ -12412,7 +12412,7 @@
     "id": 1093,
     "hanzi": "打折",
     "pinyin": "dǎzhé",
-    "meaning": "to give a discount",
+    "meaning": "割引する",
     "example": "我打折了。",
     "exampleMeaning": "私は打折ました。",
     "category": [
@@ -12423,7 +12423,7 @@
     "id": 1094,
     "hanzi": "打针",
     "pinyin": "dǎzhēn",
-    "meaning": "to give or have an injection",
+    "meaning": "注射をする",
     "example": "我打针了。",
     "exampleMeaning": "私は打针ました。",
     "category": [
@@ -12434,7 +12434,7 @@
     "id": 1095,
     "hanzi": "大约",
     "pinyin": "dàyuē",
-    "meaning": "approximately",
+    "meaning": "およそ、約",
     "example": "他大约来了。",
     "exampleMeaning": "彼は大约来ました。",
     "category": [
@@ -12445,7 +12445,7 @@
     "id": 1096,
     "hanzi": "大夫",
     "pinyin": "dàifu",
-    "meaning": "doctor",
+    "meaning": "医者",
     "example": "这是大夫。",
     "exampleMeaning": "これは大夫です。",
     "category": [
@@ -12456,7 +12456,7 @@
     "id": 1097,
     "hanzi": "戴",
     "pinyin": "dài",
-    "meaning": "to put on or wear",
+    "meaning": "身につける（帽子・メガネ・アクセサリーなど）",
     "example": "我戴了。",
     "exampleMeaning": "私は戴ました。",
     "category": [
@@ -12467,7 +12467,7 @@
     "id": 1098,
     "hanzi": "当时",
     "pinyin": "dāngshí",
-    "meaning": "then",
+    "meaning": "それから",
     "example": "他当时来了。",
     "exampleMeaning": "彼は当时来ました。",
     "category": [
@@ -12478,7 +12478,7 @@
     "id": 1099,
     "hanzi": "导游",
     "pinyin": "dǎoyóu",
-    "meaning": "tour guide",
+    "meaning": "ツアーガイド",
     "example": "这是导游。",
     "exampleMeaning": "これは导游です。",
     "category": [
@@ -12489,7 +12489,7 @@
     "id": 1100,
     "hanzi": "倒",
     "pinyin": "dào",
-    "meaning": "to move backwards",
+    "meaning": "逆に、後退する",
     "example": "我倒了。",
     "exampleMeaning": "私は倒ました。",
     "category": [
@@ -12500,7 +12500,7 @@
     "id": 1101,
     "hanzi": "得(助动词)",
     "pinyin": "dé",
-    "meaning": "to have to, to need to",
+    "meaning": "〜しなければならない",
     "example": "我得(助动词)了。",
     "exampleMeaning": "私は得(助动词)ました。",
     "category": [
@@ -12511,7 +12511,7 @@
     "id": 1102,
     "hanzi": "得意",
     "pinyin": "déyì",
-    "meaning": "proud of oneself",
+    "meaning": "得意げである、鼻が高い",
     "example": "这是得意。",
     "exampleMeaning": "これは得意です。",
     "category": [
@@ -12522,7 +12522,7 @@
     "id": 1103,
     "hanzi": "登机牌",
     "pinyin": "dēngjīpái",
-    "meaning": "boarding pass",
+    "meaning": "搭乗券",
     "example": "这是登机牌。",
     "exampleMeaning": "これは登机牌です。",
     "category": [
@@ -12533,7 +12533,7 @@
     "id": 1104,
     "hanzi": "等(助词)",
     "pinyin": "děng",
-    "meaning": "etc",
+    "meaning": "〜など（列挙の助詞）",
     "example": "这是等(助词)。",
     "exampleMeaning": "これは等(助词)です。",
     "category": [
@@ -12544,7 +12544,7 @@
     "id": 1105,
     "hanzi": "底",
     "pinyin": "dǐ",
-    "meaning": "background",
+    "meaning": "底、背景",
     "example": "这是底。",
     "exampleMeaning": "これは底です。",
     "category": [
@@ -12555,7 +12555,7 @@
     "id": 1106,
     "hanzi": "地点",
     "pinyin": "dìdiǎn",
-    "meaning": "place",
+    "meaning": "場所、置く",
     "example": "这是地点。",
     "exampleMeaning": "これは地点です。",
     "category": [
@@ -12566,7 +12566,7 @@
     "id": 1107,
     "hanzi": "掉",
     "pinyin": "diào",
-    "meaning": "to fall",
+    "meaning": "落ちる、落とす",
     "example": "我掉了。",
     "exampleMeaning": "私は掉ました。",
     "category": [
@@ -12577,7 +12577,7 @@
     "id": 1108,
     "hanzi": "对面",
     "pinyin": "duìmiàn",
-    "meaning": "opposite",
+    "meaning": "反対",
     "example": "这是对面。",
     "exampleMeaning": "これは对面です。",
     "category": [
@@ -12588,7 +12588,7 @@
     "id": 1109,
     "hanzi": "而",
     "pinyin": "ér",
-    "meaning": "yet",
+    "meaning": "しかし、〜でありながら",
     "example": "我喜欢茶，而也喜欢咖啡。",
     "exampleMeaning": "私はお茶が好きで、而コーヒーも好きです。",
     "category": [
@@ -12599,7 +12599,7 @@
     "id": 1110,
     "hanzi": "发生",
     "pinyin": "fāshēng",
-    "meaning": "to happen",
+    "meaning": "発生する、起こる",
     "example": "我发生了。",
     "exampleMeaning": "私は发生ました。",
     "category": [
@@ -12610,7 +12610,7 @@
     "id": 1111,
     "hanzi": "发展",
     "pinyin": "fāzhǎn",
-    "meaning": "development",
+    "meaning": "発展、発展する",
     "example": "这是发展。",
     "exampleMeaning": "これは发展です。",
     "category": [
@@ -12621,7 +12621,7 @@
     "id": 1112,
     "hanzi": "房东",
     "pinyin": "fángdōng",
-    "meaning": "landlord",
+    "meaning": "大家、家主",
     "example": "这是房东。",
     "exampleMeaning": "これは房东です。",
     "category": [
@@ -12632,7 +12632,7 @@
     "id": 1113,
     "hanzi": "放暑假",
     "pinyin": "fàngshǔjià",
-    "meaning": "take summer vacation",
+    "meaning": "夏休みを取る",
     "example": "我放暑假了。",
     "exampleMeaning": "私は放暑假ました。",
     "category": [
@@ -12643,7 +12643,7 @@
     "id": 1114,
     "hanzi": "放松",
     "pinyin": "fàngsōng",
-    "meaning": "to loosen",
+    "meaning": "リラックスする、緩める",
     "example": "我放松了。",
     "exampleMeaning": "私は放松ました。",
     "category": [
@@ -12654,7 +12654,7 @@
     "id": 1115,
     "hanzi": "付款",
     "pinyin": "fùkuǎn",
-    "meaning": "pay",
+    "meaning": "払う",
     "example": "这是付款。",
     "exampleMeaning": "これは付款です。",
     "category": [
@@ -12665,7 +12665,7 @@
     "id": 1116,
     "hanzi": "负责",
     "pinyin": "fùzé",
-    "meaning": "to be in charge of",
+    "meaning": "責任を負う、担当する",
     "example": "我负责了。",
     "exampleMeaning": "私は负责ました。",
     "category": [
@@ -12676,7 +12676,7 @@
     "id": 1117,
     "hanzi": "改变",
     "pinyin": "gǎibiàn",
-    "meaning": "to change",
+    "meaning": "変える、変化する",
     "example": "我改变了。",
     "exampleMeaning": "私は改变ました。",
     "category": [
@@ -12687,7 +12687,7 @@
     "id": 1118,
     "hanzi": "干杯",
     "pinyin": "gānbēi",
-    "meaning": "to drink a toast",
+    "meaning": "乾杯する",
     "example": "我干杯了。",
     "exampleMeaning": "私は干杯ました。",
     "category": [
@@ -12698,7 +12698,7 @@
     "id": 1119,
     "hanzi": "赶",
     "pinyin": "gǎn",
-    "meaning": "to overtake",
+    "meaning": "追いつく、急ぐ",
     "example": "我赶了。",
     "exampleMeaning": "私は赶ました。",
     "category": [
@@ -12709,7 +12709,7 @@
     "id": 1120,
     "hanzi": "胳膊",
     "pinyin": "gēbo",
-    "meaning": "arm",
+    "meaning": "腕",
     "example": "这是胳膊。",
     "exampleMeaning": "これは胳膊です。",
     "category": [
@@ -12720,7 +12720,7 @@
     "id": 1121,
     "hanzi": "公里",
     "pinyin": "gōnglǐ",
-    "meaning": "kilometer",
+    "meaning": "キロメートル",
     "example": "这是公里。",
     "exampleMeaning": "これは公里です。",
     "category": [
@@ -12731,7 +12731,7 @@
     "id": 1122,
     "hanzi": "功夫",
     "pinyin": "gōngfu",
-    "meaning": "skill",
+    "meaning": "技能、スキル",
     "example": "这是功夫。",
     "exampleMeaning": "これは功夫です。",
     "category": [
@@ -12742,7 +12742,7 @@
     "id": 1123,
     "hanzi": "工资",
     "pinyin": "gōngzī",
-    "meaning": "wages",
+    "meaning": "給料、賃金",
     "example": "这是工资。",
     "exampleMeaning": "これは工资です。",
     "category": [
@@ -12753,7 +12753,7 @@
     "id": 1124,
     "hanzi": "顾客",
     "pinyin": "gùkè",
-    "meaning": "client",
+    "meaning": "お客様、顧客",
     "example": "这是顾客。",
     "exampleMeaning": "これは顾客です。",
     "category": [
@@ -12764,7 +12764,7 @@
     "id": 1125,
     "hanzi": "广播",
     "pinyin": "guǎngbō",
-    "meaning": "broadcast",
+    "meaning": "放送、ラジオ放送",
     "example": "这是广播。",
     "exampleMeaning": "これは广播です。",
     "category": [
@@ -12775,7 +12775,7 @@
     "id": 1126,
     "hanzi": "逛",
     "pinyin": "guàng",
-    "meaning": "to stroll",
+    "meaning": "ぶらぶら歩く、散策する",
     "example": "我逛了。",
     "exampleMeaning": "私は逛ました。",
     "category": [
@@ -12786,7 +12786,7 @@
     "id": 1127,
     "hanzi": "规定",
     "pinyin": "guīdìng",
-    "meaning": "to stipulate",
+    "meaning": "規定する、定める",
     "example": "我规定了。",
     "exampleMeaning": "私は规定ました。",
     "category": [
@@ -12797,7 +12797,7 @@
     "id": 1128,
     "hanzi": "国际",
     "pinyin": "guójì",
-    "meaning": "international",
+    "meaning": "国際的な",
     "example": "这很国际。",
     "exampleMeaning": "これはとても国际です。",
     "category": [
@@ -12808,7 +12808,7 @@
     "id": 1129,
     "hanzi": "海洋",
     "pinyin": "hǎiyáng",
-    "meaning": "ocean",
+    "meaning": "海、大洋",
     "example": "这是海洋。",
     "exampleMeaning": "これは海洋です。",
     "category": [
@@ -12819,7 +12819,7 @@
     "id": 1130,
     "hanzi": "活动",
     "pinyin": "huódòng",
-    "meaning": "to exercise",
+    "meaning": "活動する、イベント",
     "example": "我活动了。",
     "exampleMeaning": "私は活动ました。",
     "category": [
@@ -12830,7 +12830,7 @@
     "id": 1131,
     "hanzi": "寄",
     "pinyin": "jì",
-    "meaning": "to live",
+    "meaning": "住む",
     "example": "我寄了。",
     "exampleMeaning": "私は寄ました。",
     "category": [
@@ -12841,7 +12841,7 @@
     "id": 1132,
     "hanzi": "加班",
     "pinyin": "jiābān",
-    "meaning": "to work overtime",
+    "meaning": "残業する",
     "example": "我加班了。",
     "exampleMeaning": "私は加班ました。",
     "category": [
@@ -12852,7 +12852,7 @@
     "id": 1133,
     "hanzi": "加油站",
     "pinyin": "jiāyóuzhàn",
-    "meaning": "gas station",
+    "meaning": "ガソリンスタンド",
     "example": "这是加油站。",
     "exampleMeaning": "これは加油站です。",
     "category": [
@@ -12863,7 +12863,7 @@
     "id": 1134,
     "hanzi": "降落",
     "pinyin": "jiàngluò",
-    "meaning": "to descend",
+    "meaning": "着陸する、降下する",
     "example": "我降落了。",
     "exampleMeaning": "私は降落ました。",
     "category": [
@@ -12874,7 +12874,7 @@
     "id": 1135,
     "hanzi": "交",
     "pinyin": "jiāo",
-    "meaning": "to hand over",
+    "meaning": "渡す、提出する",
     "example": "我交了。",
     "exampleMeaning": "私は交ました。",
     "category": [
@@ -12885,7 +12885,7 @@
     "id": 1136,
     "hanzi": "交流",
     "pinyin": "jiāoliú",
-    "meaning": "exchange",
+    "meaning": "交流する、コミュニケーション",
     "example": "这是交流。",
     "exampleMeaning": "これは交流です。",
     "category": [
@@ -12896,7 +12896,7 @@
     "id": 1137,
     "hanzi": "接着",
     "pinyin": "jiēzhe",
-    "meaning": "to catch and hold on",
+    "meaning": "続けて〜する、〜した後で",
     "example": "我接着了。",
     "exampleMeaning": "私は接着ました。",
     "category": [
@@ -12907,7 +12907,7 @@
     "id": 1138,
     "hanzi": "节",
     "pinyin": "jié",
-    "meaning": "festival",
+    "meaning": "〜節（祝日・祭日）",
     "example": "这是节。",
     "exampleMeaning": "これは节です。",
     "category": [
@@ -12918,7 +12918,7 @@
     "id": 1139,
     "hanzi": "节约",
     "pinyin": "jiéyuē",
-    "meaning": "to economize",
+    "meaning": "節約する",
     "example": "我节约了。",
     "exampleMeaning": "私は节约ました。",
     "category": [
@@ -12929,7 +12929,7 @@
     "id": 1140,
     "hanzi": "京剧",
     "pinyin": "jīngjù",
-    "meaning": "Beijing opera",
+    "meaning": "京劇",
     "example": "这是京剧。",
     "exampleMeaning": "これは京剧です。",
     "category": [
@@ -12940,7 +12940,7 @@
     "id": 1141,
     "hanzi": "精彩",
     "pinyin": "jīngcǎi",
-    "meaning": "splendid",
+    "meaning": "素晴らしい、見事な",
     "example": "这是精彩。",
     "exampleMeaning": "これは精彩です。",
     "category": [
@@ -12951,7 +12951,7 @@
     "id": 1142,
     "hanzi": "经验",
     "pinyin": "jīngyàn",
-    "meaning": "to experience",
+    "meaning": "経験する",
     "example": "我经验了。",
     "exampleMeaning": "私は经验ました。",
     "category": [
@@ -12962,7 +12962,7 @@
     "id": 1143,
     "hanzi": "景色",
     "pinyin": "jǐngsè",
-    "meaning": "scenery",
+    "meaning": "景色、風景",
     "example": "这是景色。",
     "exampleMeaning": "これは景色です。",
     "category": [
@@ -12973,7 +12973,7 @@
     "id": 1144,
     "hanzi": "警察",
     "pinyin": "jǐngchá",
-    "meaning": "police",
+    "meaning": "警察",
     "example": "这是警察。",
     "exampleMeaning": "これは警察です。",
     "category": [
@@ -12984,7 +12984,7 @@
     "id": 1145,
     "hanzi": "竞争",
     "pinyin": "jìngzhēng",
-    "meaning": "to compete",
+    "meaning": "競争する",
     "example": "我竞争了。",
     "exampleMeaning": "私は竞争ました。",
     "category": [
@@ -12995,7 +12995,7 @@
     "id": 1146,
     "hanzi": "举",
     "pinyin": "jǔ",
-    "meaning": "to lift",
+    "meaning": "持ち上げる",
     "example": "我举了。",
     "exampleMeaning": "私は举ました。",
     "category": [
@@ -13006,7 +13006,7 @@
     "id": 1147,
     "hanzi": "举办",
     "pinyin": "jǔbàn",
-    "meaning": "to conduct",
+    "meaning": "開催する、主催する",
     "example": "我举办了。",
     "exampleMeaning": "私は举办ました。",
     "category": [
@@ -13017,7 +13017,7 @@
     "id": 1148,
     "hanzi": "举行",
     "pinyin": "jǔxíng",
-    "meaning": "to hold",
+    "meaning": "挙行する、行う",
     "example": "我举行了。",
     "exampleMeaning": "私は举行ました。",
     "category": [
@@ -13028,7 +13028,7 @@
     "id": 1149,
     "hanzi": "开玩笑",
     "pinyin": "kāiwánxiào",
-    "meaning": "to play a joke",
+    "meaning": "冗談を言う",
     "example": "我开玩笑了。",
     "exampleMeaning": "私は开玩笑ました。",
     "category": [
@@ -13039,7 +13039,7 @@
     "id": 1150,
     "hanzi": "棵",
     "pinyin": "kē",
-    "meaning": "classifier for trees, cabbages, plants etc",
+    "meaning": "〜本（樹木・キャベツなどの植物を数える量詞）",
     "example": "一棵。",
     "exampleMeaning": "1棵。",
     "category": [
@@ -13050,7 +13050,7 @@
     "id": 1151,
     "hanzi": "科学",
     "pinyin": "kēxué",
-    "meaning": "science",
+    "meaning": "科学",
     "example": "这是科学。",
     "exampleMeaning": "これは科学です。",
     "category": [
@@ -13061,7 +13061,7 @@
     "id": 1152,
     "hanzi": "咳嗽",
     "pinyin": "késou",
-    "meaning": "to cough",
+    "meaning": "咳をする",
     "example": "我咳嗽了。",
     "exampleMeaning": "私は咳嗽ました。",
     "category": [
@@ -13072,7 +13072,7 @@
     "id": 1153,
     "hanzi": "客厅",
     "pinyin": "kètīng",
-    "meaning": "drawing room",
+    "meaning": "居間、リビング",
     "example": "这是客厅。",
     "exampleMeaning": "これは客厅です。",
     "category": [
@@ -13083,7 +13083,7 @@
     "id": 1154,
     "hanzi": "拉",
     "pinyin": "lā",
-    "meaning": "to pull",
+    "meaning": "引っ張る",
     "example": "我拉了。",
     "exampleMeaning": "私は拉ました。",
     "category": [
@@ -13094,7 +13094,7 @@
     "id": 1155,
     "hanzi": "辣",
     "pinyin": "là",
-    "meaning": "hot",
+    "meaning": "辛い",
     "example": "这很辣。",
     "exampleMeaning": "これはとても辣です。",
     "category": [
@@ -13105,7 +13105,7 @@
     "id": 1156,
     "hanzi": "来不及",
     "pinyin": "láibují",
-    "meaning": "there's not enough time",
+    "meaning": "間に合わない",
     "example": "这是来不及。",
     "exampleMeaning": "これは来不及です。",
     "category": [
@@ -13116,7 +13116,7 @@
     "id": 1157,
     "hanzi": "来得及",
     "pinyin": "láidejí",
-    "meaning": "there's still time",
+    "meaning": "間に合う",
     "example": "这是来得及。",
     "exampleMeaning": "これは来得及です。",
     "category": [
@@ -13127,7 +13127,7 @@
     "id": 1158,
     "hanzi": "浪费",
     "pinyin": "làngfèi",
-    "meaning": "to waste",
+    "meaning": "無駄にする、浪費する",
     "example": "我浪费了。",
     "exampleMeaning": "私は浪费ました。",
     "category": [
@@ -13138,7 +13138,7 @@
     "id": 1159,
     "hanzi": "理发",
     "pinyin": "lǐfà",
-    "meaning": "a barber",
+    "meaning": "理髪する",
     "example": "这是理发。",
     "exampleMeaning": "これは理发です。",
     "category": [
@@ -13149,7 +13149,7 @@
     "id": 1160,
     "hanzi": "理解",
     "pinyin": "lǐjiě",
-    "meaning": "to comprehend",
+    "meaning": "理解する",
     "example": "我理解了。",
     "exampleMeaning": "私は理解ました。",
     "category": [
@@ -13160,7 +13160,7 @@
     "id": 1161,
     "hanzi": "理想",
     "pinyin": "lǐxiǎng",
-    "meaning": "a dream",
+    "meaning": "理想、夢",
     "example": "这是理想。",
     "exampleMeaning": "これは理想です。",
     "category": [
@@ -13171,7 +13171,7 @@
     "id": 1162,
     "hanzi": "礼拜天",
     "pinyin": "lǐbàitiān",
-    "meaning": "Sunday",
+    "meaning": "日曜日",
     "example": "这是礼拜天。",
     "exampleMeaning": "これは礼拜天です。",
     "category": [
@@ -13182,7 +13182,7 @@
     "id": 1163,
     "hanzi": "礼貌",
     "pinyin": "lǐmào",
-    "meaning": "courtesy",
+    "meaning": "礼儀、マナー",
     "example": "这是礼貌。",
     "exampleMeaning": "これは礼貌です。",
     "category": [
@@ -13193,7 +13193,7 @@
     "id": 1164,
     "hanzi": "凉快",
     "pinyin": "liángkuai",
-    "meaning": "nice and cold",
+    "meaning": "涼しくて気持ちいい",
     "example": "这是凉快。",
     "exampleMeaning": "これは凉快です。",
     "category": [
@@ -13204,7 +13204,7 @@
     "id": 1165,
     "hanzi": "流行",
     "pinyin": "liúxíng",
-    "meaning": "to spread",
+    "meaning": "流行する、はやる",
     "example": "我流行了。",
     "exampleMeaning": "私は流行ました。",
     "category": [
@@ -13215,7 +13215,7 @@
     "id": 1166,
     "hanzi": "旅行",
     "pinyin": "lǚxíng",
-    "meaning": "to travel",
+    "meaning": "旅行する",
     "example": "我旅行了。",
     "exampleMeaning": "私は旅行ました。",
     "category": [
@@ -13226,7 +13226,7 @@
     "id": 1167,
     "hanzi": "麻烦",
     "pinyin": "máfan",
-    "meaning": "inconvenient",
+    "meaning": "面倒な、迷惑な",
     "example": "这很麻烦。",
     "exampleMeaning": "これはとても麻烦です。",
     "category": [
@@ -13237,7 +13237,7 @@
     "id": 1168,
     "hanzi": "马虎",
     "pinyin": "mǎhu",
-    "meaning": "careless",
+    "meaning": "そそっかしい、いい加減な",
     "example": "这很马虎。",
     "exampleMeaning": "これはとても马虎です。",
     "category": [
@@ -13248,7 +13248,7 @@
     "id": 1169,
     "hanzi": "满",
     "pinyin": "mǎn",
-    "meaning": "full",
+    "meaning": "満腹の、いっぱい",
     "example": "这很满。",
     "exampleMeaning": "これはとても满です。",
     "category": [
@@ -13259,7 +13259,7 @@
     "id": 1170,
     "hanzi": "秒",
     "pinyin": "miǎo",
-    "meaning": "second",
+    "meaning": "2番目の、秒",
     "example": "有秒个。",
     "exampleMeaning": "秒個あります。",
     "category": [
@@ -13270,7 +13270,7 @@
     "id": 1171,
     "hanzi": "内容",
     "pinyin": "nèiróng",
-    "meaning": "content",
+    "meaning": "内容、コンテンツ",
     "example": "这是内容。",
     "exampleMeaning": "これは内容です。",
     "category": [
@@ -13281,7 +13281,7 @@
     "id": 1172,
     "hanzi": "脾气",
     "pinyin": "píqi",
-    "meaning": "temperament",
+    "meaning": "気性、性格",
     "example": "这是脾气。",
     "exampleMeaning": "これは脾气です。",
     "category": [
@@ -13292,7 +13292,7 @@
     "id": 1173,
     "hanzi": "普通话",
     "pinyin": "pǔtōnghuà",
-    "meaning": "Mandarin",
+    "meaning": "標準中国語（普通話）",
     "example": "这是普通话。",
     "exampleMeaning": "これは普通话です。",
     "category": [
@@ -13303,7 +13303,7 @@
     "id": 1174,
     "hanzi": "穷",
     "pinyin": "qióng",
-    "meaning": "exhausted",
+    "meaning": "貧しい、貧乏な",
     "example": "这是穷。",
     "exampleMeaning": "これは穷です。",
     "category": [
@@ -13314,7 +13314,7 @@
     "id": 1175,
     "hanzi": "确实",
     "pinyin": "quèshí",
-    "meaning": "indeed",
+    "meaning": "確かに、本当に",
     "example": "他确实来了。",
     "exampleMeaning": "彼は确实来ました。",
     "category": [
@@ -13325,7 +13325,7 @@
     "id": 1176,
     "hanzi": "任务",
     "pinyin": "rènwu",
-    "meaning": "mission",
+    "meaning": "任務、使命",
     "example": "这是任务。",
     "exampleMeaning": "これは任务です。",
     "category": [
@@ -13336,7 +13336,7 @@
     "id": 1177,
     "hanzi": "商量",
     "pinyin": "shāngliang",
-    "meaning": "to consult",
+    "meaning": "相談する、話し合う",
     "example": "我商量了。",
     "exampleMeaning": "私は商量ました。",
     "category": [
@@ -13347,7 +13347,7 @@
     "id": 1178,
     "hanzi": "稍微",
     "pinyin": "shāowēi",
-    "meaning": "a little bit",
+    "meaning": "少し、やや",
     "example": "这是稍微。",
     "exampleMeaning": "これは稍微です。",
     "category": [
@@ -13358,7 +13358,7 @@
     "id": 1179,
     "hanzi": "勺子",
     "pinyin": "sháozi",
-    "meaning": "scoop",
+    "meaning": "スプーン、しゃもじ",
     "example": "这是勺子。",
     "exampleMeaning": "これは勺子です。",
     "category": [
@@ -13369,7 +13369,7 @@
     "id": 1180,
     "hanzi": "深",
     "pinyin": "shēn",
-    "meaning": "deep",
+    "meaning": "深い",
     "example": "这很深。",
     "exampleMeaning": "これはとても深です。",
     "category": [
@@ -13380,7 +13380,7 @@
     "id": 1181,
     "hanzi": "生命",
     "pinyin": "shēngmìng",
-    "meaning": "life",
+    "meaning": "人生、生活",
     "example": "这是生命。",
     "exampleMeaning": "これは生命です。",
     "category": [
@@ -13391,7 +13391,7 @@
     "id": 1182,
     "hanzi": "生意",
     "pinyin": "shēngyì",
-    "meaning": "life force",
+    "meaning": "商売、ビジネス",
     "example": "这是生意。",
     "exampleMeaning": "これは生意です。",
     "category": [
@@ -13402,7 +13402,7 @@
     "id": 1183,
     "hanzi": "省",
     "pinyin": "shěng",
-    "meaning": "to do without",
+    "meaning": "〜なしで済ませる",
     "example": "我省了。",
     "exampleMeaning": "私は省ました。",
     "category": [
@@ -13413,7 +13413,7 @@
     "id": 1184,
     "hanzi": "剩",
     "pinyin": "shèng",
-    "meaning": "to remain",
+    "meaning": "残る、余る",
     "example": "我剩了。",
     "exampleMeaning": "私は剩ました。",
     "category": [
@@ -13424,7 +13424,7 @@
     "id": 1185,
     "hanzi": "失败",
     "pinyin": "shībài",
-    "meaning": "to be defeated",
+    "meaning": "失敗する、負ける",
     "example": "我失败了。",
     "exampleMeaning": "私は失败ました。",
     "category": [
@@ -13435,7 +13435,7 @@
     "id": 1186,
     "hanzi": "失望",
     "pinyin": "shīwàng",
-    "meaning": "disappointed",
+    "meaning": "失望した、がっかりした",
     "example": "这是失望。",
     "exampleMeaning": "これは失望です。",
     "category": [
@@ -13446,7 +13446,7 @@
     "id": 1187,
     "hanzi": "师傅",
     "pinyin": "shīfu",
-    "meaning": "master",
+    "meaning": "師匠、〜さん（職人）",
     "example": "这是师傅。",
     "exampleMeaning": "これは师傅です。",
     "category": [
@@ -13457,7 +13457,7 @@
     "id": 1188,
     "hanzi": "十分",
     "pinyin": "shífēn",
-    "meaning": "to divide into ten equal parts",
+    "meaning": "十分に、とても",
     "example": "我十分了。",
     "exampleMeaning": "私は十分ました。",
     "category": [
@@ -13468,7 +13468,7 @@
     "id": 1189,
     "hanzi": "实际",
     "pinyin": "shíjì",
-    "meaning": "actual",
+    "meaning": "実際の",
     "example": "这是实际。",
     "exampleMeaning": "これは实际です。",
     "category": [
@@ -13479,7 +13479,7 @@
     "id": 1190,
     "hanzi": "实在",
     "pinyin": "shízài",
-    "meaning": "in reality",
+    "meaning": "実際に、本当に",
     "example": "他实在我来了。",
     "exampleMeaning": "彼は私实在来ました。",
     "category": [
@@ -13490,7 +13490,7 @@
     "id": 1191,
     "hanzi": "使",
     "pinyin": "shǐ",
-    "meaning": "to cause",
+    "meaning": "〜させる",
     "example": "我使了。",
     "exampleMeaning": "私は使ました。",
     "category": [
@@ -13501,7 +13501,7 @@
     "id": 1192,
     "hanzi": "使用",
     "pinyin": "shǐyòng",
-    "meaning": "to use",
+    "meaning": "使う",
     "example": "我使用了。",
     "exampleMeaning": "私は使用ました。",
     "category": [
@@ -13512,7 +13512,7 @@
     "id": 1193,
     "hanzi": "世纪",
     "pinyin": "shìjì",
-    "meaning": "century",
+    "meaning": "世紀",
     "example": "这是世纪。",
     "exampleMeaning": "これは世纪です。",
     "category": [
@@ -13523,7 +13523,7 @@
     "id": 1194,
     "hanzi": "是否",
     "pinyin": "shìfǒu",
-    "meaning": "whether",
+    "meaning": "〜かどうか",
     "example": "我喜欢茶，是否也喜欢咖啡。",
     "exampleMeaning": "私はお茶が好きで、是否コーヒーも好きです。",
     "category": [
@@ -13534,7 +13534,7 @@
     "id": 1195,
     "hanzi": "适合",
     "pinyin": "shìhé",
-    "meaning": "to fit",
+    "meaning": "合う、適する",
     "example": "我适合了。",
     "exampleMeaning": "私は适合ました。",
     "category": [
@@ -13545,7 +13545,7 @@
     "id": 1196,
     "hanzi": "适应",
     "pinyin": "shìyìng",
-    "meaning": "to suit",
+    "meaning": "適応する、慣れる",
     "example": "我适应了。",
     "exampleMeaning": "私は适应ました。",
     "category": [
@@ -13556,7 +13556,7 @@
     "id": 1197,
     "hanzi": "收",
     "pinyin": "shōu",
-    "meaning": "to receive",
+    "meaning": "受け取る、受け入れる",
     "example": "我收了。",
     "exampleMeaning": "私は收ました。",
     "category": [
@@ -13567,7 +13567,7 @@
     "id": 1198,
     "hanzi": "首都",
     "pinyin": "shǒudū",
-    "meaning": "capital",
+    "meaning": "首都",
     "example": "这是首都。",
     "exampleMeaning": "これは首都です。",
     "category": [
@@ -13578,7 +13578,7 @@
     "id": 1199,
     "hanzi": "首先",
     "pinyin": "shǒuxiān",
-    "meaning": "first",
+    "meaning": "まず、最初に",
     "example": "有首先个。",
     "exampleMeaning": "首先個あります。",
     "category": [
@@ -13589,7 +13589,7 @@
     "id": 1200,
     "hanzi": "输",
     "pinyin": "shū",
-    "meaning": "to transport",
+    "meaning": "負ける、送る",
     "example": "我输了。",
     "exampleMeaning": "私は输ました。",
     "category": [
@@ -13600,7 +13600,7 @@
     "id": 1201,
     "hanzi": "数量",
     "pinyin": "shùliàng",
-    "meaning": "quantity",
+    "meaning": "数、数量",
     "example": "这是数量。",
     "exampleMeaning": "これは数量です。",
     "category": [
@@ -13611,7 +13611,7 @@
     "id": 1202,
     "hanzi": "帅",
     "pinyin": "shuài",
-    "meaning": "handsome",
+    "meaning": "ハンサムな、かっこいい",
     "example": "这是帅。",
     "exampleMeaning": "これは帅です。",
     "category": [
@@ -13622,7 +13622,7 @@
     "id": 1203,
     "hanzi": "顺便",
     "pinyin": "shùnbiàn",
-    "meaning": "conveniently",
+    "meaning": "ついでに",
     "example": "他顺便来了。",
     "exampleMeaning": "彼は顺便来ました。",
     "category": [
@@ -13633,7 +13633,7 @@
     "id": 1204,
     "hanzi": "顺利",
     "pinyin": "shùnlì",
-    "meaning": "smoothly",
+    "meaning": "順調に、スムーズに",
     "example": "他顺利来了。",
     "exampleMeaning": "彼は顺利来ました。",
     "category": [
@@ -13644,7 +13644,7 @@
     "id": 1205,
     "hanzi": "顺序",
     "pinyin": "shùnxù",
-    "meaning": "sequence",
+    "meaning": "順序",
     "example": "这是顺序。",
     "exampleMeaning": "これは顺序です。",
     "category": [
@@ -13655,7 +13655,7 @@
     "id": 1206,
     "hanzi": "说明",
     "pinyin": "shuōmíng",
-    "meaning": "to explain",
+    "meaning": "説明する",
     "example": "我说明了。",
     "exampleMeaning": "私は说明ました。",
     "category": [
@@ -13666,7 +13666,7 @@
     "id": 1207,
     "hanzi": "随便",
     "pinyin": "suíbiàn",
-    "meaning": "as one wishes",
+    "meaning": "自由に、勝手に",
     "example": "这是随便。",
     "exampleMeaning": "これは随便です。",
     "category": [
@@ -13677,7 +13677,7 @@
     "id": 1208,
     "hanzi": "随着",
     "pinyin": "suízhe",
-    "meaning": "along with",
+    "meaning": "〜に伴って",
     "example": "他随着我来了。",
     "exampleMeaning": "彼は私随着来ました。",
     "category": [
@@ -13688,7 +13688,7 @@
     "id": 1209,
     "hanzi": "孙子",
     "pinyin": "sūnzi",
-    "meaning": "grandson",
+    "meaning": "孫",
     "example": "这是孙子。",
     "exampleMeaning": "これは孙子です。",
     "category": [
@@ -13699,7 +13699,7 @@
     "id": 1210,
     "hanzi": "所有",
     "pinyin": "suǒyǒu",
-    "meaning": "all",
+    "meaning": "すべて、みんな",
     "example": "所有很好。",
     "exampleMeaning": "所有はとても良いです。",
     "category": [
@@ -13710,7 +13710,7 @@
     "id": 1211,
     "hanzi": "台",
     "pinyin": "tái",
-    "meaning": "desk",
+    "meaning": "台、〜台（量詞）",
     "example": "这是台。",
     "exampleMeaning": "これは台です。",
     "category": [
@@ -13721,7 +13721,7 @@
     "id": 1212,
     "hanzi": "抬",
     "pinyin": "tái",
-    "meaning": "to lift",
+    "meaning": "持ち上げる",
     "example": "我抬了。",
     "exampleMeaning": "私は抬ました。",
     "category": [
@@ -13732,7 +13732,7 @@
     "id": 1213,
     "hanzi": "态度",
     "pinyin": "tàidu",
-    "meaning": "manner",
+    "meaning": "態度",
     "example": "这是态度。",
     "exampleMeaning": "これは态度です。",
     "category": [
@@ -13743,7 +13743,7 @@
     "id": 1214,
     "hanzi": "弹钢琴",
     "pinyin": "tángāngqín",
-    "meaning": "play the piano",
+    "meaning": "ピアノを弾く",
     "example": "我弹钢琴了。",
     "exampleMeaning": "私は弹钢琴ました。",
     "category": [
@@ -13754,7 +13754,7 @@
     "id": 1215,
     "hanzi": "谈",
     "pinyin": "tán",
-    "meaning": "to discuss",
+    "meaning": "話す、相談する",
     "example": "我谈了。",
     "exampleMeaning": "私は谈ました。",
     "category": [
@@ -13765,7 +13765,7 @@
     "id": 1216,
     "hanzi": "汤",
     "pinyin": "tāng",
-    "meaning": "soup",
+    "meaning": "スープ",
     "example": "这是汤。",
     "exampleMeaning": "これは汤です。",
     "category": [
@@ -13776,7 +13776,7 @@
     "id": 1217,
     "hanzi": "糖",
     "pinyin": "táng",
-    "meaning": "sugar",
+    "meaning": "砂糖、飴",
     "example": "这是糖。",
     "exampleMeaning": "これは糖です。",
     "category": [
@@ -13787,7 +13787,7 @@
     "id": 1218,
     "hanzi": "躺",
     "pinyin": "tǎng",
-    "meaning": "to recline",
+    "meaning": "横になる",
     "example": "我躺了。",
     "exampleMeaning": "私は躺ました。",
     "category": [
@@ -13798,7 +13798,7 @@
     "id": 1219,
     "hanzi": "趟",
     "pinyin": "tàng",
-    "meaning": "quantifier for the number of trips or runs made",
+    "meaning": "〜回（往復の回数）",
     "example": "这是趟。",
     "exampleMeaning": "これは趟です。",
     "category": [
@@ -13809,7 +13809,7 @@
     "id": 1220,
     "hanzi": "讨论",
     "pinyin": "tǎolùn",
-    "meaning": "to talk over",
+    "meaning": "討論する、話し合う",
     "example": "我讨论了。",
     "exampleMeaning": "私は讨论ました。",
     "category": [
@@ -13820,7 +13820,7 @@
     "id": 1221,
     "hanzi": "提",
     "pinyin": "tí",
-    "meaning": "to carry",
+    "meaning": "提げる、持ち上げる",
     "example": "我提了。",
     "exampleMeaning": "私は提ました。",
     "category": [
@@ -13831,7 +13831,7 @@
     "id": 1222,
     "hanzi": "提供",
     "pinyin": "tígōng",
-    "meaning": "to supply",
+    "meaning": "提供する",
     "example": "我提供了。",
     "exampleMeaning": "私は提供ました。",
     "category": [
@@ -13842,7 +13842,7 @@
     "id": 1223,
     "hanzi": "挺",
     "pinyin": "tǐng",
-    "meaning": "to straighten up",
+    "meaning": "とても、かなり",
     "example": "我挺了。",
     "exampleMeaning": "私は挺ました。",
     "category": [
@@ -13853,7 +13853,7 @@
     "id": 1224,
     "hanzi": "通过",
     "pinyin": "tōngguò",
-    "meaning": "to pass through",
+    "meaning": "通過する、〜を通じて",
     "example": "我通过了。",
     "exampleMeaning": "私は通过ました。",
     "category": [
@@ -13864,7 +13864,7 @@
     "id": 1225,
     "hanzi": "同情",
     "pinyin": "tóngqíng",
-    "meaning": "compassion",
+    "meaning": "同情する",
     "example": "这是同情。",
     "exampleMeaning": "これは同情です。",
     "category": [
@@ -13875,7 +13875,7 @@
     "id": 1226,
     "hanzi": "同时",
     "pinyin": "tóngshí",
-    "meaning": "at the same time",
+    "meaning": "同時に",
     "example": "他同时我来了。",
     "exampleMeaning": "彼は私同时来ました。",
     "category": [
@@ -13886,7 +13886,7 @@
     "id": 1227,
     "hanzi": "袜子",
     "pinyin": "wàzi",
-    "meaning": "socks",
+    "meaning": "靴下",
     "example": "这是袜子。",
     "exampleMeaning": "これは袜子です。",
     "category": [
@@ -13897,7 +13897,7 @@
     "id": 1228,
     "hanzi": "往往",
     "pinyin": "wǎngwǎng",
-    "meaning": "often",
+    "meaning": "よく、しばしば",
     "example": "他往往来了。",
     "exampleMeaning": "彼は往往来ました。",
     "category": [
@@ -13908,7 +13908,7 @@
     "id": 1229,
     "hanzi": "网球",
     "pinyin": "wǎngqiú",
-    "meaning": "tennis",
+    "meaning": "テニス",
     "example": "这是网球。",
     "exampleMeaning": "これは网球です。",
     "category": [
@@ -13919,7 +13919,7 @@
     "id": 1230,
     "hanzi": "卫生间",
     "pinyin": "wèishēngjiān",
-    "meaning": "bathroom",
+    "meaning": "トイレ、洗面所",
     "example": "这是卫生间。",
     "exampleMeaning": "これは卫生间です。",
     "category": [
@@ -13930,7 +13930,7 @@
     "id": 1231,
     "hanzi": "羡慕",
     "pinyin": "xiànmù",
-    "meaning": "envious",
+    "meaning": "羨ましい",
     "example": "这是羡慕。",
     "exampleMeaning": "これは羡慕です。",
     "category": [
@@ -13941,7 +13941,7 @@
     "id": 1232,
     "hanzi": "相反",
     "pinyin": "xiāngfǎn",
-    "meaning": "opposite",
+    "meaning": "反対",
     "example": "这是相反。",
     "exampleMeaning": "これは相反です。",
     "category": [
@@ -13952,7 +13952,7 @@
     "id": 1233,
     "hanzi": "响",
     "pinyin": "xiǎng",
-    "meaning": "to make a sound",
+    "meaning": "鳴る、響く",
     "example": "我响了。",
     "exampleMeaning": "私は响ました。",
     "category": [
@@ -13963,7 +13963,7 @@
     "id": 1234,
     "hanzi": "小吃",
     "pinyin": "xiǎochī",
-    "meaning": "snack",
+    "meaning": "軽食、おやつ",
     "example": "这是小吃。",
     "exampleMeaning": "これは小吃です。",
     "category": [
@@ -13974,7 +13974,7 @@
     "id": 1235,
     "hanzi": "小伙子",
     "pinyin": "xiǎohuǒzi",
-    "meaning": "lad",
+    "meaning": "若者、青年",
     "example": "这是小伙子。",
     "exampleMeaning": "これは小伙子です。",
     "category": [
@@ -13985,7 +13985,7 @@
     "id": 1236,
     "hanzi": "辛苦",
     "pinyin": "xīnkǔ",
-    "meaning": "hard",
+    "meaning": "大変な、苦労する",
     "example": "这很辛苦。",
     "exampleMeaning": "これはとても辛苦です。",
     "category": [
@@ -14007,7 +14007,7 @@
     "id": 1238,
     "hanzi": "亚洲",
     "pinyin": "yàzhōu",
-    "meaning": "Asia",
+    "meaning": "アジア",
     "example": "这是亚洲。",
     "exampleMeaning": "これは亚洲です。",
     "category": [
@@ -14018,7 +14018,7 @@
     "id": 1239,
     "hanzi": "盐",
     "pinyin": "yán",
-    "meaning": "salt",
+    "meaning": "塩",
     "example": "这是盐。",
     "exampleMeaning": "これは盐です。",
     "category": [
@@ -14029,7 +14029,7 @@
     "id": 1240,
     "hanzi": "研究",
     "pinyin": "yánjiū",
-    "meaning": "research",
+    "meaning": "研究",
     "example": "这是研究。",
     "exampleMeaning": "これは研究です。",
     "category": [
@@ -14040,7 +14040,7 @@
     "id": 1241,
     "hanzi": "演员",
     "pinyin": "yǎnyuán",
-    "meaning": "actor or actress",
+    "meaning": "俳優、女優",
     "example": "这是演员。",
     "exampleMeaning": "これは演员です。",
     "category": [
@@ -14051,7 +14051,7 @@
     "id": 1242,
     "hanzi": "阳光",
     "pinyin": "yángguāng",
-    "meaning": "sunlight",
+    "meaning": "日光",
     "example": "这是阳光。",
     "exampleMeaning": "これは阳光です。",
     "category": [
@@ -14062,7 +14062,7 @@
     "id": 1243,
     "hanzi": "也许",
     "pinyin": "yěxǔ",
-    "meaning": "perhaps",
+    "meaning": "もしかすると",
     "example": "他也许来了。",
     "exampleMeaning": "彼は也许来ました。",
     "category": [
@@ -14073,7 +14073,7 @@
     "id": 1244,
     "hanzi": "以",
     "pinyin": "yǐ",
-    "meaning": "to use as",
+    "meaning": "〜をもって、〜によって",
     "example": "我以了。",
     "exampleMeaning": "私は以ました。",
     "category": [
@@ -14084,7 +14084,7 @@
     "id": 1245,
     "hanzi": "意见",
     "pinyin": "yìjiàn",
-    "meaning": "opinion",
+    "meaning": "意見",
     "example": "这是意见。",
     "exampleMeaning": "これは意见です。",
     "category": [
@@ -14095,7 +14095,7 @@
     "id": 1246,
     "hanzi": "应聘",
     "pinyin": "yìngpìn",
-    "meaning": "to accept a job offer",
+    "meaning": "応募する、面接を受ける",
     "example": "我应聘了。",
     "exampleMeaning": "私は应聘ました。",
     "category": [
@@ -14106,7 +14106,7 @@
     "id": 1247,
     "hanzi": "邮局",
     "pinyin": "yóujú",
-    "meaning": "post office",
+    "meaning": "郵便局",
     "example": "这是邮局。",
     "exampleMeaning": "これは邮局です。",
     "category": [
@@ -14117,7 +14117,7 @@
     "id": 1248,
     "hanzi": "原谅",
     "pinyin": "yuánliàng",
-    "meaning": "to excuse",
+    "meaning": "許す、勘弁する",
     "example": "我原谅了。",
     "exampleMeaning": "私は原谅ました。",
     "category": [
@@ -14128,7 +14128,7 @@
     "id": 1249,
     "hanzi": "占线",
     "pinyin": "zhànxiàn",
-    "meaning": "busy",
+    "meaning": "話し中（電話）",
     "example": "这很占线。",
     "exampleMeaning": "これはとても占线です。",
     "category": [
@@ -14139,7 +14139,7 @@
     "id": 1250,
     "hanzi": "正确",
     "pinyin": "zhèngquè",
-    "meaning": "correct",
+    "meaning": "正しい、正確な",
     "example": "这很正确。",
     "exampleMeaning": "これはとても正确です。",
     "category": [
@@ -14161,7 +14161,7 @@
     "id": 1252,
     "hanzi": "植物",
     "pinyin": "zhíwù",
-    "meaning": "botanical",
+    "meaning": "植物",
     "example": "这是植物。",
     "exampleMeaning": "これは植物です。",
     "category": [
@@ -14172,7 +14172,7 @@
     "id": 1253,
     "hanzi": "直接",
     "pinyin": "zhíjiē",
-    "meaning": "direct",
+    "meaning": "直接",
     "example": "这很直接。",
     "exampleMeaning": "これはとても直接です。",
     "category": [
@@ -14183,7 +14183,7 @@
     "id": 1254,
     "hanzi": "职业",
     "pinyin": "zhíyè",
-    "meaning": "occupation",
+    "meaning": "職業",
     "example": "这是职业。",
     "exampleMeaning": "これは职业です。",
     "category": [
@@ -14194,7 +14194,7 @@
     "id": 1255,
     "hanzi": "只好",
     "pinyin": "zhǐhǎo",
-    "meaning": "without any better option",
+    "meaning": "仕方なく",
     "example": "他只好我来了。",
     "exampleMeaning": "彼は私只好来ました。",
     "category": [
@@ -14205,7 +14205,7 @@
     "id": 1256,
     "hanzi": "指",
     "pinyin": "zhǐ",
-    "meaning": "finger",
+    "meaning": "指す、指",
     "example": "这是指。",
     "exampleMeaning": "これは指です。",
     "category": [
@@ -14216,7 +14216,7 @@
     "id": 1257,
     "hanzi": "至少",
     "pinyin": "zhìshǎo",
-    "meaning": "at least",
+    "meaning": "少なくとも",
     "example": "他至少我来了。",
     "exampleMeaning": "彼は私至少来ました。",
     "category": [
@@ -14227,7 +14227,7 @@
     "id": 1258,
     "hanzi": "租",
     "pinyin": "zū",
-    "meaning": "to rent",
+    "meaning": "借りる、賃貸する",
     "example": "我租了。",
     "exampleMeaning": "私は租ました。",
     "category": [
