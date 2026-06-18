@@ -206,9 +206,6 @@ body {
   box-shadow: var(--shadow);
   padding: 24px;
   text-align: center;
-  touch-action: pan-y;
-  user-select: none;
-  -webkit-user-select: none;
 }
 
 .word-card.empty {
@@ -637,6 +634,15 @@ body {
   border-bottom: 1px solid var(--border);
   cursor: pointer;
   transition: background 0.15s;
+}
+
+.list-number {
+  flex-shrink: 0;
+  width: 36px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-align: right;
+  margin-right: 12px;
 }
 
 .list-item:last-child {

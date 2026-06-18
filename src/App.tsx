@@ -11,7 +11,10 @@ import { Settings } from './components/Settings'
 import { useWords } from './context/WordContext'
 import { useEffect } from 'react'
 import { speakWord } from './utils/speech'
-import wordsData from './data/words.json'
+import words1 from './data/words-part1'
+import words2 from './data/words-part2'
+
+const wordsData = [...words1, ...words2]
 import { WordEntry } from './types'
 import './styles/index.css'
 

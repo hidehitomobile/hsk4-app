@@ -17,6 +17,7 @@ export function WordList() {
         const isFav = favoriteIds.has(word.id)
         return (
           <div key={word.id} className={`list-item ${isLearned ? 'learned' : ''}`}>
+            <span className="list-number">{idx + 1}</span>
             <div className="list-main" onClick={() => setCurrentIndex(idx)}>
               <div className="list-hanzi">
                 {word.hanzi}

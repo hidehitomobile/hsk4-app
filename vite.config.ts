@@ -15,7 +15,7 @@ export default defineConfig({
           if (id.includes('node_modules')) {
             return 'vendor'
           }
-          if (id.includes('words.json')) {
+          if (id.includes('words-part') || id.includes('words.json')) {
             return 'word-data'
           }
         },

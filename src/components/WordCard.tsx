@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
@@ -10,7 +10,6 @@ export function WordCard() {
   const [showExample, setShowExample] = useState(false)
   const [showBreakdown, setShowBreakdown] = useState(false)
   const [showEtymology, setShowEtymology] = useState(false)
-  const [swipeOffset, setSwipeOffset] = useState(0)
 
   // --- speechSynthesis のプライミング（iOS対策） ---
   // iOS では最初のユーザージェスチャー内で speak() を呼ばないと以降の自動再生がブロックされる
@@ -22,7 +21,6 @@ export function WordCard() {
       primed = true
       const u = new SpeechSynthesisUtterance('')
       u.volume = 0
-      // キャンセルせず、無音の発声を完了させることで iOS に API 利用を許可させる
       window.speechSynthesis.speak(u)
     }
     window.addEventListener('touchstart', prime, { once: true })
@@ -34,44 +32,33 @@ export function WordCard() {
   }, [])
 
   // --- ナビゲーション（発声をユーザージェスチャー内で実行） ---
-  const navigateAndSpeak = useCallback((direction: 'next' | 'prev') => {
-    // 重複呼び出し防止
-    if (navigating.current) return
-    navigating.current = true
-
-    const nextIdx = direction === 'next' ? currentIndex + 1 : currentIndex - 1
-    if (nextIdx < 0 || nextIdx >= filteredWords.length) {
-      navigating.current = false
-      return
-    }
-
-    const targetWord = filteredWords[nextIdx]
+  const handleGoNext = useCallback(() => {
+    if (currentIndex >= filteredWords.length - 1) return
+    const targetWord = filteredWords[currentIndex + 1]
     window.speechSynthesis.cancel()
-
-    if (direction === 'next') {
-      goNext()
-    } else {
-      goPrev()
-    }
-
-    // ユーザージェスチャー内で直接発声（iOS で必要）
+    goNext()
     if (settings.autoPlay && targetWord) {
-      speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN')
-        .then(() => {
-          if (settings.autoPlayMeaning) {
-            return speakAsync(targetWord.meaning, settings.speechRate, 'ja-JP')
-          }
-        })
-        .finally(() => {
-          navigating.current = false
-        })
-    } else {
-      navigating.current = false
+      speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
+        if (settings.autoPlayMeaning) {
+          speakAsync(targetWord.meaning, settings.speechRate, 'ja-JP')
+        }
+      })
     }
-  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning, goNext, goPrev])
+  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning, goNext])
 
-  const handleGoNext = useCallback(() => navigateAndSpeak('next'), [navigateAndSpeak])
-  const handleGoPrev = useCallback(() => navigateAndSpeak('prev'), [navigateAndSpeak])
+  const handleGoPrev = useCallback(() => {
+    if (currentIndex <= 0) return
+    const targetWord = filteredWords[currentIndex - 1]
+    window.speechSynthesis.cancel()
+    goPrev()
+    if (settings.autoPlay && targetWord) {
+      speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
+        if (settings.autoPlayMeaning) {
+          speakAsync(targetWord.meaning, settings.speechRate, 'ja-JP')
+        }
+      })
+    }
+  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning, goPrev])
 
   // キーボードショートカット
   useEffect(() => {
@@ -91,63 +78,6 @@ export function WordCard() {
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [handleGoNext, handleGoPrev])
 
-  // --- スワイプ操作 ---
-  const touchStartX = useRef(0)
-  const touchStartY = useRef(0)
-  const touchMoved = useRef(false)
-  // ナビゲーション中は重複呼び出しを防止
-  const navigating = useRef(false)
-
-  const SWIPE_THRESHOLD = 50
-  const TAP_MOVE_TOLERANCE = 8 // px — タップ時の指ブレ許容量
-
-  const onTouchStart = useCallback((e: React.TouchEvent) => {
-    // ボタン・入力欄など操作要素上でのスワイプは無視
-    const target = e.target as HTMLElement
-    if (target.closest('button, input, textarea, select, a')) {
-      return
-    }
-
-    const touch = e.touches[0]
-    touchStartX.current = touch.clientX
-    touchStartY.current = touch.clientY
-    touchMoved.current = false
-  }, [])
-
-  const onTouchMove = useCallback((e: React.TouchEvent) => {
-    const touch = e.touches[0]
-    const dx = touch.clientX - touchStartX.current
-    const dy = touch.clientY - touchStartY.current
-
-    // 微小な動きはタップ扱い（指ブレ防止）
-    if (!touchMoved.current && Math.abs(dx) + Math.abs(dy) < TAP_MOVE_TOLERANCE) {
-      return
-    }
-    touchMoved.current = true
-
-    // 水平方向が垂直方向より大きい場合のみ横スワイプビジュアル
-    if (Math.abs(dx) > Math.abs(dy)) {
-      setSwipeOffset(dx)
-    }
-  }, [])
-
-  const onTouchEnd = useCallback((e: React.TouchEvent) => {
-    const touch = e.changedTouches[0]
-    const dx = touch.clientX - touchStartX.current
-    const dy = touch.clientY - touchStartY.current
-
-    setSwipeOffset(0)
-
-    if (!touchMoved.current) return
-    if (Math.abs(dy) > Math.abs(dx)) return
-
-    if (dx < -SWIPE_THRESHOLD) {
-      handleGoNext()
-    } else if (dx > SWIPE_THRESHOLD) {
-      handleGoPrev()
-    }
-  }, [handleGoNext, handleGoPrev])
-
   if (!currentWord) {
     return (
       <div className="word-card empty">
@@ -162,13 +92,7 @@ export function WordCard() {
   const breakdown = breakdownWord(currentWord.hanzi)
 
   return (
-    <div
-      className="word-card"
-      style={swipeOffset !== 0 ? { transform: `translateX(${swipeOffset * 0.5}px)`, transition: 'none' } : { transform: 'translateX(0)', transition: 'transform 0.3s ease' }}
-      onTouchStart={onTouchStart}
-      onTouchMove={onTouchMove}
-      onTouchEnd={onTouchEnd}
-    >
+    <div className="word-card">
       <div className="card-header">
         <div className="card-header-left">
           <span className="word-number">
@@ -205,7 +129,7 @@ export function WordCard() {
       </div>
 
       {settings.showPinyin && (
-        <div className="pinyin-display" onClick={() => speakWord(currentWord.pinyin)}>
+        <div className="pinyin-display">
           {currentWord.pinyin}
         </div>
       )}

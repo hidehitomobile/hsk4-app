@@ -1,4 +1,4 @@
-[
+const words = [
   {
     "id": 1,
     "hanzi": "爱情",
@@ -16372,4 +16372,5 @@
     "etymology": "「租」（禾：のぎへん）。借りる、賃貸するを表す。",
     "mnemonic": "「Z」＝租（のぎへん）→「借りる、賃貸する」で覚える。"
   }
-]
+];
+export default words;

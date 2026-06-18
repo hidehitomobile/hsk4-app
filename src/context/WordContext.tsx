@@ -90,16 +90,12 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
   const currentWord = filteredWords.length > 0 ? filteredWords[currentIndex] ?? null : null
 
   const goNext = useCallback(() => {
-    if (currentIndex < filteredWords.length - 1) {
-      setCurrentIndex(i => i + 1)
-    }
-  }, [currentIndex, filteredWords.length])
+    setCurrentIndex(i => Math.min(i + 1, filteredWords.length - 1))
+  }, [filteredWords.length])
 
   const goPrev = useCallback(() => {
-    if (currentIndex > 0) {
-      setCurrentIndex(i => i - 1)
-    }
-  }, [currentIndex])
+    setCurrentIndex(i => Math.max(i - 1, 0))
+  }, [])
 
   const toggleLearned = useCallback((id: number) => {
     setLearnedIds(prev => {
