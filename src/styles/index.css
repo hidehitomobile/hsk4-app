@@ -27,12 +27,12 @@
   --accent: #f28b82;
   --success: #81c995;
   --warning: #fdd663;
-  --bg: #121212;
-  --card-bg: #1e1e1e;
+  --bg: #1a1a1a;
+  --card-bg: #2a2a2a;
   --text: #e8eaed;
-  --text-secondary: #9aa0a6;
-  --border: #3c4043;
-  --shadow: 0 2px 8px rgba(0,0,0,0.3);
+  --text-secondary: #b0b6bd;
+  --border: #4a4a4a;
+  --shadow: 0 2px 8px rgba(0,0,0,0.4);
   --radius: 12px;
   --radius-sm: 8px;
 }
@@ -1301,124 +1301,164 @@ body {
 }
 
 /* ===== Dark mode overrides ===== */
+
+/* Search input */
+[data-theme="dark"] .search-bar input {
+  color: var(--text);
+}
+[data-theme="dark"] .search-bar input::placeholder {
+  color: var(--text-secondary);
+}
+
+/* Header nav active tab */
 [data-theme="dark"] .header-nav a.active {
   background: var(--bg);
   color: var(--primary);
 }
 
-[data-theme="dark"] .word-category,
-[data-theme="dark"] .word-measure {
-  color: #9aa0a6;
-  background: #2d2d2d;
-  border-color: #444;
+/* Category button non-active */
+[data-theme="dark"] .cat-btn {
+  color: var(--text-secondary);
 }
 
-[data-theme="dark"] .list-category {
-  color: #9aa0a6;
-  background: #2d2d2d;
-  border-color: #444;
+/* Badges: word-category, word-measure, list-category, quiz-category */
+[data-theme="dark"] .word-category,
+[data-theme="dark"] .word-measure,
+[data-theme="dark"] .list-category,
+[data-theme="dark"] .quiz-category-badge {
+  color: var(--text-secondary);
+  background: #333;
+  border-color: var(--border);
 }
 
 [data-theme="dark"] .list-measure {
+  color: var(--primary);
   background: rgba(138, 180, 248, 0.12);
   border-color: rgba(138, 180, 248, 0.3);
 }
 
-[data-theme="dark"] .list-item.learned {
-  background: rgba(129, 201, 149, 0.1);
-}
-
-[data-theme="dark"] .list-item:hover {
-  background: rgba(255,255,255,0.04);
-}
-
-[data-theme="dark"] .breakdown-section {
-  background: rgba(138, 180, 248, 0.08);
-}
-
-[data-theme="dark"] .breakdown-toggle:hover {
-  background: rgba(138, 180, 248, 0.12);
-}
-
-[data-theme="dark"] .breakdown-note {
-  background: rgba(138, 180, 248, 0.08);
-}
-
-[data-theme="dark"] .etymology-section {
-  background: rgba(255, 210, 130, 0.06);
-}
-
-[data-theme="dark"] .etymology-toggle:hover {
-  background: rgba(255, 111, 0, 0.12);
-}
-
-[data-theme="dark"] .etymology-text.mnemonic-text {
-  color: #a5d6a7;
-  background: rgba(129, 201, 149, 0.08);
-  border-left-color: #66bb6a;
-}
-
-[data-theme="dark"] .example-toggle:hover {
-  background: rgba(138, 180, 248, 0.12);
-}
-
-[data-theme="dark"] .quiz-category-badge {
-  color: #9aa0a6;
-  background: #2d2d2d;
-  border-color: #444;
-}
-
 [data-theme="dark"] .quiz-measure-badge {
+  color: var(--success);
   background: rgba(129, 201, 149, 0.12);
   border-color: rgba(129, 201, 149, 0.3);
 }
 
+/* Word list */
+[data-theme="dark"] .list-item.learned {
+  background: rgba(129, 201, 149, 0.12);
+}
+[data-theme="dark"] .list-item:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+/* Card navigation disabled */
+[data-theme="dark"] .card-navigation button:disabled {
+  background: #333;
+  color: var(--text-secondary);
+  opacity: 0.5;
+}
+
+/* Hanzi breakdown section */
+[data-theme="dark"] .breakdown-section {
+  background: rgba(138, 180, 248, 0.1);
+  border: 1px solid rgba(138, 180, 248, 0.15);
+}
+[data-theme="dark"] .breakdown-toggle:hover {
+  background: rgba(138, 180, 248, 0.15);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+[data-theme="dark"] .breakdown-note {
+  background: rgba(138, 180, 248, 0.1);
+  color: var(--primary);
+}
+
+/* Etymology section */
+[data-theme="dark"] .etymology-section {
+  background: rgba(255, 183, 77, 0.08);
+  border: 1px solid rgba(255, 183, 77, 0.12);
+}
+[data-theme="dark"] .etymology-toggle:hover {
+  background: rgba(255, 111, 0, 0.15);
+  border-color: #ff8a50;
+  color: #ff8a50;
+}
+[data-theme="dark"] .etymology-block.word-level {
+  border-bottom-color: rgba(255, 111, 0, 0.15);
+}
+[data-theme="dark"] .etymology-text {
+  color: var(--text);
+}
+[data-theme="dark"] .etymology-text.mnemonic-text {
+  color: var(--success);
+  background: rgba(129, 201, 149, 0.1);
+  border-left-color: var(--success);
+}
+
+/* Example section */
+[data-theme="dark"] .example-section {
+  background: #222;
+  border: 1px solid var(--border);
+}
+[data-theme="dark"] .example-toggle:hover {
+  background: rgba(138, 180, 248, 0.12);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+/* Quiz */
 [data-theme="dark"] .quiz-option:hover:not(:disabled) {
-  background: rgba(138, 180, 248, 0.08);
+  background: rgba(138, 180, 248, 0.1);
 }
-
 [data-theme="dark"] .quiz-option.correct {
-  background: rgba(129, 201, 149, 0.12);
-  color: #81c995;
+  background: rgba(129, 201, 149, 0.15);
+  color: var(--success);
 }
-
 [data-theme="dark"] .quiz-option.incorrect {
-  background: rgba(242, 139, 130, 0.1);
-  color: #f28b82;
+  background: rgba(242, 139, 130, 0.12);
+  color: var(--accent);
 }
-
 [data-theme="dark"] .quiz-option.highlight-correct {
-  background: rgba(129, 201, 149, 0.12);
-  color: #81c995;
+  background: rgba(129, 201, 149, 0.15);
+  color: var(--success);
 }
 
+/* Pronunciation check */
 [data-theme="dark"] .pronunciation-btn:hover {
-  background: rgba(138, 180, 248, 0.08);
+  background: rgba(138, 180, 248, 0.1);
 }
-
 [data-theme="dark"] .pronunciation-interim {
-  background: rgba(138, 180, 248, 0.08);
+  background: rgba(138, 180, 248, 0.1);
   border-color: rgba(138, 180, 248, 0.3);
 }
-
 [data-theme="dark"] .pronunciation-result.correct {
-  background: rgba(129, 201, 149, 0.1);
+  background: rgba(129, 201, 149, 0.12);
 }
-
 [data-theme="dark"] .pronunciation-result.incorrect {
-  background: rgba(242, 139, 130, 0.1);
+  background: rgba(242, 139, 130, 0.12);
 }
-
 [data-theme="dark"] .pronunciation-unsupported,
 [data-theme="dark"] .pronunciation-error {
-  background: rgba(255, 210, 130, 0.06);
-  border-color: rgba(255, 210, 130, 0.2);
+  background: rgba(255, 183, 77, 0.08);
+  border-color: rgba(255, 183, 77, 0.2);
 }
 
+/* Speak button shadow */
 [data-theme="dark"] .speak-btn {
-  box-shadow: 0 2px 6px rgba(138, 180, 248, 0.2);
+  box-shadow: 0 2px 8px rgba(138, 180, 248, 0.25);
 }
 
+/* Icon buttons hover */
 [data-theme="dark"] .icon-btn:hover {
-  background: rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.08);
+}
+
+/* Empty state */
+[data-theme="dark"] .empty-state {
+  color: var(--text-secondary);
+}
+
+/* Settings checkbox color fix */
+[data-theme="dark"] .setting-group label {
+  color: var(--text);
 }
