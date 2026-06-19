@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
+import { pinyin } from 'pinyin-pro'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
@@ -143,6 +144,9 @@ export function WordCard() {
         <div className="example-chinese" onClick={() => speakExample(currentWord.example, settings.speechRate)}>
           <span>{currentWord.example}</span>
           <button className="speak-btn-sm" title="例文を聞く">🔊</button>
+        </div>
+        <div className="example-pinyin">
+          {pinyin(currentWord.example, { toneType: 'symbol', type: 'string' })}
         </div>
         <div className="example-meaning">
           {currentWord.exampleMeaning}

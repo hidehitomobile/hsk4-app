@@ -59,7 +59,7 @@ function getRecognitionConstructor(): { new(): SpeechRecognitionInstance } | nul
 }
 
 /**
- * 音声認識が利用可能かどうか
+ * 音声認識が利用可能かどうか（APIの存在のみをチェック）
  */
 export function isSpeechRecognitionSupported(): boolean {
   return getRecognitionConstructor() !== null
@@ -94,6 +94,24 @@ export class SpeechRecognitionSession {
       this.onError?.({
         message: 'お使いのブラウザは音声認識に対応していません。Chrome または Edge をお使いください。',
         type: 'not-supported',
+      })
+      return
+    }
+
+    // Android では安全なコンテキスト（HTTPS または localhost）が必須
+    if (!window.isSecureContext) {
+      this.onError?.({
+        message: '安全なコンテキスト（HTTPS または localhost）でのみ音声認識を利用できます。',
+        type: 'network',
+      })
+      return
+    }
+
+    // オンライン状態チェック（音声認識はサーバー通信が必要）
+    if (!navigator.onLine) {
+      this.onError?.({
+        message: 'オフライン状態です。インターネット接続が必要です。',
+        type: 'network',
       })
       return
     }
@@ -201,7 +219,7 @@ function getErrorMessage(type: RecognitionError['type']): string {
     case 'not-supported': return 'お使いのブラウザは音声認識に対応していません。'
     case 'no-speech': return '音声が検出されませんでした。もう一度お試しください。'
     case 'aborted': return '音声認識が中断されました。'
-    case 'network': return 'ネットワークエラーが発生しました。'
+    case 'network': return 'ネットワークエラーが発生しました。HTTPS 接続かどうか・ネットワーク状態をご確認ください。'
     case 'audio': return 'マイクへのアクセスに失敗しました。'
     case 'permission': return 'マイクの使用が許可されていません。ブラウザの設定でマイクを許可してください。'
     default: return '予期しないエラーが発生しました。'

@@ -537,12 +537,18 @@ body {
 .example-chinese {
   font-size: 1.1rem;
   color: var(--text);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   display: flex;
   align-items: center;
   gap: 8px;
   cursor: pointer;
   font-family: 'Noto Serif CJK SC', 'SimSun', serif;
+}
+
+.example-pinyin {
+  font-size: 0.9rem;
+  color: var(--primary);
+  margin-bottom: 8px;
 }
 
 .example-meaning {
