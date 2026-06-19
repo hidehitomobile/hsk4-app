@@ -139,6 +139,16 @@ export function WordCard() {
         </div>
       )}
 
+      <div className="example-section">
+        <div className="example-chinese" onClick={() => speakExample(currentWord.example, settings.speechRate)}>
+          <span>{currentWord.example}</span>
+          <button className="speak-btn-sm" title="例文を聞く">🔊</button>
+        </div>
+        <div className="example-meaning">
+          {currentWord.exampleMeaning}
+        </div>
+      </div>
+
       <div className="card-toggles">
         <button
           className="breakdown-toggle"
@@ -201,16 +211,6 @@ export function WordCard() {
           )}
         </div>
       )}
-
-      <div className="example-section">
-        <div className="example-chinese" onClick={() => speakExample(currentWord.example, settings.speechRate)}>
-          <span>{currentWord.example}</span>
-          <button className="speak-btn-sm" title="例文を聞く">🔊</button>
-        </div>
-        <div className="example-meaning">
-          {currentWord.exampleMeaning}
-        </div>
-      </div>
 
       <PronunciationCheck
         correctHanzi={currentWord.hanzi}
