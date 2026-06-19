@@ -1,13 +1,12 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useWords } from '../context/WordContext'
-import { speakWord, speakExample, speakJapanese, speakAsync } from '../utils/speech'
+import { speakWord, speakExample, speakAsync } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
 import { PronunciationCheck } from './PronunciationCheck'
 import { categoryLabels } from '../utils/category'
 
 export function WordCard() {
   const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
-  const [showExample, setShowExample] = useState(false)
   const [showBreakdown, setShowBreakdown] = useState(false)
   const [showEtymology, setShowEtymology] = useState(false)
 
@@ -39,12 +38,12 @@ export function WordCard() {
     goNext()
     if (settings.autoPlay && targetWord) {
       speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
-        if (settings.autoPlayMeaning) {
-          speakAsync(targetWord.meaning, settings.speechRate, 'ja-JP')
+        if (settings.autoPlayExample) {
+          speakAsync(targetWord.example, settings.speechRate, 'zh-CN')
         }
       })
     }
-  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning, goNext])
+  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayExample, goNext])
 
   const handleGoPrev = useCallback(() => {
     if (currentIndex <= 0) return
@@ -53,12 +52,12 @@ export function WordCard() {
     goPrev()
     if (settings.autoPlay && targetWord) {
       speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
-        if (settings.autoPlayMeaning) {
-          speakAsync(targetWord.meaning, settings.speechRate, 'ja-JP')
+        if (settings.autoPlayExample) {
+          speakAsync(targetWord.example, settings.speechRate, 'zh-CN')
         }
       })
     }
-  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayMeaning, goPrev])
+  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayExample, goPrev])
 
   // キーボードショートカット
   useEffect(() => {
@@ -135,9 +134,8 @@ export function WordCard() {
       )}
 
       {settings.showMeaning && (
-        <div className="meaning-display" onClick={() => speakJapanese(currentWord.meaning, settings.speechRate)}>
+        <div className="meaning-display">
           {currentWord.meaning}
-          <button className="speak-btn-sm" title="日本語訳を聞く">🔊</button>
         </div>
       )}
 
@@ -153,12 +151,6 @@ export function WordCard() {
           onClick={() => setShowEtymology(!showEtymology)}
         >
           {showEtymology ? '語源・覚え方 ▲' : '語源・覚え方 ▼'}
-        </button>
-        <button
-          className="example-toggle"
-          onClick={() => setShowExample(!showExample)}
-        >
-          {showExample ? '例文を隠す ▲' : '例文を表示 ▼'}
         </button>
       </div>
 
@@ -210,17 +202,15 @@ export function WordCard() {
         </div>
       )}
 
-      {showExample && (
-        <div className="example-section">
-          <div className="example-chinese" onClick={() => speakExample(currentWord.example, settings.speechRate)}>
-            <span>{currentWord.example}</span>
-            <button className="speak-btn-sm" title="例文を聞く">🔊</button>
-          </div>
-          <div className="example-meaning">
-            {currentWord.exampleMeaning}
-          </div>
+      <div className="example-section">
+        <div className="example-chinese" onClick={() => speakExample(currentWord.example, settings.speechRate)}>
+          <span>{currentWord.example}</span>
+          <button className="speak-btn-sm" title="例文を聞く">🔊</button>
         </div>
-      )}
+        <div className="example-meaning">
+          {currentWord.exampleMeaning}
+        </div>
+      </div>
 
       <PronunciationCheck
         correctHanzi={currentWord.hanzi}

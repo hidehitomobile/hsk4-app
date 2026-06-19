@@ -19,7 +19,7 @@ export interface WordEntry extends Word {
 export interface AppSettings {
   speechRate: number
   autoPlay: boolean
-  autoPlayMeaning: boolean
+  autoPlayExample: boolean
   showPinyin: boolean
   showMeaning: boolean
   darkMode: boolean

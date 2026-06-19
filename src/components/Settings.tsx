@@ -37,10 +37,10 @@ export function Settings() {
         <label>
           <input
             type="checkbox"
-            checked={settings.autoPlayMeaning}
-            onChange={e => updateSettings({ autoPlayMeaning: e.target.checked })}
+            checked={settings.autoPlayExample}
+            onChange={e => updateSettings({ autoPlayExample: e.target.checked })}
           />
-          日本語訳も自動再生
+          例文も自動再生
         </label>
       </div>
 
