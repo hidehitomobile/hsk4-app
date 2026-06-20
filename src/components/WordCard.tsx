@@ -7,7 +7,7 @@ import { PronunciationCheck } from './PronunciationCheck'
 import { categoryLabels } from '../utils/category'
 
 export function WordCard() {
-  const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
+  const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev, suppressAutoPlayRef } = useWords()
   const [showBreakdown, setShowBreakdown] = useState(false)
   const [showEtymology, setShowEtymology] = useState(false)
 
@@ -36,6 +36,7 @@ export function WordCard() {
     if (currentIndex >= filteredWords.length - 1) return
     const targetWord = filteredWords[currentIndex + 1]
     window.speechSynthesis.cancel()
+    suppressAutoPlayRef.current = true
     goNext()
     if (settings.autoPlay && targetWord) {
       speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
@@ -44,12 +45,13 @@ export function WordCard() {
         }
       })
     }
-  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayExample, goNext])
+  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayExample, goNext, suppressAutoPlayRef])
 
   const handleGoPrev = useCallback(() => {
     if (currentIndex <= 0) return
     const targetWord = filteredWords[currentIndex - 1]
     window.speechSynthesis.cancel()
+    suppressAutoPlayRef.current = true
     goPrev()
     if (settings.autoPlay && targetWord) {
       speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
@@ -58,7 +60,7 @@ export function WordCard() {
         }
       })
     }
-  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayExample, goPrev])
+  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayExample, goPrev, suppressAutoPlayRef])
 
   // キーボードショートカット
   useEffect(() => {

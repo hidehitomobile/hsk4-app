@@ -2,8 +2,16 @@
 description: 
 alwaysApply: true
 enabled: true
-updatedAt: 2026-06-11T14:52:21.268Z
+updatedAt: 2026-06-20T04:08:00.000Z
 provider: 
 ---
 
 言語を日本語表示してください
+
+## 開発環境
+
+- 開発環境の主体は **Windows** です
+- コマンド実行には `cmd.exe /c` を使用して Windows ネイティブで実行してください
+- WSL パス (`/mnt/c/...`) の代わりに Windows パス (`C:\...`) を使用してください
+- Node.js: v24 (Windows ネイティブ)
+- `node_modules` は Windows ネイティブバイナリでインストール済みです

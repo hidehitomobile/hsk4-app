@@ -16,13 +16,17 @@ import { WordEntry } from './types'
 import './styles/index.css'
 
 function LearnPage() {
-  const { settings, currentWord } = useWords()
+  const { settings, currentWord, suppressAutoPlayRef } = useWords()
 
   useEffect(() => {
-    if (settings.autoPlay && currentWord) {
-      speakWord(currentWord.hanzi, settings.speechRate)
+    if (!settings.autoPlay || !currentWord) return
+    // ナビゲーションボタンで既に発声済みの場合はスキップ
+    if (suppressAutoPlayRef.current) {
+      suppressAutoPlayRef.current = false
+      return
     }
-  }, [currentWord?.id, settings.autoPlay, settings.speechRate])
+    speakWord(currentWord.hanzi, settings.speechRate)
+  }, [currentWord?.id, settings.autoPlay, settings.speechRate, suppressAutoPlayRef])
 
   return (
     <div className="learn-page">

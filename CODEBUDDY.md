@@ -6,28 +6,32 @@ HSK4級合格のための単語学習アプリ。全1200語超を収録し、ピ
 
 ## 使用技術
 
-- React 18 + TypeScript
-- Vite（ビルドツール）
+- React 19 + TypeScript
+- Vite 6（ビルドツール）
 - CSS カスタムプロパティ + 単一CSSファイル（`src/styles/index.css`）
-- React Router v6（HashRouter）
+- React Router v7（HashRouter）
 - Web Speech API（音声合成・音声認識）
 - Web Audio API（効果音）
 - pinyin-pro（ピンイン変換）
 - JSONデータファイル（単語データ・漢字分解データ管理）
 
+## 開発環境
+
+- **Windows**（Node.js v24 ネイティブ）
+- `node_modules` は Windows ネイティブバイナリで管理（WSL との共有不可）
+
 ## 開発コマンド
 
-```bash
-# 依存関係のインストール
+:: 依存関係のインストール
 npm install
 
-# 開発サーバー起動（localhost:5173）
+:: 開発サーバー起動（localhost:5173）
 npm run dev
 
-# 本番用ビルド
+:: 本番用ビルド
 npm run build
 
-# ビルド結果のプレビュー
+:: ビルド結果のプレビュー
 npm run preview
 
 # 型チェック
