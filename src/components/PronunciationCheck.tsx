@@ -27,6 +27,7 @@ interface PronunciationCheckProps {
 
 function normalizePinyin(raw: string): string {
   return raw
+    .replace(/[^a-zA-Z\u0100-\u024F\u1E00-\u1EFF\u0300-\u036F]/g, '')
     .replace(/\s+/g, '')
     .trim()
     .toLowerCase()
@@ -62,8 +63,19 @@ export function PronunciationCheck({ correctHanzi, correctPinyin, targetHanzi, t
           type: 'string',
         })
 
-        const hanziMatch = cleanTranscript === correctHanzi.trim().normalize('NFC')
-        const pinyinMatch = comparePinyin(recognizedPinyin, correctPinyin)
+        // 例文発音チェック時に句読点を除去して比較
+        const cleanCorrectHanzi = correctHanzi
+          .replace(/[^\u4e00-\u9fff\u3400-\u4dbf]/g, '')
+          .trim()
+          .normalize('NFC')
+        const cleanCorrectPinyin = correctPinyin
+          .replace(/[^a-zA-Z\u0100-\u024F\u1E00-\u1EFF\u0300-\u036F]/g, '')
+          .trim()
+          .toLowerCase()
+          .normalize('NFC')
+
+        const hanziMatch = cleanTranscript === cleanCorrectHanzi
+        const pinyinMatch = comparePinyin(recognizedPinyin, cleanCorrectPinyin)
         const isCorrect = hanziMatch || pinyinMatch
 
         if (isCorrect) {
