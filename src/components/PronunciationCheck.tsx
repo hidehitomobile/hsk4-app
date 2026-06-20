@@ -17,6 +17,12 @@ interface PronunciationResult {
 interface PronunciationCheckProps {
   correctHanzi: string
   correctPinyin: string
+  /** オーバーレイに小表示するターゲット漢字 */
+  targetHanzi?: string
+  /** オーバーレイに小表示するターゲットピンイン */
+  targetPinyin?: string
+  /** true ならマウント時に自動で録音開始 */
+  autoStart?: boolean
 }
 
 function normalizePinyin(raw: string): string {
@@ -31,7 +37,7 @@ function comparePinyin(a: string, b: string): boolean {
   return normalizePinyin(a) === normalizePinyin(b)
 }
 
-export function PronunciationCheck({ correctHanzi, correctPinyin }: PronunciationCheckProps) {
+export function PronunciationCheck({ correctHanzi, correctPinyin, targetHanzi, targetPinyin, autoStart }: PronunciationCheckProps) {
   const [session] = useState(() => new SpeechRecognitionSession())
   const [state, setState] = useState<RecognitionState>('idle')
   const [result, setResult] = useState<PronunciationResult | null>(null)
@@ -89,11 +95,24 @@ export function PronunciationCheck({ correctHanzi, correctPinyin }: Pronunciatio
     }
   }, [correctHanzi, correctPinyin])
 
+  // autoStart: オーバーレイ表示時すぐ録音開始
+  const autoStartedRef = useRef(false)
+  useEffect(() => {
+    if (autoStart && supported && !autoStartedRef.current) {
+      autoStartedRef.current = true
+      setError(null)
+      setResult(null)
+      setInterimText('')
+      sessionRef.current.start('zh-CN')
+    }
+  }, [autoStart, supported])
+
   // 単語が変わったらリセット
   useEffect(() => {
     setResult(null)
     setInterimText('')
     setError(null)
+    autoStartedRef.current = false
   }, [correctHanzi])
 
   const handleToggle = useCallback(() => {
@@ -136,6 +155,13 @@ export function PronunciationCheck({ correctHanzi, correctPinyin }: Pronunciatio
           {isListening ? '聞いています...' : '発音チェック'}
         </span>
       </button>
+
+      {targetHanzi && (
+        <div className="pron-check-target">
+          <span className="pron-check-target-hanzi">{targetHanzi}</span>
+          {targetPinyin && <span className="pron-check-target-pinyin">{targetPinyin}</span>}
+        </div>
+      )}
 
       {interimText && (
         <div className="pronunciation-interim">

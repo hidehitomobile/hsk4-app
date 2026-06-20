@@ -8,12 +8,12 @@ import { categoryLabels } from '../utils/category'
 
 export function WordCard() {
   const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev, suppressAutoPlayRef } = useWords()
-  const [showBreakdown, setShowBreakdown] = useState(false)
-  const [showEtymology, setShowEtymology] = useState(false)
+  const [showBreakdown, setShowBreakdown] = useState(true)
+  const [showEtymology, setShowEtymology] = useState(true)
+  const [showPronCheck, setShowPronCheck] = useState(false)
+  const [pronCheckTarget, setPronCheckTarget] = useState<'word' | 'example'>('word')
 
   // --- speechSynthesis のプライミング（iOS対策） ---
-  // iOS では最初のユーザージェスチャー内で speak() を呼ばないと以降の自動再生がブロックされる
-  // 無音の発声を流しっぱなしにすることで API をアクティベートする
   useEffect(() => {
     let primed = false
     const prime = () => {
@@ -93,6 +93,11 @@ export function WordCard() {
   const isFavorited = favoriteIds.has(currentWord.id)
   const breakdown = breakdownWord(currentWord.hanzi)
 
+  const examplePinyin = pinyin(currentWord.example, { toneType: 'symbol', type: 'string' })
+
+  const pronCheckCorrectHanzi = pronCheckTarget === 'word' ? currentWord.hanzi : currentWord.example
+  const pronCheckCorrectPinyin = pronCheckTarget === 'word' ? currentWord.pinyin : examplePinyin
+
   return (
     <div className="word-card">
       <div className="card-header">
@@ -131,8 +136,13 @@ export function WordCard() {
       </div>
 
       {settings.showPinyin && (
-        <div className="pinyin-display">
-          {currentWord.pinyin}
+        <div
+          className="pinyin-display"
+          onClick={(e) => { e.stopPropagation(); setPronCheckTarget('word'); setShowPronCheck(true) }}
+          title="タップで発音チェック"
+        >
+          <span>{currentWord.pinyin}</span>
+          <span className="mic-icon">🎤</span>
         </div>
       )}
 
@@ -147,43 +157,52 @@ export function WordCard() {
           <span>{currentWord.example}</span>
           <button className="speak-btn-sm" title="例文を聞く">🔊</button>
         </div>
-        <div className="example-pinyin">
-          {pinyin(currentWord.example, { toneType: 'symbol', type: 'string' })}
+        <div
+          className="example-pinyin"
+          onClick={(e) => { e.stopPropagation(); setPronCheckTarget('example'); setShowPronCheck(true) }}
+          title="タップで発音チェック"
+        >
+          <span>{examplePinyin}</span>
+          <span className="mic-icon-sm">🎤</span>
         </div>
         <div className="example-meaning">
           {currentWord.exampleMeaning}
         </div>
       </div>
 
-      <div className="card-toggles">
-        <button
-          className="etymology-toggle"
-          onClick={() => setShowEtymology(!showEtymology)}
-        >
-          {showEtymology ? '語源・覚え方 ▲' : '語源・覚え方 ▼'}
-        </button>
-        <button
-          className="breakdown-toggle"
-          onClick={() => setShowBreakdown(!showBreakdown)}
-        >
-          {showBreakdown ? '漢字構成 ▲' : '漢字構成 ▼'}
-        </button>
-      </div>
-
-      {showEtymology && (
+      {/* 語源・覚え方 */}
+      {(currentWord.etymology || currentWord.mnemonic) ? (
         <div className="etymology-section">
-          {currentWord.etymology ? (
+          <div className="etymology-header">
+            <button className="etymology-toggle" onClick={() => setShowEtymology(!showEtymology)}>
+              語源・覚え方 {showEtymology ? '▲' : '▼'}
+            </button>
+          </div>
+          {showEtymology && (
             <>
-              <div className="etymology-block word-level">
-                <div className="etymology-title">単語レベル — 語源・由来</div>
-                <p className="etymology-text">{currentWord.etymology}</p>
-              </div>
-              <div className="etymology-block mnemonic-level">
-                <div className="etymology-title">覚え方 — 日本語話者向けヒント</div>
-                <p className="etymology-text mnemonic-text">{currentWord.mnemonic}</p>
-              </div>
+              {currentWord.etymology && (
+                <div className="etymology-block word-level">
+                  <div className="etymology-title">語源・由来</div>
+                  <p className="etymology-text">{currentWord.etymology}</p>
+                </div>
+              )}
+              {currentWord.mnemonic && (
+                <div className="etymology-block mnemonic-level">
+                  <div className="etymology-title">覚え方</div>
+                  <p className="etymology-text mnemonic-text">{currentWord.mnemonic}</p>
+                </div>
+              )}
             </>
-          ) : (
+          )}
+        </div>
+      ) : (
+        <div className="etymology-section etymology-empty-section">
+          <div className="etymology-header">
+            <button className="etymology-toggle" onClick={() => setShowEtymology(!showEtymology)}>
+              語源・覚え方 {showEtymology ? '▲' : '▼'}
+            </button>
+          </div>
+          {showEtymology && (
             <div className="etymology-empty">
               <p>この単語の語源・覚え方データはまだ登録されていません。</p>
             </div>
@@ -191,37 +210,53 @@ export function WordCard() {
         </div>
       )}
 
-      {showBreakdown && (
-        <div className="breakdown-section">
-          <div className="etymology-section-title">漢字レベル — 各漢字の部首・構成</div>
-          {breakdown.map((item, i) => (
-            <div key={i} className="breakdown-item">
-              <span className="breakdown-char">{item.char}</span>
-              {item.info ? (
-                <div className="breakdown-detail">
-                  <div className="breakdown-radical">
-                    <span className="breakdown-label">部首：</span>
-                    {item.info.radical}
-                    <span className="breakdown-radical-meaning">（{item.info.radicalMeaning}）</span>
-                  </div>
-                  <div className="breakdown-components">
-                    <span className="breakdown-label">構成：</span>
-                    {item.info.components.join(' + ')}
-                  </div>
-                  <div className="breakdown-note">{item.info.note}</div>
+      {/* 漢字構成 */}
+      <div className="breakdown-section">
+        <button className="breakdown-toggle" onClick={() => setShowBreakdown(!showBreakdown)}>
+          漢字構成 {showBreakdown ? '▲' : '▼'}
+        </button>
+        {showBreakdown && breakdown.map((item, i) => (
+          <div key={i} className="breakdown-item">
+            <span className="breakdown-char">{item.char}</span>
+            {item.info ? (
+              <div className="breakdown-detail">
+                <div className="breakdown-radical">
+                  <span className="breakdown-label">部首：</span>
+                  {item.info.radical}
+                  <span className="breakdown-radical-meaning">（{item.info.radicalMeaning}）</span>
                 </div>
-              ) : (
-                <span className="breakdown-none">— 未収録 —</span>
-              )}
+                <div className="breakdown-components">
+                  <span className="breakdown-label">構成：</span>
+                  {item.info.components.join(' + ')}
+                </div>
+                <div className="breakdown-note">{item.info.note}</div>
+              </div>
+            ) : (
+              <span className="breakdown-none">— 未収録 —</span>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* 発音チェックオーバーレイ */}
+      {showPronCheck && (
+        <div className="pron-check-overlay">
+          <div className="pron-check-backdrop" onClick={() => setShowPronCheck(false)} />
+          <div className="pron-check-panel">
+            <div className="pron-check-panel-header">
+              <span>🎤 発音チェック</span>
+              <button className="pron-check-close" onClick={() => setShowPronCheck(false)}>✕</button>
             </div>
-          ))}
+            <PronunciationCheck
+              correctHanzi={pronCheckCorrectHanzi}
+              correctPinyin={pronCheckCorrectPinyin}
+              targetHanzi={pronCheckCorrectHanzi}
+              targetPinyin={pronCheckCorrectPinyin}
+              autoStart
+            />
+          </div>
         </div>
       )}
-
-      <PronunciationCheck
-        correctHanzi={currentWord.hanzi}
-        correctPinyin={currentWord.pinyin}
-      />
 
       <div className="card-navigation">
         <button onClick={handleGoPrev} disabled={currentIndex === 0}>
