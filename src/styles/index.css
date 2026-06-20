@@ -620,7 +620,6 @@ body {
   align-items: center;
   padding: 12px 16px;
   border-bottom: 1px solid var(--border);
-  cursor: pointer;
   transition: background 0.15s;
 }
 
@@ -707,6 +706,18 @@ body {
 
 .icon-sm.active {
   color: var(--primary);
+}
+
+.start-learn-btn {
+  color: var(--primary);
+  font-size: 0.8rem;
+  padding: 6px 8px;
+}
+
+.start-learn-btn:hover {
+  background: var(--primary);
+  color: white;
+  border-radius: 4px;
 }
 
 /* Quiz */

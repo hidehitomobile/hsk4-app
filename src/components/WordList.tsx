@@ -1,9 +1,16 @@
+import { useNavigate } from 'react-router-dom'
 import { useWords } from '../context/WordContext'
 import { speakWord } from '../utils/speech'
 import { categoryLabels } from '../utils/category'
 
 export function WordList() {
   const { filteredWords, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex } = useWords()
+  const navigate = useNavigate()
+
+  const handleStartLearn = (idx: number) => {
+    setCurrentIndex(idx)
+    navigate('/')
+  }
 
   if (filteredWords.length === 0) {
     return <div className="empty-state">単語が見つかりません</div>
@@ -18,7 +25,7 @@ export function WordList() {
         return (
           <div key={word.id} className={`list-item ${isLearned ? 'learned' : ''}`}>
             <span className="list-number">{idx + 1}</span>
-            <div className="list-main" onClick={() => setCurrentIndex(idx)}>
+            <div className="list-main">
               <div className="list-hanzi">
                 {word.hanzi}
                 <span className="list-category">{categoryLabels(word.category)}</span>
@@ -28,6 +35,13 @@ export function WordList() {
               <div className="list-meaning">{word.meaning}</div>
             </div>
             <div className="list-actions">
+              <button
+                className="icon-sm start-learn-btn"
+                title="この単語から学習を始める"
+                onClick={() => handleStartLearn(idx)}
+              >
+                ▶
+              </button>
               <button
                 className="icon-sm"
                 onClick={(e) => { e.stopPropagation(); speakWord(word.hanzi, settings.speechRate) }}
