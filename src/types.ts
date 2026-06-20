@@ -1,3 +1,5 @@
+export type Register = '书面语' | '口语' | '通用'
+
 export interface Word {
   id: number
   hanzi: string
@@ -8,6 +10,7 @@ export interface Word {
   measure?: string
   etymology?: string
   mnemonic?: string
+  register?: Register
 }
 
 export type Category = 'noun' | 'verb' | 'adjective' | 'adverb' | 'conjunction' | 'preposition' | 'measure' | 'pronoun' | 'numeral' | 'particle' | 'other'

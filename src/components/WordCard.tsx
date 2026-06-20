@@ -109,6 +109,12 @@ export function WordCard() {
           {currentWord.measure && (
             <span className="word-measure">量詞：{currentWord.measure}</span>
           )}
+          {currentWord.register && currentWord.register !== '通用' && (
+            <span className={`word-register register-${currentWord.register === '书面语' ? 'written' : 'spoken'}`}>
+              {currentWord.register === '书面语' ? '📝 书面语' : '💬 口语'}
+            </span>
+          )}
+
         </div>
         <div className="card-actions">
           <button

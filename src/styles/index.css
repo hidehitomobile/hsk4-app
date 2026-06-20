@@ -254,6 +254,26 @@ body {
   padding: 2px 8px;
 }
 
+/* レジスターバッジ（书面语 / 口语） */
+.word-register {
+  font-size: 0.7rem;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-weight: 500;
+}
+
+.register-written {
+  color: #1a56db;
+  background: #e8f0fe;
+  border: 1px solid #a8c7fa;
+}
+
+.register-spoken {
+  color: #0d7a3e;
+  background: #e6f4ea;
+  border: 1px solid #a8d8b9;
+}
+
 .card-actions {
   display: flex;
   gap: 8px;
@@ -1450,6 +1470,19 @@ body {
   color: var(--text-secondary);
   background: #333;
   border-color: var(--border);
+}
+
+/* Register badges dark */
+[data-theme="dark"] .register-written {
+  color: #a8c7fa;
+  background: #1a2640;
+  border-color: #2d4a7a;
+}
+
+[data-theme="dark"] .register-spoken {
+  color: #a8d8b9;
+  background: #1a3a2a;
+  border-color: #2d6a4a;
 }
 
 [data-theme="dark"] .list-measure {
