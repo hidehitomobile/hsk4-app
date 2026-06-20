@@ -219,7 +219,7 @@ function getErrorMessage(type: RecognitionError['type']): string {
     case 'not-supported': return 'お使いのブラウザは音声認識に対応していません。'
     case 'no-speech': return '音声が検出されませんでした。もう一度お試しください。'
     case 'aborted': return '音声認識が中断されました。'
-    case 'network': return 'ネットワークエラーが発生しました。HTTPS 接続かどうか・ネットワーク状態をご確認ください。'
+    case 'network': return 'ネットワークエラーが発生しました。\n中国国内からご利用の場合、Google 音声認識サービスに接続できない場合があります。\n発音チェック機能は現在ご利用いただけません。'
     case 'audio': return 'マイクへのアクセスに失敗しました。'
     case 'permission': return 'マイクの使用が許可されていません。ブラウザの設定でマイクを許可してください。'
     default: return '予期しないエラーが発生しました。'
