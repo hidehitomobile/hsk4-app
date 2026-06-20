@@ -155,18 +155,39 @@ export function WordCard() {
 
       <div className="card-toggles">
         <button
-          className="breakdown-toggle"
-          onClick={() => setShowBreakdown(!showBreakdown)}
-        >
-          {showBreakdown ? '漢字構成 ▲' : '漢字構成 ▼'}
-        </button>
-        <button
           className="etymology-toggle"
           onClick={() => setShowEtymology(!showEtymology)}
         >
           {showEtymology ? '語源・覚え方 ▲' : '語源・覚え方 ▼'}
         </button>
+        <button
+          className="breakdown-toggle"
+          onClick={() => setShowBreakdown(!showBreakdown)}
+        >
+          {showBreakdown ? '漢字構成 ▲' : '漢字構成 ▼'}
+        </button>
       </div>
+
+      {showEtymology && (
+        <div className="etymology-section">
+          {currentWord.etymology ? (
+            <>
+              <div className="etymology-block word-level">
+                <div className="etymology-title">単語レベル — 語源・由来</div>
+                <p className="etymology-text">{currentWord.etymology}</p>
+              </div>
+              <div className="etymology-block mnemonic-level">
+                <div className="etymology-title">覚え方 — 日本語話者向けヒント</div>
+                <p className="etymology-text mnemonic-text">{currentWord.mnemonic}</p>
+              </div>
+            </>
+          ) : (
+            <div className="etymology-empty">
+              <p>この単語の語源・覚え方データはまだ登録されていません。</p>
+            </div>
+          )}
+        </div>
+      )}
 
       {showBreakdown && (
         <div className="breakdown-section">
@@ -192,27 +213,6 @@ export function WordCard() {
               )}
             </div>
           ))}
-        </div>
-      )}
-
-      {showEtymology && (
-        <div className="etymology-section">
-          {currentWord.etymology ? (
-            <>
-              <div className="etymology-block word-level">
-                <div className="etymology-title">単語レベル — 語源・由来</div>
-                <p className="etymology-text">{currentWord.etymology}</p>
-              </div>
-              <div className="etymology-block mnemonic-level">
-                <div className="etymology-title">覚え方 — 日本語話者向けヒント</div>
-                <p className="etymology-text mnemonic-text">{currentWord.mnemonic}</p>
-              </div>
-            </>
-          ) : (
-            <div className="etymology-empty">
-              <p>この単語の語源・覚え方データはまだ登録されていません。</p>
-            </div>
-          )}
         </div>
       )}
 
