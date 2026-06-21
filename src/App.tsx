@@ -10,23 +10,35 @@ import { Quiz } from './components/Quiz'
 import { Settings } from './components/Settings'
 import { useWords } from './context/WordContext'
 import { useEffect } from 'react'
-import { speakWord } from './utils/speech'
+import { speakAsync } from './utils/speech'
 import wordsData from './data/words.json'
 import { WordEntry } from './types'
 import './styles/index.css'
 
 function LearnPage() {
-  const { settings, currentWord, suppressAutoPlayRef } = useWords()
+  const { settings, currentWord, lastPlayedWordIdRef, isFirstAppMountRef } = useWords()
 
   useEffect(() => {
     if (!settings.autoPlay || !currentWord) return
-    // ナビゲーションボタンで既に発声済みの場合はスキップ
-    if (suppressAutoPlayRef.current) {
-      suppressAutoPlayRef.current = false
+
+    // アプリ起動直後はスキップ（リロード時の不要な再生を防止）
+    if (isFirstAppMountRef.current) {
+      isFirstAppMountRef.current = false
+      lastPlayedWordIdRef.current = currentWord.id
       return
     }
-    speakWord(currentWord.hanzi, settings.speechRate)
-  }, [currentWord?.id, settings.autoPlay, settings.speechRate, suppressAutoPlayRef])
+
+    // 前回と同じ単語ならスキップ（タブ切替で再マウントされたが単語未変更）
+    if (lastPlayedWordIdRef.current === currentWord.id) return
+    lastPlayedWordIdRef.current = currentWord.id
+
+    window.speechSynthesis.cancel()
+    speakAsync(currentWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
+      if (settings.autoPlayExample) {
+        speakAsync(currentWord.example, settings.speechRate, 'zh-CN')
+      }
+    })
+  }, [currentWord?.id, settings.autoPlay, settings.speechRate, settings.autoPlayExample, lastPlayedWordIdRef, isFirstAppMountRef])
 
   return (
     <div className="learn-page">

@@ -23,13 +23,15 @@ interface WordContextType extends AppState {
   progress: { learned: number; total: number; percent: number }
   learnedIds: Set<number>
   favoriteIds: Set<number>
-  suppressAutoPlayRef: React.MutableRefObject<boolean>
+  lastPlayedWordIdRef: React.MutableRefObject<number | null>
+  isFirstAppMountRef: React.MutableRefObject<boolean>
 }
 
 const WordContext = createContext<WordContextType | null>(null)
 
 export function WordProvider({ children, words }: { children: ReactNode; words: WordEntry[] }) {
-  const suppressAutoPlayRef = useRef(false)
+  const lastPlayedWordIdRef = useRef<number | null>(null)
+  const isFirstAppMountRef = useRef(true)
   const [currentIndex, setCurrentIndex] = useState(() => loadCurrentIndex())
   const [learnedIds, setLearnedIds] = useState<Set<number>>(() => loadLearnedIds())
   const [favoriteIds, setFavoriteIds] = useState<Set<number>>(() => loadFavoriteIds())
@@ -151,7 +153,8 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
       progress,
       learnedIds,
       favoriteIds,
-      suppressAutoPlayRef,
+      lastPlayedWordIdRef,
+      isFirstAppMountRef,
     }}>
       {children}
     </WordContext.Provider>

@@ -24,6 +24,7 @@ export function WordList() {
   const handleStartLearn = (wordId: number) => {
     const idx = filteredWords.findIndex(w => w.id === wordId)
     if (idx >= 0) {
+      window.speechSynthesis.cancel()
       setCurrentIndex(idx)
       navigate('/')
     }

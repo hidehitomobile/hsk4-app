@@ -1,13 +1,13 @@
 import { useState, useEffect, useCallback } from 'react'
 import { pinyin } from 'pinyin-pro'
 import { useWords } from '../context/WordContext'
-import { speakWord, speakExample, speakAsync } from '../utils/speech'
+import { speakWord, speakExample } from '../utils/speech'
 import { breakdownWord } from '../utils/hanziBreakdown'
 import { PronunciationCheck } from './PronunciationCheck'
 import { categoryLabels } from '../utils/category'
 
 export function WordCard() {
-  const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev, suppressAutoPlayRef } = useWords()
+  const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
   const [showBreakdown, setShowBreakdown] = useState(true)
   const [showEtymology, setShowEtymology] = useState(true)
   const [showPronCheck, setShowPronCheck] = useState(false)
@@ -31,36 +31,18 @@ export function WordCard() {
     }
   }, [])
 
-  // --- ナビゲーション（発声をユーザージェスチャー内で実行） ---
+  // --- ナビゲーション（インデックス変更のみ。音声再生は LearnPage の useEffect に一本化） ---
   const handleGoNext = useCallback(() => {
     if (currentIndex >= filteredWords.length - 1) return
-    const targetWord = filteredWords[currentIndex + 1]
     window.speechSynthesis.cancel()
-    suppressAutoPlayRef.current = true
     goNext()
-    if (settings.autoPlay && targetWord) {
-      speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
-        if (settings.autoPlayExample) {
-          speakAsync(targetWord.example, settings.speechRate, 'zh-CN')
-        }
-      })
-    }
-  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayExample, goNext, suppressAutoPlayRef])
+  }, [currentIndex, filteredWords.length, goNext])
 
   const handleGoPrev = useCallback(() => {
     if (currentIndex <= 0) return
-    const targetWord = filteredWords[currentIndex - 1]
     window.speechSynthesis.cancel()
-    suppressAutoPlayRef.current = true
     goPrev()
-    if (settings.autoPlay && targetWord) {
-      speakAsync(targetWord.hanzi, settings.speechRate, 'zh-CN').then(() => {
-        if (settings.autoPlayExample) {
-          speakAsync(targetWord.example, settings.speechRate, 'zh-CN')
-        }
-      })
-    }
-  }, [currentIndex, filteredWords, settings.speechRate, settings.autoPlay, settings.autoPlayExample, goPrev, suppressAutoPlayRef])
+  }, [currentIndex, goPrev])
 
   // キーボードショートカット
   useEffect(() => {
