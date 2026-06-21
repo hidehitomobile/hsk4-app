@@ -10,6 +10,7 @@ export interface Word {
   measure?: string
   etymology?: string
   mnemonic?: string
+  grammar?: string
   register?: Register
 }
 

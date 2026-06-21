@@ -156,6 +156,16 @@ export function WordCard() {
         <div className="example-meaning">
           {currentWord.exampleMeaning}
         </div>
+
+        {/* 文法 */}
+        {currentWord.grammar ? (
+          <div className="grammar-section">
+            <div className="grammar-header">
+              <span className="grammar-title">📖 文法ポイント</span>
+            </div>
+            <p className="grammar-text">{currentWord.grammar}</p>
+          </div>
+        ) : null}
       </div>
 
       {/* 語源・覚え方 */}
