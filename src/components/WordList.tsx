@@ -5,7 +5,7 @@ import { speakWord } from '../utils/speech'
 import { categoryLabels } from '../utils/category'
 
 export function WordList() {
-  const { words, selectedCategory, searchQuery, filteredWords, currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex, lastScrolledWordIdRef } = useWords()
+  const { words, selectedCategory, searchQuery, filteredWords, currentWord, currentIndex, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex, lastScrolledWordIdRef } = useWords()
   const navigate = useNavigate()
 
   // 一覧タブ用: hideLearned を適用せず、カテゴリ＋検索のみでフィルタ
@@ -23,16 +23,16 @@ export function WordList() {
 
   const listRef = useRef<HTMLDivElement>(null)
 
-  // 学習中の単語位置に即座にスクロール
+  // 学習中の単語位置に即座にスクロール（currentIndex の変更時のみ）
   useEffect(() => {
-    if (!currentWord || !listRef.current) return
+    if (!listRef.current) return
     const el = listRef.current.querySelector('.list-item.current') as HTMLElement | null
     if (!el) return
-    lastScrolledWordIdRef.current = currentWord.id
+    lastScrolledWordIdRef.current = currentWord?.id ?? null
     requestAnimationFrame(() => {
       el.scrollIntoView({ behavior: 'instant', block: 'center' })
     })
-  }, [currentWord?.id, lastScrolledWordIdRef])
+  }, [currentIndex, lastScrolledWordIdRef])
 
   const handleStartLearn = (wordId: number) => {
     const idx = filteredWords.findIndex(w => w.id === wordId)
