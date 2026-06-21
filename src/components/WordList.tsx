@@ -5,7 +5,7 @@ import { speakWord } from '../utils/speech'
 import { categoryLabels } from '../utils/category'
 
 export function WordList() {
-  const { words, selectedCategory, searchQuery, filteredWords, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex } = useWords()
+  const { words, selectedCategory, searchQuery, filteredWords, currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex } = useWords()
   const navigate = useNavigate()
 
   // 一覧タブ用: hideLearned を適用せず、カテゴリ＋検索のみでフィルタ
@@ -41,7 +41,7 @@ export function WordList() {
         const isLearned = learnedIds.has(word.id)
         const isFav = favoriteIds.has(word.id)
         return (
-          <div key={word.id} className={`list-item ${isLearned ? 'learned' : ''}`}>
+          <div key={word.id} className={`list-item ${isLearned ? 'learned' : ''} ${currentWord?.id === word.id ? 'current' : ''}`}>
             <span className="list-number">{idx + 1}</span>
             <div className="list-main">
               <div className="list-hanzi">

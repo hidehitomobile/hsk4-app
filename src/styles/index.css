@@ -871,6 +871,11 @@ body {
   background: #e8e8e8;
 }
 
+.list-item.current {
+  border-left: 4px solid var(--primary);
+  background: linear-gradient(90deg, rgba(76, 175, 80, 0.08) 0%, transparent 100%);
+}
+
 .list-main {
   flex: 1;
   display: flex;
@@ -1611,6 +1616,12 @@ body {
 [data-theme="dark"] .list-item.learned:hover {
   background: #252525;
 }
+
+[data-theme="dark"] .list-item.current {
+  background: linear-gradient(90deg, rgba(129, 201, 149, 0.12) 0%, transparent 100%);
+  border-left: 4px solid var(--primary);
+}
+
 [data-theme="dark"] .list-item:hover {
   background: rgba(255,255,255,0.05);
 }
