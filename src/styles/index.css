@@ -384,7 +384,7 @@ body {
   background: none;
   border: none;
   padding: 8px 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   cursor: pointer;
   color: #7c4dff;
@@ -427,14 +427,14 @@ body {
 
 .breakdown-detail {
   flex: 1;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   line-height: 1.6;
 }
 
 .breakdown-label {
   color: var(--text-secondary);
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .breakdown-radical {
@@ -444,7 +444,7 @@ body {
 
 .breakdown-radical-meaning {
   color: var(--text-secondary);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .breakdown-components {
@@ -455,7 +455,7 @@ body {
 
 .breakdown-note {
   color: #6a1b9a;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   font-style: italic;
   margin-top: 4px;
   padding: 6px 10px;
@@ -466,7 +466,7 @@ body {
 
 .breakdown-none {
   color: var(--text-secondary);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.8rem;
 }
 
@@ -483,7 +483,7 @@ body {
   background: none;
   border: none;
   padding: 8px 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   cursor: pointer;
   color: #e65100;
@@ -556,7 +556,7 @@ body {
 }
 
 .etymology-title {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: #e65100;
   margin-bottom: 4px;
@@ -570,7 +570,7 @@ body {
 }
 
 .etymology-text {
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   line-height: 1.6;
   color: var(--text);
   margin: 0;
@@ -588,7 +588,7 @@ body {
 .etymology-empty {
   text-align: center;
   color: var(--text-secondary);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding: 8px;
 }
 
@@ -658,7 +658,7 @@ body {
 }
 
 .example-chinese {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--text);
   margin-bottom: 4px;
   display: flex;
@@ -672,7 +672,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--primary);
   margin-bottom: 8px;
   cursor: pointer;
@@ -688,7 +688,7 @@ body {
 }
 
 .example-meaning {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: var(--text-secondary);
 }
 
@@ -709,18 +709,18 @@ body {
 /* Card nav */
 .card-navigation {
   display: flex;
-  gap: 10px;
+  gap: 12px;
 }
 
 .card-navigation button {
-  padding: 12px;
+  padding: 16px 20px;
   border: none;
   border-radius: var(--radius-sm);
   background: var(--primary);
   color: white;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   transition: background 0.2s;
 }
 
@@ -783,7 +783,25 @@ body {
 }
 
 .list-item.learned {
-  background: #e8f5e9;
+  background: #f0f0f0;
+  color: #999;
+  opacity: 0.7;
+}
+
+.list-item.learned .list-hanzi {
+  color: #888;
+}
+
+.list-item.learned .list-pinyin {
+  color: #aaa;
+}
+
+.list-item.learned .list-meaning {
+  color: #999;
+}
+
+.list-item.learned:hover {
+  background: #e8e8e8;
 }
 
 .list-main {
@@ -1499,7 +1517,25 @@ body {
 
 /* Word list */
 [data-theme="dark"] .list-item.learned {
-  background: rgba(129, 201, 149, 0.12);
+  background: #1e1e1e;
+  color: #666;
+  opacity: 0.65;
+}
+
+[data-theme="dark"] .list-item.learned .list-hanzi {
+  color: #777;
+}
+
+[data-theme="dark"] .list-item.learned .list-pinyin {
+  color: #555;
+}
+
+[data-theme="dark"] .list-item.learned .list-meaning {
+  color: #666;
+}
+
+[data-theme="dark"] .list-item.learned:hover {
+  background: #252525;
 }
 [data-theme="dark"] .list-item:hover {
   background: rgba(255,255,255,0.05);
@@ -1639,13 +1675,13 @@ body {
     margin-bottom: 8px;
   }
   .example-chinese {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
   .example-pinyin {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .example-meaning {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   }
   .breakdown-section,
   .etymology-section {
@@ -1654,7 +1690,7 @@ body {
   }
   .breakdown-toggle,
   .etymology-toggle {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     padding: 6px 0;
   }
   .breakdown-char {
@@ -1662,20 +1698,20 @@ body {
     min-width: 40px;
   }
   .breakdown-detail {
-    font-size: 0.78rem;
+    font-size: 0.88rem;
   }
   .breakdown-note {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     padding: 4px 8px;
   }
   .etymology-block {
     padding: 4px 0;
   }
   .etymology-title {
-    font-size: 0.72rem;
+    font-size: 0.82rem;
   }
   .etymology-text {
-    font-size: 0.78rem;
+    font-size: 0.88rem;
     line-height: 1.5;
   }
   .etymology-text.mnemonic-text {
@@ -1686,7 +1722,7 @@ body {
     margin: 12px;
   }
   .card-navigation button {
-    padding: 10px;
-    font-size: 0.85rem;
+    padding: 14px;
+    font-size: 1rem;
   }
 }

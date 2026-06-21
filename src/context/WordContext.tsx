@@ -37,7 +37,7 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
   const [searchQuery, setSearchQuery] = useState(() => loadSearchQuery())
   const [settings, setSettings] = useState<AppSettings>(() => loadSettings())
 
-  // フィルタリング
+  // フィルタリング（学習タブ用: hideLearned を適用）
   const filteredWords = words.filter(w => {
     if (settings.hideLearned && learnedIds.has(w.id)) return false
     const matchCategory = selectedCategory === 'all' || w.category.includes(selectedCategory)

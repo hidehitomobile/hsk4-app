@@ -84,7 +84,7 @@ export function Settings() {
             checked={settings.hideLearned}
             onChange={e => updateSettings({ hideLearned: e.target.checked })}
           />
-          学習済みの単語を非表示
+          学習済み単語を非表示（学習タブ）
         </label>
       </div>
     </div>
