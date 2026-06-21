@@ -24,6 +24,7 @@ interface WordContextType extends AppState {
   learnedIds: Set<number>
   favoriteIds: Set<number>
   lastPlayedWordIdRef: React.MutableRefObject<number | null>
+  lastScrolledWordIdRef: React.MutableRefObject<number | null>
   isFirstAppMountRef: React.MutableRefObject<boolean>
 }
 
@@ -31,6 +32,7 @@ const WordContext = createContext<WordContextType | null>(null)
 
 export function WordProvider({ children, words }: { children: ReactNode; words: WordEntry[] }) {
   const lastPlayedWordIdRef = useRef<number | null>(null)
+  const lastScrolledWordIdRef = useRef<number | null>(null)
   const isFirstAppMountRef = useRef(true)
   const [currentIndex, setCurrentIndex] = useState(() => loadCurrentIndex())
   const [learnedIds, setLearnedIds] = useState<Set<number>>(() => loadLearnedIds())
@@ -154,6 +156,7 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
       learnedIds,
       favoriteIds,
       lastPlayedWordIdRef,
+      lastScrolledWordIdRef,
       isFirstAppMountRef,
     }}>
       {children}

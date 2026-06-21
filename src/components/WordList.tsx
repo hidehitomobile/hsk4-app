@@ -1,11 +1,11 @@
-import { useMemo } from 'react'
+import { useMemo, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useWords } from '../context/WordContext'
 import { speakWord } from '../utils/speech'
 import { categoryLabels } from '../utils/category'
 
 export function WordList() {
-  const { words, selectedCategory, searchQuery, filteredWords, currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex } = useWords()
+  const { words, selectedCategory, searchQuery, filteredWords, currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex, lastScrolledWordIdRef } = useWords()
   const navigate = useNavigate()
 
   // 一覧タブ用: hideLearned を適用せず、カテゴリ＋検索のみでフィルタ
@@ -21,6 +21,19 @@ export function WordList() {
     })
   }, [words, selectedCategory, searchQuery])
 
+  const listRef = useRef<HTMLDivElement>(null)
+
+  // 学習中の単語位置に即座にスクロール
+  useEffect(() => {
+    if (!currentWord || !listRef.current) return
+    const el = listRef.current.querySelector('.list-item.current') as HTMLElement | null
+    if (!el) return
+    lastScrolledWordIdRef.current = currentWord.id
+    requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: 'instant', block: 'center' })
+    })
+  }, [currentWord?.id, lastScrolledWordIdRef])
+
   const handleStartLearn = (wordId: number) => {
     const idx = filteredWords.findIndex(w => w.id === wordId)
     if (idx >= 0) {
@@ -35,7 +48,7 @@ export function WordList() {
   }
 
   return (
-    <div className="word-list">
+    <div className="word-list" ref={listRef}>
       <div className="list-count">{listWords.length} 語</div>
       {listWords.map((word, idx) => {
         const isLearned = learnedIds.has(word.id)
