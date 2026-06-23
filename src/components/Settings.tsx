@@ -70,10 +70,10 @@ export function Settings() {
         <label>
           <input
             type="checkbox"
-            checked={settings.darkMode}
-            onChange={e => updateSettings({ darkMode: e.target.checked })}
+            checked={settings.hideLearned}
+            onChange={e => updateSettings({ hideLearned: e.target.checked })}
           />
-          ダークモード
+          学習済み単語を非表示（学習タブ）
         </label>
       </div>
 
@@ -81,10 +81,10 @@ export function Settings() {
         <label>
           <input
             type="checkbox"
-            checked={settings.hideLearned}
-            onChange={e => updateSettings({ hideLearned: e.target.checked })}
+            checked={settings.darkMode}
+            onChange={e => updateSettings({ darkMode: e.target.checked })}
           />
-          学習済み単語を非表示（学習タブ）
+          ダークモード
         </label>
       </div>
     </div>
