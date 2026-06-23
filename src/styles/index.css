@@ -2040,6 +2040,8 @@ body {
   padding: 14px 20px;
   border: none;
   border-radius: var(--radius-sm);
+  background: var(--primary);
+  color: white;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
@@ -2050,22 +2052,8 @@ body {
   transform: scale(0.97);
 }
 
-.auto-listen-ctrl-btn.pause {
-  background: var(--warning);
-  color: #202124;
-}
-
-.auto-listen-ctrl-btn.pause:hover {
-  background: #f9a825;
-}
-
-.auto-listen-ctrl-btn.resume {
-  background: var(--success);
-  color: white;
-}
-
-.auto-listen-ctrl-btn.resume:hover {
-  background: #2e7d32;
+.auto-listen-ctrl-btn:hover {
+  background: var(--primary-dark);
 }
 
 /* Finished state */
@@ -2080,10 +2068,6 @@ body {
 }
 
 /* ===== Dark mode: Auto Listen ===== */
-[data-theme="dark"] .auto-listen-ctrl-btn.pause {
-  color: #202124;
-}
-
 [data-theme="dark"] .auto-listen-example-section {
   background: #222;
 }

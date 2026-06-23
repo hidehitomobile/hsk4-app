@@ -147,7 +147,7 @@ export function AutoListen() {
                 checked={playExamples}
                 onChange={e => handlePlayExamplesToggle(e.target.checked)}
               />
-              読み上げ
+              読み上げる
             </label>
             <div className="auto-listen-example">{currentWord.example}</div>
             <div className="auto-listen-example-meaning">{currentWord.exampleMeaning}</div>
@@ -156,7 +156,7 @@ export function AutoListen() {
 
         <div className="auto-listen-controls">
           <button
-            className={`auto-listen-ctrl-btn ${status === 'playing' ? 'pause' : 'resume'}`}
+            className="auto-listen-ctrl-btn"
             onClick={handleToggle}
           >
             {finished ? '↺ 最初から' : status === 'playing' ? '⏸ 一時停止' : '▶ 再開'}
