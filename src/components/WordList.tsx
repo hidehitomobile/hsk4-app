@@ -5,7 +5,7 @@ import { speakWord } from '../utils/speech'
 import { categoryLabels } from '../utils/category'
 
 export function WordList() {
-  const { words, selectedCategory, searchQuery, filteredWords, currentWord, currentIndex, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, setCurrentIndex, lastScrolledWordIdRef } = useWords()
+  const { words, selectedCategory, searchQuery, filteredWords, currentWord, currentIndex, learnedIds, favoriteIds, viewCounts, toggleLearned, toggleFavorite, settings, setCurrentIndex, lastScrolledWordIdRef } = useWords()
   const navigate = useNavigate()
 
   // 一覧タブ用: hideLearned を適用せず、カテゴリ＋検索のみでフィルタ
@@ -61,6 +61,7 @@ export function WordList() {
                 {word.hanzi}
                 <span className="list-category">{categoryLabels(word.category)}</span>
                 {word.measure && <span className="list-measure">{word.measure}</span>}
+                {viewCounts[word.id] > 0 && <span className="list-view-count">👁 {viewCounts[word.id]}</span>}
               </div>
               <div className="list-pinyin">{word.pinyin}</div>
               <div className="list-meaning">{word.meaning}</div>

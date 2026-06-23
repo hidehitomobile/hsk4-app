@@ -973,6 +973,13 @@ body {
   padding: 1px 6px;
 }
 
+.list-view-count {
+  font-size: 0.58rem;
+  font-weight: 600;
+  color: #9e9e9e;
+  padding: 1px 6px;
+}
+
 .list-pinyin {
   font-size: 0.85rem;
   color: var(--primary);
@@ -1620,6 +1627,7 @@ body {
 [data-theme="dark"] .word-measure,
 [data-theme="dark"] .word-view-count,
 [data-theme="dark"] .list-category,
+[data-theme="dark"] .list-view-count,
 [data-theme="dark"] .quiz-category-badge {
   color: var(--text-secondary);
   background: #333;
