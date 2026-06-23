@@ -87,6 +87,7 @@ export function Settings() {
           ダークモード
         </label>
       </div>
+
     </div>
   )
 }

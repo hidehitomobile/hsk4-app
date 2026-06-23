@@ -21,6 +21,9 @@ export function Header() {
         <Link to="/quiz" className={location.pathname === '/quiz' ? 'active' : ''}>
           クイズ
         </Link>
+        <Link to="/autolisten" className={location.pathname === '/autolisten' ? 'active' : ''}>
+          リスニング
+        </Link>
         <Link to="/settings" className={location.pathname === '/settings' ? 'active' : ''}>
           設定
         </Link>

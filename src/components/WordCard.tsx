@@ -267,6 +267,7 @@ export function WordCard() {
           次へ →
         </button>
       </div>
+
     </div>
   )
 }

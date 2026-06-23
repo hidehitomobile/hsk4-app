@@ -28,6 +28,7 @@ interface WordContextType extends AppState {
   lastPlayedWordIdRef: React.MutableRefObject<number | null>
   lastScrolledWordIdRef: React.MutableRefObject<number | null>
   isFirstAppMountRef: React.MutableRefObject<boolean>
+
 }
 
 const WordContext = createContext<WordContextType | null>(null)
@@ -48,7 +49,6 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
   const [searchQuery, setSearchQuery] = useState(() => loadSearchQuery())
   const [settings, setSettings] = useState<AppSettings>(() => loadSettings())
   const [viewCounts, setViewCounts] = useState<Record<number, number>>(() => loadViewCounts())
-
   // フィルタリング（学習タブ用: hideLearned を適用）
   const filteredWords = words.filter(w => {
     if (settings.hideLearned && learnedIds.has(w.id)) return false
