@@ -57,7 +57,7 @@ body {
 .app-header {
   background: var(--primary);
   color: white;
-  padding: 16px 16px 0;
+  padding: 12px 16px 0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -67,7 +67,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .header-top h1 {
@@ -85,45 +85,24 @@ body {
 
 .header-nav {
   display: flex;
-  gap: 0;
-  padding-bottom: 0;
+  gap: 4px;
+  padding-bottom: 2px;
 }
 
 .header-nav a {
-  position: relative;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.7);
   text-decoration: none;
-  padding: 10px 16px;
+  padding: 7px 16px;
   font-size: 0.9rem;
-  transition: color 0.2s;
+  border-radius: 4px 4px 0 0;
+  transition: all 0.2s;
   font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-.header-nav a::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) scaleX(0);
-  width: 80%;
-  height: 5px;
-  background: transparent;
-  transition: all 0.25s ease;
-}
-
-.header-nav a:hover {
-  color: rgba(255,255,255,0.95);
 }
 
 .header-nav a.active {
-  color: #ffffff;
+  color: var(--primary);
+  background: var(--bg);
   font-weight: 700;
-}
-
-.header-nav a.active::after {
-  transform: translateX(-50%) scaleX(1);
-  background: #ffffff;
 }
 
 /* Main content */
@@ -615,7 +594,7 @@ body {
 
 .etymology-block.word-level {
   border-bottom: 1px dashed rgba(255, 111, 0, 0.2);
-  margin-bottom: 6px;
+  margin-bottom: 7px;
   padding-bottom: 8px;
 }
 
@@ -1615,6 +1594,12 @@ body {
 }
 [data-theme="dark"] .search-bar input::placeholder {
   color: var(--text-secondary);
+}
+
+/* Header nav active tab */
+[data-theme="dark"] .header-nav a.active {
+  background: var(--bg);
+  color: var(--primary);
 }
 
 /* Category button non-active */
