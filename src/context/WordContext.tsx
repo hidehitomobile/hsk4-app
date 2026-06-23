@@ -7,6 +7,7 @@ import {
   loadCurrentIndex, saveCurrentIndex,
   loadSelectedCategory, saveSelectedCategory,
   loadSearchQuery, saveSearchQuery,
+  loadViewCounts, saveViewCounts,
 } from '../utils/storage'
 
 interface WordContextType extends AppState {
@@ -23,12 +24,18 @@ interface WordContextType extends AppState {
   progress: { learned: number; total: number; percent: number }
   learnedIds: Set<number>
   favoriteIds: Set<number>
+  viewCounts: Record<number, number>
   lastPlayedWordIdRef: React.MutableRefObject<number | null>
   lastScrolledWordIdRef: React.MutableRefObject<number | null>
   isFirstAppMountRef: React.MutableRefObject<boolean>
 }
 
 const WordContext = createContext<WordContextType | null>(null)
+
+// モジュールレベル: 直前にカウントした単語ID
+// React StrictMode の二重マウント時、同一IDで2回目の発火を抑止する（セッションが維持されるため）
+// ユーザー操作による A→B→A の移動ではIDが変わるため正常にカウントされる
+let lastCountedWordId: number | null = null
 
 export function WordProvider({ children, words }: { children: ReactNode; words: WordEntry[] }) {
   const lastPlayedWordIdRef = useRef<number | null>(null)
@@ -40,6 +47,7 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
   const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>(() => loadSelectedCategory())
   const [searchQuery, setSearchQuery] = useState(() => loadSearchQuery())
   const [settings, setSettings] = useState<AppSettings>(() => loadSettings())
+  const [viewCounts, setViewCounts] = useState<Record<number, number>>(() => loadViewCounts())
 
   // フィルタリング（学習タブ用: hideLearned を適用）
   const filteredWords = words.filter(w => {
@@ -93,7 +101,26 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
     }
   }, []) // 初回のみ実行
 
+  // 表示回数カウント：currentWord が変わったらインクリメント
   const currentWord = filteredWords.length > 0 ? filteredWords[currentIndex] ?? null : null
+
+  useEffect(() => {
+    if (!currentWord) return
+    // 同一IDが連続で発火した場合は StrictMode 二重マウントと判断してスキップ
+    if (lastCountedWordId === currentWord.id) return
+    lastCountedWordId = currentWord.id
+
+    setViewCounts(prev => {
+      const next = { ...prev }
+      next[currentWord.id] = (next[currentWord.id] || 0) + 1
+      return next
+    })
+  }, [currentWord?.id])
+
+  // viewCounts の永続化（state updater から分離）
+  useEffect(() => {
+    saveViewCounts(viewCounts)
+  }, [viewCounts])
 
   const goNext = useCallback(() => {
     setCurrentIndex(i => Math.min(i + 1, filteredWords.length - 1))
@@ -155,6 +182,7 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
       progress,
       learnedIds,
       favoriteIds,
+      viewCounts,
       lastPlayedWordIdRef,
       lastScrolledWordIdRef,
       isFirstAppMountRef,

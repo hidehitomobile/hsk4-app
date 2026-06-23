@@ -7,6 +7,7 @@ const KEYS = {
   CURRENT_INDEX: 'hsk4_currentIndex',
   SELECTED_CATEGORY: 'hsk4_selectedCategory',
   SEARCH_QUERY: 'hsk4_searchQuery',
+  VIEW_COUNTS: 'hsk4_viewCounts',
 }
 
 export function loadLearnedIds(): Set<number> {
@@ -88,4 +89,16 @@ export function loadSearchQuery(): string {
 
 export function saveSearchQuery(q: string): void {
   localStorage.setItem(KEYS.SEARCH_QUERY, q)
+}
+
+export function loadViewCounts(): Record<number, number> {
+  try {
+    const raw = localStorage.getItem(KEYS.VIEW_COUNTS)
+    if (raw) return JSON.parse(raw)
+  } catch { /* ignore */ }
+  return {}
+}
+
+export function saveViewCounts(counts: Record<number, number>): void {
+  localStorage.setItem(KEYS.VIEW_COUNTS, JSON.stringify(counts))
 }

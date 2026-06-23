@@ -7,7 +7,7 @@ import { PronunciationCheck } from './PronunciationCheck'
 import { categoryLabels } from '../utils/category'
 
 export function WordCard() {
-  const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev } = useWords()
+  const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev, viewCounts } = useWords()
   const [showBreakdown, setShowBreakdown] = useState(true)
   const [showEtymology, setShowEtymology] = useState(true)
   const [showPronCheck, setShowPronCheck] = useState(false)
@@ -86,6 +86,9 @@ export function WordCard() {
         <div className="card-header-left">
           <span className="word-number">
             {currentIndex + 1} / {filteredWords.length}
+          </span>
+          <span className="word-view-count" title="この単語の表示回数">
+            👁 {viewCounts[currentWord.id] || 0}
           </span>
           <span className="word-category">{categoryLabels(currentWord.category)}</span>
           {currentWord.measure && (

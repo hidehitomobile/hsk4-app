@@ -236,6 +236,14 @@ body {
   color: var(--text-secondary);
 }
 
+.word-view-count {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: #f1f3f4;
+  border-radius: 8px;
+  padding: 1px 6px;
+}
+
 .word-category {
   font-size: 0.7rem;
   color: #5f6368;
@@ -1595,6 +1603,7 @@ body {
 /* Badges: word-category, word-measure, list-category, quiz-category */
 [data-theme="dark"] .word-category,
 [data-theme="dark"] .word-measure,
+[data-theme="dark"] .word-view-count,
 [data-theme="dark"] .list-category,
 [data-theme="dark"] .quiz-category-badge {
   color: var(--text-secondary);
