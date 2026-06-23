@@ -8,7 +8,7 @@ export function AutoListen() {
   const { filteredWords, settings } = useWords()
 
   const [internalIndex, setInternalIndex] = useState(0)
-  const [status, setStatus] = useState<'playing' | 'paused'>('playing')
+  const [status, setStatus] = useState<'playing' | 'paused'>('paused')
   const [finished, setFinished] = useState(false)
   const [playExamples, setPlayExamples] = useState(true)
   const settingsRef = useRef(settings)
@@ -20,13 +20,15 @@ export function AutoListen() {
 
   const total = filteredWords.length
 
-  // 例文再生切替時：現在の再生をキャンセルして即再開
+  // 例文再生切替時：再生中ならキャンセルして即再開、停止中なら設定のみ変更
   const handlePlayExamplesToggle = useCallback((checked: boolean) => {
     window.speechSynthesis.cancel()
     setPlayExamples(checked)
-    setFinished(false)
-    setStatus('playing')
-  }, [])
+    if (status === 'playing') {
+      setFinished(false)
+      setStatus('playing')
+    }
+  }, [status])
 
   // プログレス兼位置選択スライダー
   const handleSeek = useCallback((index: number) => {
