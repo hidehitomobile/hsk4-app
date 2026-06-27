@@ -8,7 +8,7 @@ export function Settings() {
       <h2>設定</h2>
 
       <div className="setting-group">
-        <label>音声速度</label>
+        <label>中国語 音声速度</label>
         <div className="setting-range">
           <input
             type="range"
@@ -19,6 +19,36 @@ export function Settings() {
             onChange={e => updateSettings({ speechRate: parseFloat(e.target.value) })}
           />
           <span>{settings.speechRate.toFixed(1)}x</span>
+        </div>
+      </div>
+
+      <div className="setting-group">
+        <label>日本語 音声速度</label>
+        <div className="setting-range">
+          <input
+            type="range"
+            min="0.5"
+            max="2.0"
+            step="0.1"
+            value={settings.japaneseRate}
+            onChange={e => updateSettings({ japaneseRate: parseFloat(e.target.value) })}
+          />
+          <span>{settings.japaneseRate.toFixed(1)}x</span>
+        </div>
+      </div>
+
+      <div className="setting-group">
+        <label>リスニング間隔</label>
+        <div className="setting-range">
+          <input
+            type="range"
+            min="0.0"
+            max="5.0"
+            step="0.2"
+            value={settings.listenInterval}
+            onChange={e => updateSettings({ listenInterval: parseFloat(e.target.value) })}
+          />
+          <span>{settings.listenInterval.toFixed(1)}秒</span>
         </div>
       </div>
 

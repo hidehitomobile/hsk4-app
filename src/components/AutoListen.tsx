@@ -2,8 +2,6 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakAsync } from '../utils/speech'
 
-const INTERVAL_MS = 200 // 0.2秒固定
-
 export function AutoListen() {
   const { filteredWords, settings } = useWords()
 
@@ -72,8 +70,8 @@ export function AutoListen() {
       await speakAsync(currentWord.hanzi, s.speechRate, 'zh-CN')
       if (cancelled) return
 
-      // 2. 日本語訳（固定 1.2 倍速）
-      await speakAsync(currentWord.meaning, 1.2, 'ja-JP')
+      // 2. 日本語訳（設定速度）
+      await speakAsync(currentWord.meaning, s.japaneseRate, 'ja-JP')
       if (cancelled) return
 
       if (playExamplesRef.current) {
@@ -81,13 +79,13 @@ export function AutoListen() {
         await speakAsync(currentWord.example, s.speechRate * 0.95, 'zh-CN')
         if (cancelled) return
 
-        // 4. 例文の日本語訳（固定 1.2 倍速）
-        await speakAsync(currentWord.exampleMeaning, 1.2, 'ja-JP')
+        // 4. 例文の日本語訳（設定速度）
+        await speakAsync(currentWord.exampleMeaning, s.japaneseRate, 'ja-JP')
         if (cancelled) return
       }
 
-      // 固定間隔
-      await new Promise(r => setTimeout(r, INTERVAL_MS))
+      // 設定された間隔
+      await new Promise(r => setTimeout(r, s.listenInterval * 1000))
       if (cancelled) return
 
       if (internalIndexRef.current >= total - 1) {

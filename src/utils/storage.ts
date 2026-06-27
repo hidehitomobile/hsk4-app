@@ -36,6 +36,8 @@ export function saveFavoriteIds(ids: Set<number>): void {
 
 export const defaultSettings: AppSettings = {
   speechRate: 0.9,
+  japaneseRate: 1.0,
+  listenInterval: 0.2,
   autoPlay: true,
   autoPlayExample: true,
   showPinyin: true,

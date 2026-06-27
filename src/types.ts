@@ -22,6 +22,8 @@ export interface WordEntry extends Word {
 
 export interface AppSettings {
   speechRate: number
+  japaneseRate: number
+  listenInterval: number
   autoPlay: boolean
   autoPlayExample: boolean
   showPinyin: boolean
