@@ -2079,3 +2079,356 @@ body {
 [data-theme="dark"] .auto-listen-example-section {
   background: #222;
 }
+
+/* ===== Typing Practice ===== */
+.typing-page {
+  padding: 16px 0;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.typing-progress {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.typing-progress-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.typing-progress-bar {
+  margin-top: 8px;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.typing-progress-fill {
+  height: 100%;
+  background: var(--primary);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+/* Card */
+.typing-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Hanzi display */
+.typing-hanzi-display {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-align: center;
+  user-select: none;
+}
+
+/* Meaning display */
+.typing-meaning-display {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+/* Pinyin toggle */
+.typing-pinyin-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  user-select: none;
+}
+
+.typing-pinyin-toggle input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.typing-pinyin-display {
+  font-size: 1.15rem;
+  color: var(--primary);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+/* Input area */
+.typing-input-area {
+  width: 100%;
+  max-width: 320px;
+}
+
+.typing-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 1.2rem;
+  text-align: center;
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.typing-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+}
+
+.typing-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.5;
+}
+
+.typing-input:disabled {
+  opacity: 0.7;
+}
+
+.typing-input--correct {
+  border-color: var(--success);
+  background: rgba(52, 168, 83, 0.05);
+}
+
+.typing-input--incorrect {
+  border-color: var(--accent);
+  background: rgba(234, 67, 53, 0.05);
+  animation: shake 0.3s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  50% { transform: translateX(6px); }
+  75% { transform: translateX(-4px); }
+}
+
+/* Feedback */
+.typing-feedback {
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.typing-feedback--correct {
+  color: var(--success);
+}
+
+.typing-feedback--incorrect {
+  color: var(--accent);
+}
+
+/* Actions */
+.typing-actions {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  max-width: 320px;
+  justify-content: center;
+}
+
+.typing-btn {
+  padding: 12px 28px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.typing-btn:active {
+  transform: scale(0.97);
+}
+
+.typing-next-btn {
+  background: var(--primary);
+  color: white;
+  width: 100%;
+}
+.typing-next-btn:hover {
+  opacity: 0.9;
+}
+
+.typing-submit-btn {
+  background: var(--success);
+  color: white;
+  width: 100%;
+}
+.typing-submit-btn:hover {
+  opacity: 0.9;
+}
+
+.typing-retry-btn {
+  background: var(--warning);
+  color: #202124;
+  width: 100%;
+}
+.typing-retry-btn:hover {
+  opacity: 0.9;
+}
+
+.typing-restart-btn {
+  background: var(--primary);
+  color: white;
+  margin-top: 8px;
+}
+.typing-restart-btn:hover {
+  opacity: 0.9;
+}
+
+/* Result screen */
+.typing-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.typing-result-title {
+  font-size: 1.3rem;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.typing-score-circle {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.typing-score-number {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--success);
+  line-height: 1;
+}
+
+.typing-score-divider {
+  font-size: 2rem;
+  color: var(--text-secondary);
+  font-weight: 300;
+}
+
+.typing-score-total {
+  font-size: 2rem;
+  color: var(--text-secondary);
+  font-weight: 300;
+}
+
+.typing-score-percent {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.typing-perfect {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--success);
+  margin-bottom: 20px;
+}
+
+/* Wrong words */
+.typing-wrong-words {
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+.typing-wrong-title {
+  font-size: 1rem;
+  color: var(--text);
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.typing-wrong-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.typing-wrong-item {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+}
+
+.typing-wrong-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.typing-wrong-hanzi {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.typing-speak-btn {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.typing-speak-btn:hover {
+  background: var(--border);
+}
+
+.typing-wrong-pinyin {
+  font-size: 0.85rem;
+  color: var(--primary);
+  margin-bottom: 2px;
+}
+
+.typing-wrong-meaning {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* ===== Dark mode: Typing ===== */
+[data-theme="dark"] .typing-input {
+  background: #1a1a1a;
+}
+[data-theme="dark"] .typing-input--correct {
+  background: rgba(52, 168, 83, 0.08);
+}
+[data-theme="dark"] .typing-input--incorrect {
+  background: rgba(234, 67, 53, 0.08);
+}
+[data-theme="dark"] .typing-input:focus {
+  box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.2);
+}
+[data-theme="dark"] .typing-wrong-item {
+  background: #1a1a1a;
+}

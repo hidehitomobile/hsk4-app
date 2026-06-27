@@ -9,6 +9,7 @@ import { WordList } from './components/WordList'
 import { Quiz } from './components/Quiz'
 import { Settings } from './components/Settings'
 import { AutoListen } from './components/AutoListen'
+import { Typing } from './components/Typing'
 import { useWords } from './context/WordContext'
 import { useEffect } from 'react'
 import { speakAsync } from './utils/speech'
@@ -74,6 +75,7 @@ export default function App() {
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/autolisten" element={<AutoListen />} />
+            <Route path="/typing" element={<Typing />} />
           </Routes>
         </main>
       </div>
