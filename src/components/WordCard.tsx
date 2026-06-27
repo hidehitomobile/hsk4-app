@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { pinyin } from 'pinyin-pro'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakExample } from '../utils/speech'
@@ -6,12 +6,36 @@ import { breakdownWord } from '../utils/hanziBreakdown'
 import { PronunciationCheck } from './PronunciationCheck'
 import { categoryLabels } from '../utils/category'
 
-export function WordCard() {
-  const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, goNext, goPrev, viewCounts } = useWords()
+interface WordCardProps {
+  interruptListen: () => void
+  onSkipNext: () => void
+  onSkipPrev: () => void
+  skipViewIncrementRef: React.MutableRefObject<boolean>
+}
+
+export function WordCard({ interruptListen, onSkipNext, onSkipPrev, skipViewIncrementRef }: WordCardProps) {
+  const { currentWord, learnedIds, favoriteIds, toggleLearned, toggleFavorite, settings, filteredWords, currentIndex, viewCounts, incrementViewCount } = useWords()
   const [showBreakdown, setShowBreakdown] = useState(true)
   const [showEtymology, setShowEtymology] = useState(true)
   const [showPronCheck, setShowPronCheck] = useState(false)
   const [pronCheckTarget, setPronCheckTarget] = useState<'word' | 'example'>('word')
+
+  // StrictMode の二重実行対策：最後にカウントした単語ID を保持
+  const lastCountedWordIdRef = useRef<number | null>(null)
+
+  // 単語が画面に表示されたら表示回数を +1（スライダー移動時は除く）
+  useEffect(() => {
+    if (currentWord) {
+      if (skipViewIncrementRef.current) {
+        skipViewIncrementRef.current = false
+        return
+      }
+      // 同一単語の重複カウントを防止（StrictMode の二重実行対策を含む）
+      if (lastCountedWordIdRef.current === currentWord.id) return
+      lastCountedWordIdRef.current = currentWord.id
+      incrementViewCount(currentWord.id)
+    }
+  }, [currentWord?.id, skipViewIncrementRef])
 
   // --- speechSynthesis のプライミング（iOS対策） ---
   useEffect(() => {
@@ -31,20 +55,20 @@ export function WordCard() {
     }
   }, [])
 
-  // --- ナビゲーション（インデックス変更のみ。音声再生は LearnPage の useEffect に一本化） ---
+  // --- ナビゲーション（自動送り中はスキップ、停止中は通常移動） ---
   const handleGoNext = useCallback(() => {
     if (currentIndex >= filteredWords.length - 1) return
     window.speechSynthesis.cancel()
-    goNext()
-  }, [currentIndex, filteredWords.length, goNext])
+    onSkipNext()
+  }, [currentIndex, filteredWords.length, onSkipNext])
 
   const handleGoPrev = useCallback(() => {
     if (currentIndex <= 0) return
     window.speechSynthesis.cancel()
-    goPrev()
-  }, [currentIndex, goPrev])
+    onSkipPrev()
+  }, [currentIndex, onSkipPrev])
 
-  // キーボードショートカット
+  // キーボードショートカット（←→でスキップ、自動送り中でも継続）
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const tag = (e.target as HTMLElement).tagName
@@ -84,9 +108,6 @@ export function WordCard() {
     <div className="word-card">
       <div className="card-header">
         <div className="card-header-left">
-          <span className="word-number">
-            {currentIndex + 1} / {filteredWords.length}
-          </span>
           <span className="word-view-count" title="この単語の表示回数">
             👁 {viewCounts[currentWord.id] || 0}
           </span>
@@ -119,7 +140,7 @@ export function WordCard() {
         </div>
       </div>
 
-      <div className="hanzi-display" onClick={() => speakWord(currentWord.hanzi, settings.speechRate)}>
+      <div className="hanzi-display" onClick={() => { interruptListen(); speakWord(currentWord.hanzi, settings.speechRate) }}>
         <span className="hanzi">{currentWord.hanzi}</span>
         <button className="speak-btn" title="発音を聞く">
           🔊
@@ -129,7 +150,7 @@ export function WordCard() {
       {settings.showPinyin && (
         <div
           className="pinyin-display"
-          onClick={(e) => { e.stopPropagation(); setPronCheckTarget('word'); setShowPronCheck(true) }}
+          onClick={(e) => { e.stopPropagation(); interruptListen(); setPronCheckTarget('word'); setShowPronCheck(true) }}
           title="タップで発音チェック"
         >
           <span>{currentWord.pinyin}</span>
@@ -144,13 +165,13 @@ export function WordCard() {
       )}
 
       <div className="example-section">
-        <div className="example-chinese" onClick={() => speakExample(currentWord.example, settings.speechRate)}>
+        <div className="example-chinese" onClick={() => { interruptListen(); speakExample(currentWord.example, settings.speechRate) }}>
           <span>{currentWord.example}</span>
           <button className="speak-btn-sm" title="例文を聞く">🔊</button>
         </div>
         <div
           className="example-pinyin"
-          onClick={(e) => { e.stopPropagation(); setPronCheckTarget('example'); setShowPronCheck(true) }}
+          onClick={(e) => { e.stopPropagation(); interruptListen(); setPronCheckTarget('example'); setShowPronCheck(true) }}
           title="タップで発音チェック"
         >
           <span>{examplePinyin}</span>

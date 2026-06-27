@@ -1906,178 +1906,54 @@ body {
   }
 }
 
-/* ===== Auto Listen ===== */
-.auto-listen-overlay {
-  min-height: 60vh;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 16px;
-}
+/* ===== Listen bar（リスニングコントロール） ===== */
 
-.auto-listen-panel {
-  width: 100%;
-  max-width: 480px;
-  background: var(--card-bg);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 24px;
-  text-align: center;
-}
-
-.auto-listen-empty {
-  color: var(--text-secondary);
+.listen-bar {
   margin-bottom: 16px;
 }
 
-.auto-listen-header {
+.listen-bar-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-top: 6px;
 }
 
-.auto-listen-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.auto-listen-progress {
-  font-size: 0.85rem;
+.listen-bar-counter {
+  font-size: 0.8rem;
   color: var(--text-secondary);
   font-weight: 500;
 }
 
-/* Unified seek/progress bar */
-.auto-listen-seek-bar {
+.listen-bar-seek {
   width: 100%;
-  height: 8px;
-  margin-bottom: 24px;
-  accent-color: var(--primary);
-  cursor: pointer;
-}
-
-/* Example section */
-.auto-listen-example-section {
-  position: relative;
-  background: var(--bg);
-  border-radius: var(--radius-sm);
-  padding: 16px;
-  text-align: left;
-}
-
-.auto-listen-example-section.skipped {
-  opacity: 0.5;
-}
-
-/* Checkbox toggle (top-right of example section) */
-.auto-listen-checkbox-label {
-  position: absolute;
-  top: 8px;
-  right: 10px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  cursor: pointer;
-  user-select: none;
-  background: var(--card-bg);
-  padding: 4px 8px;
-  border-radius: 4px;
-}
-
-.auto-listen-checkbox-label input[type="checkbox"] {
-  width: 14px;
-  height: 14px;
+  height: 6px;
   accent-color: var(--primary);
   cursor: pointer;
   margin: 0;
 }
-
-/* Word info display */
-.auto-listen-word-info {
-  margin-bottom: 24px;
-}
-
-.auto-listen-hanzi {
-  font-size: 3rem;
-  font-weight: 700;
-  color: var(--text);
-  font-family: 'Noto Serif CJK SC', 'SimSun', 'KaiTi', serif;
-  margin-bottom: 8px;
-}
-
-.auto-listen-pinyin {
-  font-size: 1.3rem;
-  color: var(--primary);
-  font-weight: 500;
-  margin-bottom: 8px;
-}
-
-.auto-listen-meaning {
-  font-size: 1.15rem;
-  color: var(--text);
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-.auto-listen-example {
-  font-size: 1.2rem;
-  color: var(--text);
-  margin-bottom: 8px;
-  font-family: 'Noto Serif CJK SC', 'SimSun', serif;
-}
-
-.auto-listen-example-meaning {
-  font-size: 1.05rem;
-  color: var(--text-secondary);
-}
-
-/* Controls */
-.auto-listen-controls {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 16px;
-}
-
-.auto-listen-ctrl-btn {
-  width: 100%;
-  max-width: 280px;
-  padding: 14px 20px;
+.listen-bar-btn {
+  padding: 0;
   border: none;
-  border-radius: var(--radius-sm);
-  background: var(--primary);
-  color: white;
-  font-size: 1rem;
-  font-weight: 700;
+  background: none;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s, transform 0.1s;
+  white-space: nowrap;
+}
+.listen-bar-btn:hover {
+  opacity: 0.7;
 }
 
-.auto-listen-ctrl-btn:active {
-  transform: scale(0.97);
+.listen-bar-finished {
+  margin-top: 12px;
 }
 
-.auto-listen-ctrl-btn:hover {
-  background: var(--primary-dark);
-}
-
-/* Finished state */
-.auto-listen-finished {
-  padding: 24px 0;
-}
-
-.auto-listen-finished-text {
-  font-size: 1.1rem;
+.listen-bar-finished-text {
+  font-size: 1rem;
   color: var(--success);
   font-weight: 600;
-}
-
-/* ===== Dark mode: Auto Listen ===== */
-[data-theme="dark"] .auto-listen-example-section {
-  background: #222;
 }
 
 /* ===== Typing Practice ===== */

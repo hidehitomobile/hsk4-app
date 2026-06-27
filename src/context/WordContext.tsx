@@ -19,6 +19,7 @@ interface WordContextType extends AppState {
   setSelectedCategory: (cat: Category | 'all') => void
   setSearchQuery: (q: string) => void
   updateSettings: (s: Partial<AppSettings>) => void
+  incrementViewCount: (id: number) => void
   filteredWords: WordEntry[]
   currentWord: WordEntry | null
   progress: { learned: number; total: number; percent: number }
@@ -32,11 +33,6 @@ interface WordContextType extends AppState {
 }
 
 const WordContext = createContext<WordContextType | null>(null)
-
-// モジュールレベル: 直前にカウントした単語ID
-// React StrictMode の二重マウント時、同一IDで2回目の発火を抑止する（セッションが維持されるため）
-// ユーザー操作による A→B→A の移動ではIDが変わるため正常にカウントされる
-let lastCountedWordId: number | null = null
 
 export function WordProvider({ children, words }: { children: ReactNode; words: WordEntry[] }) {
   const lastPlayedWordIdRef = useRef<number | null>(null)
@@ -101,21 +97,16 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
     }
   }, []) // 初回のみ実行
 
-  // 表示回数カウント：currentWord が変わったらインクリメント
+  // 表示回数カウント：明示的に呼び出された場合のみインクリメント
   const currentWord = filteredWords.length > 0 ? filteredWords[currentIndex] ?? null : null
 
-  useEffect(() => {
-    if (!currentWord) return
-    // 同一IDが連続で発火した場合は StrictMode 二重マウントと判断してスキップ
-    if (lastCountedWordId === currentWord.id) return
-    lastCountedWordId = currentWord.id
-
+  const incrementViewCount = useCallback((id: number) => {
     setViewCounts(prev => {
       const next = { ...prev }
-      next[currentWord.id] = (next[currentWord.id] || 0) + 1
+      next[id] = (next[id] || 0) + 1
       return next
     })
-  }, [currentWord?.id])
+  }, [])
 
   // viewCounts の永続化（state updater から分離）
   useEffect(() => {
@@ -177,6 +168,7 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
       setSearchQuery,
       settings,
       updateSettings,
+      incrementViewCount,
       filteredWords,
       currentWord,
       progress,

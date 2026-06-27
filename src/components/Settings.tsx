@@ -38,7 +38,7 @@ export function Settings() {
       </div>
 
       <div className="setting-group">
-        <label>リスニング間隔</label>
+        <label>自動送り間隔</label>
         <div className="setting-range">
           <input
             type="range"
