@@ -21,14 +21,20 @@ interface FeedbackState {
 }
 
 export function Quiz() {
-  const { words, settings } = useWords()
+  const { words, settings, selectedCategory, incrementViewCount, viewCounts } = useWords()
   const [mode, setMode] = useState<QuizMode>('hanzi-to-meaning')
+
+  // 選択中の品詞で絞り込んだ単語プール
+  const categoryWords = useMemo(() => {
+    if (selectedCategory === 'all') return words
+    return words.filter(w => w.category.includes(selectedCategory))
+  }, [words, selectedCategory])
 
   // ランダムに出題順を生成
   const quizWords = useMemo(() => {
-    const shuffled = [...words].sort(() => Math.random() - 0.5)
+    const shuffled = [...categoryWords].sort(() => Math.random() - 0.5)
     return shuffled.slice(0, 20) // 1回20問
-  }, [words])
+  }, [categoryWords])
 
   const [state, setState] = useState<QuizState>({
     currentIndex: 0,
@@ -45,10 +51,10 @@ export function Quiz() {
   // 選択肢を生成（currentWord.id が変わらない限り再計算しない）
   const options = useMemo(() => {
     if (!currentWord) return []
-    const others = words.filter(w => w.id !== currentWord.id)
+    const others = categoryWords.filter(w => w.id !== currentWord.id)
     const shuffled = [...others].sort(() => Math.random() - 0.5)
     return [currentWord, ...shuffled.slice(0, 3)].sort(() => Math.random() - 0.5)
-  }, [currentWord?.id, words])
+  }, [currentWord?.id, categoryWords])
 
   // 問題表示時に音声を自動再生（初回含む）
   const prevWordIdRef = useRef<number | null>(null)
@@ -62,6 +68,15 @@ export function Quiz() {
     }, 100)
     return () => clearTimeout(timer)
   }, [currentWord?.id, state.finished])
+
+  // 表示回数カウント（StrictMode 二重発火を ref で防止）
+  const viewCountedIdRef = useRef<number | null>(null)
+  useEffect(() => {
+    if (currentWord && viewCountedIdRef.current !== currentWord.id) {
+      viewCountedIdRef.current = currentWord.id
+      incrementViewCount(currentWord.id)
+    }
+  }, [currentWord?.id, incrementViewCount])
 
   const handleAnswer = (selectedWord: typeof quizWords[0]) => {
     if (feedback) return // フィードバック表示中は押せない
@@ -113,6 +128,12 @@ export function Quiz() {
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [feedback, handleNext])
+
+  // 品詞カテゴリ変更時にクイズをリセット
+  useEffect(() => {
+    setState({ currentIndex: 0, score: 0, total: 0, finished: false, wrongIds: [] })
+    setFeedback(null)
+  }, [selectedCategory])
 
   const restart = () => {
     setState({ currentIndex: 0, score: 0, total: 0, finished: false, wrongIds: [] })
@@ -177,12 +198,19 @@ export function Quiz() {
             音声 → 漢字
           </button>
         </div>
-        <span className="quiz-progress">
-          {state.currentIndex + 1} / {quizWords.length}
+        <span className="quiz-category-filter">
+          {selectedCategory === 'all' ? 'すべて' : `${categoryLabels([selectedCategory])}`}
+          （{categoryWords.length}語）
         </span>
       </div>
 
       <div className="quiz-question">
+        <span className="quiz-question-view-count">
+          👁 {viewCounts[currentWord.id] || 0}
+        </span>
+        <span className="quiz-question-progress">
+          {state.currentIndex + 1} / {quizWords.length}
+        </span>
         {mode === 'hanzi-to-meaning' ? (
           <>
             <div className="question-hanzi">
