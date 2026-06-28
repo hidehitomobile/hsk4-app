@@ -1965,8 +1965,14 @@ body {
 }
 
 .typing-progress {
-  text-align: center;
   margin-bottom: 12px;
+}
+
+.typing-progress-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 .typing-progress-text {
@@ -1976,7 +1982,6 @@ body {
 }
 
 .typing-progress-bar {
-  margin-top: 8px;
   height: 4px;
   background: var(--border);
   border-radius: 2px;
@@ -1990,6 +1995,17 @@ body {
   transition: width 0.3s ease;
 }
 
+.typing-category-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: rgba(26, 115, 232, 0.08);
+  border: 1px solid rgba(26, 115, 232, 0.2);
+}
+
 /* Card */
 .typing-card {
   background: var(--card-bg);
@@ -2000,6 +2016,14 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+}
+
+/* Card top row */
+.typing-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* Hanzi display */
@@ -2020,15 +2044,27 @@ body {
   text-align: center;
 }
 
+.typing-view-count {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 2px 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 /* Pinyin toggle */
 .typing-pinyin-toggle {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--text-secondary);
   user-select: none;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .typing-pinyin-toggle input[type="checkbox"] {
@@ -2145,7 +2181,7 @@ body {
 }
 
 .typing-submit-btn {
-  background: var(--success);
+  background: var(--primary);
   color: white;
   width: 100%;
 }

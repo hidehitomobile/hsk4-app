@@ -32,6 +32,7 @@ function LearnPage() {
   const filteredWordsRef = useRef(filteredWords)
   filteredWordsRef.current = filteredWords
   const listenGenRef = useRef(0)
+  const speakGenRef = useRef(0)
 
   // ---------- リスニング自動再生ループ ----------
   useEffect(() => {
@@ -101,16 +102,24 @@ function LearnPage() {
     }
     // 初回マウント・同一単語はスキップ
     if (prevIndexRef.current === currentIndex) return
+    // 自動再生OFFならスキップ
+    if (!settingsRef.current.autoPlay) {
+      prevIndexRef.current = currentIndex
+      return
+    }
 
     const word = filteredWordsRef.current[currentIndex]
     if (!word) return
 
     prevIndexRef.current = currentIndex
 
+    const myGen = ++speakGenRef.current
     window.speechSynthesis.cancel()
     setTimeout(() => {
+      if (myGen !== speakGenRef.current) return
       const s = settingsRef.current
       speakAsync(word.hanzi, s.speechRate, 'zh-CN').then(() => {
+        if (myGen !== speakGenRef.current) return
         if (s.autoPlayExample) {
           speakAsync(word.example, s.speechRate, 'zh-CN')
         }
@@ -170,11 +179,11 @@ function LearnPage() {
   // スライダー移動時は表示回数カウントをスキップ
   const skipViewIncrementRef = useRef(false)
 
-  // スライダーで単語切替（表示回数カウントしない）
+  // スライダーで単語切替（表示回数カウントしない、リスニング状態は変更しない）
   const handleSliderChange = useCallback((index: number) => {
     skipViewIncrementRef.current = true
-    handleListenSeek(index)
-  }, [handleListenSeek])
+    setCurrentIndex(index)
+  }, [setCurrentIndex])
 
   return (
     <div className="learn-page">

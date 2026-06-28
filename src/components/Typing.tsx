@@ -2,12 +2,13 @@ import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
 import { useWords } from '../context/WordContext'
 import { speakWord, speakAsync } from '../utils/speech'
 import { playCorrectSound, playIncorrectSound } from '../utils/sound'
+import { categoryLabels } from '../utils/category'
 import { WordEntry } from '../types'
 
 const TOTAL_QUESTIONS = 20
 
 export function Typing() {
-  const { words, settings } = useWords()
+  const { filteredWords, settings, selectedCategory, incrementViewCount, viewCounts } = useWords()
   const [inputValue, setInputValue] = useState('')
   const [currentIndex, setCurrentIndex] = useState(0)
   const [feedback, setFeedback] = useState<'correct' | 'incorrect' | null>(null)
@@ -19,6 +20,7 @@ export function Typing() {
     return saved !== null ? JSON.parse(saved) : true
   })
   const playedWordIdRef = useRef<number | null>(null)
+  const viewCountedIdRef = useRef<number | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   const feedbackRef = useRef(feedback)
   const finishedRef = useRef(finished)
@@ -29,12 +31,11 @@ export function Typing() {
   finishedRef.current = finished
   currentIndexRef.current = currentIndex
 
-  // Random 20 words
+  // Random 20 words from filtered list
   const quizWords = useMemo(() => {
-    const shuffled = [...words].sort(() => Math.random() - 0.5)
+    const shuffled = [...filteredWords].sort(() => Math.random() - 0.5)
     return shuffled.slice(0, TOTAL_QUESTIONS)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [filteredWords])
 
   const currentWord = quizWords[currentIndex] || null
 
@@ -51,6 +52,14 @@ export function Typing() {
     }, 150)
     return () => clearTimeout(timer)
   }, [currentWord?.id, settings.speechRate])
+
+  // Increment view count on word display（StrictMode 二重発火を ref で防止）
+  useEffect(() => {
+    if (currentWord && viewCountedIdRef.current !== currentWord.id) {
+      viewCountedIdRef.current = currentWord.id
+      incrementViewCount(currentWord.id)
+    }
+  }, [currentWord?.id, incrementViewCount])
 
   // Focus input on word change
   useEffect(() => {
@@ -75,23 +84,6 @@ export function Typing() {
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [])
 
-  const handleSubmit = useCallback(() => {
-    if (!currentWord || feedback === 'correct') return
-    const trimmed = inputValue.trim()
-    if (trimmed === currentWord.hanzi) {
-      setFeedback('correct')
-      setScore(s => s + 1)
-      playCorrectSound()
-    } else {
-      setFeedback('incorrect')
-      setWrongWords(prev => {
-        if (prev.find(w => w.id === currentWord.id)) return prev
-        return [...prev, currentWord]
-      })
-      playIncorrectSound()
-    }
-  }, [currentWord, feedback, inputValue])
-
   const goNext = useCallback(() => {
     if (currentIndexRef.current + 1 >= TOTAL_QUESTIONS) {
       setFinished(true)
@@ -101,6 +93,24 @@ export function Typing() {
       setInputValue('')
     }
   }, [])
+
+  const handleSubmit = useCallback(() => {
+    if (!currentWord || feedback === 'correct') return
+    const trimmed = inputValue.trim()
+    if (trimmed === currentWord.hanzi) {
+      setFeedback('correct')
+      setScore(s => s + 1)
+      playCorrectSound()
+      goNext()
+    } else {
+      setFeedback('incorrect')
+      setWrongWords(prev => {
+        if (prev.find(w => w.id === currentWord.id)) return prev
+        return [...prev, currentWord]
+      })
+      playIncorrectSound()
+    }
+  }, [currentWord, feedback, inputValue, goNext])
 
   const handleNext = useCallback(() => {
     goNext()
@@ -113,13 +123,9 @@ export function Typing() {
   const handleInputKeyDown = useCallback((e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
       e.preventDefault()
-      if (feedback === 'correct') {
-        handleNext()
-      } else {
-        handleSubmit()
-      }
+      handleSubmit()
     }
-  }, [feedback, handleNext, handleSubmit])
+  }, [handleSubmit])
 
   // ---- Result screen ----
   if (finished) {
@@ -176,7 +182,16 @@ export function Typing() {
   return (
     <div className="typing-page">
       <div className="typing-progress">
-        <span className="typing-progress-text">{currentIndex + 1} / {TOTAL_QUESTIONS}</span>
+        <div className="typing-progress-header">
+          {selectedCategory !== 'all' ? (
+            <span className="typing-category-badge">
+              {categoryLabels([selectedCategory])}
+            </span>
+          ) : (
+            <span />
+          )}
+          <span className="typing-progress-text">{currentIndex + 1} / {TOTAL_QUESTIONS}</span>
+        </div>
         <div className="typing-progress-bar">
           <div
             className="typing-progress-fill"
@@ -187,6 +202,20 @@ export function Typing() {
 
       {currentWord && (
         <div className="typing-card">
+          <div className="typing-card-top">
+            <span className="typing-view-count">
+              👁 {viewCounts[currentWord.id] || 0}
+            </span>
+            <label className="typing-pinyin-toggle">
+              <input
+                type="checkbox"
+                checked={showPinyin}
+                onChange={(e) => setShowPinyin(e.target.checked)}
+              />
+              <span>ピンインを表示</span>
+            </label>
+          </div>
+
           <div className="typing-hanzi-display">
             {currentWord.hanzi}
           </div>
@@ -194,14 +223,6 @@ export function Typing() {
             {currentWord.meaning}
           </div>
 
-          <label className="typing-pinyin-toggle">
-            <input
-              type="checkbox"
-              checked={showPinyin}
-              onChange={(e) => setShowPinyin(e.target.checked)}
-            />
-            <span>ピンインを表示</span>
-          </label>
           {showPinyin && (
             <div className="typing-pinyin-display">
               {currentWord.pinyin}

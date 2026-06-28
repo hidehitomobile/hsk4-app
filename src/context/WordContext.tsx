@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback, useEffect, useRef, ReactNode } from 'react'
+import { createContext, useContext, useState, useMemo, useCallback, useEffect, useRef, ReactNode } from 'react'
 import { AppSettings, AppState, Category, WordEntry } from '../types'
 import {
   loadLearnedIds, saveLearnedIds,
@@ -45,8 +45,8 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
   const [searchQuery, setSearchQuery] = useState(() => loadSearchQuery())
   const [settings, setSettings] = useState<AppSettings>(() => loadSettings())
   const [viewCounts, setViewCounts] = useState<Record<number, number>>(() => loadViewCounts())
-  // フィルタリング（学習タブ用: hideLearned を適用）
-  const filteredWords = words.filter(w => {
+  // フィルタリング（useMemo で参照安定化：filteredWords 再計算はフィルター条件変更時のみ）
+  const filteredWords = useMemo(() => words.filter(w => {
     if (settings.hideLearned && learnedIds.has(w.id)) return false
     const matchCategory = selectedCategory === 'all' || w.category.includes(selectedCategory)
     const q = searchQuery.trim().toLowerCase()
@@ -55,7 +55,7 @@ export function WordProvider({ children, words }: { children: ReactNode; words: 
       w.pinyin.toLowerCase().includes(q) ||
       w.meaning.includes(q)
     return matchCategory && matchSearch
-  })
+  }), [words, selectedCategory, searchQuery, settings.hideLearned, learnedIds])
 
   // フィルターの前回値を保持（値が実際に変わった時だけインデックスをリセット）
   const prevFilter = useRef({ category: loadSelectedCategory(), query: loadSearchQuery(), hideLearned: loadSettings().hideLearned })
