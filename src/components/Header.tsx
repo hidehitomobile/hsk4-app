@@ -7,27 +7,29 @@ export function Header() {
 
   return (
     <header className="app-header">
-      <div className="header-top">
-        <h1>HSK4級 単語学習</h1>
-        <span className="progress-badge">{progress.percent}%</span>
+      <div className="header-inner">
+        <div className="header-top">
+          <h1>HSK4級 単語学習</h1>
+          <span className="progress-badge">{progress.percent}%</span>
+        </div>
+        <nav className="header-nav">
+          <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
+            学習
+          </Link>
+          <Link to="/list" className={location.pathname === '/list' ? 'active' : ''}>
+            一覧
+          </Link>
+          <Link to="/quiz" className={location.pathname === '/quiz' ? 'active' : ''}>
+            クイズ
+          </Link>
+          <Link to="/typing" className={location.pathname === '/typing' ? 'active' : ''}>
+            タイピング
+          </Link>
+          <Link to="/settings" className={location.pathname === '/settings' ? 'active' : ''}>
+            設定
+          </Link>
+        </nav>
       </div>
-      <nav className="header-nav">
-        <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
-          学習
-        </Link>
-        <Link to="/list" className={location.pathname === '/list' ? 'active' : ''}>
-          一覧
-        </Link>
-        <Link to="/quiz" className={location.pathname === '/quiz' ? 'active' : ''}>
-          クイズ
-        </Link>
-        <Link to="/typing" className={location.pathname === '/typing' ? 'active' : ''}>
-          タイピング
-        </Link>
-        <Link to="/settings" className={location.pathname === '/settings' ? 'active' : ''}>
-          設定
-        </Link>
-      </nav>
     </header>
   )
 }
